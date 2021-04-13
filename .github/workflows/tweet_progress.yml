@@ -1,8 +1,8 @@
 name: Tweet latest progress
- 
+
 on:
   schedule:
-    - cron:  '0 10 * * *'  # 10:00 UTC (vaccination data is typically updated in the morning in UK time)
+    - cron:  '0 12 * * *'  # 10:00 UTC (vaccination data is typically updated in the morning in UK time)
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,4 +25,3 @@ jobs:
           BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
         run: python run.py
-
