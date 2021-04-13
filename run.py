@@ -43,7 +43,7 @@ percentage = data_filtered.iloc[-1].people_vaccinated_per_hundred
 # cycle world emojis each day:
 world_today = ":EU:"
 
-def tweet_bar_string_from_percentage(percentage, country, bar_format='|{bar:12}| {percentage:.3g}% COUNTRY'):
+def tweet_bar_string_from_percentage(percentage, country, bar_format='|{bar:10}| {percentage:.1f}% COUNTRY'):
     bar = tqdm(initial=percentage, total=100., bar_format=bar_format, ascii=False)
     bar_string = str(bar)
     bar.close()
@@ -57,7 +57,7 @@ tweet_string = "People vaccinated with at least one dose\n" + tweet_bar_string_f
 
 total_pop = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/master/scripts/input/un/population_2020.csv')
 
-supported_countries = {'Germany':":DE::EU:", 'France':":FR::EU:", 'Italy':":IT::EU:", 'Spain':":ES::EU:", 'Poland':":PL::EU:"}#, 'Romania':":RO::EU:", 'Netherlands':":NL:", 'Belgium':":BE:"}
+supported_countries = {'Germany':":DE::EU:", 'France':":FR::EU:", 'Italy':":IT::EU:", 'Spain':":ES::EU:", 'Poland':":PL::EU:", 'Romania':":RO::EU:"}#, 'Netherlands':":NL:", 'Belgium':":BE:"}
 countries_percentages = {}
 strings = {}
 for country, emoji in supported_countries.items():
@@ -82,6 +82,9 @@ for country, emoji in supported_countries.items():
 print("final string:")
 print(tweet_string)
 print("tweet length:", len(tweet_string))
+print(tweet_string_2)
+print("tweet length:", len(tweet_string_2))
 
 # and update on twitter
-api.update_status(tweet_string)
+original_tweet = api.update_status(tweet_string)
+reply1_tweet = api.update_status(status=tweet_string_2, in_reply_to_status_id=original_tweet.id, auto_populate_reply_metadata=True)
