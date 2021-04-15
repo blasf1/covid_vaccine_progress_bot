@@ -35,10 +35,14 @@ data = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/master/
 data_filtered = data[data.location == 'European Union']
 data_filtered = data_filtered[data_filtered.date == data_filtered.date.max()]
 
-# take last item in case dataset contains multiple items this day:
 percentage = data_filtered.iloc[-1].people_vaccinated_per_hundred
 
-def tweet_bar_string_from_percentage(percentage, country, bar_format='|{bar:10}| {percentage:04.1f}% COUNTRY'):
+data_filtered = data[data.location == 'European Union']
+data_filtered = data_filtered[data_filtered.date.shift(-1) == data_filtered.date.max()]
+
+previous_percentage = data_filtered.iloc[-1].people_vaccinated_per_hundred
+
+def tweet_bar_string_from_percentage(percentage, country, bar_format='|{bar:8}| {percentage:04.1f}% COUNTRY'):
     bar = tqdm(initial=percentage, total=100., bar_format=bar_format, ascii=False)
     bar_string = str(bar)
     bar.close()
@@ -47,20 +51,22 @@ def tweet_bar_string_from_percentage(percentage, country, bar_format='|{bar:10}|
     tweet_string = tweet_string.replace('COUNTRY', flag.flagize(country))
     return tweet_string
 
-tweet_string = "People vaccinated with at least one dose\n" + tweet_bar_string_from_percentage(percentage, ":EU:") + '\n'
+tweet_string = "People vaccinated with at least one dose\n" + tweet_bar_string_from_percentage(percentage, ":EU:") + " [+" + f'{(percentage - previous_percentage):03.1f}' + "]" + '\n'
 
 total_pop = pd.read_csv('https://raw.githubusercontent.com/owid/covid-19-data/master/scripts/input/un/population_2020.csv')
 
-supported_countries = {'Germany':":DE::EU:", 'France':":FR::EU:", 'Italy':":IT::EU:", \
-                        'Spain':":ES::EU:", 'Poland':":PL::EU:", 'Romania':":RO::EU:", \
-                        'Netherlands':":NL::EU:", 'Belgium':":BE::EU:", 'Greece':":GR::EU:", \
-                        'Czechia':":CZ::EU:", 'Portugal':":PT::EU:", 'Sweden':":SE::EU:", \
-                        'Hungary':":HU::EU:",'Austria':":AT::EU:", 'Bulgaria':":BG::EU:", \
-                        'Denmark':":DK::EU:", 'Finland':":FI::EU:", 'Slovakia':":SK::EU:",\
-                        'Ireland':":IE::EU:", 'Croatia':":HR::EU:", 'Lithuania':":LT::EU:",\
-                        'Slovenia':":SI::EU:", 'Latvia':":LV::EU:", 'Estonia':":EE::EU:", \
-                        'Cyprus':":CY::EU:", 'Luxembourg':":LU::EU:", 'Malta':":MT::EU:"}
+supported_countries = {'Germany':":DE:", 'France':":FR:", 'Italy':":IT:", \
+                        'Spain':":ES:", 'Poland':":PL:", 'Romania':":RO:", \
+                        'Netherlands':":NL:", 'Belgium':":BE:", 'Greece':":GR:", \
+                        'Czechia':":CZ:", 'Portugal':":PT:", 'Sweden':":SE:", \
+                        'Hungary':":HU:",'Austria':":AT:", 'Bulgaria':":BG:", \
+                        'Denmark':":DK:", 'Finland':":FI:", 'Slovakia':":SK:",\
+                        'Ireland':":IE:", 'Croatia':":HR:", 'Lithuania':":LT:",\
+                        'Slovenia':":SI:", 'Latvia':":LV:", 'Estonia':":EE:", \
+                        'Cyprus':":CY:", 'Luxembourg':":LU:", 'Malta':":MT:"}
+
 countries_percentages = {}
+countries_percentages_previous = {}
 strings = {}
 previous_tweet = 0
 for country, emoji in supported_countries.items():
@@ -69,7 +75,15 @@ for country, emoji in supported_countries.items():
     countries_percentages[country] = data_filtered.iloc[-1].people_vaccinated_per_hundred
     tweet_string_add = tweet_bar_string_from_percentage(countries_percentages[country], emoji)
     tweet_string = tweet_string + "\n" + tweet_string_add
-    if len(tweet_string) > 180:
+
+    #Take previous day data and compute increment
+    data_filtered = data[data.location == country]
+    data_filtered = data_filtered[data_filtered.date.shift(-1) == data_filtered.date.max()].fillna(0)
+    countries_percentages_previous[country] = data_filtered.iloc[-1].people_vaccinated_per_hundred
+    if countries_percentages_previous[country] != 0:
+        tweet_string = tweet_string + " [+" + f'{(countries_percentages[country] - countries_percentages_previous[country]):03.1f}' + "]"
+
+    if len(tweet_string) > 190:
         if previous_tweet == 0:
             previous_tweet = api.update_status(tweet_string)
         else:
@@ -83,9 +97,16 @@ previous_tweet= api.update_status(status=tweet_string, in_reply_to_status_id=pre
 data_filtered = data[data.location == 'European Union']
 data_filtered = data_filtered[data_filtered.date == data_filtered.date.max()]
 percentage = data_filtered.iloc[-1].people_fully_vaccinated_per_hundred
-tweet_string_2 = "\nPeople fully vaccinated (2 doses)\n" + tweet_bar_string_from_percentage(percentage, ":EU:") + '\n'
+
+data_filtered = data[data.location == 'European Union']
+data_filtered = data_filtered[data_filtered.date.shift(-1) == data_filtered.date.max()]
+
+previous_percentage = data_filtered.iloc[-1].people_fully_vaccinated_per_hundred
+
+tweet_string_2 = "\nPeople fully vaccinated (2 doses)\n" + tweet_bar_string_from_percentage(percentage, ":EU:") + " [+" + f'{(percentage - previous_percentage):03.1f}' + "]" + '\n'
 
 countries_percentages = {}
+countries_percentages_previous = {}
 strings = {}
 previous_tweet = 0
 for country, emoji in supported_countries.items():
@@ -94,7 +115,15 @@ for country, emoji in supported_countries.items():
     countries_percentages[country] = data_filtered.iloc[-1].people_fully_vaccinated_per_hundred
     tweet_string_add = tweet_bar_string_from_percentage(countries_percentages[country], emoji)
     tweet_string_2 = tweet_string_2 + "\n" + tweet_string_add
-    if len(tweet_string_2) > 180:
+
+    #Take previous day data and compute increment
+    data_filtered = data[data.location == country]
+    data_filtered = data_filtered[data_filtered.date.shift(-1) == data_filtered.date.max()].fillna(0)
+    countries_percentages_previous[country] = data_filtered.iloc[-1].people_fully_vaccinated_per_hundred
+    if countries_percentages_previous[country] != 0:
+        tweet_string_2 = tweet_string_2 + " [+" + f'{(countries_percentages[country] - countries_percentages_previous[country]):03.1f}' + "]"
+
+    if len(tweet_string_2) > 190:
         if previous_tweet == 0:
             previous_tweet = api.update_status(tweet_string_2)
         else:
