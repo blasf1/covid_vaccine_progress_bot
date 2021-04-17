@@ -90,7 +90,7 @@ def get_tweet_header(country):
 
     return (flag.flagize(":EU:")
             + flag.flagize(country_flag)
-            + country
+            + country.upper()
             + flag.flagize(country_flag)
             + flag.flagize(":EU:")
             + "\n")
@@ -109,10 +109,10 @@ def get_progress_section(data):
     return ("Progress:"
             + "\n"
             + get_progress_bar(people_vaccinated, people_vaccinated_increment)
-            + "(1 dose)"
+            + " (1 dose)"
             + "\n"
             + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
-            + "(Fully)"
+            + " (Fully)"
             + "\n")
 
 

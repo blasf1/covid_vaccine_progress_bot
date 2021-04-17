@@ -7,4 +7,8 @@ SOURCE=$(python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/sourc
 # since the destination files are relative from here
 cd $SCRIPTS
 
+mkdir $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax/
+
+cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/utils $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax/
+
 python $(ls -d src/vax/*/$SOURCE.py)
