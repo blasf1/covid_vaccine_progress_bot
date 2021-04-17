@@ -63,7 +63,6 @@ jobs:
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
       - name: Publish tweet
-        run: 'echo "\{\"Authorization\":\"Token ${{ secrets.GREECE_TOKEN }}\"\}" > ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax_dataset_config.json'
         env:
           COUNTRY: ${{ matrix.country }}
           SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
@@ -72,4 +71,6 @@ jobs:
           BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
           BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
-        run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
+        run: |
+            bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
+            echo "\{\"Authorization\":\"Token ${{ secrets.GREECE_TOKEN }}\"\}" > ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax_dataset_config.json
