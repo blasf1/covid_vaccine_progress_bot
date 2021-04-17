@@ -1,27 +1,74 @@
-name: Tweet latest progress
+# Publish the latest vaccination data for a country
+name: Tweet latest vaccination data
 
 on:
   schedule:
-    - cron:  '0 12 * * *'  # 10:00 UTC (vaccination data is typically updated in the morning in UK time)
-
-  # Allows you to run this workflow manually from the Actions tab
+    # Hourly run the workflow to check for updates
+    - cron: "0 0 * * *"
+  # Manually run the workflow for debugging
   workflow_dispatch:
 
 jobs:
-  update:
+  publish:
+    name: Publish tweet
     runs-on: ubuntu-latest
 
+    strategy:
+      # Ensure that a tweet for a country is published even if another fails
+      fail-fast: false
+      matrix:
+        # Set of countries that can be updated
+        country:
+          - Austria
+          - Belgium
+          - Bulgaria
+          - Czechia
+          - Denmark
+          - Estonia
+          - Finland
+          - France
+          - Germany
+          - Greece
+          - Ireland
+          - Italy
+          - Latvia
+          - Lithuania
+          - Luxembourg
+          - Malta
+          - Netherlands
+          - Poland
+          - Portugal
+          - Romania
+          - Slovakia
+          - Slovenia
+          - Spain
+          - Sweden
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Checkout covid-19-data
+        uses: actions/checkout@v2
         with:
-          python-version: '3.9.1'
-      - name: install dependencies
-        run: pip install -r requirements.txt
-      - name: run script
+          repository: owid/covid-19-data
+          path: covid-19-data
+
+      - name: Checkout covid_vaccine_progress_bot
+        uses: actions/checkout@v2
+        with:
+          path: covid_vaccine_progress_bot
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+
+      - name: Install requirements
+        run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
+
+      - name: Publish tweet
         env:
+          COUNTRY: ${{ matrix.country }}
+          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
+          POPULATION: ${{ github.workspace }}/covid-19-data/scripts/input/un/population_2020.csv
           BOT_API: ${{ secrets.BOT_API }}
           BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
           BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
-        run: python run.py
+        run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
