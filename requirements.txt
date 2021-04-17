@@ -1,6 +1,8 @@
-tweepy>=3.10.0
-tqdm>=4.56.1
-pandas>=1.2.2
-pycountry_convert>=0.7.2
-configargparse>=1.2.3
+pandas
+tqdm
+emoji
 emoji-country-flag
+tweepy
+pycountry_convert
+bs4==0.0.1
+vax
