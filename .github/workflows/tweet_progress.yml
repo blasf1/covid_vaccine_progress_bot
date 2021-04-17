@@ -19,7 +19,6 @@ jobs:
       matrix:
         # Set of countries that can be updated
         country:
-          - Austria
           - Belgium
           - Bulgaria
           - Czechia
@@ -28,7 +27,6 @@ jobs:
           - Finland
           - France
           - Germany
-          - Greece
           - Ireland
           - Italy
           - Latvia
@@ -62,11 +60,6 @@ jobs:
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
-      - name: Create json
-        env:
-          BOT_GREECE_TOKEN: ${{ secrets.GREECE_TOKEN }}
-        run: 'echo "\{\"Authorization\":\"Token $BOT_GREECE_TOKEN\"\}" >> ${{ github.workspace }}/vax_dataset_config.json'
-
       - name: Publish tweet
         env:
           COUNTRY: ${{ matrix.country }}
@@ -76,6 +69,4 @@ jobs:
           BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
           BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
-        run: |
-          ls ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/
-          bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
+        run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
