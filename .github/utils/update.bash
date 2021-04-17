@@ -13,4 +13,6 @@ mkdir $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/incre
 cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/utils $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax/
 cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/utils $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/vax/
 
+cat $GREECE_TOKEN > $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax_dataset_config.json
+
 python $(ls -d src/vax/*/$SOURCE.py)
