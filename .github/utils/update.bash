@@ -8,7 +8,9 @@ SOURCE=$(python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/sourc
 cd $SCRIPTS
 
 mkdir $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax/
+mkdir $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/vax/
 
 cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/utils $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax/
+cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/utils $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/vax/
 
 python $(ls -d src/vax/*/$SOURCE.py)
