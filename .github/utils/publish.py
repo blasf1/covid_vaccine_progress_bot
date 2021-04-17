@@ -70,15 +70,15 @@ access_secret = args.access_secret
 # =============================================================================
 
 # Authenticate in Twitter using the secret variables
-# auth = tweepy.OAuthHandler(api, api_secret)
-# auth.set_access_token(access, access_secret)
+auth = tweepy.OAuthHandler(api, api_secret)
+auth.set_access_token(access, access_secret)
 
 # Get the API to use Twitter
-# api = tweepy.API(auth)
+api = tweepy.API(auth)
 
 # Do not expose any user information to avoid malicious attacks
-# include_email = False
-# user = api.api.verify_credentials(include_email=include_email)
+include_email = False
+user = api.api.verify_credentials(include_email=include_email)
 
 # message = "The user credentials are "
 # message = message + ("valid" if user else "invalid") + "."
