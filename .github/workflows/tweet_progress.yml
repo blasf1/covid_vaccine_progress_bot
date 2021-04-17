@@ -71,6 +71,7 @@ jobs:
           BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
           BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
-        run: |
-            'echo "\{\"Authorization\":\"Token ${{ secrets.GREECE_TOKEN }}\"\}" >> ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax_dataset_config.json'
-            bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
+          BOT_GREECE_TOKEN: ${{ secrets.GREECE_TOKEN }}
+        steps:
+          -run: 'echo "\{\"Authorization\":\"Token $BOT_GREECE_TOKEN\"\}" >> ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax_dataset_config.json'
+          -run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
