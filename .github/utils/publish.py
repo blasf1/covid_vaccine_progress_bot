@@ -78,7 +78,7 @@ api = tweepy.API(auth)
 
 # Do not expose any user information to avoid malicious attacks
 include_email = False
-user = api.api.verify_credentials(include_email=include_email)
+user = api.verify_credentials(include_email=include_email)
 
 # message = "The user credentials are "
 # message = message + ("valid" if user else "invalid") + "."
