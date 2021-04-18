@@ -72,20 +72,20 @@ jobs:
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
 
-        -name: Commit last update dates
-         uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
-         with:
-         # The arguments for the `git add` command (see the paragraph below for more info)
-         add: 'output'
-         # The name of the user that will be displayed as the author of the commit
-         author_name: blasf1
-         # The email of the user that will be displayed as the author of the commit
-         author_email: blasgomossa@gmail.com
-         # Name of the branch to use, if different from the one that triggered the workflow
-         branch: main
-         # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
-         cwd: '${{ github.workspace }}/covid_vaccine_progress_bot'
-         # The message for the commit
-         message: 'Update dates of last tweet'
-         # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
-         push: true
+      - name: Commit last update dates
+        uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
+        with:
+        # The arguments for the `git add` command (see the paragraph below for more info)
+        add: 'output'
+        # The name of the user that will be displayed as the author of the commit
+        author_name: blasf1
+        # The email of the user that will be displayed as the author of the commit
+        author_email: blasgomossa@gmail.com
+        # Name of the branch to use, if different from the one that triggered the workflow
+        branch: main
+        # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
+        cwd: '${{ github.workspace }}/covid_vaccine_progress_bot'
+        # The message for the commit
+        message: 'Update dates of last tweet'
+        # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
+        push: true
