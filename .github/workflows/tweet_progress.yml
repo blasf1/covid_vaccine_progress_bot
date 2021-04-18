@@ -77,7 +77,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: previous
-          path: output/previous.csv
+          path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/previous.csv
 
   commit:
     name: Commit CSV
