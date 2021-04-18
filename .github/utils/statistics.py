@@ -35,7 +35,7 @@ def search_previous_date(path, country):
     #If file is empty, create it
     data = pd.read_csv(path)#, index_col=index_col)
 
-    return data.iloc[0,0]
+    return data["date"].iloc[-1]
 
 
 def store_new_date(path, date, country):
@@ -43,7 +43,7 @@ def store_new_date(path, date, country):
     path = os.path.join(path, country + ".csv")
     #index_col = "country"
     data = pd.read_csv(path)#, index_col=index_col)
-    data.iloc[0,0] = date
+    data["date"].iloc[-1] = date
     data.to_csv(path)
 
 
