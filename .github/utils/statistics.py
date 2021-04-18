@@ -12,7 +12,7 @@ import sys
 # Third party
 import numpy as np
 import pandas as pd
-
+import datetime
 
 # =============================================================================
 # Functions
@@ -64,17 +64,22 @@ def get_current_data_increment(data, parameter):
 
 def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
+    #For countries not reporting every day, add rows
+        
     data = data[parameter]
 
+    data_last = data.iloc[-1]
+    data_first = data.iloc[-days]
+
     # Use one period for the rolling average
-    periods = 1
+    #periods = 1
 
     # Substract one day to count the last day
-    days = -days - 1
+    #days = -days - 1
 
-    difference = data.iloc[days:].diff(periods)
+    difference = data_last[parameter] - data_first[parameter] #data.iloc[days:].diff(periods)
 
-    return np.mean(difference)
+    return difference / days #np.mean(difference)
 
 
 def get_rolling_average_day(data, parameter):
