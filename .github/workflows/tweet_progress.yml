@@ -73,6 +73,23 @@ jobs:
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: previous
+          path: output/previous.csv
+
+  commit:
+    name: Commit CSV
+    runs-on: ubuntu-latest
+    strategy:
+      # Ensure that a tweet for a country is published even if another fails
+      fail-fast: false
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: previous
       - name: Commit last update dates
         uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
