@@ -74,7 +74,7 @@ jobs:
       - name: Random wait
         uses: m3y/random-wait-action@v1
         with:
-          max-wait-time: 30
+          max-wait-time: 60
 
       - name: Commit last update dates
         uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
@@ -90,7 +90,7 @@ jobs:
           # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
           cwd: './covid_vaccine_progress_bot'
           # The message for the commit
-          message: 'Update dates of last tweet'
+          message: 'Update dates of ${{ matrix.country }} last tweet: ${{ github.run_id}}'
           # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
           pull_strategy: '--no-rebase'
           push: true
