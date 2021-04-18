@@ -19,26 +19,6 @@ jobs:
       matrix:
         # Set of countries that can be updated
         country:
-          - Belgium
-          - Bulgaria
-          - Czechia
-          - Denmark
-          - Estonia
-          - Finland
-          - France
-          - Germany
-          - Ireland
-          - Italy
-          - Latvia
-          - Lithuania
-          - Luxembourg
-          - Malta
-          - Netherlands
-          - Poland
-          - Portugal
-          - Romania
-          - Slovakia
-          - Slovenia
           - Spain
           - Sweden
 
