@@ -30,20 +30,20 @@ def read_data(path, country):
 
 def search_previous_date(path, country):
     """Read the previous published data"""
-
+    path = os.path.join(path, country + ".csv")
     #index_col = "country"
     #If file is empty, create it
     data = pd.read_csv(path)#, index_col=index_col)
 
-    return data.loc[data.country == country, "date"].values[0]
+    return data.iloc[0,0]
 
 
 def store_new_date(path, date, country):
     """Keeps the new data date"""
-    #path=os.path.join(path)
+    path = os.path.join(path, country + ".csv")
     #index_col = "country"
     data = pd.read_csv(path)#, index_col=index_col)
-    data.loc[data.country == country, "date"] = date
+    data.iloc[0,0] = date
     data.to_csv(path)
 
 

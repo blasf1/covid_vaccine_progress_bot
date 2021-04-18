@@ -63,7 +63,7 @@ jobs:
         env:
           COUNTRY: ${{ matrix.country }}
           SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
-          PREVIOUS_DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/previous.csv
+          PREVIOUS_DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           POPULATION: ${{ github.workspace }}/covid-19-data/scripts/input/un/population_2020.csv
           BOT_API: ${{ secrets.BOT_API }}
           BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
