@@ -85,7 +85,7 @@ include_email = False
 user = api.verify_credentials(include_email=include_email)
 
 #Get date of previous data
-previous_date = search_previous_date(previous_data, country):
+previous_date = search_previous_date(previous_data, country)
 
 # Get the vaccination data for the corresponding country
 data = read_data(data, country)
