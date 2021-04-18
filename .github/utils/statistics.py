@@ -30,9 +30,16 @@ def read_data(path, country):
 
 def search_previous_date(path, country):
     """Read the previous published data"""
-    #path=os.path.join(path)
+
     index_col = "country"
-    data = pd.read_csv(path, index_col=index_col)
+    #If file is empty, create it
+    try:
+        data = pd.read_csv(path, index_col=index_col)
+    except pd.errors.EmptyDataError:
+        new_date = datetime.date.today() - datetime.timedelta(days=7) # Initialize to one week ago
+        data = {"country":[country],
+                "date": [new_date]}
+        data = pd.DataFrame(data, columns = ["country", "date"])
 
     return data[country]
 
