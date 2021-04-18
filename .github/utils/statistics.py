@@ -33,15 +33,7 @@ def search_previous_date(path, country):
 
     #index_col = "country"
     #If file is empty, create it
-    try:
-        data = pd.read_csv(path)#, index_col=index_col)
-    except pd.errors.EmptyDataError:
-        new_date = datetime.date.today() - datetime.timedelta(days=7) # Initialize to one week ago
-        data = {"country":[country],
-                "date": [new_date]}
-        data = pd.DataFrame(data, columns = ["country", "date"])
-        print(data)
-        data.to_csv(path)
+    data = pd.read_csv(path)#, index_col=index_col)
 
     return data.loc[data.country == country, "date"].values[0]
 
