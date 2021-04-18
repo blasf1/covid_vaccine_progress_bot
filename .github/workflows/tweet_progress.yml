@@ -71,24 +71,6 @@ jobs:
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: previous
-          path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/previous.csv
-
-  commit:
-    name: Commit CSV
-    runs-on: ubuntu-latest
-    needs: [publish]
-    strategy:
-      # Ensure that a tweet for a country is published even if another fails
-      fail-fast: false
-    steps:
-      - name: Download a single artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: previous
       - name: Commit last update dates
         uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
@@ -101,8 +83,15 @@ jobs:
           # Name of the branch to use, if different from the one that triggered the workflow
           branch: main
           # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
-          cwd: '${{ github.workspace }}/covid_vaccine_progress_bot'
+          cwd: './covid_vaccine_progress_bot'
           # The message for the commit
           message: 'Update dates of last tweet'
           # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
+          pull_strategy: '--no-rebase'
           push: true
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: previous
+          path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/previous.csv
