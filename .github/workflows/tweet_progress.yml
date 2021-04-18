@@ -4,7 +4,7 @@ name: Tweet latest vaccination data
 on:
   schedule:
     # Hourly run the workflow to check for updates
-    - cron: "0 0 * * *"
+    - cron: "* */1 * * *"
   # Manually run the workflow for debugging
   workflow_dispatch:
 
