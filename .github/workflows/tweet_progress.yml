@@ -90,7 +90,7 @@ jobs:
           # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
           cwd: './covid_vaccine_progress_bot'
           # The message for the commit
-          message: 'Update dates of ${{ matrix.country }} last tweet: ${{ github.run_id}}'
+          message: '[WORKFLOW] Update dates of ${{ matrix.country }} last tweet: ${{ github.run_id}}'
           # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
           pull_strategy: '--no-rebase'
           push: true
