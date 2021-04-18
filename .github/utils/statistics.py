@@ -42,7 +42,7 @@ def search_previous_date(path, country):
         data = pd.DataFrame(data, columns = ["country", "date"])
         print(data)
 
-    return data.loc[df.country == country, "date"].values[0]
+    return data.loc[data.country == country, "date"].values[0]
 
 
 def store_new_date(path, date, country):
@@ -50,7 +50,7 @@ def store_new_date(path, date, country):
     #path=os.path.join(path)
     #index_col = "country"
     data = pd.read_csv(path)#, index_col=index_col)
-    data.loc[df.country == country, "date"] = date
+    data.loc[data.country == country, "date"] = date
     data.to_csv(path)
 
 
