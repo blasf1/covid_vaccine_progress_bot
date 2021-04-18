@@ -41,6 +41,7 @@ def search_previous_date(path, country):
                 "date": [new_date]}
         data = pd.DataFrame(data, columns = ["country", "date"])
         print(data)
+        data.to_csv(path)
 
     return data.loc[data.country == country, "date"].values[0]
 
