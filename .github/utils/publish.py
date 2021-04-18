@@ -14,7 +14,7 @@ import sys
 import tweepy
 
 # Local application
-from statistics import read_data, get_population, get_data_hundred_people
+from statistics import read_data, get_population, get_data_hundred_people, search_previous_date, store_new_date
 from tweet import get_tweet
 
 
