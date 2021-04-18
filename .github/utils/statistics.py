@@ -68,8 +68,8 @@ def get_rolling_average(data, parameter, days):
         
     data = data[parameter]
 
-    data_last = data.iloc[-1][parameter]
-    data_first = data.iloc[-days][parameter]
+    data_last = data.iloc[-1]
+    data_first = data.iloc[-days]
 
     # Use one period for the rolling average
     #periods = 1
