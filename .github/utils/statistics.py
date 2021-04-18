@@ -64,14 +64,7 @@ def get_current_data_increment(data, parameter):
 
 def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
-    #For countries not reporting every day rows and days are not the same
-    dates = data.iloc[:0]
-    print(data)
-    print(dates)
-    today = datetime.date.today()
-    yesterday = today - datetime.timedelta(days=1)
-    days_behind = yesterday - dates.iloc[-1]
-
+    
     data = data[parameter]
 
     # Use one period for the rolling average
@@ -80,7 +73,7 @@ def get_rolling_average(data, parameter, days):
     # Substract one day to count the last day
     days = -days - 1
 
-    difference = data.iloc[(days - days_behind):].diff(periods)
+    difference = data.iloc[days:].diff(periods)
 
     return np.mean(difference)
 

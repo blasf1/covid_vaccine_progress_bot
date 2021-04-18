@@ -172,7 +172,7 @@ def get_administered_section(data):
     return ("Administered:\n"
             + get_total_admin_string(data)
             + get_last_admin_string(data)
-            + get_seven_days_string(data)
+            #+ get_seven_days_string(data)
             + "\n*per 100 people")
 
 
