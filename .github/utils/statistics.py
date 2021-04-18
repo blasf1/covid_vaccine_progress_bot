@@ -67,7 +67,7 @@ def get_rolling_average(data, parameter, days):
     #For countries not reporting every day rows and days are not the same
     today = datetime.date.today()
     yesterday = today - datetime.timedelta(days=1)
-    days_behind = yesterday - data.iloc[-1]['date']
+    days_behind = yesterday - data.iloc[-1,0]
 
     # Use one period for the rolling average
     periods = 1
