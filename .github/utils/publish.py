@@ -94,7 +94,10 @@ tweet_string = get_tweet(country, data)
 
 print(tweet_string)
 
+is_previous_tweet = api.search(q=tweet_string, count=50)
+print(is_previous_tweet)
+
 try:
     tweet = api.update_status(tweet_string)
-except tweepy.TweepError: 
+except tweepy.TweepError:
     print(f"Tweet {tweet_string} already published.")
