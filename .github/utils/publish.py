@@ -31,6 +31,9 @@ parser.add_argument(arg)
 arg = "--data"
 parser.add_argument(arg)
 
+arg = "--previous_data"
+parser.add_argument(arg)
+
 arg = "--population"
 parser.add_argument(arg)
 
@@ -58,6 +61,7 @@ args = parser.parse_args(args)
 # Rename the command line arguments for easier reference
 country = args.country
 data = args.data
+previous_data = args.previous_data
 population = args.population
 api = args.api
 api_secret = args.api_secret
@@ -80,12 +84,20 @@ api = tweepy.API(auth)
 include_email = False
 user = api.verify_credentials(include_email=include_email)
 
-# message = "The user credentials are "
-# message = message + ("valid" if user else "invalid") + "."
-# print(message)
+#Get date of previous data
+previous_date = search_previous_date(previous_data, country):
 
 # Get the vaccination data for the corresponding country
 data = read_data(data, country)
+
+if data["date"].iloc[-1] == previous_date :
+    print("Tweet already published")
+    exit()
+
+previous_date = data["date"].iloc[-1]
+store_new_date(previous_data, previous_date, country)
+
+#Get population and relative data
 population = get_population(population, country)
 data = get_data_hundred_people(data, population)
 
@@ -94,15 +106,7 @@ tweet_string = get_tweet(country, data)
 
 print(tweet_string)
 
-is_previous_tweet = api.search(q=tweet_string, count=50)
-print(is_previous_tweet)
-
-if not is_previous_tweet:
+try:
     tweet = api.update_status(tweet_string)
-else:
+except tweepy.TweepError:
     print(f"Tweet already published.")
-
-#try:
-#    tweet = api.update_status(tweet_string)
-#except tweepy.TweepError:
-#    print(f"Tweet {tweet_string} already published.")

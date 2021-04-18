@@ -22,10 +22,28 @@ def read_data(path, country):
     """Read the vaccination data for a country."""
     # Use the date to identify the vaccination data
     path = os.path.join(path, country + ".csv")
-    index_col = "date"
-    data = pd.read_csv(path, index_col=index_col)
+    #index_col = "date"
+    data = pd.read_csv(path)#, index_col=index_col)
 
     return data
+
+
+def search_previous_date(path, country):
+    """Read the previous published data"""
+    path=os.path.join(path)
+    index_col = "country"
+    data = pd.read_csv(path, index_col=index_col)
+
+    return data[country]
+
+
+def store_new_date(path, date, country):
+    """Keeps the new data date"""
+    path=os.path.join(path)
+    index_col = "country"
+    data = pd.read_csv(path, index_col=index_col)
+    data[country] = date
+    data.to_csv(path)
 
 
 def get_population(path, country):
@@ -64,7 +82,7 @@ def get_current_data_increment(data, parameter):
 
 def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
-    
+
     data = data[parameter]
 
     # Use one period for the rolling average
