@@ -30,7 +30,7 @@ def read_data(path, country):
 
 def search_previous_date(path, country):
     """Read the previous published data"""
-    path=os.path.join(path)
+    #path=os.path.join(path)
     index_col = "country"
     data = pd.read_csv(path, index_col=index_col)
 
