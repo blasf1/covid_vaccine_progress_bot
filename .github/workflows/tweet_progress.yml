@@ -76,19 +76,10 @@ jobs:
         with:
           name: previous
           path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/previous.csv
-
-  commit:
-    name: Commit CSV
-    runs-on: ubuntu-latest
-    needs: [publish]
-    strategy:
-      # Ensure that a tweet for a country is published even if another fails
-      fail-fast: false
-    steps:
-      - name: Download a single artifact
-        uses: actions/download-artifact@v2
+      - name: Sleep for up to 60 seconds
+        uses: m3y/random-wait-action@v1
         with:
-          name: previous
+          max-wait-time: 60
       - name: Commit last update dates
         uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
@@ -104,5 +95,9 @@ jobs:
           cwd: '${{ github.workspace }}/covid_vaccine_progress_bot'
           # The message for the commit
           message: 'Update dates of last tweet'
+          # The flag used on the pull strategy. Use NO-PULL to avoid the action pulling at all.
+          # Default: '--no-rebase'
+          pull_strategy: '--no-rabase'
+
           # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
           push: true
