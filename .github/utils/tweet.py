@@ -169,7 +169,7 @@ def get_seven_days_string(data):
 
 def get_administered_section(data):
     """Get the administered section of the tweet."""
-    return ("Administered:\n"
+    return ("\nAdministered:\n"
             + get_total_admin_string(data)
             + get_last_admin_string(data)
             #+ get_seven_days_string(data)
