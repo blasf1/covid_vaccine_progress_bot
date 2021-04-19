@@ -106,6 +106,12 @@ population = get_population(population, country)
 data = get_data_hundred_people(data, population)
 
 # Get the tweet string to publish in Twitter
-tweet_string = get_tweet(country, data)
+try:
+    tweet_string = get_tweet(country, data)
+except ValueError:
+    print(f"{country} data was not complete.")
+
+    # Exit with a success code
+    exit(0)
 
 print(tweet_string)
