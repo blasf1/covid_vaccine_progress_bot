@@ -14,8 +14,12 @@ import sys
 import tweepy
 
 # Local application
-from statistics import read_data, get_population, get_data_hundred_people, search_previous_date, store_new_date
 from tweet import get_tweet
+from statistics import (read_data,
+                        get_last_date,
+                        get_population,
+                        store_last_date,
+                        get_data_hundred_people)
 
 
 # =============================================================================
@@ -31,7 +35,7 @@ parser.add_argument(arg)
 arg = "--data"
 parser.add_argument(arg)
 
-arg = "--previous_data"
+arg = "--output"
 parser.add_argument(arg)
 
 arg = "--population"
@@ -46,12 +50,10 @@ default = os.environ.get("BOT_API_SECRET")
 parser.add_argument(arg, default=default)
 
 arg = "--access"
-dest = "access"
 default = os.environ.get("BOT_ACCESS")
 parser.add_argument(arg, default=default)
 
 arg = "--access-secret"
-dest = "access_secret"
 default = os.environ.get("BOT_ACCESS_SECRET")
 parser.add_argument(arg, default=default)
 
@@ -61,7 +63,7 @@ args = parser.parse_args(args)
 # Rename the command line arguments for easier reference
 country = args.country
 data = args.data
-previous_data = args.previous_data
+output = args.output
 population = args.population
 api = args.api
 api_secret = args.api_secret
@@ -84,20 +86,22 @@ api = tweepy.API(auth)
 include_email = False
 user = api.verify_credentials(include_email=include_email)
 
-#Get date of previous data
-previous_date = search_previous_date(previous_data, country)
+# Get last date when the country data was published
+last_date = get_last_date(output, country)
 
-# Get the vaccination data for the corresponding country
+# Get the vaccination data for the country
 data = read_data(data, country)
+date = data.index[-1]
 
-if data["date"].iloc[-1] == previous_date :
-    print("Tweet already published")
-    exit()
+if date == last_date:
+    print(f"{country} data is updated.")
 
-previous_date = data["date"].iloc[-1]
-store_new_date(previous_data, previous_date, country)
+    # Exit with a success code
+    exit(0)
 
-#Get population and relative data
+store_last_date(output, date, country)
+
+# Get population and relative country data
 population = get_population(population, country)
 data = get_data_hundred_people(data, population)
 
@@ -105,8 +109,3 @@ data = get_data_hundred_people(data, population)
 tweet_string = get_tweet(country, data)
 
 print(tweet_string)
-
-try:
-    tweet = api.update_status(tweet_string)
-except tweepy.TweepError:
-    print(f"Tweet already published.")

@@ -6,13 +6,14 @@
 # =============================================================================
 
 # Standard
+import datetime
 import os
 import sys
 
 # Third party
 import numpy as np
 import pandas as pd
-import datetime
+
 
 # =============================================================================
 # Functions
@@ -22,29 +23,29 @@ def read_data(path, country):
     """Read the vaccination data for a country."""
     # Use the date to identify the vaccination data
     path = os.path.join(path, country + ".csv")
-    #index_col = "date"
-    data = pd.read_csv(path)#, index_col=index_col)
+    index_col = "date"
+    data = pd.read_csv(path, index_col=index_col)
 
     return data
 
 
-def search_previous_date(path, country):
-    """Read the previous published data"""
+def get_last_date(path, country):
+    """Get the last date when the data was published."""
     path = os.path.join(path, country + ".csv")
-    #index_col = "country"
-    #If file is empty, create it
-    data = pd.read_csv(path)#, index_col=index_col)
+    data = pd.read_csv(path)
 
-    return data["date"].iloc[-1]
+    return data.date.iloc[-1]
 
 
-def store_new_date(path, date, country):
-    """Keeps the new data date"""
+def store_last_date(path, date, country):
+    """Store the last date when the data was published."""
     path = os.path.join(path, country + ".csv")
-    #index_col = "country"
-    data = pd.read_csv(path)#, index_col=index_col)
-    data["date"].iloc[-1] = date
-    data.to_csv(path)
+    data = pd.read_csv(path)
+
+    data.date.iloc[-1] = date
+
+    index = False
+    data.to_csv(path, index=index)
 
 
 def get_population(path, country):

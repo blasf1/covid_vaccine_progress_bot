@@ -19,7 +19,6 @@ jobs:
       matrix:
         # Set of countries that can be updated
         country:
-          - Austria
           - Belgium
           - Bulgaria
           - Czechia
@@ -28,7 +27,6 @@ jobs:
           - Finland
           - France
           - Germany
-          - Greece
           - Hungary
           - Ireland
           - Italy
@@ -75,26 +73,32 @@ jobs:
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
 
-      - name: Random wait
-        uses: m3y/random-wait-action@v1
+      - name: Store artifacts
+        uses: actions/upload-artifact@v2
         with:
-          max-wait-time: 60
+          path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/${{ matrix.country }}.csv
 
-      - name: Commit last update dates
-        uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
+  commit:
+    name: Commit dates
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout covid_vaccine_progress_bot
+        uses: actions/checkout@v1
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
         with:
-          # The arguments for the `git add` command (see the paragraph below for more info)
-          add: 'output'
-          # The name of the user that will be displayed as the author of the commit
+          path: output
+
+      - name: Commit latest update dates
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: output
           author_name: blasf1
-          # The email of the user that will be displayed as the author of the commit
           author_email: blasgomossa@gmail.com
-          # Name of the branch to use, if different from the one that triggered the workflow
           branch: main
-          # The local path to the directory where your repository is located. You should use actions/checkout first to set it up
-          cwd: './covid_vaccine_progress_bot'
-          # The message for the commit
-          message: '[WORKFLOW] Update last tweet data to ${{ matrix.country }}: ${{ github.run_id}}'
-          # Whether to push the commit and, if any, its tags to the repo. It can also be used to set the git push arguments (see the paragraph below for more info)
-          pull_strategy: '--no-rebase'
+          cwd: covid_vaccine_progress_bot
+          message: "[BOT] Pushing last date when countries information has been updated."
+          pull_strategy: --no-rebase
           push: true

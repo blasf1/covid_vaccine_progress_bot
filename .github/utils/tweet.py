@@ -90,7 +90,7 @@ def get_tweet_header(country):
 
     return (flag.flagize(":EU:")
             + flag.flagize(country_flag)
-            + country.upper()
+            + str.upper(country)
             + flag.flagize(country_flag)
             + flag.flagize(":EU:")
             + "\n")
@@ -142,8 +142,8 @@ def get_last_admin_string(data):
     return (emoji.emojize(":syringe:")
             + "Last day:"
             + "\u3000" * 4
-            + f"{average_day:04.2f}" +
-            " ["
+            + f"{average_day:04.2f}"
+            + " ["
             + f"{average_day_increment:+04.2f}"
             + "]"
             + "*"
@@ -172,7 +172,6 @@ def get_administered_section(data):
     return ("\nAdministered:\n"
             + get_total_admin_string(data)
             + get_last_admin_string(data)
-            #+ get_seven_days_string(data)
             + "\n*per 100 people")
 
 
