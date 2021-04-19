@@ -65,7 +65,7 @@ jobs:
       - name: Create JSON
         env:
           GREECE_SECRET: ${{ secrets.GREECE_SECRET}}
-        run: echo -e "{\"Authorization\":\"Token $GREECE_SECRET\"}" > ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/batch/vax_dataset_config.json
+        run: echo -e "{\"Authorization\":\"Token $GREECE_SECRET\"}" > ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/vax_dataset_config.json
 
       - name: Publish tweet
         env:
