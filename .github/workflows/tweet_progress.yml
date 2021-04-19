@@ -106,8 +106,6 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           add: output
-          author_name: blasf1
-          author_email: blasgomossa@gmail.com
           branch: main
           message: "[BOT] Pushing last date when countries information has been updated."
           pull_strategy: --no-rebase
