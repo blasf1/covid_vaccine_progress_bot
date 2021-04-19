@@ -101,7 +101,7 @@ jobs:
         with:
           name: output
 
-        name: Display structure of downloaded files
+      - name: Display structure of downloaded files
         run: ls -R
 
       - name: Commit latest update dates
