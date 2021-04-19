@@ -82,6 +82,8 @@ jobs:
     name: Commit dates
     runs-on: ubuntu-latest
     needs: publish
+    # Commit the dates even if a job fails
+    if: always()
 
     steps:
       - name: Checkout covid_vaccine_progress_bot
