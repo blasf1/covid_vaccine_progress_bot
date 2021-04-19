@@ -116,4 +116,7 @@ except ValueError:
 
 print(tweet_string)
 
-tweet = api.update_status(tweet_string)
+try:
+    tweet = api.update_status(tweet_string)
+except tweepy.TweepError:
+    print(f"Tweet already published.")
