@@ -27,6 +27,7 @@ jobs:
           - Finland
           - France
           - Germany
+          - Greece
           - Hungary
           - Ireland
           - Italy
@@ -60,6 +61,11 @@ jobs:
 
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
+
+      - name: Create JSON
+        env:
+          GREECE_SECRET: ${{ secrets.GREECE_SECRET}}
+        run: echo -e "{\"Authorization\":\"Token $GREECE_SECRET\"}" | tee ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/batch/vax_dataset_config.json
 
       - name: Publish tweet
         env:
