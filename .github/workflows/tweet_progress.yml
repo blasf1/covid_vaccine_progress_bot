@@ -82,7 +82,7 @@ jobs:
       - name: Store artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: output
+          name: countries
           path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/${{ matrix.country }}.csv
 
   commit:
@@ -99,7 +99,8 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v2
         with:
-          name: output
+          name: countries
+          path: output
 
       - name: Display structure of downloaded files
         run: ls -R
