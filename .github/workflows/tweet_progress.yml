@@ -102,7 +102,6 @@ jobs:
           author_name: blasf1
           author_email: blasgomossa@gmail.com
           branch: main
-          cwd: covid_vaccine_progress_bot
           message: "[BOT] Pushing last date when countries information has been updated."
           pull_strategy: --no-rebase
           push: true
