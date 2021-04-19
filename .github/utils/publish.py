@@ -94,7 +94,7 @@ data = read_data(data, country)
 date = data.index[-1]
 
 if date == last_date:
-    print(f"{country} data is updated.")
+    print(f"{country} data is up to date.")
 
     # Exit with a success code
     exit(0)
