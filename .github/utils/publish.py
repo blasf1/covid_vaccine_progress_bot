@@ -115,4 +115,5 @@ except ValueError:
     exit(0)
 
 print(tweet_string)
-tweet = api.update_status(tweet_string)
+
+# tweet = api.update_status(tweet_string)
