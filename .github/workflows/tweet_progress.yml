@@ -19,6 +19,7 @@ jobs:
       matrix:
         # Set of countries that can be updated
         country:
+          - Austria
           - Belgium
           - Bulgaria
           - Czechia
@@ -27,6 +28,7 @@ jobs:
           - Finland
           - France
           - Germany
+          - Greece
           - Hungary
           - Ireland
           - Italy
