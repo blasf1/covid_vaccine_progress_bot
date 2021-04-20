@@ -85,16 +85,25 @@ def get_current_data_increment(data, parameter):
 def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
 
-    data = data[parameter]
-
+    data = data[parameter].tail(days)
+    
     # Use one period for the rolling average
     periods = 1
 
     # Substract one day to count the last day
     days = -days - 1
+    
+    between_time = data.date.iloc[-1] - data.date.iloc[0]
 
-    difference = data.iloc[days:].diff(periods)
-
+    if between_time == (days - 1):
+        difference = data.iloc[days:].diff(periods)
+    else:
+        cells_to_remove = between_time - days - 1
+        cells_to_keep = days - cells_to_remove
+        data = data.tail(cells_to_keep)
+        difference = data.diff(periods)
+        average = np.mean(difference)
+        print(str(average))
     return np.mean(difference)
 
 
