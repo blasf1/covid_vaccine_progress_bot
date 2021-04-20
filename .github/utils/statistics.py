@@ -84,8 +84,6 @@ def get_current_data_increment(data, parameter):
 
 def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
-
-    data = data[parameter].tail(days)
     
     # Use one period for the rolling average
     periods = 1
@@ -94,7 +92,7 @@ def get_rolling_average(data, parameter, days):
     days = -days - 1
     
     between_time = data.date.iloc[-1] - data.date.iloc[0]
-
+    data = data[parameter].tail(days)
     if between_time == (days - 1):
         difference = data.iloc[days:].diff(periods)
     else:
