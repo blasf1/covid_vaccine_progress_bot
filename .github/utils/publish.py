@@ -103,11 +103,11 @@ store_last_date(output, date, country)
 
 # Get population and relative country data
 population = get_population(population, country)
-data = get_data_hundred_people(data, population)
+data_normalized = get_data_hundred_people(data, population)
 
 # Get the tweet string to publish in Twitter
 try:
-    tweet_string = get_tweet(country, data)
+    tweet_string = get_tweet(country, data, data_normalized)
 except ValueError:
     print(f"{country} data was not complete.")
 

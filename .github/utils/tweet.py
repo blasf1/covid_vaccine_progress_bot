@@ -129,7 +129,6 @@ def get_total_admin_string(data):
             + " ["
             + f"{current_data_increment:+04.2f}"
             + "]"
-            + "*"
             + "\n")
 
 
@@ -146,7 +145,6 @@ def get_last_admin_string(data):
             + " ["
             + f"{average_day_increment:+04.2f}"
             + "]"
-            + "*"
             + "\n")
 
 
@@ -163,20 +161,32 @@ def get_seven_days_string(data):
             + " ["
             + f"{average_week_increment:+04.2f}"
             + "]"
-            + "*"
+            + "\n")
+
+def get_total_administered(data):
+    """Get total administered section of the tweet."""
+    total = get_current_data(data, "total_vaccinations")
+    increment = get_current_data_increment(data, "total_vaccinations")
+    return (emoji.emojize(":syringe:")
+            + "Total:"
+            + "\u3000" * 5
+            + f"{total}"
+            + " ["
+            + f"{increment}"
+            + "]"
             + "\n")
 
 
 def get_administered_section(data):
     """Get the administered section of the tweet."""
-    return ("\nAdministered:\n"
+    return ("\Per 100 people:\n"
             + get_total_admin_string(data)
-            + get_last_admin_string(data)
-            + "\n*per 100 people")
+            + get_last_admin_string(data))
 
 
-def get_tweet(country, data):
+def get_tweet(country, data, data_normalized):
     """Get the tweet to publish in Twitter for a particular country."""
     return (get_tweet_header(country)
-            + get_progress_section(data)
-            + get_administered_section(data))
+            + get_progress_section(data_normalized)
+            + get_total_administered(data)
+            + get_administered_section(data_normalized))
