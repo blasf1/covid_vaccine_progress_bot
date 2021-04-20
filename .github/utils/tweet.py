@@ -173,7 +173,7 @@ def get_total_administered(data):
             + "\u3000" * 5
             + f"{total:,}"
             + " ["
-            + f"{increment:,}"
+            + f"{increment:+,}"
             + "]"
             + "\n")
 
