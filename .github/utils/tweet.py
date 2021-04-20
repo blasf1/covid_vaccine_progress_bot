@@ -167,19 +167,21 @@ def get_total_administered(data):
     """Get total administered section of the tweet."""
     total = get_current_data(data, "total_vaccinations")
     increment = get_current_data_increment(data, "total_vaccinations")
-    return (emoji.emojize(":syringe:")
+    return ("\n"
+            + emoji.emojize(":syringe:")
             + "Total:"
             + "\u3000" * 5
-            + f"{total}"
+            + f"{total:,}"
             + " ["
-            + f"{increment}"
+            + f"{increment:,}"
             + "]"
             + "\n")
 
 
 def get_administered_section(data):
     """Get the administered section of the tweet."""
-    return ("\Per 100 people:\n"
+    return ("\n"
+            + "Per 100 people:\n"
             + get_total_admin_string(data)
             + get_last_admin_string(data))
 
