@@ -90,7 +90,7 @@ def get_rolling_average(data, parameter, days):
 
     # Substract one day to count the last day
     days = -days - 1
-    
+    print(data)
     between_time = data["date"].iloc[-1] - data["date"].iloc[0]
     data = data[parameter].tail(days)
     if between_time == (days - 1):
