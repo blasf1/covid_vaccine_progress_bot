@@ -23,8 +23,8 @@ def read_data(path, country):
     """Read the vaccination data for a country."""
     # Use the date to identify the vaccination data
     path = os.path.join(path, country + ".csv")
-    index_col = "date"
-    data = pd.read_csv(path, index_col=index_col)
+    #index_col = "date"
+    data = pd.read_csv(path)#, index_col=index_col)
 
     return data
 
