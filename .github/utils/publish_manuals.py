@@ -97,7 +97,7 @@ last_date = get_last_date(output, country)
 index_col = "date"
 data = pd.read_csv(data, index_col=index_col, parse_dates = ["date"])
 data = data[data.location == country]
-data = data[["date", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
+data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
 print(data)
 date = data.index[-1]
 
