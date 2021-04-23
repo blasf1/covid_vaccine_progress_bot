@@ -70,7 +70,7 @@ def get_progress_bar(percentage, increment):
     """Get a progress bar string given a percentage."""
     initial = percentage
     total = 100
-    bar_format = "|{bar:7}| {percentage:04.1f}%" + f" [{increment:+03.1f}]"
+    bar_format = "|{bar:6}| {percentage:04.1f}%" + f" [{increment:+03.1f}]"
 
     with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
         # Convert the bar to string for concatenating
@@ -125,7 +125,7 @@ def get_total_admin_string(data):
 
     return (emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 4
+            + "\u3000" * 3
             + f"{current_data:05.2f}"
             + " ["
             + f"{current_data_increment:+04.2f}"
@@ -141,7 +141,7 @@ def get_last_admin_string(data):
 
     return (emoji.emojize(":syringe:")
             + "Last day:"
-            + "\u3000" * 3
+            + "\u3000" * 2
             + f"{average_day:04.2f}"
             + " ["
             + f"{average_day_increment:+04.2f}"
@@ -171,7 +171,7 @@ def get_total_administered(data):
     return ("\nAdministered:\n"
             + emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 4
+            + "\u3000" * 3
             + f"{total:,.0f}"
             + " ["
             + f"{increment:+,.0f}"
