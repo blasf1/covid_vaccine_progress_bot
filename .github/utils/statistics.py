@@ -99,8 +99,8 @@ def get_rolling_average(data, parameter, days):
     periods = 1
     data_for_average = data.tail(days)
     data_for_average.reset_index(inplace=True)
-    interval = (data_for_average.iloc[-1]["date"]
-                - data_for_average.iloc[0]["date"])
+    interval = (datetime.datetime.strptime(data_for_average.iloc[-1]["date"])
+                - datetime.datetime.strptime(data_for_average.iloc[0]["date"]))
     
     if interval.days > (days - 1):
         to_drop = interval.days - (days - 1)
