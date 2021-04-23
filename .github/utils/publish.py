@@ -92,6 +92,9 @@ user = api.verify_credentials(include_email=include_email)
 last_date = get_last_date(output, country)
 
 unsupported_countries = ["Austria", "Croatia", "Cyprus", "EuropeanUnion"]
+if country == "EuropeanUnion":
+        country = "European Union"
+        
 if country not in unsupported_countries:
     # Get the vaccination data for the country
     data = read_data(data, country)

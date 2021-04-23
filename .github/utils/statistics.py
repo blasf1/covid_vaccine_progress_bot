@@ -32,9 +32,6 @@ def read_data(path, country):
 
 def read_data_unsupported(country, file):
     """Read the vaccination data for a non automated country."""
-    if country == "EuropeanUnion":
-        country = "European Union"
-
     index_col = "date"
     data = pd.read_csv(file, index_col=index_col)
 
