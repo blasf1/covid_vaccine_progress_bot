@@ -12,6 +12,7 @@ import sys
 
 # Third party
 import tweepy
+import pandas as pd
 
 # Local application
 from tweet import get_tweet
@@ -89,9 +90,16 @@ user = api.verify_credentials(include_email=include_email)
 # Get last date when the country data was published
 last_date = get_last_date(output, country)
 
-# Get the vaccination data for the country
-data = read_data(data, country)
-date = data.index[-1]
+unsupported_countries = ["Austria", "Croatia", "Cyprus", "EuropeanUnion"]
+if country not in unsupported_countries:
+    # Get the vaccination data for the country
+    data = read_data(data, country)
+    date = data.index[-1]
+else:
+    # Get the vaccination data for the country
+    data = read_data_unsupported(country, data)
+    print(data)
+    date = data.index[-1]
 
 if date == last_date:
     print(f"{country} data is up to date.")
@@ -116,7 +124,7 @@ except ValueError:
 
 print(tweet_string)
 
-try:
-    tweet = api.update_status(tweet_string)
-except tweepy.TweepError:
-    print(f"Tweet already published.")
+# try:
+#     tweet = api.update_status(tweet_string)
+# except tweepy.TweepError:
+#     print(f"Tweet already published.")
