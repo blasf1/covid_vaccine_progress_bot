@@ -31,7 +31,7 @@ from statistics import (get_current_data,
 
 # Map the country name to the country flag
 FLAGS = {
-    "European Union": ":EU:",
+    "European Union": "",
     "Austria": ":AT:",
     "Belgium": ":BE:",
     "Bulgaria": ":BG:",

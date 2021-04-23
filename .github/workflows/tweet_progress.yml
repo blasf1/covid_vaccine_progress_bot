@@ -137,36 +137,36 @@ jobs:
           path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/${{ matrix.country }}.csv
 
 
-  # commit:
-  #   name: Commit dates
-  #   runs-on: ubuntu-latest
-  #   needs: [publish, manuals]
-  #   # Commit the dates even if a job fails
-  #   if: always()
+  commit:
+    name: Commit dates
+    runs-on: ubuntu-latest
+    needs: [publish, manuals]
+    # Commit the dates even if a job fails
+    if: always()
 
-  #   steps:
-  #     - name: Checkout covid_vaccine_progress_bot
-  #       uses: actions/checkout@v2
+    steps:
+      - name: Checkout covid_vaccine_progress_bot
+        uses: actions/checkout@v2
 
-  #     - name: Download artifacts
-  #       uses: actions/download-artifact@v2
-  #       with:
-  #         name: countries
-  #         path: output
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: countries
+          path: output
       
-  #     - name: Download artifacts from manuals
-  #       uses: actions/download-artifact@v2
-  #       with:
-  #         name: manuals
-  #         path: output
+      - name: Download artifacts from manuals
+        uses: actions/download-artifact@v2
+        with:
+          name: manuals
+          path: output
       
-  #     - name: Commit latest update dates
-  #       uses: EndBug/add-and-commit@v7
-  #       with:
-  #         add: output
-  #         author_name: blasf1
-  #         author_email: blasgomossa@gmail.com
-  #         branch: main
-  #         message: "[BOT] Pushing last date when countries information has been updated."
-  #         pull_strategy: --no-rebase
-  #         push: true
+      - name: Commit latest update dates
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: output
+          author_name: blasf1
+          author_email: blasgomossa@gmail.com
+          branch: main
+          message: "[BOT] Pushing last date when countries information has been updated."
+          pull_strategy: --no-rebase
+          push: true
