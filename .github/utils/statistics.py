@@ -32,7 +32,7 @@ def read_data(path, country):
 
 def get_last_date(path, country):
     """Get the last date when the data was published."""
-    path = os.path.join(path, country + ".csv")
+    path = os.path.join(path, country.replace(" ", "") + ".csv")
     data = pd.read_csv(path)
 
     return data.date.iloc[-1]
