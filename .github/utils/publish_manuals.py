@@ -95,7 +95,7 @@ last_date = get_last_date(output, country)
 
 # Get the vaccination data for the country
 index_col = "date"
-data = pd.read_csv(data, index_col=index_col, parse_dates = ["date"])
+data = pd.read_csv(data, index_col=index_col)
 data = data[data.location == country]
 data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
 print(data)
