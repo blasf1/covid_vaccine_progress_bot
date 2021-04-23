@@ -100,21 +100,13 @@ def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
     # Use one period for the rolling average
     periods = 1
-    data_for_average = data.tail(days)
-    data_for_average.reset_index(inplace=True)
-    interval = (data_for_average.iloc[-1]["date"]
-                - data_for_average.iloc[0]["date"])
-    
-    if interval.days > (days - 1):
-        to_drop = interval.days - (days - 1)
-        data_for_average = data_for_average.tail(days - to_drop)
 
     # Substract one day to count the last day
-    print("Data for average")
-    print(data_for_average)
-    data_for_average = data_for_average[parameter]
-    difference = data_for_average.diff(periods)
-    print(difference)
+    days = -days - 1
+    print(data)
+    data = data[parameter]
+    difference = data.iloc[days:].diff(periods)
+
     return np.mean(difference)
 
 
