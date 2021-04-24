@@ -83,7 +83,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: countries
-          path: ${{ github.workspace }}/covid_vaccine_progress_bot/output/${{ matrix.country }}.csv
+          path: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/output/${{ matrix.country }}.csv
   
   manuals:
     name: Publish tweet manually
