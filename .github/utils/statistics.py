@@ -111,10 +111,10 @@ def get_rolling_average(data, parameter, days):
     print("Data for average")
     print(data_for_average)
     data_for_average = data_for_average[parameter]
-    difference = data.iloc[-1] - data.iloc[0] #data_for_average.diff(periods)
+    difference = data_for_average.diff(periods)
     
     print(difference)
-    return (difference / days) #difference.sum() / days)
+    return (difference.sum() / days)
 
 
 def get_rolling_average_day(data, parameter):
