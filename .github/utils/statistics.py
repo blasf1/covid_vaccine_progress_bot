@@ -103,7 +103,7 @@ def get_rolling_average(data, parameter, days):
 
     date_limit = data_for_average.iloc[0]["date"] - datetime.timedelta(days = days) #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
     print("Day limit ")
-    print(day_limit)
+    print(date_limit)
 
     data_for_average = data_for_average[data_for_average["date"] > date_limit]  
 
