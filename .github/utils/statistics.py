@@ -111,6 +111,7 @@ def get_rolling_average(data, parameter, days):
     print("Data for average")
     print(data_for_average)
     data_for_average = data_for_average[parameter]
+    data_for_average = data_for_average.dropna() #remove empty rows for diff[]
     difference = data_for_average.diff(periods)
     
     print(difference)
