@@ -106,6 +106,7 @@ def get_rolling_average(data, parameter, days):
 
     if interval.days > (days):
         new_last_date = data_for_average.iloc[0]["date"] - interval
+        print(new_last_date)
         data_for_average = data_for_average[data_for_average["date"] > new_last_date]  
 
     # Substract one day to count the last day
