@@ -125,7 +125,7 @@ def get_total_admin_string(data):
 
     return (emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 3
+            + "\u3000" * 4
             + f"{current_data:05.2f}"
             + " ["
             + f"{current_data_increment:+04.2f}"
@@ -171,7 +171,7 @@ def get_total_administered(data):
     return ("\nAdministered:\n"
             + emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 3
+            + "\u3000" * 2
             + f"{total:,.0f}"
             + " ["
             + f"{increment:+,.0f}"
