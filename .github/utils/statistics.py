@@ -96,6 +96,7 @@ def get_current_data_increment(data, parameter):
 def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
     # Use one period for the rolling average
+    periods = 1
     data_for_average = data.tail(days + 1) #keep days + 1 so that diff can cçompare with the last day out of the average
     data_for_average.reset_index(inplace=True)
     data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
