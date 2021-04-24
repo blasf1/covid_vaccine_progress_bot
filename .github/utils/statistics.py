@@ -99,7 +99,7 @@ def get_rolling_average(data, parameter, days):
     periods = 1
     data_for_average = data.tail(days + 1) #keep days + 1 so that diff can cçompare with the last day out of the average
     data_for_average.reset_index(inplace=True)
-    data_for_average["date"] = pd.to_datetime(data["date"], format='%Y-%m-%d')
+    data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
 
     interval = data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
     print("Interval is " + str(interval))
