@@ -78,15 +78,15 @@ access_secret = args.access_secret
 # =============================================================================
 
 # Authenticate in Twitter using the secret variables
-# auth = tweepy.OAuthHandler(api, api_secret)
-# auth.set_access_token(access, access_secret)
+auth = tweepy.OAuthHandler(api, api_secret)
+auth.set_access_token(access, access_secret)
 
-# # Get the API to use Twitter
-# api = tweepy.API(auth)
+# Get the API to use Twitter
+api = tweepy.API(auth)
 
-# # Do not expose any user information to avoid malicious attacks
-# include_email = False
-# user = api.verify_credentials(include_email=include_email)
+# Do not expose any user information to avoid malicious attacks
+include_email = False
+user = api.verify_credentials(include_email=include_email)
 
 # Get last date when the country data was published
 last_date = get_last_date(output, country)
@@ -129,7 +129,7 @@ except ValueError:
 
 print(tweet_string)
 
-# try:
-#     tweet = api.update_status(tweet_string)
-# except tweepy.TweepError:
-#     print(f"Tweet already published.")
+try:
+    tweet = api.update_status(tweet_string)
+except tweepy.TweepError:
+    print(f"Tweet already published.")

@@ -171,7 +171,7 @@ def get_total_administered(data):
     return ("\nAdministered:\n"
             + emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 5
+            + "\u3000" * 4
             + f"{total:,.0f}"
             + " ["
             + f"{increment:+,.0f}"
@@ -185,8 +185,8 @@ def get_administered_section(data):
     return ("\n"
             + "Per 100 people:\n"
             + get_total_admin_string(data)
-            + get_last_admin_string(data))
-            #+ get_seven_days_string(data))
+            #+ get_last_admin_string(data))
+            + get_seven_days_string(data))
             
 
 
