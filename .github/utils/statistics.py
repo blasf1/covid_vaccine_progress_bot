@@ -101,7 +101,7 @@ def get_rolling_average(data, parameter, days):
     data_for_average.reset_index(inplace=True)
     data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
 
-    date_limit = data_for_average.iloc[0]["date"] - days #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+    date_limit = data_for_average.iloc[0]["date"] - datetime.timedelta(days = days) #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
     print("Day limit " + date_limit)
 
     data_for_average = data_for_average[data_for_average["date"] > date_limit]  
