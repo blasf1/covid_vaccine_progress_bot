@@ -101,10 +101,10 @@ def get_rolling_average(data, parameter, days):
     data_for_average.reset_index(inplace=True)
     interval = (datetime.datetime.strptime(data_for_average.iloc[-1]["date"], '%Y-%m-%d')
                 - datetime.datetime.strptime(data_for_average.iloc[0]["date"], '%Y-%m-%d'))
-    
+    print("Interval is " + str(interval))
     if interval.days > (days):
         to_drop = interval.days - days
-        data_for_average = data_for_average.tail(days - to_drop + 1)
+        data_for_average = data_for_average.tail(days + 1 - to_drop)
 
     # Substract one day to count the last day
     print("Data for average")
