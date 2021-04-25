@@ -52,7 +52,7 @@ def store_last_data(path, country, data):
     """Store the last date when the data was published."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")
 
-    index = False
+    index = True
     data.to_csv(path, index=index)
 
 
