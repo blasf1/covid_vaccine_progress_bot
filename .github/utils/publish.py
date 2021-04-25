@@ -102,17 +102,14 @@ if country not in unsupported_countries:
     date = data.index[-1]
 else:
     # Get the vaccination data for the country
-    data = read_data_unsupported(country, data)
-    print(data)
-    date = data.index[-1]
+    data = read_data_unsupported(country, path)
+    store_last_data(path, country, data)
 
 if date == last_date:
     print(f"{country} data is up to date.")
 
     # Exit with a success code
     exit(0)
-
-store_last_date(output, date, country)
 
 # Get population and relative country data
 population = get_population(population, country)
