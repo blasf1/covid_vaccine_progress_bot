@@ -48,12 +48,9 @@ def get_last_date(path, country):
     return data.date.iloc[-1]
 
 
-def store_last_date(path, date, country):
+def store_last_data(path, country, data):
     """Store the last date when the data was published."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")
-    data = pd.read_csv(path)
-
-    data.date.iloc[-1] = date
 
     index = False
     data.to_csv(path, index=index)
