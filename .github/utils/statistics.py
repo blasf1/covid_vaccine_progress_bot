@@ -150,7 +150,7 @@ def get_rolling_average_week_increment(data, parameter):
 
 def is_record(data, parameter):
     """Returns true if todays data is the highest for the given parameter"""
-    increments = data.diff()
+    increments = data[parameter].diff()
     
     today = increments.iloc[-1]
     maximum = increments.max()
