@@ -146,3 +146,13 @@ def get_rolling_average_week_increment(data, parameter):
     shift_average_week = get_rolling_average_week(shift_data, parameter)
 
     return average_week - shift_average_week
+
+
+def is_record(data, parameter):
+    """Returns true if todays data is the highest for the given parameter"""
+    increments = get_current_data_increment(data, parameter)
+    
+    today = increments.iloc[-1]
+    maximum = increments.max()
+
+    return today == maximum
