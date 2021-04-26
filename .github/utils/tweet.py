@@ -22,7 +22,8 @@ from statistics import (get_current_data,
                         get_rolling_average_week,
                         get_current_data_increment,
                         get_rolling_average_day_increment,
-                        get_rolling_average_week_increment)
+                        get_rolling_average_week_increment,
+                        is_record)
 
 
 # =============================================================================
