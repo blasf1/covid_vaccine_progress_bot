@@ -197,7 +197,7 @@ def get_administered_section(data):
 
 def get_tweet(country, data, data_normalized):
     """Get the tweet to publish in Twitter for a particular country."""
-    return (get_tweet_header(country)
+    return (get_tweet_header(country, data)
             + get_progress_section(data_normalized)
             + get_total_administered(data)
             + get_administered_section(data_normalized))
