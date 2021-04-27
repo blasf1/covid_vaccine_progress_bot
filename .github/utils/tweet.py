@@ -98,9 +98,9 @@ def get_tweet_header(country, data):
 
     if is_record(data, "total_vaccinations"):
         string = (string 
-                + emoji.emojize(":tada:") 
+                + emoji.emojize(":trophy:") 
                 + "Daily Record" 
-                + emoji.emojize(":tada:") 
+                + emoji.emojize(":trophy:") 
                 +"\n")
     
     return string
