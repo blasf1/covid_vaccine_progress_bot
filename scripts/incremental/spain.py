@@ -2,6 +2,7 @@ import re
 from datetime import datetime, timedelta
 
 import pandas as pd
+from urllib.error import HTTPError
 
 from vax.utils.incremental import enrich_data, increment
 
@@ -15,7 +16,11 @@ vaccine_mapping = {
 
 
 def read() -> pd.Series:
-    source = _get_source_url()
+    try:
+        source = _get_source_url()
+    except HTTPError:
+        source = _get_source_url_yesterday()
+
     df = pd.read_excel(source, index_col=0)
     _check_vaccine_names(df)
     return parse_data(df, source)
@@ -34,6 +39,14 @@ def parse_data(df: pd.DataFrame, source: str) -> pd.Series:
 
 def _get_source_url():
     dt_str = datetime.now().strftime("%Y%m%d")
+    return (
+        f"https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/"
+        f"Informe_Comunicacion_{dt_str}.ods"
+    )
+
+
+def _get_source_url_yesterday():
+    dt_str = (datetime.now() - timedelta(days = 1)).strftime("%Y%m%d")
     return (
         f"https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/"
         f"Informe_Comunicacion_{dt_str}.ods"
