@@ -18,10 +18,11 @@ vaccine_mapping = {
 def read() -> pd.Series:
     try:
         source = _get_source_url()
+        df = pd.read_excel(source, index_col=0)
     except HTTPError:
         source = _get_source_url_yesterday()
-
-    df = pd.read_excel(source, index_col=0)
+        df = pd.read_excel(source, index_col=0)
+    
     _check_vaccine_names(df)
     return parse_data(df, source)
 
