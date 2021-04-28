@@ -150,12 +150,12 @@ def get_rolling_average_week_increment(data, parameter):
 
 def is_record(data, parameter):
     """Returns true if todays data is the highest for the given parameter"""
-    #increments = data[parameter].diff()
     data_with_dates = data.reset_index(inplace=True)
-    data_with_dates = data_with_dates.rename(columns = {'index': 'date'})
+    #data_with_dates = data_with_dates.rename(columns = {'index': 'date'})
     data_with_dates = pd.to_datetime(data_with_dates['date'], format='%Y-%m-%d')
     increments = data_with_dates.diff()
-
+    print("Debugging message for increments")
+    print(increments)
     #Drop rows where day increment is not 1. Daily record won't count then (it's not daily)
     increments = increments[increments['date'].days == 1]
 
