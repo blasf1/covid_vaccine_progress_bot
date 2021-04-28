@@ -62,9 +62,10 @@ jobs:
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
-      - name: Create JSON
+      - name: Create token for Greece
         env:
-          GREECE_SECRET: ${{ secrets.GREECE_TOKEN}}
+        if: $ {{ matrix.country == "Greece" }}
+          GREECE_SECRET: ${{ secrets.GREECE_TOKEN }}
         run: echo -e "{\"greece_api_token\":\"$GREECE_SECRET\"}" > ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/vax_dataset_config.json
 
       - name: Switch scripts from owid by own 

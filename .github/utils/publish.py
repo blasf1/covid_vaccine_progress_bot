@@ -11,16 +11,16 @@ import os
 import sys
 
 # Third party
-import tweepy
+# import tweepy
 import pandas as pd
 
 # Local application
 from tweet import get_tweet
 from statistics import (read_data,
-                        read_data_unsupported,
+                        store_data,
                         get_last_date,
                         get_population,
-                        store_last_data,
+                        get_rolling_average_day,
                         get_data_hundred_people)
 
 
@@ -78,57 +78,58 @@ access_secret = args.access_secret
 # =============================================================================
 
 # Authenticate in Twitter using the secret variables
-auth = tweepy.OAuthHandler(api, api_secret)
-auth.set_access_token(access, access_secret)
+# auth = tweepy.OAuthHandler(api, api_secret)
+# auth.set_access_token(access, access_secret)
 
 # Get the API to use Twitter
-api = tweepy.API(auth)
+# api = tweepy.API(auth)
 
 # Do not expose any user information to avoid malicious attacks
-include_email = False
-user = api.verify_credentials(include_email=include_email)
+# include_email = False
+# user = api.verify_credentials(include_email=include_email)
 
 # Get last date when the country data was published
-last_date = get_last_date(output, country)
+# last_date = get_last_date(output, country)
 
-if country == "EuropeanUnion":
-        country = "European Union"
+# if country == "EuropeanUnion":
+    # country = "European Union"
 
-unsupported_countries = ["Austria", "Croatia", "Cyprus", "European Union"]
+# unsupported_countries = ["Austria", "Croatia", "Cyprus", "European Union"]
 
-if country not in unsupported_countries:
-    # Get the vaccination data for the country
-    data = read_data(data, country)
-else:
-    # Get the vaccination data for the country when not supported by owid
-    data = read_data_unsupported(country, data)
-    store_last_data(output, country, data) 
+# if country not in unsupported_countries:
+# Get the vaccination data for the country
+data = read_data(data, country)
+get_rolling_average_day(data, "total_vaccinations")
+# else:
+# Get the vaccination data for the country when not supported by owid
+# data = read_data_unsupported(country, data)
+# store_last_data(output, country, data) 
 
-date = data.index[-1]
-vaccinations = data["total_vaccinations"].iloc[-1]
-previous_vaccinations = data["total_vaccinations"].iloc[-2]
-if (date == last_date) or (vaccinations == previous_vaccinations):
-    print(f"{country} data is up to date.")
+# date = data.index[-1]
+# vaccinations = data["total_vaccinations"].iloc[-1]
+# previous_vaccinations = data["total_vaccinations"].iloc[-2]
+# if (date == last_date) or (vaccinations == previous_vaccinations):
+# print(f"{country} data is up to date.")
 
-    # Exit with a success code
-    exit(0)
+# Exit with a success code
+# exit(0)
 
 # Get population and relative country data
-population = get_population(population, country)
-data_normalized = get_data_hundred_people(data, population)
+# population = get_population(population, country)
+# data_normalized = get_data_hundred_people(data, population)
 
 # Get the tweet string to publish in Twitter
-try:
-    tweet_string = get_tweet(country, data, data_normalized)
-except ValueError:
-    print(f"{country} data was not complete.")
+# try:
+# tweet_string = get_tweet(country, data, data_normalized)
+# except ValueError:
+# print(f"{country} data was not complete.")
 
-    # Exit with a success code
-    exit(0)
+# Exit with a success code
+# exit(0)
 
-print(tweet_string)
+# print(tweet_string)
 
-try:
-    tweet = api.update_status(tweet_string)
-except tweepy.TweepError:
-    print(f"Tweet already published.")
+# try:
+# tweet = api.update_status(tweet_string)
+# except tweepy.TweepError:
+# print(f"Tweet already published.")

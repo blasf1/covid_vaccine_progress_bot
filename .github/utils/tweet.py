@@ -89,12 +89,13 @@ def get_progress_bar(percentage, increment):
 def get_tweet_header(country, data):
     """Get the header of the tweet."""
     country_flag = FLAGS[country]
+
     string = (flag.flagize(":EU:")
-            + flag.flagize(country_flag)
-            + str.upper(country)
-            + flag.flagize(country_flag)
-            + flag.flagize(":EU:")
-            + "\n")
+              + flag.flagize(country_flag)
+              + str.upper(country)
+              + flag.flagize(country_flag)
+              + flag.flagize(":EU:")
+              + "\n")
 
     if is_record(data, "total_vaccinations"):
         string = (string 

@@ -16,6 +16,13 @@ import pandas as pd
 
 
 # =============================================================================
+# Constants
+# =============================================================================
+
+PARAMS = ["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]
+
+
+# =============================================================================
 # Functions
 # =============================================================================
 
@@ -27,16 +34,9 @@ def read_data(path, country):
     index_col = "date"
     data = pd.read_csv(path, index_col=index_col)
 
-    return data
-
-
-def read_data_unsupported(country, file):
-    """Read the vaccination data for a non automated country."""
-    index_col = "date"
-    data = pd.read_csv(file, index_col=index_col)
-
     data = data[data.location == country]
-    data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
+    data = data[PARAMS]
+
     return data
 
 
@@ -48,8 +48,8 @@ def get_last_date(path, country):
     return data.date.iloc[-1]
 
 
-def store_last_data(path, country, data):
-    """Store the last date when the data was published."""
+def store_data(path, country, data):
+    """Store the data for the given country."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")
 
     index = True
@@ -94,20 +94,30 @@ def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
     # Use one period for the rolling average
     periods = 1
-    data_for_average = data.tail(days + 1) #keep days + 1 so that diff can cçompare with the last day out of the average
-    data_for_average.reset_index(inplace=True)
-    data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
 
-    date_limit = data_for_average.iloc[-1]["date"] - datetime.timedelta(days = days + 1) #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+    # Set one extra day to compare with the
+    # last available day out of the average
+    days = days + 1
 
-    data_for_average = data_for_average[data_for_average["date"] > date_limit]  
+    # Filter the data according to the last
+    data.index = pd.to_datetime(data.index)
 
-    data_for_average = data_for_average[parameter]
+    print(data)
+    print(data.index[-1] - datetime.timedelta(days=days))
 
-    data_for_average = data_for_average.dropna() #remove empty rows for diff()
-    difference = data_for_average.diff(periods)
+    # data_for_average.reset_index(inplace=True)
+    # data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
+
+    # date_limit = data_for_average.iloc[-1]["date"] - datetime.timedelta(days = days + 1) #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+
+    # data_for_average = data_for_average[data_for_average["date"] > date_limit]  
+
+    # data_for_average = data_for_average[parameter]
+
+    # data_for_average = data_for_average.dropna() #remove empty rows for diff()
+    # difference = data_for_average.diff(periods)
     
-    return (difference.sum() / days)
+    return np.sum(difference) / days
 
 
 def get_rolling_average_day(data, parameter):
@@ -149,9 +159,9 @@ def get_rolling_average_week_increment(data, parameter):
 
 
 def is_record(data, parameter):
-    """Returns true if todays data is the highest for the given parameter"""
+    """Check if today data is the highest increment for the given parameter."""
     increments = data[parameter].diff()
-    
+
     today = increments.iloc[-1]
     maximum = increments.max()
 
