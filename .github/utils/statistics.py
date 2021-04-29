@@ -60,7 +60,7 @@ def store_last_data(path, country, data):
     """Store the last date when the data was published."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")
     #Store only the new line
-    data_to_store = data.iloc[-1]
+    data_to_store = data.iloc[[-1]]
     print("data")
     print(data)
     print("data to store")
