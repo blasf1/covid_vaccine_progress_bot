@@ -101,7 +101,7 @@ if country not in unsupported_countries:
     data = read_data(data, country)
 else:
     # Get the vaccination data for the country when not supported by owid
-    data = read_data_unsupported(country, data)
+    data = read_data_unsupported(country, data, output)
     store_last_data(output, country, data) 
 
 date = data.index[-1]

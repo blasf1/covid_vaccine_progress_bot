@@ -30,13 +30,17 @@ def read_data(path, country):
     return data
 
 
-def read_data_unsupported(country, file):
+def read_data_unsupported(country, file, path):
     """Read the vaccination data for a non automated country."""
     index_col = "date"
-    data = pd.read_csv(file, index_col=index_col)
-
+    #Join previous stored data to the last update
+    data = pd.read_csv(file, index_col=index_col)    
     data = data[data.location == country]
     data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
+
+    path = os.path.join(path, country + ".csv")
+    data_local = pd.read_csv(path, index_col = index_col)
+    data = data_local.append(data.iloc[-1])
     return data
 
 
@@ -51,9 +55,14 @@ def get_last_date(path, country):
 def store_last_data(path, country, data):
     """Store the last date when the data was published."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")
-
+    #Store only the new line
+    data_to_store = data.iloc[-1]
+    #Read the file
+    index_col = "date"
+    data_in_file = pd.read_csv(path, index_col=index_col)
+    data_to_store = data_in_file.append(data_to_store)
     index = True
-    data.to_csv(path, index=index)
+    data_to_store.to_csv(path, index=index)
 
 
 def get_population(path, country):
