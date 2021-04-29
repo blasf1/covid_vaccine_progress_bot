@@ -40,7 +40,9 @@ def read_data_unsupported(country, file, path):
 
     path = os.path.join(path, country.replace(" ", "") + ".csv")
     data_local = pd.read_csv(path, index_col = index_col)
-    data = data_local.append(data.iloc[-1])
+    if data_local.index.iloc[-1] != data.index.iloc[-1]:
+        data = data_local.append(data.iloc[-1])
+
     return data
 
 
@@ -60,9 +62,11 @@ def store_last_data(path, country, data):
     #Read the file
     index_col = "date"
     data_in_file = pd.read_csv(path, index_col=index_col)
-    data_to_store = data_in_file.append(data_to_store)
-    index = True
-    data_to_store.to_csv(path, index=index)
+    # Store only if updates available
+    if data_in_file.index.iloc[-1] != data_to_store.index.iloc[-1]:
+        data_to_store = data_in_file.append(data_to_store)
+        index = True
+        data_to_store.to_csv(path, index=index)
 
 
 def get_population(path, country):
