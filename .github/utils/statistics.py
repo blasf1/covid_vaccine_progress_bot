@@ -40,7 +40,7 @@ def read_data_unsupported(country, file, path):
 
     path = os.path.join(path, country.replace(" ", "") + ".csv")
     data_local = pd.read_csv(path, index_col = index_col)
-    if data_local.index.iloc[-1] != data.index.iloc[-1]:
+    if data_local.index[-1] != data.index[-1]:
         data = data_local.append(data.iloc[-1])
 
     return data
