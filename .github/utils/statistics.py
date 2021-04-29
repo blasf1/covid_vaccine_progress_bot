@@ -63,7 +63,7 @@ def store_last_data(path, country, data):
     index_col = "date"
     data_in_file = pd.read_csv(path, index_col=index_col)
     # Store only if updates available
-    if data_in_file.index.iloc[-1] != data_to_store.index.iloc[-1]:
+    if data_in_file.index[-1] != data_to_store.index[-1]:
         data_to_store = data_in_file.append(data_to_store)
         index = True
         data_to_store.to_csv(path, index=index)
