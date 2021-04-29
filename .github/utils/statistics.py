@@ -34,12 +34,14 @@ def read_data_unsupported(country, file, path):
     """Read the vaccination data for a non automated country."""
     index_col = "date"
     #Join previous stored data to the last update
-    data = pd.read_csv(file, index_col=index_col)    
+    data = pd.read_csv(file, index_col = index_col)    
     data = data[data.location == country]
     data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
 
     path = os.path.join(path, country.replace(" ", "") + ".csv")
     data_local = pd.read_csv(path, index_col = index_col)
+    print("Index Local" + str(data_local.index[-1]))
+    print("Index new" + str(data.index[-1]))
     if data_local.index[-1] != data.index[-1]:
         data = data_local.append(data.iloc[-1])
 
@@ -63,6 +65,8 @@ def store_last_data(path, country, data):
     index_col = "date"
     data_in_file = pd.read_csv(path, index_col=index_col)
     # Store only if updates available
+    print("Index Local" + str(data_in_file.index[-1]))
+    print("Index new" + str(data_to_store.index[-1]))
     if data_in_file.index[-1] != data_to_store.index[-1]:
         data_to_store = data_in_file.append(data_to_store)
         index = True
