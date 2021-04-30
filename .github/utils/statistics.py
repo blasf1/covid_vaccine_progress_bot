@@ -36,7 +36,7 @@ def read_data_unsupported(country, file, path):
     #Join previous stored data to the last update
     data = pd.read_csv(file, index_col = index_col)    
     data = data[data.location == country]
-    data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
+    data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "location"]]
 
     path = os.path.join(path, country.replace(" ", "") + ".csv")
     data_local = pd.read_csv(path, index_col = index_col)

@@ -8,6 +8,7 @@
 import argparse
 import os
 import sys
+import glob
 
 # Third party
 import tweepy
@@ -57,30 +58,24 @@ FLAGS = {
     "Sweden": ":SE:"
 }
 
-COLUMNS = ["date", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "country"]
 # =============================================================================
 # Functions
 # =============================================================================
 
-def read_data(path):
+def read_data(path, population_path):
     """Read the last vaccination data for all countries."""
-    index_col = "date"
-    data = pd.DataFrame(columns = COLUMNS)
-    for country in FLAGS.keys():
-        path_file = os.path.join(path, country.replace(" ", "") + ".csv")
-        data_country = pd.read_csv(path_file)
-        data_country = data_country.iloc[-1]#.insert(1, "country", [country] * len(data_country), False)
-        data_country["country"] = country
-        data = data.append(data_country)
+    files = glob.glob(path + "*.csv")
+    read_csv = lambda file: (pd.read_csv(file)).iloc[[-1]]
+
+    data = pd.concat(map(read_csv, files))
 
     return data
 
 def plot_data(data, parameter):
     """Plot data in parameter for all countries in dataframe"""
-
-    x = "country"
+    data = data.sort_values(by=parameter, ascending=False)
+    x = "location"
     kind = "bar"
-    
     data.plot(x = x, y = parameter, kind = kind)
     plt.show()
 
@@ -97,8 +92,8 @@ parser.add_argument(arg)
 # arg = "--output"
 # parser.add_argument(arg)
 
-# arg = "--population"
-# parser.add_argument(arg)
+arg = "--population"
+parser.add_argument(arg)
 
 # arg = "--api"
 # default = os.environ.get("BOT_API")
@@ -123,14 +118,17 @@ args = parser.parse_args(args)
 #country = args.country
 data = args.data
 #output = args.output
-#population = args.population
+population = args.population
 #api = args.api
 #api_secret = args.api_secret
 #access = args.access
 #access_secret = args.access_secret
 
 #Read data
-data = read_data(data)
+data = read_data(data, population)
+print(data)
+
+data.apply(lambda row: get_data_hundred_people(population, row), axis=1)
 print(data)
 #Plot
 plot_data(data, "total_vaccinations")
