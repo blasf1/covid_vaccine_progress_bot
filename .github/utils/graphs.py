@@ -18,10 +18,6 @@ import pandas as pd
 import numpy as np
 import datetime
 
-# Local application
-from statistics import (get_population,
-                        get_data_hundred_people)
-
 # =============================================================================
 # Constants
 # =============================================================================
@@ -62,14 +58,35 @@ FLAGS = {
 # Functions
 # =============================================================================
 
-def read_data(path, population_path):
+def get_population(path, country):
+    """Get the population for a country."""
+    # Use the country to identify the population data
+    index_col = "entity"
+    data = pd.read_csv(path, index_col=index_col)
+
+    return data.loc[country]["population"].values[0]
+
+
+def get_data_hundred_people(data, path):
+    """Get the vaccination data per hundred people."""
+    # Filter the numerical data to avoid errors
+    population = get_population(path, data["location"])
+    numeric_columns = data.select_dtypes("number").columns.tolist()
+    print(population)
+    data[numeric_columns] = data[numeric_columns] * 100 / population #(lambda row: row*-1 if row['label'] == 0 else row, axis=1)
+    print(data)
+    return data
+
+
+def read_data(path, path_population):
     """Read the last vaccination data for all countries."""
     files = glob.glob(path + "*.csv")
-    read_csv = lambda file: (pd.read_csv(file)).iloc[[-1]]
+    read_csv = lambda file: get_data_hundred_people(pd.read_csv(file).iloc[[-1]], path_population)
 
     data = pd.concat(map(read_csv, files))
 
     return data
+
 
 def plot_data(data, parameter):
     """Plot data in parameter for all countries in dataframe"""
@@ -128,7 +145,6 @@ population = args.population
 data = read_data(data, population)
 print(data)
 
-data.apply(lambda row: get_data_hundred_people(population, row), axis=1)
-print(data)
+
 #Plot
 plot_data(data, "total_vaccinations")
