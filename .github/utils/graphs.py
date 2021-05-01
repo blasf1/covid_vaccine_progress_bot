@@ -14,6 +14,7 @@ import glob
 import tweepy
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib
 import pandas as pd
 import numpy as np
 import datetime
@@ -72,9 +73,9 @@ def get_data_hundred_people(data, path):
     # Filter the numerical data to avoid errors
     population = get_population(path, data["location"])
     numeric_columns = data.select_dtypes("number").columns.tolist()
-    print(population)
-    data[numeric_columns] = data[numeric_columns] * 100 / population #(lambda row: row*-1 if row['label'] == 0 else row, axis=1)
-    print(data)
+
+    data[numeric_columns] = data[numeric_columns] * 100 / population
+
     return data
 
 
@@ -88,12 +89,31 @@ def read_data(path, path_population):
     return data
 
 
-def plot_data(data, parameter):
+def autolabel(rects):
+    """
+    Attach a text label above each bar displaying its height
+    """
+    for rect in rects:
+        height = rect.get_height()
+        ax.text(rect.get_x() + rect.get_width()/2., 1.05*height,
+                '%d' % int(height),
+                ha='center', va='bottom')
+
+
+def plot_data(data, parameter, title):
     """Plot data in parameter for all countries in dataframe"""
-    data = data.sort_values(by=parameter, ascending=False)
+    data = data.sort_values(by=parameter, ascending=True)
     x = "location"
-    kind = "bar"
-    data.plot(x = x, y = parameter, kind = kind)
+    figsize = (12,12)
+    legend = False
+    width = 0.75
+    matplotlib.rcParams["axes.spines.right"] = False
+    matplotlib.rcParams["axes.spines.top"] = False
+    matplotlib.rcParams["axes.grid.axis"] ="x"
+    matplotlib.rcParams["axes.grid"] = True
+    matplotlib.rcParams['axes.axisbelow'] = True
+    ax = data.plot.barh(x = x, y = parameter, figsize = figsize, legend = legend, title = title, width = width)
+    #autolabel(ax)
     plt.show()
 
 # =============================================================================
@@ -147,4 +167,4 @@ print(data)
 
 
 #Plot
-plot_data(data, "total_vaccinations")
+plot_data(data, "total_vaccinations", "Doses administered per 100 people")
