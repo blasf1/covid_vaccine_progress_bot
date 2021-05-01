@@ -1,0 +1,38 @@
+# Publish the latest vaccination data for a country
+name: Tweet latest vaccination data
+
+on:
+  schedule:
+    # Hourly run the workflow to check for updates
+    - cron: "* 22 * * *"
+  # Manually run the workflow for debugging
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Publish tweet
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout covid_vaccine_progress_bot
+        uses: actions/checkout@v2
+        with:
+          path: covid_vaccine_progress_bot
+
+      - name: Install Python
+        uses: actions/setup-python@v2
+
+      - name: Install requirements
+        run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
+
+      - name: Publish tweet
+        env:
+          DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          POPULATION: ${{ github.workspace }}/covid-vaccine_progress_bot/population_2020.csv
+          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          BOT_API: ${{ secrets.BOT_API }}
+          BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
+          BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
+          BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
+        run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/graphs.py
+
