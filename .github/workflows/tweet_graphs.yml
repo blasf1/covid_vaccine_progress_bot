@@ -28,7 +28,7 @@ jobs:
       - name: Publish tweet
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
-          POPULATION: ${{ github.workspace }}/covid-vaccine_progress_bot/population_2020.csv
+          POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           BOT_API: ${{ secrets.BOT_API }}
           BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
