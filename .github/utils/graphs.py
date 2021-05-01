@@ -89,17 +89,6 @@ def read_data(path, path_population):
     return data
 
 
-def autolabel(rects):
-    """
-    Attach a text label above each bar displaying its height
-    """
-    for rect in rects:
-        height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width()/2., 1.05*height,
-                '%d' % int(height),
-                ha='center', va='bottom')
-
-
 def plot_data(data, parameter, title):
     """Plot data in parameter for all countries in dataframe"""
     data = data.sort_values(by=parameter, ascending=True)
@@ -107,13 +96,28 @@ def plot_data(data, parameter, title):
     figsize = (12,12)
     legend = False
     width = 0.75
-    matplotlib.rcParams["axes.spines.right"] = False
-    matplotlib.rcParams["axes.spines.top"] = False
-    matplotlib.rcParams["axes.grid.axis"] ="x"
-    matplotlib.rcParams["axes.grid"] = True
+
     matplotlib.rcParams['axes.axisbelow'] = True
     ax = data.plot.barh(x = x, y = parameter, figsize = figsize, legend = legend, title = title, width = width)
-    #autolabel(ax)
+
+    # Despine
+    ax.spines['right'].set_visible(False)
+    ax.spines['top'].set_visible(False)
+    ax.spines['left'].set_visible(True)
+    ax.spines['bottom'].set_visible(False)
+
+    # Switch off ticks
+    #ax.tick_params(axis="both", which="both", bottom="off", top="off", labelbottom="off", left="off", right="off", labelleft="on")
+
+    # Draw vertical axis lines
+    vals = ax.get_xticks()
+    for tick in vals:
+        ax.axvline(x=tick, linestyle='dashed', alpha=0.5, color='#293133', zorder=0)
+
+    [ax.text(v, i, '{:.2f}'.format(v)) for i, v in enumerate(data[parameter])]
+
+    #autolabel(ax.xaxis.barh)
+
     plt.show()
 
 # =============================================================================
