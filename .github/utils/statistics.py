@@ -30,13 +30,20 @@ def read_data(path, country):
     return data
 
 
-def read_data_unsupported(country, file):
+def read_data_unsupported(country, file, path):
     """Read the vaccination data for a non automated country."""
     index_col = "date"
-    data = pd.read_csv(file, index_col=index_col)
-
+    #Join previous stored data to the last update
+    data = pd.read_csv(file, index_col = index_col)    
     data = data[data.location == country]
-    data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]]
+    data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "location"]]
+
+    path = os.path.join(path, country.replace(" ", "") + ".csv")
+    data_local = pd.read_csv(path, index_col = index_col)
+
+    if data_local.index[-1] != data.index[-1]:
+        data = data_local.append(data.iloc[-1])
+
     return data
 
 
@@ -51,9 +58,18 @@ def get_last_date(path, country):
 def store_last_data(path, country, data):
     """Store the last date when the data was published."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")
+    #Store only the new line
+    data_to_store = data.iloc[[-1]]
 
-    index = True
-    data.to_csv(path, index=index)
+    #Read the file
+    index_col = "date"
+    data_in_file = pd.read_csv(path, index_col=index_col)
+
+    # Store only if updates available
+    if data_in_file.index[-1] != data_to_store.index[-1]:
+        data_to_store = data_in_file.append(data_to_store)
+        index = True
+        data_to_store.to_csv(path, index=index)
 
 
 def get_population(path, country):
@@ -146,3 +162,21 @@ def get_rolling_average_week_increment(data, parameter):
     shift_average_week = get_rolling_average_week(shift_data, parameter)
 
     return average_week - shift_average_week
+
+
+def is_record(data, parameter):
+    """Returns true if todays data is the highest for the given parameter"""
+    data_with_dates = data
+    data_with_dates["date"] = data_with_dates.index #Take indexes as column
+    data_with_dates = data_with_dates[["date", parameter]]
+    data_with_dates["date"] = pd.to_datetime(data_with_dates["date"], format='%Y-%m-%d')
+    
+    increments = data_with_dates.diff()
+    
+    #Drop rows where day increment is not 1. Daily record won't count then (it's not daily)
+    increments = increments[increments['date'] == datetime.timedelta(days = 1)]
+
+    today = increments[parameter].iloc[-1]
+    maximum = increments[parameter].max()
+
+    return today == maximum
