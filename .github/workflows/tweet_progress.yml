@@ -19,6 +19,7 @@ jobs:
       matrix:
         # Set of countries that can be updated
         country:
+          - Austria
           - Belgium
           - Bulgaria
           - Czechia
@@ -95,7 +96,6 @@ jobs:
         # Set of countries that can be updated
         country:
           - EuropeanUnion
-          - Austria
           - Croatia
           - Cyprus
           - Slovenia
