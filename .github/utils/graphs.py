@@ -238,20 +238,33 @@ data = read_data(data, population)
 
 # Plot
 title1 = "Doses administered per 100 people"
-plot_data(data, "", "total_vaccinations", title1, output, flags)
+plot_data(data, "", "total_vaccinations", title1, output)
 
-# title2 = "% population fully vaccinated"
-# plot_data(data, "%", "people_fully_vaccinated", title2, output)
+title2 = "% population fully vaccinated"
+plot_data(data, "%", "people_fully_vaccinated", title2, output)
 
-# title3 = "% population vaccinated with at least one dose"
-# plot_data(data, "%", "people_vaccinated", title3, output)
+title3 = "% population vaccinated with at least one dose"
+plot_data(data, "%", "people_vaccinated", title3, output)
 
 tweet = (emoji.emojize(":calendar::bar_chart:")
-         + " It's time for a daily sum up! "
-         + emoji.emojize(":syringe:"))
-
-print(tweet)
-
+         + "It's time for a daily summary!"
+         + emoji.emojize(":syringe:")
+         + "\n\n"
+         + title1)
 image_path = os.path.join(output + title1.replace(" ", "_") + ".png")
+tweet_id = api.update_with_media(
+    filename=image_path, status=tweet, in_reply_to_status_id=tweet_id)
 
-tweet_id = api.update_with_media(image_path, tweet)
+tweet = (emoji.emojize(":date::bar_chart:")
+         + title2
+         + emoji.emojize(":syringe:"))
+image_path = os.path.join(output + title2.replace(" ", "_") + ".png")
+tweet_id = api.update_with_media(
+    filename=image_path, status=tweet, in_reply_to_status_id=tweet_id)
+
+tweet = (emoji.emojize(":date::bar_chart:")
+         + title3
+         + emoji.emojize(":syringe:"))
+image_path = os.path.join(output + title3.replace(" ", "_") + ".png")
+tweet_id = api.update_with_media(
+    filename=image_path, status=tweet, in_reply_to_status_id=tweet_id)
