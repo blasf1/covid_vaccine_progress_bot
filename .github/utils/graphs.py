@@ -149,13 +149,13 @@ def plot_data(data, unit, parameter, title, output, flags):
 
     # Show number at the end of the bar
     [ax.text(v + 0.4, i - (width / 4), "{:.2f}".format(v) +
-             unit, fontsize=16) for i, v in enumerate(data[parameter])]
+             unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
 
     # configure y axis labels (add flags)
     ax.tick_params(axis="y", which="both", left=False,
                    right=False, pad=10, size=20)
     ax.tick_params(axis="x", which="both", bottom=False, top=False)
-    for i, c in enumerate(data["location"]):
+    for i, c in enumerate(data_to_plot["location"]):
         offset_image(i, c, ax, flags)
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
@@ -223,15 +223,15 @@ access_secret = args.access_secret
 # =============================================================================
 
 # Authenticate in Twitter using the secret variables
-auth = tweepy.OAuthHandler(api, api_secret)
-auth.set_access_token(access, access_secret)
+# auth = tweepy.OAuthHandler(api, api_secret)
+# auth.set_access_token(access, access_secret)
 
-# Get the API to use Twitter
-api = tweepy.API(auth)
+# # Get the API to use Twitter
+# api = tweepy.API(auth)
 
-# Do not expose any user information to avoid malicious attacks
-include_email = False
-user = api.verify_credentials(include_email=include_email)
+# # Do not expose any user information to avoid malicious attacks
+# include_email = False
+# user = api.verify_credentials(include_email=include_email)
 
 # Read data
 data = read_data(data, population)
@@ -240,30 +240,30 @@ data = read_data(data, population)
 title1 = "Doses administered per 100 people"
 plot_data(data, "", "total_vaccinations", title1, output, flags)
 
-title2 = "% population fully vaccinated"
-plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
+# title2 = "% population fully vaccinated"
+# plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 
-title3 = "% population vaccinated with at least one dose"
-plot_data(data, "%", "people_vaccinated", title3, output, flags)
+# title3 = "% population vaccinated with at least one dose"
+# plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
-tweet = (emoji.emojize(":calendar::bar_chart:")
-         + "It's time for a daily summary!"
-         + emoji.emojize(":syringe:")
-         + "\n\n"
-         + title1)
-image_path = os.path.join(output + title1.replace(" ", "_") + ".png")
-status = api.update_with_media(filename=image_path, status=tweet)
+# tweet = (emoji.emojize(":calendar::bar_chart:")
+#          + "It's time for a daily summary!"
+#          + emoji.emojize(":syringe:")
+#          + "\n\n"
+#          + title1)
+# image_path = os.path.join(output + title1.replace(" ", "_") + ".png")
+# status = api.update_with_media(filename=image_path, status=tweet)
 
-tweet = (emoji.emojize(":date::bar_chart:")
-         + title2
-         + emoji.emojize(":syringe:"))
-image_path = os.path.join(output + title2.replace(" ", "_") + ".png")
-status = api.update_with_media(
-    filename=image_path, status=tweet, in_reply_to_status_id=status.id)
+# tweet = (emoji.emojize(":calendar::bar_chart:")
+#          + title2
+#          + emoji.emojize(":syringe:"))
+# image_path = os.path.join(output + title2.replace(" ", "_") + ".png")
+# status = api.update_with_media(
+#     filename=image_path, status=tweet, in_reply_to_status_id=status.id)
 
-tweet = (emoji.emojize(":date::bar_chart:")
-         + title3
-         + emoji.emojize(":syringe:"))
-image_path = os.path.join(output + title3.replace(" ", "_") + ".png")
-status = api.update_with_media(
-    filename=image_path, status=tweet, in_reply_to_status_id=status.id)
+# tweet = (emoji.emojize(":calendar::bar_chart:")
+#          + title3
+#          + emoji.emojize(":syringe:"))
+# image_path = os.path.join(output + title3.replace(" ", "_") + ".png")
+# status = api.update_with_media(
+#     filename=image_path, status=tweet, in_reply_to_status_id=status.id)
