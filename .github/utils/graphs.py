@@ -244,4 +244,4 @@ print(tweet)
 
 image_path = os.path.join(output + title1.replace(" ", "_") + ".png")
 
-tweet_id = api.update_with_media(image_path, status)
+tweet_id = api.update_with_media(image_path, tweet)
