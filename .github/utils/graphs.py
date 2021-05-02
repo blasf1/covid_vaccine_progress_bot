@@ -111,19 +111,21 @@ def offset_image(coord, name, ax, flags):
 
 def plot_data(data, unit, parameter, title, output, flags):
     """Plot data in parameter for all countries in dataframe"""
-    data = data.sort_values(by=parameter, ascending=True)
     x = "location"
-    figsize = (14,12)
+    figsize = (14, 12)
     legend = False
     width = 0.75
 
-    # Font 
+    # Font
     plt.rcParams['font.sans-serif'] = "Arial"
     plt.rcParams['font.family'] = "sans-serif"
 
-    data_to_plot = data[["location", parameter]].dropna()
-    ax = data_to_plot.plot.barh(x = x, y = parameter, figsize = figsize, legend = legend, width = width, xlabel="", fontsize = 16, color = "#3C4E66")
-    
+    data_to_plot = data[["location", parameter]].sort_values(by=parameter, ascending=True).dropna()
+
+    ax = data_to_plot.plot.barh(x=x, y=parameter, figsize=figsize,
+                                legend=legend, width=width, xlabel="", 
+                                fontsize=16, color="#3C4E66")
+
     # Despine
     ax.spines['right'].set_visible(False)
     ax.spines['top'].set_visible(False)
