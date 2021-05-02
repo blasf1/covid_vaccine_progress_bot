@@ -110,7 +110,7 @@ def offset_image(coord, name, ax, flags):
 
     ax.add_artist(ab)
 
-def configure_graph(ax, title, flags):
+def configure_graph(ax):
     # Despine
     ax.spines['right'].set_visible(False)
     ax.spines['top'].set_visible(False)
@@ -161,7 +161,7 @@ def plot_data(data, unit, parameter, title, output, flags):
                                 legend=legend, width=width, xlabel="", 
                                 fontsize=16, color="#3C4E66")
 
-    ax = configure_graph(ax, title, flags)
+    ax = configure_graph(ax)
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
     plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data")
