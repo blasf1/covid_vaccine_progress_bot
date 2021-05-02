@@ -94,7 +94,7 @@ last_date = get_last_date(output, country)
 if country == "EuropeanUnion":
         country = "European Union"
 
-unsupported_countries = ["Austria", "Croatia", "Cyprus", "European Union"]
+unsupported_countries = ["Austria", "Croatia", "Cyprus", "European Union", "Slovenia"]
 
 if country not in unsupported_countries:
     # Get the vaccination data for the country
