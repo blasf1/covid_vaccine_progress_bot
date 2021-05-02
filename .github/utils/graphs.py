@@ -230,9 +230,11 @@ plot_data(data, "", "total_vaccinations", title1, output)
 # title3 = "% population vaccinated with at least one dose"
 # plot_data(data, "%", "people_vaccinated", title3, output)
 
-tweet = (emoji.emojize(":date::bar_chart:") 
-        + "It's time for a daily sum up"
+tweet = (emoji.emojize(":calendar::bar_chart:") 
+        + " It's time for a daily sum up! "
         +emoji.emojize(":syringe:"))
+
+print(tweet)
 
 image_path = os.path.join(output + title1.replace(" ", "_") + ".png")
 
