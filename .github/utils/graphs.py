@@ -90,17 +90,18 @@ def read_data(path, path_population):
     return data
 
 
-def get_flag(code):
+def get_flag(code, flags):
     """Gets flag icon"""
-    img = plt.imread(f'../../flags/{code}.png')
+    path = os.path.join(flags + code + ".png")
+    img = plt.imread(path)
     img = OffsetImage(img, zoom=0.2)
 
     return img
 
 
-def offset_image(coord, name, ax):
+def offset_image(coord, name, ax, flags):
     """Determines flags locations"""
-    img = get_flag(FLAGS[name])
+    img = get_flag(FLAGS[name], flags)
     img.image.axes = ax
     ab = AnnotationBbox(img, (0, coord),  xybox=(-15, 0), frameon=False,
                         xycoords='data',  boxcoords="offset points", pad=-1)
@@ -108,7 +109,7 @@ def offset_image(coord, name, ax):
     ax.add_artist(ab)
 
 
-def plot_data(data, unit, parameter, title, output):
+def plot_data(data, unit, parameter, title, output, flags):
     """Plot data in parameter for all countries in dataframe"""
     data = data.sort_values(by=parameter, ascending=True)
     x = "location"
@@ -146,7 +147,7 @@ def plot_data(data, unit, parameter, title, output):
     ax.tick_params(axis = "y", which = "both", left = False, right = False, pad = 10, size = 20)
     ax.tick_params(axis = "x", which = "both", bottom = False, top = False)
     for i, c in enumerate(data["location"]):
-        offset_image(i, c, ax)
+        offset_image(i, c, ax, flags)
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
     plt.figtext(0.01,0.01,"@VaccinationEu\nSource: Our World in Data")
@@ -173,6 +174,10 @@ arg = "--population"
 default = os.environ.get("POPULATION")
 parser.add_argument(arg, default=default)
 
+arg = "--flags"
+default = os.environ.get("FLAGS")
+parser.add_argument(arg, default=default)
+
 arg = "--api"
 default = os.environ.get("BOT_API")
 parser.add_argument(arg, default=default)
@@ -196,6 +201,7 @@ args = parser.parse_args(args)
 data = args.data
 output = args.output
 population = args.population
+population = args.flags
 api = args.api
 api_secret = args.api_secret
 access = args.access
@@ -222,7 +228,7 @@ data = read_data(data, population)
 
 #Plot
 title1 = "Doses administered per 100 people"
-plot_data(data, "", "total_vaccinations", title1, output)
+plot_data(data, "", "total_vaccinations", title1, output, flags)
 
 # title2 = "% population fully vaccinated"
 # plot_data(data, "%", "people_fully_vaccinated", title2, output)
