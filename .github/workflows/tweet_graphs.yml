@@ -4,7 +4,7 @@ name: Tweet daily sum up
 on:
   schedule:
     # Hourly run the workflow to check for updates
-    - cron: "* 21 * * *"
+    - cron: "* 22 * * *"
   # Manually run the workflow for debugging
   workflow_dispatch:
 
