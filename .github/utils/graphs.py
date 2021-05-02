@@ -139,7 +139,7 @@ def plot_data(data, unit, parameter, title, output, flags):
 
     # Title
     ax.set_title(title + ", " + datetime.datetime.now().strftime("%d-%m-%Y"),
-                 fontsize=28, loc="left", fontname="Arial", fontweight="bold", pad=10)
+                 fontsize=24, loc="left", fontname="Arial", fontweight="bold", pad=10)
 
     # Draw vertical axis lines
     vals = ax.get_xticks()
