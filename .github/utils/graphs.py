@@ -252,19 +252,18 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
          + "\n\n"
          + title1)
 image_path = os.path.join(output + title1.replace(" ", "_") + ".png")
-tweet_id = api.update_with_media(
-    filename=image_path, status=tweet, in_reply_to_status_id=tweet_id)
+status = api.update_with_media(filename=image_path, status=tweet)
 
 tweet = (emoji.emojize(":date::bar_chart:")
          + title2
          + emoji.emojize(":syringe:"))
 image_path = os.path.join(output + title2.replace(" ", "_") + ".png")
-tweet_id = api.update_with_media(
-    filename=image_path, status=tweet, in_reply_to_status_id=tweet_id)
+status = api.update_with_media(
+    filename=image_path, status=tweet, in_reply_to_status_id=status.id)
 
 tweet = (emoji.emojize(":date::bar_chart:")
          + title3
          + emoji.emojize(":syringe:"))
 image_path = os.path.join(output + title3.replace(" ", "_") + ".png")
-tweet_id = api.update_with_media(
-    filename=image_path, status=tweet, in_reply_to_status_id=tweet_id)
+status = api.update_with_media(
+    filename=image_path, status=tweet, in_reply_to_status_id=status.id)
