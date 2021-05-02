@@ -238,13 +238,13 @@ data = read_data(data, population)
 
 # Plot
 title1 = "Doses administered per 100 people"
-plot_data(data, "", "total_vaccinations", title1, output)
+plot_data(data, "", "total_vaccinations", title1, output, flags)
 
 title2 = "% population fully vaccinated"
-plot_data(data, "%", "people_fully_vaccinated", title2, output)
+plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 
 title3 = "% population vaccinated with at least one dose"
-plot_data(data, "%", "people_vaccinated", title3, output)
+plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
 tweet = (emoji.emojize(":calendar::bar_chart:")
          + "It's time for a daily summary!"
