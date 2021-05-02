@@ -66,9 +66,6 @@ jobs:
           GREECE_SECRET: ${{ secrets.GREECE_TOKEN}}
         run: echo -e "{\"greece_api_token\":\"$GREECE_SECRET\"}" > ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/vax_dataset_config.json
 
-      - name: Switch scripts from owid by own 
-        run: cp ${{ github.workspace }}/covid_vaccine_progress_bot/scripts/incremental/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
-
       - name: Publish tweet
         env:
           COUNTRY: ${{ matrix.country }}
