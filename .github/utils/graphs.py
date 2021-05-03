@@ -247,23 +247,17 @@ title3 = "% population vaccinated with at least one dose"
 plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
 tweet = (emoji.emojize(":calendar::bar_chart:")
-         + "It's time for a daily summary!"
-         + emoji.emojize(":syringe:")
-         + "\n\n"
-         + title1)
-image_path = os.path.join(output + title1.replace(" ", "_") + ".png")
-status = api.update_with_media(filename=image_path, status=tweet)
-
-tweet = (emoji.emojize(":calendar::bar_chart:")
-         + title2
+         + "Daily summary!"
          + emoji.emojize(":syringe:"))
-image_path = os.path.join(output + title2.replace(" ", "_") + ".png")
-status = api.update_with_media(
-    filename=image_path, status=tweet, in_reply_to_status_id=status.id)
 
-tweet = (emoji.emojize(":calendar::bar_chart:")
-         + title3
-         + emoji.emojize(":syringe:"))
-image_path = os.path.join(output + title3.replace(" ", "_") + ".png")
-status = api.update_with_media(
-    filename=image_path, status=tweet, in_reply_to_status_id=status.id)
+images = [os.path.join(output + title1.replace(" ", "_") + ".png"), 
+          os.path.join(output + title2.replace(" ", "_") + ".png"),
+          os.path.join(output + title3.replace(" ", "_") + ".png")]
+media_ids = []
+
+for image in images:
+    res = api.media_upload(image)
+    media_ids.append(res.media_id)
+
+api.update_with_media(status=tweet, media_ids=media_ids)
+
