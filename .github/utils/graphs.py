@@ -259,5 +259,5 @@ for image in images:
     res = api.media_upload(image)
     media_ids.append(res.media_id)
 
-api.update_with_media(status=tweet, media_ids=media_ids)
+api.update_status(status=tweet, media_ids=media_ids)
 
