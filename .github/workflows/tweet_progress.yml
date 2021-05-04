@@ -40,6 +40,7 @@ jobs:
           - Portugal
           - Romania
           - Slovakia
+          - Slovenia
           - Spain
           - Sweden
 
@@ -98,7 +99,6 @@ jobs:
           - Austria
           - Croatia
           - Cyprus
-          - Slovenia
     steps:
       - name: Checkout covid-19-data
         uses: actions/checkout@v2
