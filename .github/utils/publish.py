@@ -98,12 +98,12 @@ unsupported_countries = ["Austria", "Croatia", "Cyprus", "European Union", "Slov
 
 if country not in unsupported_countries:
     # Get the vaccination data for the country
-    data = read_data(data, country)
+    data = read_data(data, country, output)
 else:
     # Get the vaccination data for the country when not supported by owid
-    data = read_data_unsupported(country, data, output)
-    store_last_data(output, country, data) 
-
+    data = read_data_unsupported(data, country, output)
+    
+store_last_data(output, country, data) 
 date = data.index[-1]
 vaccinations = data["total_vaccinations"].iloc[-1]
 previous_vaccinations = data["total_vaccinations"].iloc[-2]

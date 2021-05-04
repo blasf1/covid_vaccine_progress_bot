@@ -19,18 +19,23 @@ import pandas as pd
 # Functions
 # =============================================================================
 
-def read_data(path, country):
+def read_data(path, country, local_path):
     """Read the vaccination data for a country."""
     # Use the date to identify the vaccination data
-    path = os.path.join(path, country + ".csv")
+    path = os.path.join(path, country.replace(" ", "") + ".csv")
+    local_path = os.path.join(local_path, country.replace(" ", "") + ".csv")
 
     index_col = "date"
-    data = pd.read_csv(path, index_col=index_col)
+    data = pd.read_csv(path, index_col = index_col)  
+    data_local = pd.read_csv(local_path, index_col = index_col)
+    
+    if data_local.index[-1] != data.index[-1]:
+        data = data_local.append(data.iloc[-1])
 
     return data
 
 
-def read_data_unsupported(country, file, path):
+def read_data_unsupported(file, country, path):
     """Read the vaccination data for a non automated country."""
     index_col = "date"
     #Join previous stored data to the last update
