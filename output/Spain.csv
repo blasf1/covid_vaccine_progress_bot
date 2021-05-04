@@ -1,85 +1,86 @@
-location,date,vaccine,total_vaccinations,source_url,people_vaccinated,people_fully_vaccinated
-Spain,2021-01-04,Pfizer/BioNTech,82834,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,82834,
-Spain,2021-01-05,Pfizer/BioNTech,139339,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,139339,
-Spain,2021-01-07,Pfizer/BioNTech,207323,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,207323,
-Spain,2021-01-08,Pfizer/BioNTech,277976,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,277976,
-Spain,2021-01-11,Pfizer/BioNTech,406091,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,406091,
-Spain,2021-01-12,Pfizer/BioNTech,488122,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,488122,
-Spain,2021-01-13,Pfizer/BioNTech,581638,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,581638,
-Spain,2021-01-14,Pfizer/BioNTech,676186,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,676186,
-Spain,2021-01-15,"Moderna, Pfizer/BioNTech",768950,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,768950,
-Spain,2021-01-18,"Moderna, Pfizer/BioNTech",897942,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210118.ods,895627,2315
-Spain,2021-01-19,"Moderna, Pfizer/BioNTech",966097,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210119.ods,956756,9341
-Spain,2021-01-20,"Moderna, Pfizer/BioNTech",1025937,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210120.ods,1010295,15642
-Spain,2021-01-21,"Moderna, Pfizer/BioNTech",1103301,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210121.ods,1054245,49056
-Spain,2021-01-22,"Moderna, Pfizer/BioNTech",1165825,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210122.ods,1097369,68456
-Spain,2021-01-24,"Moderna, Pfizer/BioNTech",1237593,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210125.ods,1148895,88698
-Spain,2021-01-25,"Moderna, Pfizer/BioNTech",1291216,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210126.ods,1167519,123697
-Spain,2021-01-26,"Moderna, Pfizer/BioNTech",1356461,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210127.ods,1183395,173066
-Spain,2021-01-27,"Moderna, Pfizer/BioNTech",1395618,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210128.ods,1202859,192759
-Spain,2021-01-28,"Moderna, Pfizer/BioNTech",1474189,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210129.ods,1222323,251866
-Spain,2021-01-31,"Moderna, Pfizer/BioNTech",1609261,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210201.ods,1251369,357892
-Spain,2021-02-01,"Moderna, Pfizer/BioNTech",1673054,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210202.ods,1254535,418519
-Spain,2021-02-02,"Moderna, Pfizer/BioNTech",1764778,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210203.ods,1265800,498978
-Spain,2021-02-03,"Moderna, Pfizer/BioNTech",1865342,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210204.ods,1279220,586122
-Spain,2021-02-04,"Moderna, Pfizer/BioNTech",1988160,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210205.ods,1305251,682909
-Spain,2021-02-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2105033,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210208.ods,1318626,786407
-Spain,2021-02-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2167241,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210209.ods,1328459,838782
-Spain,2021-02-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2233249,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210210.ods,1343566,889683
-Spain,2021-02-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2320507,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210211.ods,1377229,943278
-Spain,2021-02-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2423045,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210212.ods,1422560,1000485
-Spain,2021-02-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2561608,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210215.ods,1491517,1070091
-Spain,2021-02-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2624512,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210216.ods,1527590,1096922
-Spain,2021-02-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2690457,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210217.ods,1571277,1119180
-Spain,2021-02-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2782751,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210218.ods,1638195,1144556
-Spain,2021-02-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2936011,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210219.ods,1764985,1171026
-Spain,2021-02-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3090351,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210222.ods,1893290,1197061
-Spain,2021-02-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3165191,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210223.ods,1956886,1208305
-Spain,2021-02-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3284678,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210224.ods,2063495,1221183
-Spain,2021-02-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3436158,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210225.ods,2204376,1231782
-Spain,2021-02-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3605635,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210226.ods,2361852,1243783
-Spain,2021-02-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3829465,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210301.ods,2567617,1261848
-Spain,2021-03-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3908734,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210302.ods,2642034,1266700
-Spain,2021-03-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4059320,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210303.ods,2772318,1287002
-Spain,2021-03-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4229092,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210304.ods,2920179,1308913
-Spain,2021-03-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4471577,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210305.ods,3129092,1342485
-Spain,2021-03-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4712191,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210308.ods,3328703,1383488
-Spain,2021-03-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4848648,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210309.ods,3436412,1412236
-Spain,2021-03-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4989505,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210310.ods,3541667,1447838
-Spain,2021-03-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5172106,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210311.ods,3668848,1503258
-Spain,2021-03-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5352767,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_GIV_comunicacion_20210312.ods,3769523,1583244
-Spain,2021-03-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5644895,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,3951221,1693674
-Spain,2021-03-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5742218,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4013681,1728537
-Spain,2021-03-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5857085,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4052470,1804615
-Spain,2021-03-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5993363,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4106550,1886813
-Spain,2021-03-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6321908,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4211040,2110868
-Spain,2021-03-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6409196,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4252598,2156598
-Spain,2021-03-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6620093,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4343860,2276233
-Spain,2021-03-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6839736,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4447534,2392202
-Spain,2021-03-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",7067371,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4561529,2505842
-Spain,2021-03-29,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",7571439,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4967230,2604209
-Spain,2021-03-30,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",7736611,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5092535,2644076
-Spain,2021-03-31,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8035160,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5314076,2721084
-Spain,2021-04-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8342155,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5545140,2797015
-Spain,2021-04-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8548598,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5707450,2841148
-Spain,2021-04-05,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8743694,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5890888,2852806
-Spain,2021-04-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",9021001,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,6118710,2902291
-Spain,2021-04-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",9357847,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,6416016,2941831
-Spain,2021-04-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",9811529,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,6791079,3020450
-Spain,2021-04-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",10231825,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,7159716,3072109
-Spain,2021-04-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",10784997,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,7676560,3108437
-Spain,2021-04-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",11073657,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,7937566,3136091
-Spain,2021-04-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",11436073,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,8250887,3185186
-Spain,2021-04-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",11885085,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,8631548,3253537
-Spain,2021-04-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",12330755,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9002054,3328701
-Spain,2021-04-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",12853599,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9441685,3411914
-Spain,2021-04-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",13041032,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9588913,3452119
-Spain,2021-04-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",13497809,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9886203,3611606
-Spain,2021-04-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",13909964,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,10141949,3768015
-Spain,2021-04-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",14266251,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,10405863,3862789
-Spain,2021-04-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",14715931,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210426.ods,10796466,3947465
-Spain,2021-04-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",14994667,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210427.ods,11013911,4020945
-Spain,2021-04-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",15377862,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210428.ods,11261171,4166758
-Spain,2021-04-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",15859772,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210429.ods,11520146,4413784
-Spain,2021-04-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",16364595,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210430.ods,11763360,4689766
-Spain,2021-05-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",17130598,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210503.ods,12162359,5098903
+date,location,vaccine,total_vaccinations,source_url,people_vaccinated,people_fully_vaccinated
+2021-01-04,Spain,Pfizer/BioNTech,82834,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,82834,
+2021-01-05,Spain,Pfizer/BioNTech,139339,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,139339,
+2021-01-07,Spain,Pfizer/BioNTech,207323,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,207323,
+2021-01-08,Spain,Pfizer/BioNTech,277976,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,277976,
+2021-01-11,Spain,Pfizer/BioNTech,406091,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,406091,
+2021-01-12,Spain,Pfizer/BioNTech,488122,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,488122,
+2021-01-13,Spain,Pfizer/BioNTech,581638,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,581638,
+2021-01-14,Spain,Pfizer/BioNTech,676186,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,676186,
+2021-01-15,Spain,"Moderna, Pfizer/BioNTech",768950,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,768950,
+2021-01-18,Spain,"Moderna, Pfizer/BioNTech",897942,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210118.ods,895627,2315.0
+2021-01-19,Spain,"Moderna, Pfizer/BioNTech",966097,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210119.ods,956756,9341.0
+2021-01-20,Spain,"Moderna, Pfizer/BioNTech",1025937,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210120.ods,1010295,15642.0
+2021-01-21,Spain,"Moderna, Pfizer/BioNTech",1103301,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210121.ods,1054245,49056.0
+2021-01-22,Spain,"Moderna, Pfizer/BioNTech",1165825,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210122.ods,1097369,68456.0
+2021-01-24,Spain,"Moderna, Pfizer/BioNTech",1237593,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210125.ods,1148895,88698.0
+2021-01-25,Spain,"Moderna, Pfizer/BioNTech",1291216,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210126.ods,1167519,123697.0
+2021-01-26,Spain,"Moderna, Pfizer/BioNTech",1356461,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210127.ods,1183395,173066.0
+2021-01-27,Spain,"Moderna, Pfizer/BioNTech",1395618,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210128.ods,1202859,192759.0
+2021-01-28,Spain,"Moderna, Pfizer/BioNTech",1474189,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210129.ods,1222323,251866.0
+2021-01-31,Spain,"Moderna, Pfizer/BioNTech",1609261,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210201.ods,1251369,357892.0
+2021-02-01,Spain,"Moderna, Pfizer/BioNTech",1673054,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210202.ods,1254535,418519.0
+2021-02-02,Spain,"Moderna, Pfizer/BioNTech",1764778,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210203.ods,1265800,498978.0
+2021-02-03,Spain,"Moderna, Pfizer/BioNTech",1865342,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210204.ods,1279220,586122.0
+2021-02-04,Spain,"Moderna, Pfizer/BioNTech",1988160,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210205.ods,1305251,682909.0
+2021-02-07,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2105033,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210208.ods,1318626,786407.0
+2021-02-08,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2167241,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210209.ods,1328459,838782.0
+2021-02-09,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2233249,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210210.ods,1343566,889683.0
+2021-02-10,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2320507,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210211.ods,1377229,943278.0
+2021-02-11,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2423045,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210212.ods,1422560,1000485.0
+2021-02-14,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2561608,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210215.ods,1491517,1070091.0
+2021-02-15,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2624512,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210216.ods,1527590,1096922.0
+2021-02-16,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2690457,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210217.ods,1571277,1119180.0
+2021-02-17,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2782751,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210218.ods,1638195,1144556.0
+2021-02-18,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2936011,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210219.ods,1764985,1171026.0
+2021-02-21,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3090351,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210222.ods,1893290,1197061.0
+2021-02-22,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3165191,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210223.ods,1956886,1208305.0
+2021-02-23,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3284678,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210224.ods,2063495,1221183.0
+2021-02-24,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3436158,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210225.ods,2204376,1231782.0
+2021-02-25,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3605635,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210226.ods,2361852,1243783.0
+2021-02-28,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3829465,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210301.ods,2567617,1261848.0
+2021-03-01,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",3908734,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210302.ods,2642034,1266700.0
+2021-03-02,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4059320,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210303.ods,2772318,1287002.0
+2021-03-03,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4229092,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210304.ods,2920179,1308913.0
+2021-03-04,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4471577,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210305.ods,3129092,1342485.0
+2021-03-07,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4712191,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210308.ods,3328703,1383488.0
+2021-03-08,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4848648,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210309.ods,3436412,1412236.0
+2021-03-09,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",4989505,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210310.ods,3541667,1447838.0
+2021-03-10,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5172106,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210311.ods,3668848,1503258.0
+2021-03-11,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5352767,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_GIV_comunicacion_20210312.ods,3769523,1583244.0
+2021-03-15,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5644895,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,3951221,1693674.0
+2021-03-16,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5742218,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4013681,1728537.0
+2021-03-17,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5857085,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4052470,1804615.0
+2021-03-18,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",5993363,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4106550,1886813.0
+2021-03-22,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6321908,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4211040,2110868.0
+2021-03-23,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6409196,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4252598,2156598.0
+2021-03-24,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6620093,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4343860,2276233.0
+2021-03-25,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",6839736,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4447534,2392202.0
+2021-03-26,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",7067371,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4561529,2505842.0
+2021-03-29,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",7571439,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,4967230,2604209.0
+2021-03-30,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",7736611,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5092535,2644076.0
+2021-03-31,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8035160,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5314076,2721084.0
+2021-04-01,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8342155,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5545140,2797015.0
+2021-04-03,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8548598,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5707450,2841148.0
+2021-04-05,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",8743694,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,5890888,2852806.0
+2021-04-06,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",9021001,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,6118710,2902291.0
+2021-04-07,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",9357847,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,6416016,2941831.0
+2021-04-08,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",9811529,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,6791079,3020450.0
+2021-04-09,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",10231825,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,7159716,3072109.0
+2021-04-12,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",10784997,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,7676560,3108437.0
+2021-04-13,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",11073657,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,7937566,3136091.0
+2021-04-14,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",11436073,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,8250887,3185186.0
+2021-04-15,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",11885085,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,8631548,3253537.0
+2021-04-16,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",12330755,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9002054,3328701.0
+2021-04-19,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",12853599,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9441685,3411914.0
+2021-04-20,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",13041032,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9588913,3452119.0
+2021-04-21,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",13497809,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,9886203,3611606.0
+2021-04-22,Spain,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",13909964,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,10141949,3768015.0
+2021-04-23,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",14266251,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/vacunaCovid19.htm,10405863,3862789.0
+2021-04-25,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",14715931,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210426.ods,10796466,3947465.0
+2021-04-26,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",14994667,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210427.ods,11013911,4020945.0
+2021-04-27,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",15377862,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210428.ods,11261171,4166758.0
+2021-04-28,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",15859772,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210429.ods,11520146,4413784.0
+2021-04-29,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",16364595,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210430.ods,11763360,4689766.0
+2021-05-02,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",17130598,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210503.ods,12162359,5098903.0
+2021-05-03,Spain,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",17430810,https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/Informe_Comunicacion_20210504.ods,12381213,5202297.0
