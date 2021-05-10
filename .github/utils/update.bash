@@ -9,4 +9,6 @@ cd $SCRIPTS
 
 pip install .
 
+cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static /opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/vax/_static
+
 python $(ls -d src/vax/*/$SOURCE.py)
