@@ -62,9 +62,6 @@ jobs:
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
-      - name: Copy necessary files
-        run: cp -r ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/_static/queries ${{ github.workspace }}/../../../../opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/vax/_static/queries
-
       - name: Create JSON
         env:
           GREECE_SECRET: ${{ secrets.GREECE_TOKEN}}
