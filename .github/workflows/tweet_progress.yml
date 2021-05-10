@@ -34,7 +34,7 @@ jobs:
           - Latvia
           - Lithuania
           - Luxembourg
-          #- Malta
+          - Malta
           - Netherlands
           - Poland
           - Portugal
@@ -99,7 +99,6 @@ jobs:
           - Austria
           - Croatia
           - Cyprus
-          - Malta
     steps:
       - name: Checkout covid-19-data
         uses: actions/checkout@v2
