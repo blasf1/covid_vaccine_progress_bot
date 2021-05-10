@@ -80,7 +80,7 @@ jobs:
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
 
       - name: Check files
-        run: ls -la /opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/vax/
+        run: ls -la ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/
 
       - name: Store artifacts
         uses: actions/upload-artifact@v2
