@@ -62,6 +62,9 @@ jobs:
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
+      - name: Check files
+        run: ls -la /opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages
+
       - name: Create JSON
         env:
           GREECE_SECRET: ${{ secrets.GREECE_TOKEN}}
