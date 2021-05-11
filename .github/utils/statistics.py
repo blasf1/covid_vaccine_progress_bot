@@ -195,6 +195,6 @@ def get_days_reported(data):
     print(data_dates)
     data_dates["date"] = pd.to_datetime(data_dates["date"], format='%Y-%m-%d')
     
-    increments = data_dates.diff()
+    increments = data_dates["date"].diff()
 
     return increments["date"].iloc[-1]
