@@ -192,9 +192,10 @@ def get_days_reported(data):
     """Returns true if todays data is the highest for the given parameter"""
     data_dates = data
     data_dates["date"] = data_dates.index #Take indexes as column
+    data_dates = data_dates[["dates"]]
     print(data_dates)
     data_dates["date"] = pd.to_datetime(data_dates["date"], format='%Y-%m-%d')
     
-    increments = data_dates["date"].diff()
+    increments = data_dates.diff()
 
     return increments["date"].iloc[-1]
