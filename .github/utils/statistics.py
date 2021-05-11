@@ -32,6 +32,8 @@ def read_data(path, country, local_path):
     if data_local.index[-1] != data.index[-1]:
         data = data_local.append(data.iloc[-1])
 
+    # Debugging, delete after
+    get_days_reported(data)
     return data
 
 
@@ -185,3 +187,14 @@ def is_record(data, parameter):
     maximum = increments[parameter].max()
 
     return today == maximum
+
+def get_days_reported(data):
+    """Returns true if todays data is the highest for the given parameter"""
+    data_dates = data
+    data_dates["date"] = data_dates.index #Take indexes as column
+    data_dates = data_dates["date"]
+    data_dates["date"] = pd.to_datetime(data_dates["date"], format='%Y-%m-%d')
+    
+    increments = data_dates.diff()
+
+    return increments["date"].iloc[-1]
