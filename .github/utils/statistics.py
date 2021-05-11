@@ -33,7 +33,6 @@ def read_data(path, country, local_path):
         data = data_local.append(data.iloc[-1])
 
     # Debugging, delete after
-    print(get_days_reported(data))
     return data
 
 
@@ -193,7 +192,6 @@ def get_days_reported(data):
     data_dates = data
     data_dates["date"] = data_dates.index #Take indexes as column
     data_dates = data_dates[["date"]]
-    print(data_dates)
     data_dates["date"] = pd.to_datetime(data_dates["date"], format='%Y-%m-%d')
     
     increments = data_dates.diff()

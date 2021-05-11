@@ -8,6 +8,7 @@
 # Standard
 import os
 import sys
+import datetime
 
 # Third party
 from tqdm import tqdm
@@ -23,7 +24,8 @@ from statistics import (get_current_data,
                         get_current_data_increment,
                         get_rolling_average_day_increment,
                         get_rolling_average_week_increment,
-                        is_record)
+                        is_record,
+                        get_days_reported)
 
 
 # =============================================================================
@@ -198,10 +200,20 @@ def get_administered_section(data):
             + get_seven_days_string(data))
             
 
+def get_days_reported_string(country, data):
+    days = get_days_reported(data)
+
+    if days <= datetime.timedelta(days=1):
+        return ""
+    else:
+        return ("\n*"
+                + "aggragated data of " 
+                + days.days)
 
 def get_tweet(country, data, data_normalized):
     """Get the tweet to publish in Twitter for a particular country."""
     return (get_tweet_header(country, data)
             + get_progress_section(data_normalized)
             + get_total_administered(data)
-            + get_administered_section(data_normalized))
+            + get_administered_section(data_normalized)
+            + get_days_reported_string(country, data))
