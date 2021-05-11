@@ -193,7 +193,7 @@ def get_days_reported(data):
     data_dates = data
     data_dates["date"] = data_dates.index #Take indexes as column
     print(data_dates)
-    data_dates["date"] = pd.to_datetime(data_dates[["date"]], format='%Y-%m-%d')
+    data_dates["date"] = pd.to_datetime(data_dates["date"], format='%Y-%m-%d')
     
     increments = data_dates.diff()
 
