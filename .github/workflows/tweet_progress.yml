@@ -21,6 +21,7 @@ jobs:
         country:
           - Belgium
           - Bulgaria
+          - Cyprus
           - Czechia
           - Denmark
           - Estonia
@@ -101,7 +102,6 @@ jobs:
           - EuropeanUnion
           - Austria
           - Croatia
-          - Cyprus
     steps:
       - name: Checkout covid-19-data
         uses: actions/checkout@v2
