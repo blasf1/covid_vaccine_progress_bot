@@ -208,7 +208,8 @@ def get_days_reported_string(country, data):
     else:
         return ("\n*"
                 + "aggragated data of " 
-                + str(days.days))
+                + str(days.days)
+                + " days")
 
 def get_tweet(country, data, data_normalized):
     """Get the tweet to publish in Twitter for a particular country."""
