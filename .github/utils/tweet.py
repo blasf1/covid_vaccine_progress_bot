@@ -207,7 +207,7 @@ def get_days_reported_string(country, data):
         return ""
     else:
         return ("\n*"
-                + "aggragated data of " 
+                + "Aggregated data of " 
                 + str(days.days)
                 + " days")
 
