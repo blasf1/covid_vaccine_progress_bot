@@ -13,6 +13,7 @@ import sys
 # Third party
 import tweepy
 import pandas as pd
+import telegram
 
 # Local application
 from tweet import get_tweet
@@ -59,6 +60,10 @@ arg = "--access-secret"
 default = os.environ.get("BOT_ACCESS_SECRET")
 parser.add_argument(arg, default=default)
 
+arg = "--telegram-api"
+default = os.environ.get("TELEGRAM_API")
+parser.add_argument(arg, default=default)
+
 args = sys.argv[1:]
 args = parser.parse_args(args)
 
@@ -71,7 +76,7 @@ api = args.api
 api_secret = args.api_secret
 access = args.access
 access_secret = args.access_secret
-
+telegram_api = args.telegram_api
 
 # =============================================================================
 # Main
@@ -132,3 +137,7 @@ try:
     tweet = api.update_status(tweet_string)
 except tweepy.TweepError:
     print(f"Tweet already published.")
+
+#publish in telegram
+bot = telegram.Bot(token=telegram_api)
+status = bot.send_message(chat_id="@EU_vaccination_bot", text=tweet_string, parse_mode=telegram.ParseMode.HTML)
