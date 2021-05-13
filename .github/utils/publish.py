@@ -140,4 +140,5 @@ except tweepy.TweepError:
 
 #publish in telegram
 bot = telegram.Bot(token=telegram_api)
+print(bot.get_me())
 status = bot.send_message(chat_id="@euCovidVaccination", text=tweet_string)
