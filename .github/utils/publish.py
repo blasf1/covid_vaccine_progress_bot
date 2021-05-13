@@ -60,8 +60,8 @@ arg = "--access-secret"
 default = os.environ.get("BOT_ACCESS_SECRET")
 parser.add_argument(arg, default=default)
 
-arg = "--telegram-api"
-default = os.environ.get("TELEGRAM_API")
+arg = "--telegram"
+default = os.environ.get("TELEGRAM")
 parser.add_argument(arg, default=default)
 
 args = sys.argv[1:]
@@ -76,7 +76,7 @@ api = args.api
 api_secret = args.api_secret
 access = args.access
 access_secret = args.access_secret
-telegram_api = args.telegram_api
+telegram_api = args.telegram
 
 # =============================================================================
 # Main
