@@ -135,10 +135,8 @@ print(tweet_string)
 
 try:
     tweet = api.update_status(tweet_string)
+    #publish in telegram
+    bot = telegram.Bot(token=telegram_api)
+    status = bot.send_message(chat_id="@euCovidVaccination", text=tweet_string)
 except tweepy.TweepError:
     print(f"Tweet already published.")
-
-#publish in telegram
-bot = telegram.Bot(token=telegram_api)
-print(bot.get_me())
-status = bot.send_message(chat_id="@euCovidVaccination", text=tweet_string)
