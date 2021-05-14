@@ -93,14 +93,19 @@ arg = "--directory"
 default = os.environ.get("OWID_COVID_PROJECT_DIR")
 parser.add_argument(arg, default=default)
 
+arg = "--greece-api-token"
+default = os.environ.get("GREECE_SECRET")
+parser.add_argument(arg, default=default)
+
 args = sys.argv[1:]
 args = parser.parse_args(args)
 
 project_dir = args.directory
+greece_api_token = args.greece_api_token
 
 # =============================================================================
 # Main
 # =============================================================================
 paths = Paths(project_dir)
 
-main_get_data(paths, n_jobs=4, skip_countries=SKIPPED_COUNTRIES)
+main_get_data(paths, n_jobs=4, greece_api_token=greece_api_token, skip_countries=SKIPPED_COUNTRIES)
