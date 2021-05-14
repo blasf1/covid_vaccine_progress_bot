@@ -62,16 +62,12 @@ jobs:
 
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
-
-      - name: Create JSON
-        env:
-          GREECE_SECRET: ${{ secrets.GREECE_TOKEN}}
-        run: echo -e "{\"greece_api_token\":\"$GREECE_SECRET\"}" > ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/vax_dataset_config.json
           
       - name: Update data
         env: 
           SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
           OWID_COVID_PROJECT_DIR: ${{ github.workspace }}/covid-19-data
+          GREECE_SECRET: ${{ secrets.GREECE_TOKEN}}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/update.bash
 
       - name: Publish tweet
