@@ -112,7 +112,7 @@ store_last_data(output, country, data)
 date = data.index[-1]
 vaccinations = data["total_vaccinations"].iloc[-1]
 previous_vaccinations = data["total_vaccinations"].iloc[-2]
-if (date == last_date) or (vaccinations == previous_vaccinations):
+if (date == last_date) or (vaccinations <= previous_vaccinations):
     print(f"{country} data is up to date.")
 
     # Exit with a success code
