@@ -19,8 +19,10 @@ jobs:
       matrix:
         # Set of countries that can be updated
         country:
+          - Austria
           - Belgium
           - Bulgaria
+          - Croatia
           - Cyprus
           - Czechia
           - Denmark
@@ -29,7 +31,7 @@ jobs:
           - France
           - Germany
           - Greece
-          #- Hungary
+          - Hungary
           - Ireland
           - Italy
           - Latvia
@@ -103,9 +105,6 @@ jobs:
         # Set of countries that can be updated
         country:
           - EuropeanUnion
-          - Austria
-          - Croatia
-          - Hungary
     steps:
       - name: Checkout covid-19-data
         uses: actions/checkout@v2

@@ -78,8 +78,7 @@ SKIPPED_COUNTRIES = ['australia',
                      'ukraine',
                      'united_arab_emirates',
                      'united_states',
-                     'who',
-                     'austria']
+                     'who']
 
 
 
