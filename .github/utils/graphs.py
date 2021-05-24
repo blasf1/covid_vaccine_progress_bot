@@ -258,6 +258,8 @@ user = api.verify_credentials(include_email=include_email)
 # Read data
 data = read_data(data, population)
 
+print(data)
+
 # Plot
 title1 = "Doses administered per 100 people"
 plot_data(data, "", "total_vaccinations", title1, output, flags)
@@ -281,9 +283,9 @@ images = [os.path.join(output + title1.replace(" ", "_") + ".png"),
           os.path.join(output + title4.replace(" ", "_") + ".png")]
 media_ids = []
 
-for image in images:
-    res = api.media_upload(image)
-    media_ids.append(res.media_id)
+#for image in images:
+#    res = api.media_upload(image)
+#    media_ids.append(res.media_id)
 
-api.update_status(status=tweet, media_ids=media_ids)
+#api.update_status(status=tweet, media_ids=media_ids)
 
