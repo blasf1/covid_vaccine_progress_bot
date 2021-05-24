@@ -178,7 +178,7 @@ def plot_data(data, unit, parameter, title, output, flags):
              unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
     else:
         # Show number at the end of the bar
-        [ax.text(v + 0.05, i - (width / 4), "{:.2f}".format(v) +
+        [ax.text(v + 0.02, i - (width / 4), "{:.2f}".format(v) +
              unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
 
     # configure y axis labels (add flags)
@@ -265,8 +265,6 @@ user = api.verify_credentials(include_email=include_email)
 
 # Read data
 data = read_data(data, population)
-
-print(data)
 
 # Plot
 title1 = "Doses administered per 100 people"
