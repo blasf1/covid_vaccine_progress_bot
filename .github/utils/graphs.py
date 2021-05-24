@@ -109,7 +109,7 @@ def read_data(path, path_population):
         data["7_days_average"] = get_rolling_average(
                     pd.read_csv(file),"total_vaccinations",7)
         data = get_data_hundred_people(data, path_population)
-        
+
         return data
 
     data = pd.concat(map(read_csv, files))
@@ -286,9 +286,9 @@ images = [os.path.join(output + title1.replace(" ", "_") + ".png"),
           os.path.join(output + title4.replace(" ", "_") + ".png")]
 media_ids = []
 
-#for image in images:
-#    res = api.media_upload(image)
-#    media_ids.append(res.media_id)
+for image in images:
+    res = api.media_upload(image)
+    media_ids.append(res.media_id)
 
-#api.update_status(status=tweet, media_ids=media_ids)
+api.update_status(status=tweet, media_ids=media_ids)
 
