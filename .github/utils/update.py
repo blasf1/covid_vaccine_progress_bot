@@ -14,9 +14,11 @@ from vax.cmd.get_data import country_to_module
 # Constants
 # =============================================================================
 SKIPPED_COUNTRIES = ['australia',
+                     'bangladesh'
                      'canada',
                      'chile',
                      'ecuador',
+                     'gambia',
                      'hong_kong',
                      'israel',
                      'jersey',
