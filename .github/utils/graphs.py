@@ -104,23 +104,13 @@ def get_data_hundred_people(data, path):
 def read_data(path, path_population):
     """Read the last vaccination data for all countries."""
     files = glob.glob(path + "*.csv")
-    def read_csv(file): return get_data_hundred_people(
-        pd.read_csv(file).iloc[[-1]], path_population)
+    def read_csv(file): 
+        data = get_data_hundred_people(pd.read_csv(file).iloc[[-1]], path_population)
+        data["7_days_average"] = get_rolling_average(get_data_hundred_people(
+                    pd.read_csv(file), path_population),"total_vaccinations",7)
+        return data
 
     data = pd.concat(map(read_csv, files))
-
-    def read_rolling(file): return get_rolling_average(
-        get_data_hundred_people(
-        pd.read_csv(file), path_population),
-        "total_vaccinations",
-        7)
-
-    rolling_average = []
-
-    for file in files:
-        rolling_average.append(read_rolling(file))
-    print(rolling_average)
-    data["7_days_average"] = rolling_average
 
     return data
 
