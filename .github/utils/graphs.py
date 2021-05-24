@@ -111,7 +111,7 @@ def read_data(path, path_population):
     def read_rolling(file): return get_rolling_average(
         pd.read_csv(file), "total_vaccinations", 7)
     
-    data["7_days"] = map(read_rolling, files)
+    data["7_days_average"] = map(read_rolling, files)
 
     return data
 
