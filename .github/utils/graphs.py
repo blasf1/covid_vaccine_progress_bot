@@ -277,7 +277,8 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
 
 images = [os.path.join(output + title1.replace(" ", "_") + ".png"), 
           os.path.join(output + title2.replace(" ", "_") + ".png"),
-          os.path.join(output + title3.replace(" ", "_") + ".png")]
+          os.path.join(output + title3.replace(" ", "_") + ".png"),
+          os.path.join(output + title4.replace(" ", "_") + ".png")]
 media_ids = []
 
 for image in images:
