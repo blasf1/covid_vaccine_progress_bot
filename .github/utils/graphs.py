@@ -119,9 +119,9 @@ def read_data(path, path_population):
 
     for file in files:
         rolling_average.append(read_rolling(file))
-
+    print(rolling_average)
     data["7_days_average"] = rolling_average
-    
+
     return data
 
 
