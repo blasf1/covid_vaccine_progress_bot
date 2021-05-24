@@ -77,6 +77,9 @@ def get_data_hundred_people(data, path):
     numeric_columns = data.select_dtypes("number").columns.tolist()
 
     data[numeric_columns] = data[numeric_columns] * 100 / population
+    
+    data["7_days_average"] = get_rolling_average(data, "total_vaccinations", 7)
+    data["7_days_average"] = data["7_days_average"] * 100 / population
 
     return data
 
@@ -107,11 +110,6 @@ def read_data(path, path_population):
         pd.read_csv(file).iloc[[-1]], path_population)
 
     data = pd.concat(map(read_csv, files))
-
-    def read_rolling(file): return get_rolling_average(
-        pd.read_csv(file), "total_vaccinations", 7)
-    
-    data["7_days_average"] = map(read_rolling, files)
 
     return data
 
