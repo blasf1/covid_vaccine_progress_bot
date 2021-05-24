@@ -172,8 +172,13 @@ def plot_data(data, unit, parameter, title, output, flags):
         ax.axvline(x=tick, linestyle='dashed',
                    alpha=0.2, color='#293133', zorder=0)
 
-    # Show number at the end of the bar
-    [ax.text(v + 0.4, i - (width / 4), "{:.2f}".format(v) +
+    if data_to_plot[parameter].iloc[-1] > 5:
+        # Show number at the end of the bar
+        [ax.text(v + 0.4, i - (width / 4), "{:.2f}".format(v) +
+             unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
+    else:
+        # Show number at the end of the bar
+        [ax.text(v + 0.05, i - (width / 4), "{:.2f}".format(v) +
              unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
 
     # configure y axis labels (add flags)
@@ -273,8 +278,8 @@ plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 title3 = "% population vaccinated with at least one dose"
 plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
-title4 = "Daily doses administered per 100 people"
-plot_data(data, "%", "7_days_average", title4, output, flags)
+title4 = "Daily doses per 100 people (7 days average)"
+plot_data(data, "", "7_days_average", title4, output, flags)
 
 tweet = (emoji.emojize(":calendar::bar_chart:")
          + "Daily summary!"
