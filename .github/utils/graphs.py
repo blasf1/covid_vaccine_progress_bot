@@ -80,6 +80,25 @@ def get_data_hundred_people(data, path):
 
     return data
 
+def get_rolling_average(data, parameter, days):
+    """Get the rolling average of the vaccination data."""
+    # Use one period for the rolling average
+    periods = 1
+    data_for_average = data.tail(days + 1) #keep days + 1 so that diff can cçompare with the last day out of the average
+    data_for_average.reset_index(inplace=True)
+    data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
+
+    date_limit = data_for_average.iloc[-1]["date"] - datetime.timedelta(days = days + 1) #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+
+    data_for_average = data_for_average[data_for_average["date"] > date_limit]  
+
+    data_for_average = data_for_average[parameter]
+
+    data_for_average = data_for_average.dropna() #remove empty rows for diff()
+    difference = data_for_average.diff(periods)
+    
+    return (difference.sum() / days)
+
 
 def read_data(path, path_population):
     """Read the last vaccination data for all countries."""
@@ -88,6 +107,11 @@ def read_data(path, path_population):
         pd.read_csv(file).iloc[[-1]], path_population)
 
     data = pd.concat(map(read_csv, files))
+
+    def read_rolling(file): return get_rolling_average(
+        pd.read_csv(file), "total_vaccinations", 7)
+    
+    data["7_days"] = pd.concat(map(read_csv, files))
 
     return data
 
@@ -245,6 +269,9 @@ plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 
 title3 = "% population vaccinated with at least one dose"
 plot_data(data, "%", "people_vaccinated", title3, output, flags)
+
+title4 = "Daily doses administered per 100 people"
+plot_data(data, "%", "7_days_average", title4, output, flags)
 
 tweet = (emoji.emojize(":calendar::bar_chart:")
          + "Daily summary!"
