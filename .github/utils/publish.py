@@ -80,7 +80,7 @@ def publish_tweet (country, api, data, data_unsupported, population):
         print(f"{country} data is up to date.")
 
         # Exit with a success code
-        exit(0)
+        return
 
     # Get population and relative country data
     population = get_population(population, country)
@@ -93,7 +93,7 @@ def publish_tweet (country, api, data, data_unsupported, population):
         print(f"{country} data was not complete.")
 
         # Exit with a success code
-        exit(0)
+        return
 
     print(tweet_string)
 
@@ -174,5 +174,4 @@ include_email = False
 user = api.verify_credentials(include_email=include_email)
 
 for country in COUNTRIES:
-    print("Updating " + country + "...")
     publish_tweet(country, api, data, data_unsupported, population)
