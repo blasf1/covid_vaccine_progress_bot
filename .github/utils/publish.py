@@ -60,6 +60,7 @@ COUNTRIES = [
 # =============================================================================
 def publish_tweet (country, api, data, data_unsupported, population):
     # Get last date when the country data was published
+    print("Updating " + country + "...")
     last_date = get_last_date(output, country)
 
     unsupported_countries = ["European Union"]
@@ -173,4 +174,5 @@ include_email = False
 user = api.verify_credentials(include_email=include_email)
 
 for country in COUNTRIES:
+    print("Updating " + country + "...")
     publish_tweet(country, api, data, data_unsupported, population)
