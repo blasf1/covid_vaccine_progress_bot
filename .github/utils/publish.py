@@ -111,9 +111,6 @@ def publish_tweet (country, api, data, data_unsupported, population):
 description = "Publish vaccination data for a country."
 parser = argparse.ArgumentParser(description=description)
 
-arg = "--country"
-parser.add_argument(arg)
-
 arg = "--data"
 parser.add_argument(arg)
 
