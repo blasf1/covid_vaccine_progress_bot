@@ -147,7 +147,6 @@ args = sys.argv[1:]
 args = parser.parse_args(args)
 
 # Rename the command line arguments for easier reference
-country = args.country
 data = args.data
 data_unsupported = args.data_unsupported
 output = args.output
