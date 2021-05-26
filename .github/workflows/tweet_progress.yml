@@ -34,7 +34,6 @@ jobs:
         env: 
           SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
           OWID_COVID_PROJECT_DIR: ${{ github.workspace }}/covid-19-data
-          GREECE_SECRET: ${{ secrets.GREECE_TOKEN}}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/update.bash
 
       - name: Publish tweet
