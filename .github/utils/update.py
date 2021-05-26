@@ -114,4 +114,4 @@ greece_api_token = args.greece_api_token
 # =============================================================================
 paths = Paths(project_dir)
 
-main_get_data(paths, n_jobs=4, greece_api_token=greece_api_token, skip_countries=SKIPPED_COUNTRIES)
+main_get_data(paths, n_jobs=4, skip_countries=SKIPPED_COUNTRIES) #greece_api_token=greece_api_token,
