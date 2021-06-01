@@ -15,7 +15,7 @@ from vax.cmd.get_data import country_to_module
 # =============================================================================
 SKIPPED_COUNTRIES = ['albania',
                      'andorra',
-                     'antigua_barbuda'
+                     'antigua_barbuda',
                      'australia',
                      'bangladesh',
                      'canada',
