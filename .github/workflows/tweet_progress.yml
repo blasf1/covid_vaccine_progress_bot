@@ -17,7 +17,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: owid/covid-19-data
-          ref: 'eaaf0f8dcdce258fc704c66e8e7e0b0ce46cefcc'
           path: covid-19-data
 
       - name: Checkout covid_vaccine_progress_bot
