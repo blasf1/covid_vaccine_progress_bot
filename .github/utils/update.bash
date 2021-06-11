@@ -10,8 +10,11 @@ cd $SCRIPTS
 pip install .
 
 cd
-#cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static /opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/vax/_static
 
-bash $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/Austria.bash
+ls $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static 
+
+cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static /opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/vax/_static
+
+ls /opt/hostedtoolcache/Python/3.9.5/x64/lib/python3.9/site-packages/vax/_static
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/update.py
