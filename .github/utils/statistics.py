@@ -65,17 +65,18 @@ def store_last_data(path, country, data):
     """Store the last date when the data was published."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")
     #Store only the new line
-    data_to_store = data.iloc[[-1]]
+    #data_to_store = data.iloc[[-1]]
 
     #Read the file
     index_col = "date"
     data_in_file = pd.read_csv(path, index_col=index_col)
 
     # Store only if updates available
-    if data_in_file.index[-1] != data_to_store.index[-1]:
-        data_to_store = data_in_file.append(data_to_store)
+    if data_in_file.index[-1] != data.index[-1]:#data_to_store.index[-1]:
+        #data_to_store = data_in_file.append(data_to_store)
         index = True
-        data_to_store.to_csv(path, index=index)
+        #data_to_store.to_csv(path, index=index)
+        data.to_csv(path,index=index)
 
 
 def get_population(path, country):

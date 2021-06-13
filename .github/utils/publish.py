@@ -80,7 +80,6 @@ def publish_tweet (country, api, data, data_unsupported, population):
 
     if (date == last_date) or (vaccinations <= previous_vaccinations):
         print(f"{country} data is up to date.")
-
         # Exit with a success code
         return
 
