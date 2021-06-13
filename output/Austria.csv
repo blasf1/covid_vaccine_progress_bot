@@ -1,164 +1,169 @@
-date,total_vaccinations,people_vaccinated,people_fully_vaccinated,location,source_url,vaccine
-2020-12-27,732.0,732.0,,,,
-2020-12-28,2032.0,2032.0,,,,
-2020-12-29,3652.0,3652.0,,,,
-2020-12-30,5004.0,5004.0,,,,
-2020-12-31,5012.0,5012.0,,,,
-2021-01-01,5016.0,5016.0,,,,
-2021-01-02,5022.0,5022.0,,,,
-2021-01-03,5023.0,5023.0,,,,
-2021-01-04,5142.0,5142.0,,,,
-2021-01-05,6932.0,6932.0,,,,
-2021-01-06,7766.0,7766.0,,,,
-2021-01-07,10953.0,10953.0,,,,
-2021-01-08,23936.0,23936.0,,,,
-2021-01-09,28344.0,28344.0,,,,
-2021-01-10,30567.0,30567.0,,,,
-2021-01-11,36207.0,36207.0,,,,
-2021-01-12,50904.0,50904.0,,,,
-2021-01-13,,,,,,
-2021-01-14,,,,,,
-2021-01-15,,,,,,
-2021-01-16,,,,,,
-2021-01-17,113564.0,113206.0,372.0,,,
-2021-01-18,124963.0,123714.0,1263.0,,,
-2021-01-19,150815.0,148113.0,2716.0,,,
-2021-01-20,174308.0,170311.0,4011.0,,,
-2021-01-21,193967.0,189805.0,4176.0,,,
-2021-01-22,205657.0,200912.0,4759.0,,,
-2021-01-23,208786.0,204039.0,4761.0,,,
-2021-01-24,210025.0,205276.0,4763.0,,,
-2021-01-25,211516.0,206657.0,4873.0,,,
-2021-01-26,220090.0,214329.0,5775.0,,,
-2021-01-27,228081.0,221801.0,6294.0,,,
-2021-01-28,237918.0,229003.0,8929.0,,,
-2021-01-29,252942.0,234369.0,18587.0,,,
-2021-01-30,256641.0,235706.0,20949.0,,,
-2021-01-31,258000.0,236064.0,21950.0,,,
-2021-02-01,262672.0,237646.0,25040.0,,,
-2021-02-02,279935.0,240773.0,39176.0,,,
-2021-02-03,297751.0,243988.0,53777.0,,,
-2021-02-04,317965.0,247033.0,70946.0,,,
-2021-02-05,339055.0,251133.0,87936.0,,,
-2021-02-06,348063.0,253899.0,94178.0,,,
-2021-02-07,353087.0,254523.0,98578.0,,,
-2021-02-08,362792.0,256575.0,106231.0,,,
-2021-02-09,381970.0,259413.0,122571.0,,,
-2021-02-10,403647.0,262971.0,140690.0,,,
-2021-02-11,427939.0,268252.0,159714.0,,,
-2021-02-12,454563.0,276688.0,177902.0,,,
-2021-02-13,464990.0,282018.0,182999.0,,,
-2021-02-14,467006.0,282478.0,184555.0,,,
-2021-02-15,474124.0,286398.0,187753.0,,,
-2021-02-16,488651.0,293372.0,195306.0,,,
-2021-02-17,508135.0,303295.0,204867.0,,,
-2021-02-18,527826.0,314974.0,212879.0,,,
-2021-02-19,549120.0,327863.0,221284.0,,,
-2021-02-20,562052.0,339095.0,222984.0,,,
-2021-02-21,568022.0,344694.0,223355.0,,,
-2021-02-22,574929.0,349776.0,225180.0,,,
-2021-02-23,589630.0,360046.0,229611.0,,,
-2021-02-24,609300.0,376279.0,233048.0,,,
-2021-02-25,629081.0,392513.0,236595.0,,,
-2021-02-26,657684.0,416397.0,241314.0,,,
-2021-02-27,682348.0,439110.0,243265.0,,,
-2021-02-28,692654.0,448970.0,243711.0,,,
-2021-03-01,701286.0,456753.0,244560.0,,,
-2021-03-02,726447.0,479599.0,246875.0,,,
-2021-03-03,754199.0,505018.0,249208.0,,,
-2021-03-04,781283.0,529345.0,251965.0,,,
-2021-03-05,817776.0,562884.0,254919.0,,,
-2021-03-06,845776.0,588364.0,257439.0,,,
-2021-03-07,857634.0,599570.0,258091.0,,,
-2021-03-08,869100.0,609650.0,259477.0,,,
-2021-03-09,897241.0,634321.0,262947.0,,,
-2021-03-10,926022.0,658613.0,267436.0,,,
-2021-03-11,970536.0,697711.0,272852.0,,,
-2021-03-12,1028514.0,750323.0,278218.0,,,
-2021-03-13,1080595.0,796664.0,283958.0,,,
-2021-03-14,1110284.0,822109.0,288202.0,,,
-2021-03-15,1130999.0,840560.0,290467.0,,,
-2021-03-16,1159166.0,862460.0,296734.0,,,
-2021-03-17,1193247.0,888474.0,304801.0,,,
-2021-03-18,1227842.0,915030.0,312840.0,,,
-2021-03-19,1281442.0,960044.0,321426.0,,,
-2021-03-20,1328525.0,997551.0,331002.0,,,
-2021-03-21,1344012.0,1009165.0,334875.0,,,
-2021-03-22,1359718.0,1022377.0,337369.0,,,
-2021-03-23,1394804.0,1041112.0,353721.0,,,
-2021-03-24,1433884.0,1062434.0,371479.0,,,
-2021-03-25,1479267.0,1091580.0,387721.0,,,
-2021-03-26,1529534.0,1123423.0,406146.0,,,
-2021-03-27,1570753.0,1150046.0,420742.0,,,
-2021-03-28,1585244.0,1159876.0,425403.0,,,
-2021-03-29,1611637.0,1180760.0,430912.0,,,
-2021-03-30,1652515.0,1210047.0,442503.0,,,
-2021-03-31,1687393.0,1232041.0,455388.0,,,
-2021-04-01,1728860.0,1254640.0,474256.0,,,
-2021-04-02,1772420.0,1279218.0,493238.0,,,
-2021-04-03,1793988.0,1291912.0,502113.0,,,
-2021-04-04,1803964.0,1300137.0,503864.0,,,
-2021-04-05,1816459.0,1307874.0,508623.0,,,
-2021-04-06,1854140.0,1333677.0,520501.0,,,
-2021-04-07,1909175.0,1372753.0,536461.0,,,
-2021-04-08,1980415.0,1418802.0,561652.0,,,
-2021-04-09,2057645.0,1463478.0,594209.0,,,
-2021-04-10,2122240.0,1499542.0,622740.0,,,
-2021-04-11,2148016.0,1509764.0,638294.0,,,
-2021-04-12,2181667.0,1536688.0,645022.0,,,
-2021-04-13,2225769.0,1569491.0,656321.0,,,
-2021-04-14,2290865.0,1622253.0,668655.0,,,
-2021-04-15,2362891.0,1675774.0,687161.0,,,
-2021-04-16,2431885.0,1726588.0,705341.0,,,
-2021-04-17,2488247.0,1761870.0,726421.0,,,
-2021-04-18,2507210.0,1776558.0,730696.0,,,
-2021-04-19,2537950.0,1801713.0,736281.0,,,
-2021-04-20,2582219.0,1833819.0,748444.0,,,
-2021-04-21,2643872.0,1885024.0,758893.0,,,
-2021-04-22,2712748.0,1943728.0,769071.0,,,
-2021-04-23,2778591.0,1998769.0,779873.0,,,
-2021-04-24,2817342.0,2032406.0,784988.0,,,
-2021-04-25,2844720.0,2058041.0,786732.0,,,
-2021-04-26,2874745.0,2084712.0,790086.0,,,
-2021-04-27,2920388.0,2120201.0,800242.0,,,
-2021-04-28,2974179.0,2160805.0,813431.0,,,
-2021-04-29,3054261.0,2225301.0,828984.0,,,
-2021-04-30,3132228.0,2289773.0,842480.0,Austria,,
-2021-05-01,3176924.0,2326018.0,851020.0,Austria,,
-2021-05-02,3194219.0,2341905.0,852441.0,Austria,,
-2021-05-03,3225441.0,2360698.0,864971.0,Austria,,
-2021-05-04,3287176.0,2401839.0,886669.0,Austria,,
-2021-05-05,3362892.0,2460022.0,904747.0,Austria,,
-2021-05-06,3458063.0,2536045.0,925062.0,Austria,,
-2021-05-07,3559674.0,2617262.0,946805.0,Austria,,
-2021-05-08,3612674.0,2651653.0,966115.0,Austria,,
-2021-05-09,3632879.0,2665516.0,972493.0,Austria,,
-2021-05-11,3744269.0,2749793.0,1001839.0,Austria,,
-2021-05-13,3880377.0,2856492.0,1032825.0,Austria,,
-2021-05-14,3969265.0,2923125.0,1056056.0,Austria,,
-2021-05-15,4027734.0,2965230.0,1073377.0,Austria,,
-2021-05-17,4106296.0,3018250.0,1101135.0,Austria,,
-2021-05-18,4178215.0,3064524.0,1129198.0,Austria,,
-2021-05-20,4393804.0,3215168.0,1198446.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-21,4503352.0,3288001.0,1237989.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-22,4560634.0,3326473.0,1257170.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-23,4592818.0,3347772.0,1269482.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-24,4618085.0,3359982.0,1282577.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-25,4673176.0,3397801.0,1301496.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-26,4768046.0,3448702.0,1347211.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-27,4865100.0,3500289.0,1395193.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-28,4980906.0,3565343.0,1451567.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-29,5044253.0,3591408.0,1489265.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-30,5085654.0,3607901.0,1514277.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-31,5132295.0,3631456.0,1540042.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-01,5222283.0,3685346.0,1581787.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-02,5364023.0,3762496.0,1652678.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-03,5419428.0,3786633.0,1684716.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-04,5530539.0,3850933.0,1734733.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-05,5590013.0,3879546.0,1766051.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-06,5633751.0,3895361.0,1794334.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-07,5714006.0,3938390.0,1834165.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-08,5807966.0,3990367.0,1881021.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-09,5921721.0,4052056.0,1937189.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-10,6043642.0,4103875.0,2011639.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-12,6243115.0,4189749.0,2130095.0,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+date,people_vaccinated,people_fully_vaccinated,total_vaccinations,location,source_url,vaccine
+2020-12-27,733,0,733,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2020-12-28,2037,0,2037,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2020-12-29,3661,0,3661,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2020-12-30,5020,0,5020,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2020-12-31,5030,0,5030,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-01,5037,0,5037,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-02,5044,0,5044,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-03,5049,0,5049,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-04,5170,0,5170,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-05,6975,0,6975,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-06,7821,0,7821,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-07,11091,0,11091,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-08,24162,0,24162,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-09,28618,0,28618,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-10,30859,0,30859,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-11,36524,0,36524,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-12,51408,0,51408,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-13,67227,0,67227,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-14,84098,0,84098,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-15,102559,1,102560,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-16,109424,11,109435,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-17,114762,372,115134,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-18,125351,1257,126608,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-19,150015,2716,152731,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-20,172391,4024,176415,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-21,192125,4190,196315,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-22,203192,4774,207966,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-23,206329,4776,211105,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-24,207580,4782,212362,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-25,208975,4892,213867,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-26,216796,5795,222591,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-27,224341,6319,230660,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-28,231631,8970,240601,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-29,237006,18674,255680,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-30,238345,21045,259390,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-01-31,238704,22049,260753,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-01,240292,25167,265459,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-02,243423,39549,282972,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-03,246649,54557,301206,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-04,249715,72149,321864,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-05,253873,89300,343173,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-06,256647,95703,352350,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-07,257272,100125,357397,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-08,259330,107833,367163,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-09,262190,124513,386703,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-10,265803,142861,408664,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-11,271241,162220,433461,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-12,279810,180546,460356,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-13,285167,185658,470825,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-14,285629,187227,472856,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-15,289560,190437,479997,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-16,296617,198091,494708,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-17,306796,207706,514502,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-18,318702,215820,534522,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-19,331708,224286,555994,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-20,343068,225987,569055,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-21,348693,226361,575054,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-22,353817,228202,582019,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-23,364332,232659,596991,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-24,380758,236118,616876,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-25,397222,239776,636998,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-26,421755,244715,666470,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-27,444947,246678,691625,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-02-28,454647,247122,701769,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-01,462672,247988,710660,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-02,485871,250364,736235,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-03,511598,252732,764330,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-04,536358,255505,791863,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-05,570632,258553,829185,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-06,596248,261055,857303,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-07,607514,261709,869223,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-08,617794,263096,880890,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-09,642794,266639,909433,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-10,667255,271151,938406,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-11,706668,276595,983263,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-12,760008,281987,1041995,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-13,806667,287752,1094419,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-14,832757,291981,1124738,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-15,851571,294309,1145880,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-16,873762,300737,1174488,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-17,900132,308887,1209006,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-18,926900,317045,1243932,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-19,972407,325676,1298070,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-20,1010191,335297,1345475,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-21,1021842,339179,1361008,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-22,1035255,341759,1377000,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-23,1054480,358351,1412817,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-24,1076158,376358,1452501,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-25,1105757,392919,1498658,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-26,1138170,411655,1549806,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-27,1164932,426293,1591206,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-28,1174791,430977,1605749,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-29,1195846,436516,1632343,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-30,1225433,448270,1673684,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-03-31,1247628,461363,1708968,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-01,1270456,480466,1750898,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-02,1295187,499693,1794853,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-03,1307936,508740,1816648,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-04,1316235,510503,1826709,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-05,1324011,515275,1839255,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-06,1350195,527288,1877450,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-07,1389789,543429,1933185,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-08,1436738,569211,2005912,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-09,1481972,602424,2084355,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-10,1518464,631224,2149643,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-11,1528757,646852,2175563,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-12,1556710,653874,2210538,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-13,1590220,665454,2255628,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-14,1644011,679043,2323008,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-15,1699345,698026,2397324,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-16,1751104,716486,2467543,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-17,1787041,737937,2524931,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-18,1801927,742230,2544110,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-19,1827910,747979,2575842,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-20,1860559,760589,2621100,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-21,1913036,771348,2684335,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-22,1973318,781881,2755150,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-23,2030236,793303,2823490,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-24,2064534,799121,2863605,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-25,2090492,800921,2891362,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-26,2117679,804479,2922106,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-27,2154320,815770,2970036,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-28,2198114,830182,3028241,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-29,2259105,845341,3104367,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-04-30,2325954,859007,3184863,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-01,2359899,867134,3226743,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-02,2375131,868515,3243353,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-03,2393027,880683,3272559,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-04,2434086,902418,3333718,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-05,2494337,920452,3411358,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-06,2571753,941045,3508298,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-07,2657999,964253,3616844,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-08,2691674,983701,3669020,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-09,2704188,989769,3687594,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-10,2737114,1000912,3730681,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-11,2785991,1018761,3796454,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-12,2863596,1042700,3896557,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-13,2889839,1051044,3930347,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-14,2956524,1075140,4020133,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-15,3000553,1091906,4079897,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-16,3018129,1098988,4103858,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-17,3048535,1117389,4150928,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-18,3092491,1144757,4220210,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-19,3166309,1177989,4325299,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-20,3242267,1214194,4435641,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-21,3314718,1255224,4546247,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-22,3353517,1275117,4604664,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-23,3372701,1286541,4633824,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-24,3384819,1299098,4658376,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-25,3422474,1317541,4712950,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-26,3471182,1362643,4805148,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-27,3525562,1409653,4903848,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-28,3584600,1465694,5013273,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-29,3609727,1502892,5075231,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-30,3623773,1526858,5113226,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-05-31,3645113,1551501,5156535,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-01,3700520,1591433,5246259,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-02,3776807,1662743,5387187,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-03,3806913,1700673,5454473,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-04,3867971,1749683,5561748,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-05,3901073,1779273,5624099,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-06,3925398,1807992,5676797,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-07,3950499,1841764,5733119,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-08,3999792,1886786,5822776,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-09,4061036,1944278,5937284,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-10,4111341,2015687,6054678,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-11,4164149,2092192,6180202,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+2021-06-12,4189749,2130095,6243115,Austria,https://info.gesundheitsministerium.gv.at/opendata/,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
