@@ -36,5 +36,5 @@ python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --d
                                                                              --population $POPULATION
 for f in $COUNTRIES
 do
-    cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/$f
+    cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/$f $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/
 done
