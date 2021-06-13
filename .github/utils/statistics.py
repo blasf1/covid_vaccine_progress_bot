@@ -178,14 +178,15 @@ def is_record(data, parameter):
     data_with_dates["date"] = pd.to_datetime(data_with_dates["date"], format='%Y-%m-%d')
     
     increments = data_with_dates.diff()
-    
+    last_interval = increments["date"].iloc[-1]
+
     #Drop rows where day increment is not 1. Daily record won't count then (it's not daily)
     increments = increments[increments['date'] == datetime.timedelta(days = 1)]
 
     today = increments[parameter].iloc[-1]
     maximum = increments[parameter].max()
 
-    return today == maximum
+    return today == maximum and last_interval == datetime.timedelta(days = 1)
 
 def get_days_reported(data):
     """Returns true if todays data is the highest for the given parameter"""
