@@ -55,6 +55,9 @@ COUNTRIES = [
     "Spain",
     "Sweden"]
 
+UNSUPPORTED_COUNTRIES = ["European Union"]
+DELAYED_COUNTRIES = ["Italy"] #Countries whose stats must be posted with 24 hours delay
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -63,9 +66,7 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
     print("Updating " + country + "...")
     last_date = get_last_date(output, country)
 
-    unsupported_countries = ["European Union"]
-
-    if country not in unsupported_countries:
+    if country not in UNSUPPORTED_COUNTRIES:
         # Get the vaccination data for the country
         data = read_data(data, country, input)
     else:
@@ -82,6 +83,10 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
         print(f"{country} data is up to date.")
         # Exit with a success code
         return
+
+    #For delayed countries ignore the last row
+    if country in DELAYED_COUNTRIES:
+        data.drop(index=data.index[-1], axis=0, inplace=True) 
 
     # Get population and relative country data
     population = get_population(population, country)
