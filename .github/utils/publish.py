@@ -58,7 +58,7 @@ COUNTRIES = [
 # =============================================================================
 # Functions
 # =============================================================================
-def publish_tweet (country, api, data, data_unsupported, population):
+def publish_tweet (country, api, data, data_unsupported, input, population):
     # Get last date when the country data was published
     print("Updating " + country + "...")
     last_date = get_last_date(output, country)
@@ -67,10 +67,10 @@ def publish_tweet (country, api, data, data_unsupported, population):
 
     if country not in unsupported_countries:
         # Get the vaccination data for the country
-        data = read_data(data, country, output)
+        data = read_data(data, country, input)
     else:
         # Get the vaccination data for the country when not supported by owid
-        data = read_data_unsupported(data_unsupported, country, output)
+        data = read_data_unsupported(data_unsupported, country, input)
         store_last_data(output, country, data) 
     
     
@@ -119,6 +119,9 @@ parser.add_argument(arg)
 arg = "--data-unsupported"
 parser.add_argument(arg)
 
+arg = "--input"
+parser.add_argument(arg)
+
 arg = "--output"
 parser.add_argument(arg)
 
@@ -151,6 +154,7 @@ args = parser.parse_args(args)
 # Rename the command line arguments for easier reference
 data = args.data
 data_unsupported = args.data_unsupported
+input = args.input
 output = args.output
 population = args.population
 api = args.api
@@ -175,4 +179,4 @@ include_email = False
 user = api.verify_credentials(include_email=include_email)
 
 for country in COUNTRIES:
-    publish_tweet(country, api, data, data_unsupported, population)
+    publish_tweet(country, api, data, data_unsupported, input, population)
