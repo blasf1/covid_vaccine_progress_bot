@@ -32,6 +32,7 @@ Sweden"
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --data $SCRIPTS/output \
                                                                              --data-unsupported $DATA_UNSUPPORTED \
+                                                                             --input $INPUT \
                                                                              --output $OUTPUT \
                                                                              --population $POPULATION
 for f in $COUNTRIES
