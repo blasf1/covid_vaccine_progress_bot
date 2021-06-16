@@ -41,7 +41,7 @@ FLAGS = {
     "Germany": "DE",
     "Greece": "GR",
     "Hungary": "HU",
-    #"Ireland": "IE",
+    "Ireland": "IE",
     "Italy": "IT",
     "Latvia": "LV",
     "Lithuania": "LT",
@@ -267,6 +267,13 @@ user = api.verify_credentials(include_email=include_email)
 data = read_data(data, population)
 
 # Plot
+
+#Remove countries whose average cannot be calculated
+countries_to_skip = ["Ireland"]
+
+for country in countries_to_skip:
+    data = data[data["location"] != country]
+
 title1 = "Doses administered per 100 people"
 plot_data(data, "", "total_vaccinations", title1, output, flags)
 
@@ -279,7 +286,7 @@ plot_data(data, "%", "people_vaccinated", title3, output, flags)
 #Remove countries whose average cannot be calculated
 countries_without_average = ["Netherlands"]
 
-for country in FLAGS.keys():
+for country in countries_without_average:
     data = data[data["location"] != country]
 
 title4 = "Daily doses per 100 people (7 days average)"
