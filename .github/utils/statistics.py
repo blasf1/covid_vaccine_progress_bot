@@ -44,12 +44,6 @@ def read_data_unsupported(file, country, path):
     data = data[data.location == country]
     data = data[["total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "location"]]
 
-    path = os.path.join(path, country.replace(" ", "") + ".csv")
-    data_local = pd.read_csv(path, index_col = index_col)
-
-    if data_local.index[-1] != data.index[-1]:
-        data = data_local.append(data.iloc[-1])
-
     return data
 
 

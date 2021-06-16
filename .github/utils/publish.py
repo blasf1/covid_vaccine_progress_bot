@@ -55,8 +55,8 @@ COUNTRIES = [
     "Spain",
     "Sweden"]
 
-UNSUPPORTED_COUNTRIES = ["European Union", "Hungary"]
-DELAYED_COUNTRIES = ["Italy"] #Countries whose stats must be posted with 24 hours delay
+UNSUPPORTED_COUNTRIES = ["European Union"]
+DELAYED_COUNTRIES = ["European Union", "Italy"] #Countries whose stats must be posted with 24 hours delay
 
 # =============================================================================
 # Functions
