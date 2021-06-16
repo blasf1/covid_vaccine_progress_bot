@@ -46,7 +46,7 @@ COUNTRIES = [
     "Lithuania",
     "Luxembourg",
     "Malta",
-    "Netherlands",
+    #"Netherlands",
     "Poland",
     "Portugal",
     "Romania",
