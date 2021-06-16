@@ -184,7 +184,11 @@ def is_record(data, parameter):
     #Drop rows where day increment is not 1. Daily record won't count then (it's not daily)
     increments = increments[increments['date'] == datetime.timedelta(days = 1)]
 
-    today = increments[parameter].iloc[-1]
+    try:
+        today = increments[parameter].iloc[-1]
+    except IndexError:
+        return False
+
     maximum = increments[parameter].max()
 
     return today == maximum and last_interval == datetime.timedelta(days = 1)
