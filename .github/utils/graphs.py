@@ -41,7 +41,7 @@ FLAGS = {
     "Germany": "DE",
     "Greece": "GR",
     "Hungary": "HU",
-    "Ireland": "IE",
+    #"Ireland": "IE",
     "Italy": "IT",
     "Latvia": "LV",
     "Lithuania": "LT",
