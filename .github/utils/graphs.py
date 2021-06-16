@@ -276,6 +276,12 @@ plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 title3 = "% population vaccinated with at least one dose"
 plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
+#Remove countries whose average cannot be calculated
+countries_without_average = ["Netherlands"]
+
+for country in FLAGS.keys():
+    data = data[data["date"] != country]
+
 title4 = "Daily doses per 100 people (7 days average)"
 plot_data(data, "", "7_days_average", title4, output, flags)
 
