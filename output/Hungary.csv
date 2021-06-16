@@ -1,143 +1,167 @@
-location,date,vaccine,source_url,people_vaccinated,people_fully_vaccinated,total_vaccinations
-Hungary,2020-12-28,Pfizer/BioNTech,https://kormany.hu/hirek/ujabb-helyszineken-folytatodhat-az-egeszsegugyi-dolgozok-oltasa,,,1094
-Hungary,2021-01-18,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/573-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-111-beteg,129689,1643,131332
-Hungary,2021-01-19,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/976-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-95-beteg,130318,2939,133257
-Hungary,2021-01-20,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1-410-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-98-beteg,134554,4030,138584
-Hungary,2021-01-21,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1-311-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-98-beteg,138983,5815,144798
-Hungary,2021-01-22,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1344-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-93-beteg,143184,6944,150128
-Hungary,2021-01-23,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1257-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-64-beteg,145257,8135,153392
-Hungary,2021-01-24,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/844-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-56-beteg,146695,9403,156098
-Hungary,2021-01-25,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/459-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-89-beteg,149676,12639,162315
-Hungary,2021-01-26,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1004-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-85-beteg,152704,17772,170476
-Hungary,2021-01-27,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1569-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-93-beteg,161215,26293,187508
-Hungary,2021-01-28,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1459-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-83-beteg,175283,37727,213010
-Hungary,2021-01-29,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1370-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-89-beteg,198283,49606,247889
-Hungary,2021-01-30,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1307-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-61-beteg,222005,56825,278830
-Hungary,2021-01-31,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1124-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-54-beteg,237872,61266,299138
-Hungary,2021-02-01,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/578-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-78-beteg,243136,68526,311662
-Hungary,2021-02-02,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1048-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-83-beteg,247270,75036,322306
-Hungary,2021-02-03,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1652-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-93-beteg,249687,84452,334130
-Hungary,2021-02-04,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1576-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-98-beteg,264530,92773,357303
-Hungary,2021-02-05,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1561-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-96-beteg,279410,101652,381062
-Hungary,2021-02-06,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1-370-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-64-beteg,286379,105242,391621
-Hungary,2021-02-07,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1-160-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-65-beteg,289042,107592,396634
-Hungary,2021-02-08,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1079-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-94-beteg,291396,110395,401791
-Hungary,2021-02-09,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1279-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-98-beteg,292627,113570,406197
-Hungary,2021-02-10,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1862-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-97-beteg,294624,117368,411992
-Hungary,2021-02-11,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1860-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-99-beteg,310448,120649,431097
-Hungary,2021-02-12,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/2020-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-93-beteg,330745,124423,455168
-Hungary,2021-02-13,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1707-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-70-beteg,335188,128195,463383
-Hungary,2021-02-14,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1337-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-46-beteg,336297,129339,465636
-Hungary,2021-02-15,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/823-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-85-beteg,341958,131593,473551
-Hungary,2021-02-16,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/1548-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-94-beteg,348927,134824,483751
-Hungary,2021-02-17,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/2853-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-104-beteg,365021,141023,506044
-Hungary,2021-02-18,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/3093-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-110-beteg,391821,152432,544253
-Hungary,2021-02-19,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/2995-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-107-beteg,427309,172739,600048
-Hungary,2021-02-20,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/2912-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-47-beteg,445535,190705,636240
-Hungary,2021-02-21,Pfizer/BioNTech,https://koronavirus.gov.hu/cikkek/2623-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-48-beteg,453457,201005,654462
-Hungary,2021-02-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1628-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-103-beteg,457096,205720,662816
-Hungary,2021-02-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2855-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-102-beteg,471004,208846,679850
-Hungary,2021-02-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4385-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-120-beteg,508043,211073,719146
-Hungary,2021-02-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4668-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-123-beteg,521283,240622,761905
-Hungary,2021-02-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4948-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-107-beteg,563601,244407,808008
-Hungary,2021-02-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-469-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-72-beteg,677682,249499,927181
-Hungary,2021-02-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4326-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-84-beteg,685247,251691,936938
-Hungary,2021-03-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/tobb-mint-721-ezer-beoltottak-szama-2764-az-uj-fertozott-es-elhunyt-130-beteg,721677,252847,974524
-Hungary,2021-03-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/tobb-mint-758-ezer-beoltottak-szama-4211-az-uj-fertozott-es-elhunyt-136-beteg,758037,253368,1011405
-Hungary,2021-03-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/tobb-mint-785-ezer-beoltottak-szama-6278-az-uj-fertozott-es-elhunyt-152-beteg,785440,267153,1052593
-Hungary,2021-03-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/tobb-mint-862-953-ezer-beoltottak-szama-6369-az-uj-fertozott-es-elhunyt-143-beteg,862953,279727,1142680
-Hungary,2021-03-05,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/949-497-beoltottak-szama-7269-az-uj-fertozott-es-elhunyt-146-beteg,949497,304880,1254377
-Hungary,2021-03-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/981-401-beoltottak-szama-6201-az-uj-fertozott-es-elhunyt-108-beteg,981401,307573,1288974
-Hungary,2021-03-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://www.youtube.com/watch?v=KcUesSdS0qs,1002714,307929,1310643
-Hungary,2021-03-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-47-ezer-beoltottak-szama-6494-az-uj-fertozott-es-elhunyt-158-beteg,1047045,314485,1361530
-Hungary,2021-03-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/11-millio-beoltottak-szama-5653-az-uj-fertozott-es-elhunyt-179-beteg,1107791,317906,1425697
-Hungary,2021-03-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-150-ezer-beoltottak-szama-8312-az-uj-fertozott-es-elhunyt-172-beteg,1149557,327428,1476985
-Hungary,2021-03-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-230-ezer-beoltottak-szama-9011-az-uj-fertozott-es-elhunyt-130-beteg,1229827,351694,1581521
-Hungary,2021-03-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-293-ezer-beoltottak-szama-9444-az-uj-fertozott-es-elhunyt-163-beteg,1293414,377343,1670757
-Hungary,2021-03-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-319-ezer-beoltottak-szama-8863-az-uj-fertozott-es-elhunyt-162-beteg,1319266,392703,1711969
-Hungary,2021-03-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-334-ezer-beoltottak-szama-7706-az-uj-fertozott-es-elhunyt-131-beteg,1334595,398962,1733557
-Hungary,2021-03-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-347-ezer-beoltottak-szama-4926-az-uj-fertozott-es-elhunyt-143-beteg,1347073,399505,1746578
-Hungary,2021-03-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-397-ezer-beoltottak-szama-3456-az-uj-fertozott-es-elhunyt-195-beteg,1397342,406746,1804088
-Hungary,2021-03-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-442-ezer-beoltottak-szama-6502-az-uj-fertozott-es-elhunyt-207-beteg,1441706,421915,1863621
-Hungary,2021-03-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-478-ezer-beoltottak-szama-10-759-az-uj-fertozott-es-elhunyt-213-beteg,1477554,444451,1922005
-Hungary,2021-03-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-520-ezer-beoltottak-szama-11-132-az-uj-fertozott-es-elhunyt-227-beteg,1520350,465643,1985993
-Hungary,2021-03-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-563-ezer-beoltottak-szama-10-625-az-uj-fertozott-es-elhunyt-194-beteg,1563242,474891,2038133
-Hungary,2021-03-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-590-ezer-beoltottak-szama-9046-az-uj-fertozott-es-elhunyt-189-beteg,1589601,479389,2068990
-Hungary,2021-03-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-636-ezer-beoltottak-szama-5481-az-uj-fertozott-es-elhunyt-252-beteg,1636436,481820,2118256
-Hungary,2021-03-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-696-ezer-beoltottak-szama-7587-az-uj-fertozott-es-elhunyt-249-beteg,1696110,494520,2190630
-Hungary,2021-03-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-747-ezer-beoltottak-szama-9637-az-uj-fertozott-es-elhunyt-272-beteg,1747519,524604,2272123
-Hungary,2021-03-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-803-ezer-beoltottak-szama-11-265-az-uj-fertozott-es-elhunyt-275-beteg,1803553,594662,2398215
-Hungary,2021-03-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-870-ezer-beoltottak-szama-10-167-az-uj-fertozott-es-elhunyt-253-beteg,1870631,667303,2537934
-Hungary,2021-03-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-903-ezer-beoltottak-szama-9082-az-uj-fertozott-es-elhunyt-220-beteg,1903498,685971,2589469
-Hungary,2021-03-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/1-millio-920-ezer-beoltottak-szama-7263-az-uj-fertozott-es-elhunyt-189-beteg,1920347,689392,2609739
-Hungary,2021-03-30,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-11-ezer-beoltott-6700-az-uj-fertozott-elhunyt-302-beteg,2011029,753187,2764216
-Hungary,2021-03-31,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-65-ezer-beoltott-9288-az-uj-fertozott-elhunyt-258-beteg,2065948,787207,2853155
-Hungary,2021-04-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-156-ezer-beoltott-9055-az-uj-fertozott-elhunyt-267-beteg,2156680,863195,3019875
-Hungary,2021-04-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-236-ezer-beoltott-8637-az-uj-fertozott-elhunyt-242-beteg,2235731,891002,3126733
-Hungary,2021-04-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-312-ezer-beoltott-6566-az-uj-fertozott-elhunyt-211-beteg,2312501,905117,3217618
-Hungary,2021-04-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-363-ezer-beoltott-3874-az-uj-fertozott-elhunyt-213-beteg,2362839,913012,3275851
-Hungary,2021-04-05,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-432-ezer-beoltott-1890-az-uj-fertozott-elhunyt-170-beteg,2432313,922886,3355199
-Hungary,2021-04-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-537-ezer-beoltott-1933-az-uj-fertozott-elhunyt-311-beteg,2536751,1005936,3542687
-Hungary,2021-04-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-608-ezer-beoltott-4814-az-uj-fertozott-elhunyt-272-beteg,2608084,1077947,3686031
-Hungary,2021-04-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-689-ezer-beoltott-7325-az-uj-fertozott-elhunyt-285-beteg,2689102,1126139,3815241
-Hungary,2021-04-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-760-ezer-beoltott-8053-az-uj-fertozott-elhunyt-245-beteg,2760938,1171475,3932413
-Hungary,2021-04-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-836-ezer-beoltott-6296-az-uj-fertozott-elhunyt-206-beteg,2835894,1197685,4033579
-Hungary,2021-04-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-900-ezer-beoltott-5077-az-uj-fertozott-elhunyt-291-beteg,2900383,1217258,4117641
-Hungary,2021-04-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/2-millio-970-ezer-beoltott-2837-az-uj-fertozott-elhunyt-272-beteg,2969647,1250582,4220229
-Hungary,2021-04-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-37-ezer-beoltott-3597-az-uj-fertozott-elhunyt-285-beteg,3037023,1290709,4327732
-Hungary,2021-04-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-90-ezer-beoltott-5307-az-uj-fertozott-elhunyt-256-beteg,3090994,1325587,4416581
-Hungary,2021-04-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-252-ezer-beoltott-3706-az-uj-fertozott-elhunyt-205-beteg,3252579,1385898,4638477
-Hungary,2021-04-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-266-ezer-beoltott-2680-az-uj-fertozott-elhunyt-197-beteg,3266425,1391381,4657806
-Hungary,2021-04-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-317-ezer-beoltott-1645-az-uj-fertozott-elhunyt-199-beteg,3317052,1400703,4717755
-Hungary,2021-04-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-363-ezer-beoltott-2527-az-uj-fertozott-elhunyt-207-beteg,3363596,1425124,4788720
-Hungary,2021-04-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-419-ezer-beoltott-3607-az-uj-fertozott-elhunyt-214-beteg,3419450,1453300,4872750
-Hungary,2021-04-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-509-ezer-beoltott-3427-az-uj-fertozott-elhunyt-207-beteg,3508846,1490478,4999342
-Hungary,2021-04-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-577-ezer-beoltott-2796-az-uj-fertozott-elhunyt-212-beteg,3576705,1552685,5129390
-Hungary,2021-04-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-604-ezer-beoltott-1936-az-uj-fertozott-elhunyt-176-beteg,3603901,1665067,5268968
-Hungary,2021-04-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-680-ezer-beoltott-1253-az-uj-fertozott-elhunyt-183-beteg,3679730,1711723,5391453
-Hungary,2021-04-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-774-ezer-beoltott-1692-az-uj-fertozott-elhunyt-188-beteg,3774221,1773900,5548121
-Hungary,2021-04-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-870-ezer-beoltott-2584-az-uj-fertozott-elhunyt-186-beteg,3870222,1822655,5692877
-Hungary,2021-04-29,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/3-millio-913-ezer-beoltott-2365-az-uj-fertozott-elhunyt-182-beteg,3913550,1880897,5794447
-Hungary,2021-04-30,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-23-ezer-beoltott-1951-az-uj-fertozott-elhunyt-161-beteg,4023137,1948728,5971865
-Hungary,2021-05-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-64-ezer-beoltott-1593-az-uj-fertozott-elhunyt-101-beteg,4064204,2016350,6080554
-Hungary,2021-05-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-73-ezer-beoltott-1219-az-uj-fertozott-elhunyt-106-beteg,4073149,2077160,6150309
-Hungary,2021-05-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-99-ezer-beoltott-726-az-uj-fertozott-elhunyt-137-beteg,4099495,2157637,6257132
-Hungary,2021-05-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-123-ezer-beoltott-1130-az-uj-fertozott-elhunyt-128-beteg,4123697,2248775,6372472
-Hungary,2021-05-05,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-153-ezer-beoltott-1680-az-uj-fertozott-elhunyt-124-beteg,4153038,2315428,6468466
-Hungary,2021-05-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-204-ezer-beoltott-1541-az-uj-fertozott-elhunyt-106-beteg,4203873,2406684,6610557
-Hungary,2021-05-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-262-ezer-beoltott-1376-az-uj-fertozott-elhunyt-101-beteg,4261822,2452603,6714425
-Hungary,2021-05-08,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-289-ezer-beoltott-1145-az-uj-fertozott-elhunyt-98-beteg,4288641,2488118,6776759
-Hungary,2021-05-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-306-ezer-beoltott-677-az-uj-fertozott-elhunyt-91-beteg,4305775,2503575,6809350
-Hungary,2021-05-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-346-ezer-beoltott-493-az-uj-fertozott-elhunyt-99-beteg,4346089,2530147,6876236
-Hungary,2021-05-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-421-ezer-beoltott-1416-az-uj-fertozott-elhunyt-82-beteg,4420767,2584879,7005646
-Hungary,2021-05-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-483-ezer-beoltott-1190-az-uj-fertozott-elhunyt-71-beteg,4483598,2626857,7110455
-Hungary,2021-05-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-555-ezer-beoltott-1039-az-uj-fertozott-elhunyt-73-beteg,4554679,2656671,7211350
-Hungary,2021-05-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-600-ezer-beoltott-718-az-uj-fertozott-elhunyt-61-beteg,4600012,2701789,7301801
-Hungary,2021-05-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-639-ezer-beoltott-426-az-uj-fertozott-elhunyt-38-beteg,4639299,2727165,7366464
-Hungary,2021-05-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-715-ezer-beoltott-382-az-uj-fertozott-elhunyt-64-beteg,4714992,2749235,7464227
-Hungary,2021-05-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-791-ezer-beoltott-633-az-uj-fertozott-elhunyt-52-beteg,4790996,2774416,7565412
-Hungary,2021-05-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-830-ezer-beoltott-780-az-uj-fertozott-elhunyt-51-beteg,4829595,2814805,7644400
-Hungary,2021-05-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-899-ezer-beoltott-657-az-uj-fertozott-elhunyt-47-beteg,4898866,2886292,7785158
-Hungary,2021-05-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/4-millio-969-ezer-beoltott-647-az-uj-fertozott-elhunyt-48-beteg,4969321,2967350,7936671
-Hungary,2021-05-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-6-ezer-beoltott-416-az-uj-fertozott-elhunyt-44-beteg,5005682,3000989,8006671
-Hungary,2021-05-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-23-ezer-beoltott-258-az-uj-fertozott-elhunyt-41-beteg,5023145,3012484,8035628
-Hungary,2021-05-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-27-ezer-beoltott-164-az-uj-fertozott-elhunyt-21-beteg,5026529,3072940,8099469
-Hungary,2021-05-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-40-ezer-beoltott-213-az-uj-fertozott-elhunyt-41-beteg,5040222,3196604,8236826
-Hungary,2021-05-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-56-ezer-beoltott-396-az-uj-fertozott-elhunyt-32-beteg,5056262,3328047,8384309
-Hungary,2021-05-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-85-ezer-beoltott-448-az-uj-fertozott-elhunyt-28-beteg,5084642,3445557,8530199
-Hungary,2021-05-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-120-ezer-beoltott-465-az-uj-fertozott-elhunyt-27-beteg,5120109,3539868,8659977
-Hungary,2021-05-29,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-137-ezer-beoltott-350-az-uj-fertozott-elhunyt-19-beteg,5137031,3582547,8719578
-Hungary,2021-05-30,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-147-ezer-beoltott-156-az-uj-fertozott-elhunyt-5-beteg,5146949,3611690,8758639
-Hungary,2021-05-31,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-177-ezer-beoltott-174-az-uj-fertozott-elhunyt-28-beteg,5176630,3655647,8832277
-Hungary,2021-06-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-207-ezer-beoltott-275-az-uj-fertozott-elhunyt-13-beteg,5206951,3694602,8901553
-Hungary,2021-06-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-227-ezer-beoltott-315-az-uj-fertozott-elhunyt-18-beteg,5227318,3732252,8959570
-Hungary,2021-06-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-239-ezer-beoltott-269-az-uj-fertozott-elhunyt-26-beteg,5238903,3814194,9053097
-Hungary,2021-06-05,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu/cikkek/5-millio-260-ezer-beoltott-137-az-uj-fertozott-elhunyt-12-beteg,5260418,3989525,9249943
-Hungary,2021-06-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-262-ezer-beoltott-81-az-uj-fertozott-elhunyt-12-beteg,5261781,3994595,
-Hungary,2021-06-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-279-ezer-beoltott-117-az-uj-fertozott-elhunyt-17-beteg,5278680,4027056,
-Hungary,2021-06-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-297-ezer-beoltott-179-az-uj-fertozott-elhunyt-6-beteg,5296926,4073520,
-Hungary,2021-06-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-311-ezer-beoltott-206-az-uj-fertozott-elhunyt-7-beteg,5311475,4112876,
-Hungary,2021-06-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-325-ezer-beoltott-199-az-uj-fertozott-elhunyt-8-beteg,5324996,4157681,
-Hungary,2021-06-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-342-ezer-beoltott-255-az-uj-fertozott-elhunyt-21-beteg,5342379,4208619,
-Hungary,2021-06-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-352-ezer-beoltott-57-az-uj-fertozott-elhunyt-10-beteg,5351972,4240264,
-Hungary,2021-06-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",https://koronavirus.gov.hu//cikkek/5-millio-363-ezer-beoltott-107-az-uj-fertozott-elhunyt-9-beteg,5363124,4271990,
+Hungary,HUN,2020-12-28,1094,,,,,0.01,,,
+Hungary,HUN,2020-12-29,,,,,6202,,,,642
+Hungary,HUN,2020-12-30,,,,,6202,,,,642
+Hungary,HUN,2020-12-31,,,,,6202,,,,642
+Hungary,HUN,2021-01-01,,,,,6202,,,,642
+Hungary,HUN,2021-01-02,,,,,6202,,,,642
+Hungary,HUN,2021-01-03,,,,,6202,,,,642
+Hungary,HUN,2021-01-04,,,,,6202,,,,642
+Hungary,HUN,2021-01-05,,,,,6202,,,,642
+Hungary,HUN,2021-01-06,,,,,6202,,,,642
+Hungary,HUN,2021-01-07,,,,,6202,,,,642
+Hungary,HUN,2021-01-08,,,,,6202,,,,642
+Hungary,HUN,2021-01-09,,,,,6202,,,,642
+Hungary,HUN,2021-01-10,,,,,6202,,,,642
+Hungary,HUN,2021-01-11,,,,,6202,,,,642
+Hungary,HUN,2021-01-12,,,,,6202,,,,642
+Hungary,HUN,2021-01-13,,,,,6202,,,,642
+Hungary,HUN,2021-01-14,,,,,6202,,,,642
+Hungary,HUN,2021-01-15,,,,,6202,,,,642
+Hungary,HUN,2021-01-16,,,,,6202,,,,642
+Hungary,HUN,2021-01-17,,,,,6202,,,,642
+Hungary,HUN,2021-01-18,131332,129689,1643,,6202,1.36,1.34,0.02,642
+Hungary,HUN,2021-01-19,133257,130318,2939,1925,5591,1.38,1.35,0.03,579
+Hungary,HUN,2021-01-20,138584,134554,4030,5327,5466,1.43,1.39,0.04,566
+Hungary,HUN,2021-01-21,144798,138983,5815,6214,5468,1.5,1.44,0.06,566
+Hungary,HUN,2021-01-22,150128,143184,6944,5330,5343,1.55,1.48,0.07,553
+Hungary,HUN,2021-01-23,153392,145257,8135,3264,4923,1.59,1.5,0.08,510
+Hungary,HUN,2021-01-24,156098,146695,9403,2706,4424,1.62,1.52,0.1,458
+Hungary,HUN,2021-01-25,162315,149676,12639,6217,4426,1.68,1.55,0.13,458
+Hungary,HUN,2021-01-26,170476,152704,17772,8161,5317,1.76,1.58,0.18,550
+Hungary,HUN,2021-01-27,187508,161215,26293,17032,6989,1.94,1.67,0.27,723
+Hungary,HUN,2021-01-28,213010,175283,37727,25502,9745,2.2,1.81,0.39,1009
+Hungary,HUN,2021-01-29,247889,198283,49606,34879,13966,2.57,2.05,0.51,1446
+Hungary,HUN,2021-01-30,278830,222005,56825,30941,17920,2.89,2.3,0.59,1855
+Hungary,HUN,2021-01-31,299138,237872,61266,20308,20434,3.1,2.46,0.63,2115
+Hungary,HUN,2021-02-01,311662,243136,68526,12524,21335,3.23,2.52,0.71,2209
+Hungary,HUN,2021-02-02,322306,247270,75036,10644,21690,3.34,2.56,0.78,2245
+Hungary,HUN,2021-02-03,334130,249687,84452,11824,20946,3.46,2.58,0.87,2168
+Hungary,HUN,2021-02-04,357303,264530,92773,23173,20613,3.7,2.74,0.96,2134
+Hungary,HUN,2021-02-05,381062,279410,101652,23759,19025,3.94,2.89,1.05,1969
+Hungary,HUN,2021-02-06,391621,286379,105242,10559,16113,4.05,2.96,1.09,1668
+Hungary,HUN,2021-02-07,396634,289042,107592,5013,13928,4.11,2.99,1.11,1442
+Hungary,HUN,2021-02-08,401791,291396,110395,5157,12876,4.16,3.02,1.14,1333
+Hungary,HUN,2021-02-09,406197,292627,113570,4406,11984,4.2,3.03,1.18,1241
+Hungary,HUN,2021-02-10,411992,294624,117368,5795,11123,4.26,3.05,1.21,1151
+Hungary,HUN,2021-02-11,431097,310448,120649,19105,10542,4.46,3.21,1.25,1091
+Hungary,HUN,2021-02-12,455168,330745,124423,24071,10587,4.71,3.42,1.29,1096
+Hungary,HUN,2021-02-13,463383,335188,128195,8215,10252,4.8,3.47,1.33,1061
+Hungary,HUN,2021-02-14,465636,336297,129339,2253,9857,4.82,3.48,1.34,1020
+Hungary,HUN,2021-02-15,473551,341958,131593,7915,10251,4.9,3.54,1.36,1061
+Hungary,HUN,2021-02-16,483751,348927,134824,10200,11079,5.01,3.61,1.4,1147
+Hungary,HUN,2021-02-17,506044,365021,141023,22293,13436,5.24,3.78,1.46,1391
+Hungary,HUN,2021-02-18,544253,391821,152432,38209,16165,5.63,4.06,1.58,1673
+Hungary,HUN,2021-02-19,600048,427309,172739,55795,20697,6.21,4.42,1.79,2142
+Hungary,HUN,2021-02-20,636240,445535,190705,36192,24694,6.59,4.61,1.97,2556
+Hungary,HUN,2021-02-21,654462,453457,201005,18222,26975,6.77,4.69,2.08,2792
+Hungary,HUN,2021-02-22,662816,457096,205720,8354,27038,6.86,4.73,2.13,2799
+Hungary,HUN,2021-02-23,679850,471004,208846,17034,28014,7.04,4.88,2.16,2900
+Hungary,HUN,2021-02-24,719146,508043,211073,39296,30443,7.44,5.26,2.18,3151
+Hungary,HUN,2021-02-25,761905,521283,240622,42759,31093,7.89,5.4,2.49,3219
+Hungary,HUN,2021-02-26,808008,563601,244407,46103,29709,8.36,5.83,2.53,3075
+Hungary,HUN,2021-02-27,927181,677682,249499,119173,41563,9.6,7.02,2.58,4302
+Hungary,HUN,2021-02-28,936938,685247,251691,9757,40354,9.7,7.09,2.61,4177
+Hungary,HUN,2021-03-01,974524,721677,252847,37586,44530,10.09,7.47,2.62,4610
+Hungary,HUN,2021-03-02,1011405,758037,253368,36881,47365,10.47,7.85,2.62,4903
+Hungary,HUN,2021-03-03,1052593,785440,267153,41188,47635,10.9,8.13,2.77,4931
+Hungary,HUN,2021-03-04,1142680,862953,279727,90087,54396,11.83,8.93,2.9,5631
+Hungary,HUN,2021-03-05,1254377,949497,304880,111697,63767,12.98,9.83,3.16,6601
+Hungary,HUN,2021-03-06,1288974,981401,307573,34597,51685,13.34,10.16,3.18,5350
+Hungary,HUN,2021-03-07,1310643,1002714,307929,21669,53386,13.57,10.38,3.19,5526
+Hungary,HUN,2021-03-08,1361530,1047045,314485,50887,55287,14.09,10.84,3.26,5723
+Hungary,HUN,2021-03-09,1425697,1107791,317906,64167,59185,14.76,11.47,3.29,6127
+Hungary,HUN,2021-03-10,1476985,1149557,327428,51288,60627,15.29,11.9,3.39,6276
+Hungary,HUN,2021-03-11,1581521,1229827,351694,104536,62692,16.37,12.73,3.64,6490
+Hungary,HUN,2021-03-12,1670757,1293414,377343,89236,59483,17.29,13.39,3.91,6157
+Hungary,HUN,2021-03-13,1711969,1319266,392703,41212,60428,17.72,13.66,4.07,6255
+Hungary,HUN,2021-03-14,1733557,1334595,398962,21588,60416,17.95,13.82,4.13,6254
+Hungary,HUN,2021-03-15,1746578,1347073,399505,13021,55007,18.08,13.94,4.14,5694
+Hungary,HUN,2021-03-16,1804088,1397342,406746,57510,54056,18.68,14.46,4.21,5596
+Hungary,HUN,2021-03-17,1863621,1441706,421915,59533,55234,19.29,14.92,4.37,5718
+Hungary,HUN,2021-03-18,1922005,1477554,444451,58384,48641,19.9,15.3,4.6,5035
+Hungary,HUN,2021-03-19,1985993,1520350,465643,63988,45034,20.56,15.74,4.82,4662
+Hungary,HUN,2021-03-20,2038133,1563242,474891,52140,46595,21.1,16.18,4.92,4823
+Hungary,HUN,2021-03-21,2068990,1589601,479389,30857,47919,21.42,16.45,4.96,4960
+Hungary,HUN,2021-03-22,2118256,1636436,481820,49266,53097,21.93,16.94,4.99,5496
+Hungary,HUN,2021-03-23,2190630,1696110,494520,72374,55220,22.68,17.56,5.12,5716
+Hungary,HUN,2021-03-24,2272123,1747519,524604,81493,58357,23.52,18.09,5.43,6041
+Hungary,HUN,2021-03-25,2398215,1803553,594662,126092,68030,24.83,18.67,6.16,7042
+Hungary,HUN,2021-03-26,2537934,1870631,667303,139719,78849,26.27,19.36,6.91,8162
+Hungary,HUN,2021-03-27,2589469,1903498,685971,51535,78762,26.81,19.7,7.1,8153
+Hungary,HUN,2021-03-28,2609739,1920347,689392,20270,77250,27.01,19.88,7.14,7997
+Hungary,HUN,2021-03-29,,,,,81246,,,,8410
+Hungary,HUN,2021-03-30,2764216,2011029,753187,,81941,28.61,20.82,7.8,8482
+Hungary,HUN,2021-03-31,2853155,2065948,787207,88939,83005,29.53,21.39,8.15,8592
+Hungary,HUN,2021-04-01,3019875,2156680,863195,166720,88809,31.26,22.33,8.94,9193
+Hungary,HUN,2021-04-02,3126733,2235731,891002,106858,84114,32.37,23.14,9.22,8707
+Hungary,HUN,2021-04-03,3217618,2312501,905117,90885,89736,33.31,23.94,9.37,9289
+Hungary,HUN,2021-04-04,3275851,2362839,913012,58233,95159,33.91,24.46,9.45,9850
+Hungary,HUN,2021-04-05,3355199,2432313,922886,79348,95460,34.73,25.18,9.55,9882
+Hungary,HUN,2021-04-06,3542687,2536751,1005936,187488,111210,36.67,26.26,10.41,11512
+Hungary,HUN,2021-04-07,3686031,2608084,1077947,143344,118982,38.16,27.0,11.16,12317
+Hungary,HUN,2021-04-08,3815241,2689102,1126139,129210,113624,39.49,27.84,11.66,11762
+Hungary,HUN,2021-04-09,3932413,2760938,1171475,117172,115097,40.71,28.58,12.13,11914
+Hungary,HUN,2021-04-10,4033579,2835894,1197685,101166,116566,41.75,29.36,12.4,12066
+Hungary,HUN,2021-04-11,4117641,2900383,1217258,84062,120256,42.62,30.02,12.6,12448
+Hungary,HUN,2021-04-12,4220229,2969647,1250582,102588,123576,43.69,30.74,12.95,12792
+Hungary,HUN,2021-04-13,4327732,3037023,1290709,107503,112149,44.8,31.44,13.36,11609
+Hungary,HUN,2021-04-14,4416581,3090994,1325587,88849,104364,45.72,32.0,13.72,10803
+Hungary,HUN,2021-04-15,,,,,96472,,,,9986
+Hungary,HUN,2021-04-16,,,,,90300,,,,9347
+Hungary,HUN,2021-04-17,4638477,3252579,1385898,,86414,48.02,33.67,14.35,8945
+Hungary,HUN,2021-04-18,4657806,3266425,1391381,19329,77166,48.22,33.81,14.4,7988
+Hungary,HUN,2021-04-19,4717755,3317052,1400703,59949,71075,48.84,34.34,14.5,7357
+Hungary,HUN,2021-04-20,4788720,3363596,1425124,70965,65855,49.57,34.82,14.75,6817
+Hungary,HUN,2021-04-21,4872750,3419450,1453300,84030,65167,50.44,35.4,15.04,6746
+Hungary,HUN,2021-04-22,4999342,3508846,1490478,126592,72685,51.75,36.32,15.43,7524
+Hungary,HUN,2021-04-23,5129390,3576705,1552685,130048,80697,53.1,37.02,16.07,8353
+Hungary,HUN,2021-04-24,,,,,80100,,,,8292
+Hungary,HUN,2021-04-25,5268968,3603901,1665067,,87309,54.54,37.31,17.24,9038
+Hungary,HUN,2021-04-26,5391453,3679730,1711723,122485,96243,55.81,38.09,17.72,9963
+Hungary,HUN,2021-04-27,5548121,3774221,1773900,156668,108486,57.43,39.07,18.36,11230
+Hungary,HUN,2021-04-28,5692877,3870222,1822655,144756,117161,58.93,40.06,18.87,12128
+Hungary,HUN,2021-04-29,5794447,3913550,1880897,101570,113586,59.98,40.51,19.47,11758
+Hungary,HUN,2021-04-30,5971865,4023137,1948728,177418,120354,61.82,41.65,20.17,12459
+Hungary,HUN,2021-05-01,6080554,4064204,2016350,108689,125911,62.94,42.07,20.87,13034
+Hungary,HUN,2021-05-02,6150309,4073149,2077160,69755,125906,63.67,42.16,21.5,13033
+Hungary,HUN,2021-05-03,6257132,4099495,2157637,106823,123668,64.77,42.44,22.33,12802
+Hungary,HUN,2021-05-04,6372472,4123697,2248775,115340,117764,65.97,42.69,23.28,12190
+Hungary,HUN,2021-05-05,6468466,4153038,2315428,95994,110798,66.96,42.99,23.97,11469
+Hungary,HUN,2021-05-06,6610557,4203873,2406684,142091,116587,68.43,43.52,24.91,12069
+Hungary,HUN,2021-05-07,6714425,4261822,2452603,103868,106080,69.5,44.12,25.39,10981
+Hungary,HUN,2021-05-08,6776759,4288641,2488118,62334,99458,70.15,44.39,25.76,10295
+Hungary,HUN,2021-05-09,6809350,4305775,2503575,32591,94149,70.49,44.57,25.92,9746
+Hungary,HUN,2021-05-10,6876236,4346089,2530147,66886,88443,71.18,44.99,26.19,9155
+Hungary,HUN,2021-05-11,,,,,81210,,,,8407
+Hungary,HUN,2021-05-12,7005646,4420767,2584879,,76740,72.52,45.76,26.76,7944
+Hungary,HUN,2021-05-13,7110455,4483598,2626857,104809,71414,73.6,46.41,27.19,7392
+Hungary,HUN,2021-05-14,7211350,4554679,2656671,100895,70989,74.65,47.15,27.5,7348
+Hungary,HUN,2021-05-15,7301801,4600012,2701789,90451,75006,75.59,47.62,27.97,7764
+Hungary,HUN,2021-05-16,7366464,4639299,2727165,64663,79588,76.25,48.02,28.23,8239
+Hungary,HUN,2021-05-17,7464227,4714992,2749235,97763,83999,77.27,48.81,28.46,8695
+Hungary,HUN,2021-05-18,7565412,4790996,2774416,101185,89210,78.31,49.59,28.72,9235
+Hungary,HUN,2021-05-19,7644400,4829595,2814805,78988,91251,79.13,49.99,29.14,9446
+Hungary,HUN,2021-05-20,7785158,4898866,2886292,140758,96386,80.59,50.71,29.88,9977
+Hungary,HUN,2021-05-21,7936671,4969321,2967350,151513,103617,82.16,51.44,30.72,10726
+Hungary,HUN,2021-05-22,8006671,5005682,3000989,70000,100696,82.88,51.82,31.07,10424
+Hungary,HUN,2021-05-23,8035628,5023145,3012484,28957,95595,83.18,52.0,31.18,9896
+Hungary,HUN,2021-05-24,8099469,5026529,3072940,63841,90749,83.84,52.03,31.81,9394
+Hungary,HUN,2021-05-25,8236826,5040222,3196604,137357,95916,85.26,52.17,33.09,9929
+Hungary,HUN,2021-05-26,8384309,5056262,3328047,147483,105701,86.79,52.34,34.45,10942
+Hungary,HUN,2021-05-27,8530199,5084642,3445557,145890,106434,88.3,52.63,35.67,11018
+Hungary,HUN,2021-05-28,8659977,5120109,3539868,129778,103329,89.64,53.0,36.64,10696
+Hungary,HUN,2021-05-29,8719578,5137031,3582547,59601,101844,90.26,53.18,37.09,10542
+Hungary,HUN,2021-05-30,8758639,5146949,3611690,39061,103287,90.67,53.28,37.39,10692
+Hungary,HUN,2021-05-31,8832277,5176630,3655647,73638,104687,91.43,53.59,37.84,10837
+Hungary,HUN,2021-06-01,8901553,5206951,3694602,69276,94961,92.15,53.9,38.25,9830
+Hungary,HUN,2021-06-02,8959570,5227318,3732252,58017,82180,92.75,54.11,38.63,8507
+Hungary,HUN,2021-06-03,9053097,5238903,3814194,93527,74700,93.71,54.23,39.48,7733
+Hungary,HUN,2021-06-04,,,,,70220,,,,7269
+Hungary,HUN,2021-06-05,9249943,5260418,3989525,,75766,95.75,54.45,41.3,7843
+Hungary,HUN,2021-06-06,,5261781,3994595,,,,54.47,41.35,
+Hungary,HUN,2021-06-07,,5278680,4027056,,,,54.64,41.69,
+Hungary,HUN,2021-06-08,,5296926,4073520,,,,54.83,42.17,
+Hungary,HUN,2021-06-09,,5311475,4112876,,,,54.98,42.57,
+Hungary,HUN,2021-06-10,,5324996,4157681,,,,55.12,43.04,
+Hungary,HUN,2021-06-13,,5342379,4208619,,,,55.3,43.57,
+Hungary,HUN,2021-06-14,,5351972,4240264,,,,55.4,43.89,
