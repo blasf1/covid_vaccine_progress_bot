@@ -260,7 +260,7 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     colors={"full":"#3C4E66", "partial":"#1f77b4"}
     handles = [plt.Rectangle((0,0),3,3, color=colors[color]) for color in colors]
     plt.legend(handles, labels, loc="lower right", fontsize=16)
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data", fontsize=12)
+    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data", fontsize=10)
     plt.tight_layout()
 
     plt.savefig(file, dpi=300)
