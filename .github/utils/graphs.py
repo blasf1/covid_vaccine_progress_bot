@@ -1,5 +1,5 @@
+# coding=utf-8
 """Publish the graphs vaccination for all countries in Twitter."""
-
 
 # =============================================================================
 # Imports
@@ -9,6 +9,7 @@ import argparse
 import os
 import sys
 import glob
+from cycler import cycler
 
 # Third party
 import tweepy
@@ -104,6 +105,7 @@ def get_data_hundred_people(data, path):
 def read_data(path, path_population):
     """Read the last vaccination data for all countries."""
     files = glob.glob(path + "*.csv")
+    print(path)
     def read_csv(file): 
         data = pd.read_csv(file).iloc[[-1]]
         data["7_days_average"] = get_rolling_average(
@@ -194,6 +196,76 @@ def plot_data(data, unit, parameter, title, output, flags):
 
     plt.savefig(file, dpi=300)
 
+def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
+    """Plot data in parameter for all countries in dataframe"""
+    x = "location"
+    figsize = (14, 12)
+    legend = False
+    width = 0.75
+
+    # Font
+    plt.rcParams['font.sans-serif'] = "Arial"
+    plt.rcParams['font.family'] = "sans-serif"
+    plt.rcParams["axes.prop_cycle"] = cycler('color', ['#3C4E66', '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
+
+    data_to_plot = data[["location"] + [parameter1] + [parameter2]].sort_values(
+        by=parameter2, ascending=True).dropna()
+
+    data_to_plot["substraction"] = data_to_plot[parameter2] - data_to_plot[parameter1]
+    data_to_stack = data_to_plot[["location"] + [parameter1] + ["substraction"]]
+    data_to_stack.rename(columns={"substraction": "Partially vaccinated", parameter1: "Fully vaccinated"})
+    ax = data_to_stack.plot.barh(x=x, figsize=figsize,
+                                legend=legend, width=width, xlabel="",
+                                fontsize=16, stacked=True)#, color=["#3C4E66", "#2C4E66"]) , labels=["Fully vaccinated", "Partially vaccinated"]
+
+    # Despine
+    ax.spines['right'].set_visible(False)
+    ax.spines['top'].set_visible(False)
+    ax.spines['left'].set_visible(True)
+    ax.spines['bottom'].set_visible(False)
+
+    ax.xaxis.set_label("")
+
+    # Title
+    ax.set_title(title + ", " + datetime.datetime.now().strftime("%d-%m-%Y"),
+                 fontsize=24, loc="left", fontname="Arial", fontweight="bold", pad=10)
+
+    # Draw vertical axis lines
+    vals = ax.get_xticks()
+    for tick in vals:
+        ax.axvline(x=tick, linestyle='dashed',
+                   alpha=0.2, color='#293133', zorder=0)
+
+    [ax.text(v/2 - 2.5, i - (width / 4), "{:.2f}".format(v) +
+             unit, fontsize=16, color="#FFFFFF") for i, v in enumerate(data_to_plot[parameter1])]
+
+    for i, v in enumerate(data_to_plot[parameter2] - data_to_plot[parameter1]):
+        if v > 5: 
+            ax.text(v/2 + data_to_plot.iloc[i][parameter1] - 3, i - (width / 4), "{:.2f}".format(v) +
+             unit, fontsize=16, color="#FFFFFF") 
+        else: 
+            ax.text(v + data_to_plot.iloc[i][parameter1] + 0.5, i - (width / 4), "{:.2f}".format(v) +
+             unit, fontsize=16) 
+              
+
+    # configure y axis labels (add flags)
+    ax.tick_params(axis="y", which="both", left=False,
+                   right=False, pad=10, size=20)
+    ax.tick_params(axis="x", which="both", bottom=False, top=False)
+    for i, c in enumerate(data_to_plot["location"]):
+        offset_image(i, c, ax, flags)
+
+    file = os.path.join(output + title.replace(" ", "_") + ".png")
+    labels = ["Fully vaccinated", "Partially vaccinated"]
+    colors={"full":"#3C4E66", "partial":"#1f77b4"}
+    handles = [plt.Rectangle((0,0),3,3, color=colors[color]) for color in colors]
+    plt.legend(handles, labels, loc="lower right", fontsize=16)
+    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data", fontsize=12)
+    plt.tight_layout()
+
+    plt.savefig(file, dpi=300)
+
+
 # =============================================================================
 # Arguments
 # =============================================================================
@@ -267,21 +339,20 @@ user = api.verify_credentials(include_email=include_email)
 data = read_data(data, population)
 
 # Plot
-
 #Remove countries whose average cannot be calculated
 countries_to_skip = ["Ireland"]
 
 for country in countries_to_skip:
     data = data[data["location"] != country]
 
-title1 = "Doses administered per 100 people"
-plot_data(data, "", "total_vaccinations", title1, output, flags)
+title1 = "Share of people vaccinated against COVID-19"
+plot_stacked(data, "%", "people_fully_vaccinated", "people_vaccinated", title1, output, flags)
 
-title2 = "% population fully vaccinated"
-plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
+# title2 = "% population fully vaccinated"
+# plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 
-title3 = "% population vaccinated with at least one dose"
-plot_data(data, "%", "people_vaccinated", title3, output, flags)
+# title3 = "% population vaccinated with at least one dose"
+# plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
 #Remove countries whose average cannot be calculated
 countries_without_average = ["Netherlands", "Hungary", "Denmark"]
@@ -297,9 +368,10 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
          + emoji.emojize(":syringe:"))
 
 images = [os.path.join(output + title1.replace(" ", "_") + ".png"), 
-          os.path.join(output + title2.replace(" ", "_") + ".png"),
-          os.path.join(output + title3.replace(" ", "_") + ".png"),
-          os.path.join(output + title4.replace(" ", "_") + ".png")]
+          #os.path.join(output + title2.replace(" ", "_") + ".png"),
+          #os.path.join(output + title3.replace(" ", "_") + ".png"),
+          os.path.join(output + title4.replace(" ", "_") + ".png")
+          ]
 media_ids = []
 
 for image in images:
