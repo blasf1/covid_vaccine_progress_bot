@@ -135,7 +135,10 @@ def get_total_admin_string(data):
     current_data = get_current_data(data, parameter)
     current_data_increment = get_current_data_increment(data, parameter)
 
-    return (emoji.emojize(":syringe:")
+    if math.isnan(current_data_increment):
+        return ""
+    else:
+        return (emoji.emojize(":syringe:")
             + "Total:"
             + "\u3000" * 5
             + f"{current_data:05.2f}"
@@ -166,8 +169,11 @@ def get_seven_days_string(data):
     parameter = "total_vaccinations"
     average_week = get_rolling_average_week(data, parameter)
     average_week_increment = get_rolling_average_week_increment(data, parameter)
-
-    return (emoji.emojize(":syringe:")
+    
+    if math.isnan(average_week_increment):
+        return ""
+    else:
+        return (emoji.emojize(":syringe:")
             + "7 days average:"
             + "\u3000"
             + f"{average_week:04.2f}"
@@ -175,6 +181,7 @@ def get_seven_days_string(data):
             + f"{average_week_increment:+04.2f}"
             + "]"
             + "\n")
+
 
 def get_total_administered(data):
     """Get total administered section of the tweet."""
@@ -196,8 +203,11 @@ def get_total_administered(data):
 
 def get_administered_section(data):
     """Get the administered section of the tweet."""
-    print(get_seven_days_string(data))
-    return ("\n"
+    
+    if get_total_admin_string(data) == "":
+        return ""
+    else:
+        return ("\n"
             + "Per 100 people:\n"
             + get_total_admin_string(data)
             #+ get_last_admin_string(data))
