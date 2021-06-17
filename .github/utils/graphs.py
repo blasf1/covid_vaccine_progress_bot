@@ -256,7 +256,7 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
         offset_image(i, c, ax, flags)
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
-    labels = ["Fully vaccinated", "Partially vaccinated"]
+    labels = ["Fully vaccinated", "Partly vaccinated"]
     colors={"full":"#3C4E66", "partial":"#1f77b4"}
     handles = [plt.Rectangle((0,0),3,3, color=colors[color]) for color in colors]
     plt.legend(handles, labels, loc="lower right", fontsize=16)
