@@ -13,6 +13,7 @@ from cycler import cycler
 
 # Third party
 import tweepy
+import flag
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
@@ -21,6 +22,10 @@ import numpy as np
 import datetime
 import emoji
 
+# Local application
+from statistics import (get_current_data,
+                        get_current_data_increment)
+from statistics import read_data as read_data_eu
 
 # =============================================================================
 # Constants
@@ -166,7 +171,7 @@ def plot_data(data, unit, parameter, title, output, flags):
 
     # Title
     ax.set_title(title + ", " + datetime.datetime.now().strftime("%d-%m-%Y"),
-                 fontsize=24, loc="left", fontname="Arial", fontweight="bold", pad=10)
+                 fontsize=24, loc="left", fontname="Arial", fontweight="bold", pad=16)
 
     # Draw vertical axis lines
     vals = ax.get_xticks()
@@ -191,8 +196,8 @@ def plot_data(data, unit, parameter, title, output, flags):
         offset_image(i, c, ax, flags)
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data")
-    plt.tight_layout()
+    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data\nMissing EU countries did not report enough data", fontsize=11)
+    plt.tight_layout(pad=2)
 
     plt.savefig(file, dpi=300)
 
@@ -227,8 +232,10 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     ax.xaxis.set_label("")
 
     # Title
-    ax.set_title(title + ", " + datetime.datetime.now().strftime("%d-%m-%Y"),
-                 fontsize=24, loc="left", fontname="Arial", fontweight="bold", pad=10)
+    plt.suptitle(title + ", " + datetime.datetime.now().strftime("%d-%m-%Y"),
+                 fontsize=24, fontname="Arial", fontweight="bold", x=0.49, y=0.96)
+    ax.set_title("Share of the total population fully vaccinated, partly vaccinated, and with at least 1 dose",
+                 fontsize=16, loc="left", fontname="Arial", pad=10)
 
     # Draw vertical axis lines
     vals = ax.get_xticks()
@@ -236,16 +243,16 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
         ax.axvline(x=tick, linestyle='dashed',
                    alpha=0.2, color='#293133', zorder=0)
 
-    [ax.text(v/2 - 2.5, i - (width / 4), "{:.2f}".format(v) +
+    [ax.text(v/2 - 2, i - (width / 4), "{:.1f}".format(v) +
              unit, fontsize=16, color="#FFFFFF") for i, v in enumerate(data_to_plot[parameter1])]
 
     for i, v in enumerate(data_to_plot[parameter2] - data_to_plot[parameter1]):
         if v > 5: 
-            ax.text(v/2 + data_to_plot.iloc[i][parameter1] - 3, i - (width / 4), "{:.2f}".format(v) +
+            ax.text(v/2 + data_to_plot.iloc[i][parameter1] - 2.5, i - (width / 4), "{:.1f}".format(v) +
              unit, fontsize=16, color="#FFFFFF") 
-        else: 
-            ax.text(v + data_to_plot.iloc[i][parameter1] + 0.5, i - (width / 4), "{:.2f}".format(v) +
-             unit, fontsize=16) 
+
+    [ax.text(v + 0.5, i - (width / 4), "{:.1f}".format(v) +
+             unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter2])]
               
 
     # configure y axis labels (add flags)
@@ -260,8 +267,8 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     colors={"full":"#3C4E66", "partial":"#1f77b4"}
     handles = [plt.Rectangle((0,0),3,3, color=colors[color]) for color in colors]
     plt.legend(handles, labels, loc="lower right", fontsize=16)
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data", fontsize=10)
-    plt.tight_layout()
+    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data", fontsize=12)
+    plt.tight_layout(pad=2)
 
     plt.savefig(file, dpi=300)
 
@@ -348,6 +355,9 @@ for country in countries_to_skip:
 title1 = "Share of people vaccinated against COVID-19"
 plot_stacked(data, "%", "people_fully_vaccinated", "people_vaccinated", title1, output, flags)
 
+title2 = "Doses administered per 100 people"
+plot_data(data, "", "total_vaccinations", title2, output, flags)
+
 # title2 = "% population fully vaccinated"
 # plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 
@@ -363,12 +373,25 @@ for country in countries_without_average:
 title4 = "Daily doses per 100 people (7 days average)"
 plot_data(data, "", "7_days_average", title4, output, flags)
 
+data_eu = read_data_eu(output, "European Union", output)
+data_eu.drop(index=data_eu.index[-1], axis=0, inplace=True) 
+
+doses_in_eu = get_current_data_increment(data_eu, "total_vaccinations")
+
 tweet = (emoji.emojize(":calendar::bar_chart:")
          + "Daily summary!"
-         + emoji.emojize(":syringe:"))
-
+         + emoji.emojize(":syringe:")
+         + "\n"
+         + "Yesterday, "
+         + f"{doses_in_eu:,.0f}"
+         + " doses" 
+         + emoji.emojize(":syringe:")
+         + " were administered in the European Union"
+         + flag.flagize(":EU:")
+         )
+print(tweet)
 images = [os.path.join(output + title1.replace(" ", "_") + ".png"), 
-          #os.path.join(output + title2.replace(" ", "_") + ".png"),
+          os.path.join(output + title2.replace(" ", "_") + ".png"),
           #os.path.join(output + title3.replace(" ", "_") + ".png"),
           os.path.join(output + title4.replace(" ", "_") + ".png")
           ]
