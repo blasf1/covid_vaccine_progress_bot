@@ -209,8 +209,8 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     width = 0.75
 
     # Font
-    plt.rcParams['font.sans-serif'] = "Arial"
-    plt.rcParams['font.family'] = "sans-serif"
+    #plt.rcParams['font.sans-serif'] = "Arial"
+    #plt.rcParams['font.family'] = "sans-serif"
     plt.rcParams["axes.prop_cycle"] = cycler('color', ['#3C4E66', '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
 
     data_to_plot = data[["location"] + [parameter1] + [parameter2]].sort_values(
@@ -233,9 +233,9 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
 
     # Title
     plt.suptitle(title + ", " + datetime.datetime.now().strftime("%d-%m-%Y"),
-                 fontsize=24, fontname="Arial", fontweight="bold", x=0.49, y=0.96)
+                 fontsize=22, fontweight="bold", x=0.532, y=0.96)
     ax.set_title("Share of the total population fully vaccinated, partly vaccinated, and with at least 1 dose",
-                 fontsize=16, loc="left", fontname="Arial", pad=10)
+                 fontsize=16, loc="left", pad=10)
 
     # Draw vertical axis lines
     vals = ax.get_xticks()
