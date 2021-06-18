@@ -382,11 +382,12 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
          + "Daily summary!"
          + emoji.emojize(":syringe:")
          + "\n"
+         + flag.flagize(":EU:")
          + "Yesterday, "
          + f"{doses_in_eu:,.0f}"
          + " doses" 
          + emoji.emojize(":syringe:")
-         + " were administered in the European Union"
+         + " were administered in the EU"
          + flag.flagize(":EU:")
          )
 print(tweet)
