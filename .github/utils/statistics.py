@@ -127,24 +127,6 @@ def get_rolling_average(data, parameter, days):
     return (difference.sum() / days)
 
 
-def get_rolling_average_day(data, parameter):
-    """Get the rolling average of the vaccination data for one day."""
-    days = 1
-
-    return get_rolling_average(data, parameter, days)
-
-
-def get_rolling_average_day_increment(data, parameter):
-    """Get the rolling average increment of the vaccination data for one day."""
-    # Shift the data one day to compute the increment for one day
-    periods = 1
-    shift_data = data.shift(periods)
-
-    average_day = get_rolling_average_day(data, parameter)
-    shift_average_day = get_rolling_average_day(shift_data, parameter)
-
-    return average_day - shift_average_day
-
 
 def get_rolling_average_week(data, parameter):
     """Get the rolling average of the vaccination data for one week."""
@@ -161,7 +143,8 @@ def get_rolling_average_week_increment(data, parameter):
 
     average_week = get_rolling_average_week(data, parameter)
     shift_average_week = get_rolling_average_week(shift_data, parameter)
-
+    print("yesterday " + shift_average_week)
+    print("today " + average_week)
     return average_week - shift_average_week
 
 
