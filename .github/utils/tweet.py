@@ -20,10 +20,8 @@ import pandas as pd
 
 # Local application
 from statistics import (get_current_data,
-                        get_rolling_average_day,
                         get_rolling_average_week,
                         get_current_data_increment,
-                        get_rolling_average_day_increment,
                         get_rolling_average_week_increment,
                         is_record,
                         get_days_reported)
@@ -148,22 +146,6 @@ def get_total_admin_string(data):
             + "\n")
 
 
-def get_last_admin_string(data):
-    """Get the string of the normalized last day administered doses."""
-    parameter = "total_vaccinations"
-    average_day = get_rolling_average_day(data, parameter)
-    average_day_increment = get_rolling_average_day_increment(data, parameter)
-
-    return (emoji.emojize(":syringe:")
-            + "Last day:"
-            + "\u3000" * 2
-            + f"{average_day:04.2f}"
-            + " ["
-            + f"{average_day_increment:+04.2f}"
-            + "]"
-            + "\n")
-
-
 def get_seven_days_string(data):
     """Get the string of the normalized 7-day average administered doses."""
     parameter = "total_vaccinations"
@@ -210,7 +192,6 @@ def get_administered_section(data):
         return ("\n"
             + "Per 100 people:\n"
             + get_total_admin_string(data)
-            #+ get_last_admin_string(data))
             + get_seven_days_string(data))
             
 
