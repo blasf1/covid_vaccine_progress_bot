@@ -143,8 +143,10 @@ def get_rolling_average_week_increment(data, parameter):
 
     average_week = get_rolling_average_week(data, parameter)
     shift_average_week = get_rolling_average_week(shift_data, parameter)
-    print("yesterday " + shift_average_week)
-    print("today " + average_week)
+    print("yesterday ")
+    print(shift_average_week)
+    print("today ")
+    print(average_week)
     return average_week - shift_average_week
 
 
