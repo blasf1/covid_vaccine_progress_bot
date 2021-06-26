@@ -143,7 +143,7 @@ def get_progress_section(data):
 
     return ("\nAt least 1 dose:\n"
             + get_progress_bar_new(people_vaccinated, people_vaccinated_increment)
-            + " (1 dose)\n"
+            + "\n\n"
             + "Fully:\n"
             + get_progress_bar_new(fully_vaccinated, fully_vaccinated_increment)
             + "\n"
