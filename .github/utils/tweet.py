@@ -156,7 +156,7 @@ def get_seven_days_string(data):
         return ""
     else:
         return (emoji.emojize(":syringe:")
-            + "7 days average:"
+            + "7 days avg.:"
             + "\u3000"
             + f"{average_week:04.2f}"
             + " ["
