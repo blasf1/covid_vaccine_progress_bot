@@ -68,6 +68,14 @@ FLAGS = {
 # Functions
 # =============================================================================
 
+def generateProgressbar(percentage):
+	num_chars = 15
+	num_filled = round(percentage*num_chars)
+	num_empty = num_chars-num_filled
+	display_percentage = str(round(percentage*100, 1)).replace('.', ',')
+	msg = '{}{} {}%'.format('▓'*num_filled, '░'*num_empty, display_percentage)
+	return msg
+
 def get_progress_bar(percentage, increment):
     """Get a progress bar string given a percentage."""
     initial = percentage
@@ -86,6 +94,23 @@ def get_progress_bar(percentage, increment):
 
     return prefix + suffix
 
+def get_progress_bar_new(percentage, increment):
+    """Get a progress bar string given a percentage."""
+    initial = percentage
+    total = 100
+    bar_format = generateProgressbar(percentage) + "\n" + "{percentage:04.1f}%" + f" [{increment:+03.1f}]"
+
+    with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
+        # Convert the bar to string for concatenating
+        bar_string = str(bar)
+
+    pattern = "|"
+    bar_separator_ix = bar_string.rfind(pattern)
+
+    prefix = bar_string[:bar_separator_ix].replace(" ", "\u3000")
+    suffix = bar_string[bar_separator_ix:]
+
+    return prefix + suffix
 
 def get_tweet_header(country, data):
     """Get the header of the tweet."""
@@ -117,13 +142,12 @@ def get_progress_section(data):
     fully_vaccinated = get_current_data(data, parameter)
     fully_vaccinated_increment = get_current_data_increment(data, parameter)
 
-    return ("Progress:"
-            + "\n"
-            + get_progress_bar(people_vaccinated, people_vaccinated_increment)
+    return ("\nAt least 1 dose:\n"
+            + get_progress_bar_new(people_vaccinated, people_vaccinated_increment)
             + " (1 dose)\n"
+            + "Fully:\n"
+            + get_progress_bar_new(fully_vaccinated, fully_vaccinated_increment)
             + "\n"
-            + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
-            + " (Fully)\n"
             + "\n")
 
 
