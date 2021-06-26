@@ -72,7 +72,7 @@ def get_progress_bar(percentage, increment):
     """Get a progress bar string given a percentage."""
     initial = percentage
     total = 100
-    bar_format = "|{bar:13}| {percentage:04.1f}%" + f" [{increment:+03.1f}]"
+    bar_format = "|{bar:13}|" + "\n" + "{percentage:04.1f}%" + f" [{increment:+03.1f}]"
 
     with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
         # Convert the bar to string for concatenating
@@ -120,10 +120,10 @@ def get_progress_section(data):
     return ("Progress:"
             + "\n"
             + get_progress_bar(people_vaccinated, people_vaccinated_increment)
-            + "\n(1 dose)\n"
+            + " (1 dose)\n"
             + "\n"
             + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
-            + "\n(Fully)\n"
+            + " (Fully)\n"
             + "\n")
 
 
