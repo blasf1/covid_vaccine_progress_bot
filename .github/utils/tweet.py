@@ -70,10 +70,9 @@ FLAGS = {
 
 def generateProgressbar(percentage):
 	num_chars = 15
-	num_filled = round(percentage*num_chars)
+	num_filled = round((percentage / 100) * num_chars)
 	num_empty = num_chars-num_filled
-	display_percentage = str(round(percentage*100, 1)).replace('.', ',')
-	msg = '{}{} {}%'.format('▓'*num_filled, '░'*num_empty, display_percentage)
+	msg = '{}{}'.format('▓'*num_filled, '░'*num_empty)
 	return msg
 
 def get_progress_bar(percentage, increment):
