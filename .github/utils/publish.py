@@ -86,7 +86,9 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
 
     #For delayed countries ignore the last row
     if country in DELAYED_COUNTRIES:
-        data.drop(index=data.index[-1], axis=0, inplace=True) 
+        data.drop(index=data.index[-1], axis=0, inplace=True)
+        if country == "European Union":
+            data.drop(index=data.index[-1], axis=0, inplace=True) # EU is delayed by 2 days
 
     # Get population and relative country data
     population = get_population(population, country)
