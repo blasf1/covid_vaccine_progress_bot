@@ -247,7 +247,7 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
              unit, fontsize=16, color="#FFFFFF") for i, v in enumerate(data_to_plot[parameter1])]
 
     for i, v in enumerate(data_to_plot[parameter2] - data_to_plot[parameter1]):
-        if v > 5: 
+        if v > 6: 
             ax.text(v/2 + data_to_plot.iloc[i][parameter1] - 2.5, i - (width / 4), "{:.1f}".format(v) +
              unit, fontsize=16, color="#FFFFFF") 
 
