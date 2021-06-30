@@ -375,6 +375,7 @@ plot_data(data, "", "7_days_average", title4, output, flags)
 
 data_eu = read_data_eu(output, "European Union", output)
 data_eu.drop(index=data_eu.index[-1], axis=0, inplace=True) 
+data_eu.drop(index=data_eu.index[-1], axis=0, inplace=True) 
 
 doses_in_eu = get_current_data_increment(data_eu, "total_vaccinations")
 
