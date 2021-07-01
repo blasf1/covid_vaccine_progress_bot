@@ -3,7 +3,7 @@ import pandas as pd
 
 def read(source_url: str) -> pd.DataFrame:
     return pd.read_csv(source_url, usecols=[
-        "data", "doses", "pessoas_vacinadas_completamente", "pessoas_vacinadas_parcialmente"
+        "data", "doses", "pessoas_vacinadas_completamente", "pessoas_vacinadas_parcialmente", "pessoas_inoculadas"
     ])
 
 
@@ -12,6 +12,7 @@ def rename_columns(df: pd.DataFrame) -> pd.DataFrame:
         "data": "date",
         "doses": "total_vaccinations",
         "pessoas_vacinadas_completamente": "people_fully_vaccinated",
+        "pessoas_inoculadas": "people_vaccinated"
     })
 
 
@@ -59,7 +60,7 @@ def pipeline(df: pd.DataFrame) -> pd.DataFrame:
         df
         .pipe(rename_columns)
         .pipe(format_date)
-        .pipe(calculate_metrics)
+        #.pipe(calculate_metrics)
         .pipe(enrich_vaccine_name)
         .pipe(enrich_columns)
         .pipe(sanity_checks)
