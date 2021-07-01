@@ -47,7 +47,7 @@ def enrich_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 def exclude_rows(df: pd.DataFrame) -> pd.DataFrame:
     # Wrong data on 2021-03-29 prevents the series from increasing monotonically
-    return df[df.date != "2021-03-29"]
+    return df[df.date < "2021-03-29"]
 
 
 def sanity_checks(df: pd.DataFrame) -> pd.DataFrame:
