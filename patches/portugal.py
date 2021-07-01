@@ -64,7 +64,7 @@ def pipeline(df: pd.DataFrame) -> pd.DataFrame:
         #.pipe(calculate_metrics)
         .pipe(enrich_vaccine_name)
         .pipe(enrich_columns)
-        .pipe(sanity_checks)
+        #.pipe(sanity_checks)
         .pipe(exclude_rows)
         .sort_values("date")
     )
