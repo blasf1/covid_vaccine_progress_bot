@@ -3,7 +3,7 @@ import pandas as pd
 
 def read(source_url: str) -> pd.DataFrame:
     return pd.read_csv(source_url, usecols=[
-        "data", "vacinas", "pessoas_vacinadas_completamente", "pessoas_vacinadas_parcialmente"
+        "data", "doses", "pessoas_vacinadas_completamente", "pessoas_vacinadas_parcialmente"
     ])
 
 
