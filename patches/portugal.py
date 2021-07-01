@@ -56,6 +56,7 @@ def sanity_checks(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def pipeline(df: pd.DataFrame) -> pd.DataFrame:
+    print(df)
     return (
         df
         .pipe(rename_columns)
