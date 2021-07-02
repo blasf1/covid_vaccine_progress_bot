@@ -347,7 +347,7 @@ data = read_data(data, population)
 
 # Plot
 #Remove countries whose average cannot be calculated
-countries_to_skip = ["Ireland"]
+countries_to_skip = []
 
 for country in countries_to_skip:
     data = data[data["location"] != country]
