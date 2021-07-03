@@ -15,7 +15,6 @@ France
 Germany
 Greece
 Hungary
-Ireland
 Italy
 Latvia
 Lithuania
@@ -29,6 +28,7 @@ Slovakia
 Slovenia
 Spain
 Sweden"
+#Ireland
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --data $SCRIPTS/output \
                                                                              --data-unsupported $DATA_UNSUPPORTED \
