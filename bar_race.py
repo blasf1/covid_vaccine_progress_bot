@@ -120,8 +120,6 @@ population = args.population
 # =============================================================================
 
 data = get_arranged_data(input, "people_vaccinated", population)
-data = data.fillna(method='ffill')
-data = data.fillna(0)
 data = add_flags_column(data)
 print(data)
 data.to_csv("bar_race.csv")
