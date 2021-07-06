@@ -27,7 +27,9 @@ Romania
 Slovakia
 Slovenia
 Spain
-Sweden"
+Sweden
+United Kingdom
+United States"
 #Ireland
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --data $SCRIPTS/output \
