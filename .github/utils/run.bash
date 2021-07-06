@@ -2,7 +2,7 @@
 
 set -e
 
-declare -a COUNTRIES=("Austria"\
+declare -a COUNTRIES=("Austria" \
 "Belgium" \
 "Bulgaria" \
 "Croatia" \
