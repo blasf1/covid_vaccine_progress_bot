@@ -390,6 +390,11 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
          + emoji.emojize(":syringe:")
          + " were administered in the EU"
          + flag.flagize(":EU:")
+         + "\n\n"
+         + emoji.emojize(":pushpin:")
+         + "Remember that this is just information, not a competition. We all are in this together "
+         + emoji.emojize(":blue_heart:")
+         + flag.flagize(":EU:")
          )
 print(tweet)
 images = [os.path.join(output + title1.replace(" ", "_") + ".png"), 
