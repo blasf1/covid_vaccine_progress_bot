@@ -27,9 +27,7 @@ declare -a COUNTRIES=("Austria" \
 "Slovakia" \
 "Slovenia" \
 "Spain" \
-"Sweden" \
-"United\ Kingdom" \
-"United\ States")
+"Sweden")
 #Ireland
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --data $SCRIPTS/output \
@@ -41,3 +39,6 @@ for f in "${COUNTRIES[@]}";
 do
     cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/$f.csv $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/
 done
+
+cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United Kingdom.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/
+cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United States.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/
