@@ -40,5 +40,5 @@ do
     cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/$f.csv $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/
 done
 
-cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United Kingdom.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/UnitedKingdom.csv
-cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United States.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/UnitedStates.csv
+cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United Kingdom.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/external/UnitedKingdom.csv
+cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United States.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/external/UnitedStates.csv
