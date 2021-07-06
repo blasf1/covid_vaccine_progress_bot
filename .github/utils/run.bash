@@ -28,8 +28,8 @@ declare -a COUNTRIES=("Austria" \
 "Slovenia" \
 "Spain" \
 "Sweden" \
-"United Kingdom" \
-"United States")
+"United\ Kingdom" \
+"United\ States")
 #Ireland
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --data $SCRIPTS/output \
@@ -37,7 +37,7 @@ python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --d
                                                                              --input $INPUT \
                                                                              --output $OUTPUT \
                                                                              --population $POPULATION
-for f in "${COUNTRIES[@]}"
+for f in "${COUNTRIES[@]}";
 do
     cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/$f.csv $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/
 done
