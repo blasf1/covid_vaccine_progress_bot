@@ -40,7 +40,7 @@ COUNTRIES = [
     "Germany",
     "Greece",
     "Hungary",
-    #"Ireland",
+    "Ireland",
     "Italy",
     "Latvia",
     "Lithuania",
