@@ -389,11 +389,6 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
          + " doses" 
          + emoji.emojize(":syringe:")
          + " were administered in the EU"
-         #+ flag.flagize(":EU:")
-         + "\n\n"
-         + emoji.emojize(":pushpin:")
-         + "Remember that this is just information, not a competition. We all are in this together "
-         + emoji.emojize(":blue_heart:")
          + flag.flagize(":EU:")
          )
 print(tweet)
@@ -408,5 +403,13 @@ for image in images:
     res = api.media_upload(image)
     media_ids.append(res.media_id)
 
-api.update_status(status=tweet, media_ids=media_ids)
+tweet_id = api.update_status(status=tweet, media_ids=media_ids)
+
+reminder = (emoji.emojize(":pushpin:")
+         + "Remember that this is just information, not a competition. We all are in this together "
+         + emoji.emojize(":blue_heart:")
+         + flag.flagize(":EU:")
+        )
+
+api.update_status(status = reminder, in_reply_to_status_id = tweet_id)
 
