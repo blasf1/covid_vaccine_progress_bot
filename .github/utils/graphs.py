@@ -365,7 +365,7 @@ plot_data(data, "", "total_vaccinations", title2, output, flags)
 # plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
 #Remove countries whose average cannot be calculated
-countries_without_average = ["Netherlands", "Hungary", "Denmark", "Ireland"]
+countries_without_average = ["Netherlands", "Hungary"]
 
 for country in countries_without_average:
     data = data[data["location"] != country]
@@ -381,15 +381,15 @@ doses_in_eu = get_current_data_increment(data_eu, "total_vaccinations")
 
 tweet = (emoji.emojize(":calendar::bar_chart:")
          + "Daily summary!"
-         + emoji.emojize(":syringe:")
-         + "\n"
+         + "\n\n"
          + flag.flagize(":EU:")
+         + emoji.emojize(":syringe:")
          + "Yesterday, "
          + f"{doses_in_eu:,.0f}"
          + " doses" 
          + emoji.emojize(":syringe:")
          + " were administered in the EU"
-         + flag.flagize(":EU:")
+         #+ flag.flagize(":EU:")
          + "\n\n"
          + emoji.emojize(":pushpin:")
          + "Remember that this is just information, not a competition. We all are in this together "
