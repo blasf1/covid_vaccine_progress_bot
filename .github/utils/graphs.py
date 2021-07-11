@@ -365,7 +365,7 @@ plot_data(data, "", "total_vaccinations", title2, output, flags)
 # plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
 #Remove countries whose average cannot be calculated
-countries_without_average = ["Netherlands", "Hungary"]
+countries_without_average = ["Netherlands", "Hungary", "Denmark"]
 
 for country in countries_without_average:
     data = data[data["location"] != country]
@@ -411,5 +411,7 @@ reminder = (emoji.emojize(":pushpin:")
          + flag.flagize(":EU:")
         )
 
-api.update_status(status = reminder, in_reply_to_status_id = tweet_id)
+api.update_status(status = reminder, 
+                  in_reply_to_status_id = tweet_id.id, 
+                  auto_populate_reply_metadata=True)
 
