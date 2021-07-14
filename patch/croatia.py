@@ -14,7 +14,6 @@ def read(source: str) -> pd.Series:
 
     op = Options()
     op.add_argument("--disable-notifications")
-    op.add_argument("--headless")
     op.add_experimental_option("prefs", {
             "download.prompt_for_download": False,
             "download.directory_upgrade": True,
@@ -24,6 +23,7 @@ def read(source: str) -> pd.Series:
             driver.implicitly_wait(15)
             driver.get(source)
             content = driver.page_source
+            print(content)
             data = json.loads(content)
             print(data)
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
