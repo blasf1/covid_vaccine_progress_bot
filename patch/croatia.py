@@ -23,8 +23,8 @@ def read(source: str) -> pd.Series:
     with webdriver.Chrome(options=op) as driver:
             driver.implicitly_wait(15)
             driver.get(source)
-            pre = driver.find_element_by_tag_name("pre").text
-            data = json.loads(pre)
+            content = driver.page_source
+            data = json.loads(content)
             print(data)
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
