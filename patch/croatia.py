@@ -1,31 +1,19 @@
 from datetime import timedelta
 import requests
-from collections import OrderedDict
-from requests import Session
-import socket
 
 import pandas as pd
-
+import cloudscraper
 
 from vax.utils.incremental import enrich_data, increment
 
 
 def read(source: str) -> pd.Series:
-    source = "www.koronavirus.hr"
+    source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
 
-    # grab the address using socket.getaddrinfo
-    answers = socket.getaddrinfo(source, 443)
-    (family, type, proto, canonname, (address, port)) = answers[0]
+    scraper = cloudscraper.create_scraper()  # returns a CloudScraper instance
+    print(scraper.get(source))
 
-    s = Session()
-    headers = OrderedDict({
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Host': "grimaldis.myguestaccount.com",
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0'
-    })
-    s.headers = headers
-    data = s.get("https://www.koronavirus.hr/json/?action=podaci_zadnji", headers=headers)#, verify=False)#.json()
-    print(data)
+    data = scraper.get(source).json()
 
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
