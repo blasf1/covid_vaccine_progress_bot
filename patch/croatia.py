@@ -1,32 +1,32 @@
 from datetime import timedelta
 import requests
+from collections import OrderedDict
+from requests import Session
+import socket
 
 import pandas as pd
-import json
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+
 
 from vax.utils.incremental import enrich_data, increment
 
 
 def read(source: str) -> pd.Series:
-    source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
+    source = "www.koronavirus.hr"
 
-    op = Options()
-    op.add_argument("--disable-notifications")
-    op.add_argument("--headless")
-    op.add_experimental_option("prefs", {
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True,
-            "safebrowsing.enabled": True,
-        })
-    with webdriver.Chrome(options=op) as driver:
-            driver.implicitly_wait(15)
-            driver.get(source)
-            content = driver.page_source
-            print(content)
-            data = json.loads(content)
-            print(data)
+    # grab the address using socket.getaddrinfo
+    answers = socket.getaddrinfo(source, 443)
+    (family, type, proto, canonname, (address, port)) = answers[0]
+
+    s = Session()
+    headers = OrderedDict({
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Host': "grimaldis.myguestaccount.com",
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0'
+    })
+    s.headers = headers
+    response = s.get(f"https://{address}/json/?action=podaci_zadnji", headers=headers, verify=False).json()
+    print(response)
+
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
     people_fully_vaccinated = data[0]["CijepljeniDvijeDoze"]
