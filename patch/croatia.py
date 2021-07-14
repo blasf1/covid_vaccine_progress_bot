@@ -24,8 +24,8 @@ def read(source: str) -> pd.Series:
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:77.0) Gecko/20100101 Firefox/77.0'
     })
     s.headers = headers
-    response = s.get("https://www.koronavirus.hr/json/?action=podaci_zadnji", headers=headers, verify=False).json()
-    print(response)
+    data = s.get("https://www.koronavirus.hr/json/?action=podaci_zadnji", headers=headers, verify=False).json()
+    print(data)
 
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
