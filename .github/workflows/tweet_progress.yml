@@ -30,6 +30,9 @@ jobs:
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
+      - name: Patches to OWID
+        run: cp ${{ github.workspace }}/covid_vaccine_progress_bot/patches/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
+
       - name: Update data
         env: 
           SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
