@@ -9,6 +9,8 @@ from vax.utils.incremental import enrich_data, increment
 def read(source: str) -> pd.Series:
 
     resp = requests.get(url=source)
+    print("RESPUESTA")
+    print(resp)
     data = resp.json()
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
