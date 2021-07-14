@@ -2,17 +2,30 @@ from datetime import timedelta
 import requests
 
 import pandas as pd
+import json
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 from vax.utils.incremental import enrich_data, increment
 
 
 def read(source: str) -> pd.Series:
     source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36',}
 
-    print("RESPUESTA")
-    print(requests.get(url=source, headers=headers))
-    data = requests.get(source, headers=headers).json()
+    op = Options()
+    op.add_argument("--disable-notifications")
+    op.add_argument("--headless")
+    op.add_experimental_option("prefs", {
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing.enabled": True,
+        })
+    with webdriver.Chrome(options=op) as driver:
+            driver.implicitly_wait(15)
+            driver.get(source)
+            pre = driver.find_element_by_tag_name("pre").text
+            data = json.loads(pre)
+            print(data)
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
     people_fully_vaccinated = data[0]["CijepljeniDvijeDoze"]
