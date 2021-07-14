@@ -2,7 +2,7 @@ from datetime import timedelta
 import requests
 
 import pandas as pd
-import cloudscraper
+import cfscrape
 
 from vax.utils.incremental import enrich_data, increment
 
@@ -10,7 +10,7 @@ from vax.utils.incremental import enrich_data, increment
 def read(source: str) -> pd.Series:
     source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
 
-    scraper = cloudscraper.create_scraper()  # returns a CloudScraper instance
+    scraper = cfscrape.create_scraper()  # returns a CloudScraper instance
     print(scraper.get(source))
 
     data = scraper.get(source).json()
