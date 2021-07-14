@@ -1,5 +1,6 @@
 from datetime import timedelta
-import requests
+import urllib
+import json
 
 import pandas as pd
 
@@ -7,11 +8,10 @@ from vax.utils.incremental import enrich_data, increment
 
 
 def read(source: str) -> pd.Series:
-
-    resp = requests.get(url=source)
+    source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
+    data = json.load(urllib.urlopen(source))
     print("RESPUESTA")
-    print(resp)
-    data = resp.json()
+    print(data)
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
     people_fully_vaccinated = data[0]["CijepljeniDvijeDoze"]
