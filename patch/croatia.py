@@ -14,6 +14,7 @@ def read(source: str) -> pd.Series:
 
     op = Options()
     op.add_argument("--disable-notifications")
+    op.add_argument("--headless")
     op.add_experimental_option("prefs", {
             "download.prompt_for_download": False,
             "download.directory_upgrade": True,
