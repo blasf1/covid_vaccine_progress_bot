@@ -33,6 +33,16 @@ jobs:
       - name: Patches to OWID
         run: cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
 
+      - name: Install webdriver
+        uses: actions/checkout@v2, nanasess/setup-chromedriver@master
+        # with:
+        #   # Optional: do not specify to match Chrome's version
+        #   chromedriver-version: '88.0.4324.96'
+        run: |
+          export DISPLAY=:99
+          chromedriver --url-base=/wd/hub &
+          sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
+
       - name: Update data
         env: 
           SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
