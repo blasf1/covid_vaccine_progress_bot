@@ -1,4 +1,30 @@
 """Publish the bar race in Twitter."""
+# Malta: grey
+# Spain: #f2b701
+# Germany: black
+# European Union: blue
+# Denmark: red
+# Italy: green
+# Sweden: #5799f4
+# Latvia: brown
+# Netherlands: #e68310
+# Romania: #7f3c8d
+# Luxembourg: #66c5cc
+# France:#cf1c90
+# Bulgaria: #80ba5a
+# Portugal: #11a579
+# Croatia: #4b4b8f
+# Finland: #c7c7c7
+# Austria: #cc503e
+# Belgium: #D7BE69
+# Estonia: #5f4690
+# Cyprus: #b2df8a
+# Ireland: #bf5b17
+# Greece: #0D5EAF
+# Hungary: #6c9d7b
+# Poland: #555353
+# Czechia: #11437e
+# Lithuania: #73af48
 
 # =============================================================================
 # Imports
@@ -121,7 +147,7 @@ population = args.population
 # Main
 # =============================================================================
 
-data = get_arranged_data(input, "people_vaccinated", population)
+data = get_arranged_data(input, "people_fully_vaccinated", population)
 data = add_flags_column(data)
 print(data)
 data.to_csv("bar_race.csv")
