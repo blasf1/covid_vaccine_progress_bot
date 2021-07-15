@@ -2,6 +2,9 @@ import re
 
 import requests
 import pandas as pd
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 
 
 vaccine_mapping = {
@@ -13,9 +16,11 @@ vaccine_mapping = {
 
 
 def read(source: str) -> pd.DataFrame:
-    r = requests.get(source, verify=False)
-    text = r.iter_lines()
-    return pd.read_csv(text, sep=";")
+    driver = webdriver.Firefox()
+    driver.get(source)
+    content = driver.page_source
+
+    return pd.read_csv(content, sep=";")
 
 
 def filter_country(df: pd.DataFrame) -> pd.DataFrame:
