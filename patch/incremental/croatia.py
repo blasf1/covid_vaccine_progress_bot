@@ -15,7 +15,7 @@ def read(source: str) -> pd.Series:
 
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
-
+    options.add_argument("--headless")
     driver = uc.Chrome(options = options)
     driver.get(source)
     content = driver.page_source
