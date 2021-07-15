@@ -39,7 +39,7 @@ jobs:
         uses: browser-actions/setup-chrome@latest
 
       - name: Run Chrome
-        run: chrome --no-sandbox --headless
+        run: chrome --no-sandbox --headless --disable-gpu
 
       - name: Run webdriver
         uses: nanasess/setup-chromedriver@master
