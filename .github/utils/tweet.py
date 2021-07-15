@@ -63,7 +63,9 @@ FLAGS = {
     "Sweden": ":SE:"
 }
 
-
+NO_7_DAYS = {
+    "Portugal"
+}
 # =============================================================================
 # Functions
 # =============================================================================
@@ -169,13 +171,13 @@ def get_total_admin_string(data):
             + "\n")
 
 
-def get_seven_days_string(data):
+def get_seven_days_string(data, country):
     """Get the string of the normalized 7-day average administered doses."""
     parameter = "total_vaccinations"
     average_week = get_rolling_average_week(data, parameter)
     average_week_increment = get_rolling_average_week_increment(data, parameter)
     
-    if math.isnan(average_week_increment):
+    if math.isnan(average_week_increment) or country in NO_7_DAYS:
         return ""
     else:
         return (emoji.emojize(":syringe:")
@@ -206,7 +208,7 @@ def get_total_administered(data):
             + "\n")
 
 
-def get_administered_section(data):
+def get_administered_section(data, country):
     """Get the administered section of the tweet."""
     
     if get_total_admin_string(data) == "":
@@ -215,7 +217,7 @@ def get_administered_section(data):
         return ("\n"
             + "Per 100 people:\n"
             + get_total_admin_string(data)
-            + get_seven_days_string(data))
+            + get_seven_days_string(data, country))
             
 
 def get_days_reported_string(country, data):
@@ -234,5 +236,5 @@ def get_tweet(country, data, data_normalized):
     return (get_tweet_header(country, data)
             + get_progress_section(data_normalized)
             + get_total_administered(data)
-            + get_administered_section(data_normalized)
+            + get_administered_section(data_normalized, country)
             + get_days_reported_string(country, data))
