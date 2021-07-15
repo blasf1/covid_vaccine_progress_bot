@@ -3,8 +3,7 @@ import re
 import requests
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.chrome.options import Options
 
 
 vaccine_mapping = {
@@ -16,7 +15,15 @@ vaccine_mapping = {
 
 
 def read(source: str) -> pd.DataFrame:
-    driver = webdriver.Firefox()
+    op = Options()
+    op.add_argument("--disable-notifications")
+    op.add_argument("--headless")
+    op.add_experimental_option("prefs", {
+            "download.prompt_for_download": False,
+            "download.directory_upgrade": True,
+            "safebrowsing.enabled": True,
+        })
+    driver = webdriver.Chrome()
     driver.get(source)
     content = driver.page_source
 
