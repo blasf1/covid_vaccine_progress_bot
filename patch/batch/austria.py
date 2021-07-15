@@ -3,10 +3,6 @@ import re
 import requests
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
-from selenium.webdriver.firefox.options import Options
-
 
 
 vaccine_mapping = {
@@ -18,8 +14,8 @@ vaccine_mapping = {
 
 
 def read(source: str) -> pd.DataFrame:
-    op = Options()
-    #op.add_argument("--headless")
+    op = webdriver.FirefoxOptions()
+    op.add_argument("--headless")
 
     driver = webdriver.Firefox(options=op)
     driver.get(source)
