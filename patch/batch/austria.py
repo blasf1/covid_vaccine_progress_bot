@@ -3,7 +3,10 @@ import re
 import requests
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.firefox.options import Options
+
 
 
 vaccine_mapping = {
@@ -23,7 +26,7 @@ def read(source: str) -> pd.DataFrame:
             "download.directory_upgrade": True,
             "safebrowsing.enabled": True,
         })
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox(options=op)
     driver.get(source)
     content = driver.page_source
 
