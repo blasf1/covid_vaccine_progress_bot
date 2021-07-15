@@ -12,7 +12,10 @@ pip install .
 cd
 
 ls /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/
-cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static/queries/ireland-* /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/vax/_static/queries/ireland-* ;
-cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static/queries/poland-all.json /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/vax/_static/queries/poland-all.json ;
+
+mkdir /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/vax/_static
+mkdir /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/vax/_static/queries/
+cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static/queries/ireland-* /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/vax/_static/queries/ ;
+cp -r $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static/queries/poland-all.json /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/vax/_static/queries/poland-all.json ;
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/update.py
