@@ -14,7 +14,8 @@ def read(source: str) -> pd.Series:
     source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
 
     options = webdriver.ChromeOptions()
-    options.add_argument("start-maximized")
+    options.add_argument("--start-maximized")
+    options.add_argument("--headless")
     driver = uc.Chrome(options = options)
     driver.implicitly_wait(15)
     driver.get(source)
