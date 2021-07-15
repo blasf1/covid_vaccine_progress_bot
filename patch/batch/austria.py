@@ -19,8 +19,7 @@ vaccine_mapping = {
 
 def read(source: str) -> pd.DataFrame:
     op = Options()
-    op.add_argument("--disable-notifications")
-    op.add_argument("--headless")
+    #op.add_argument("--headless")
 
     driver = webdriver.Firefox(options=op)
     driver.get(source)
