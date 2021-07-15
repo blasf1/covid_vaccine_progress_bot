@@ -37,8 +37,10 @@ jobs:
 
       - name: Install Chrome
         uses: browser-actions/setup-chrome@latest
+
+      - name: Run Chrome
         run: chrome
-        
+
       - name: Run webdriver
         uses: nanasess/setup-chromedriver@master
         with:
