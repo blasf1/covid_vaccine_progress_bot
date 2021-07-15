@@ -14,7 +14,7 @@ from vax.utils.incremental import enrich_data, increment
 
 def read(source: str) -> pd.Series:
     source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
-    scraper = cfscrape.CloudScraper()  # CloudScraper inherits from requests.Session
+    scraper = cfscrape.CloudflareScraper()  # CloudScraper inherits from requests.Session
     content = scraper.get(source).text
     # options = webdriver.ChromeOptions()
     # options.add_argument("--start-maximized")
