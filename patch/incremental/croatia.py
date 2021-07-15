@@ -2,7 +2,7 @@ from datetime import timedelta
 import requests
 
 import pandas as pd
-import cloudscraper
+import cfscrape
 
 import json
 # import undetected_chromedriver as uc
@@ -14,7 +14,7 @@ from vax.utils.incremental import enrich_data, increment
 
 def read(source: str) -> pd.Series:
     source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
-    scraper = cloudscraper.CloudScraper()  # CloudScraper inherits from requests.Session
+    scraper = cfscrape.CloudScraper()  # CloudScraper inherits from requests.Session
     content = scraper.get(source).text
     # options = webdriver.ChromeOptions()
     # options.add_argument("--start-maximized")
