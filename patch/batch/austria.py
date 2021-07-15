@@ -17,7 +17,7 @@ vaccine_mapping = {
 def read(source: str) -> pd.DataFrame:
     requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = 'ALL:@SECLEVEL=1'
     data = requests.get(source, stream=True).content
-    return pd.read_csv(source, sep=";")
+    return pd.read_csv(data, sep=";")
 
 
 def filter_country(df: pd.DataFrame) -> pd.DataFrame:
