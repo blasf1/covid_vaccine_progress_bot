@@ -31,7 +31,9 @@ jobs:
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
       - name: Patches to OWID
-        run: cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
+        run: |
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/incremental/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/
 
       # - name: Run webdriver
       #   uses: nanasess/setup-chromedriver@master
