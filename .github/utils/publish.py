@@ -49,7 +49,7 @@ COUNTRIES = [
     "Netherlands",
     "Poland",
     "Portugal",
-    "Romania",
+    #"Romania",
     "Slovakia",
     "Slovenia",
     "Spain",
