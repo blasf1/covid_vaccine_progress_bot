@@ -2,9 +2,11 @@ from datetime import timedelta
 import requests
 
 import pandas as pd
+import cloudscraper
+
 import json
-import undetected_chromedriver as uc
-from selenium import webdriver
+# import undetected_chromedriver as uc
+# from selenium import webdriver
 
 
 from vax.utils.incremental import enrich_data, increment
@@ -12,18 +14,19 @@ from vax.utils.incremental import enrich_data, increment
 
 def read(source: str) -> pd.Series:
     source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
-
-    options = webdriver.ChromeOptions()
-    options.add_argument("--start-maximized")
-    options.add_argument("--headless")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-    options.add_argument("--disable-blink-features=AutomationControlled")
-    driver = uc.Chrome(options = options)
-    driver.get(source)
-    content = driver.page_source
-    print("RESPONSE")
-    print(content)
+    scraper = cloudscraper.CloudScraper()  # CloudScraper inherits from requests.Session
+    content = scraper.get(source).text
+    # options = webdriver.ChromeOptions()
+    # options.add_argument("--start-maximized")
+    # options.add_argument("--headless")
+    # options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    # options.add_experimental_option('useAutomationExtension', False)
+    # options.add_argument("--disable-blink-features=AutomationControlled")
+    # driver = uc.Chrome(options = options)
+    # driver.get(source)
+    # content = driver.page_source
+    # print("RESPONSE")
+    # print(content)
     data = json.loads(content)
     print(data)
     
