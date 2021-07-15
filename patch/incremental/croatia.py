@@ -16,6 +16,9 @@ def read(source: str) -> pd.Series:
     options = webdriver.ChromeOptions()
     options.add_argument("--start-maximized")
     options.add_argument("--headless")
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
+    options.add_argument("--disable-blink-features=AutomationControlled")
     driver = uc.Chrome(options = options)
     driver.get(source)
     content = driver.page_source
