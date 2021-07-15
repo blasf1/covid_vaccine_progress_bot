@@ -35,14 +35,14 @@ jobs:
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/incremental/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/
 
-      - name: Install Chrome
-        uses: browser-actions/setup-chrome@latest
+      # - name: Install Chrome
+      #   uses: browser-actions/setup-chrome@latest
 
-      - name: Run Chrome
-        run: chrome --headless --disable-gpu --disable-software-rasterizer
+      # - name: Run Chrome
+      #   run: chrome --headless --disable-gpu --disable-software-rasterizer
 
-      - name: Run webdriver
-        uses: nanasess/setup-chromedriver@master
+      # - name: Run webdriver
+      #   uses: nanasess/setup-chromedriver@master
 
       - name: Update data
         env: 

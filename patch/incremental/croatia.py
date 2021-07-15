@@ -3,9 +3,8 @@ import requests
 
 import pandas as pd
 import json
+import undetected_chromedriver as uc
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import undetected_chromedriver.v2 as uc
 
 
 from vax.utils.incremental import enrich_data, increment
@@ -14,23 +13,17 @@ from vax.utils.incremental import enrich_data, increment
 def read(source: str) -> pd.Series:
     source = "https://www.koronavirus.hr/json/?action=podaci_zadnji"
 
-    op = Options()
-    op.add_argument("--disable-notifications")
-    op.add_argument("--headless")
-    op.add_experimental_option("prefs", {
-            "download.prompt_for_download": False,
-            "download.directory_upgrade": True,
-            "safebrowsing.enabled": True,
-        })
-    driver = uc.Chrome()
-    with driver:
-            driver.implicitly_wait(15)
-            driver.get(source)
-            content = driver.page_source
-            print("RESPONSE")
-            print(content)
-            data = json.loads(content)
-            print(data)
+    options = webdriver.ChromeOptions()
+    options.add_argument("start-maximized")
+    driver = uc.Chrome(options = options)
+    driver.implicitly_wait(15)
+    driver.get(source)
+    content = driver.page_source
+    print("RESPONSE")
+    print(content)
+    data = json.loads(content)
+    print(data)
+    
     total_vaccinations = data[0]["CijepljenjeBrUtrosenihDoza"]
     people_vaccinated = data[0]["CijepljeniJednomDozom"]
     people_fully_vaccinated = data[0]["CijepljeniDvijeDoze"]
