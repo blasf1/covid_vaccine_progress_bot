@@ -38,14 +38,11 @@ jobs:
       - name: Install Chrome
         uses: browser-actions/setup-chrome@latest
 
-      # - name: Run Chrome
-      #   run: chrome
+      - name: Run Chrome
+        run: chrome --no-sandbox --headless
 
       - name: Run webdriver
         uses: nanasess/setup-chromedriver@master
-        with:
-          # Optional: do not specify to match Chrome's version
-          chromedriver-version: '88.0.4324.96'
 
       - name: Update data
         env: 
