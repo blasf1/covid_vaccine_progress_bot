@@ -13,7 +13,7 @@ vaccine_mapping = {
 
 
 def read(source: str) -> pd.DataFrame:
-    r = requests.get(source)
+    r = requests.get(source, verify=False)
     text = r.iter_lines()
     return pd.read_csv(text, sep=";")
 
