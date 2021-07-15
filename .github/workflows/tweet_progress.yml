@@ -33,7 +33,8 @@ jobs:
       - name: Patches to OWID
         run: cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
 
-      - uses: nanasess/setup-chromedriver@master
+      # - name: Run webdriver
+      #   uses: nanasess/setup-chromedriver@master
         # with:
         #   # Optional: do not specify to match Chrome's version
         #   chromedriver-version: '88.0.4324.96'
