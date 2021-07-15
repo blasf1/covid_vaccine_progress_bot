@@ -1,8 +1,9 @@
+
 import re
 
-import requests
 import pandas as pd
-from selenium import webdriver
+import requests
+import urllib3
 
 
 vaccine_mapping = {
@@ -14,14 +15,9 @@ vaccine_mapping = {
 
 
 def read(source: str) -> pd.DataFrame:
-    op = webdriver.FirefoxOptions()
-    op.add_argument("--headless")
-
-    driver = webdriver.Firefox(options=op)
-    driver.get(source)
-    content = driver.page_source
-
-    return pd.read_csv(content, sep=";")
+    requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = 'ALL:@SECLEVEL=1'
+    data = requests.get(source)
+    return pd.read_csv(data, sep=";")
 
 
 def filter_country(df: pd.DataFrame) -> pd.DataFrame:
