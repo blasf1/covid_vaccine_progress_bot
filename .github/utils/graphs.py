@@ -409,6 +409,9 @@ reminder = (emoji.emojize(":pushpin:")
          + "Remember that this is just information, not a competition. We all are in this together "
          + emoji.emojize(":blue_heart:")
          + flag.flagize(":EU:")
+         + "\n\n"
+         + emoji.emojize(":pushpin:")
+         + "Shares over the total population (not just adults)"
         )
 
 api.update_status(status = reminder, 
