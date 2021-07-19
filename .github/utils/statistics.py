@@ -55,6 +55,14 @@ def get_last_date(path, country):
     return data.date.iloc[-1]
 
 
+def get_previous_vaccinations(path, country):
+    """Get the last date when the data was published."""
+    path = os.path.join(path, country.replace(" ", "") + ".csv")
+    data = pd.read_csv(path)
+
+    return data.total_vaccinations.iloc[-1]
+
+
 def store_last_data(path, country, data):
     """Store the last date when the data was published."""
     path = os.path.join(path, country.replace(" ", "") + ".csv")

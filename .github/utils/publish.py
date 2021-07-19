@@ -22,7 +22,8 @@ from statistics import (read_data,
                         get_last_date,
                         get_population,
                         store_last_data,
-                        get_data_hundred_people)
+                        get_data_hundred_people,
+                        get_previous_vaccinations)
 
 
 COUNTRIES = [
@@ -65,7 +66,7 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
     # Get last date when the country data was published
     print("Updating " + country + "...")
     last_date = get_last_date(output, country)
-
+    previous_vaccinations = get_previous_vaccinations(output, country)
     if country not in UNSUPPORTED_COUNTRIES:
         # Get the vaccination data for the country
         data = read_data(data, country, input)
@@ -77,7 +78,6 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
     
     date = data.index[-1]
     vaccinations = data["total_vaccinations"].iloc[-1]
-    previous_vaccinations = data["total_vaccinations"].iloc[-2]
 
     if (date == last_date) or (vaccinations <= previous_vaccinations):
         print(f"{country} data is up to date.")
