@@ -196,7 +196,7 @@ def plot_data(data, unit, parameter, title, output, flags):
         offset_image(i, c, ax, flags)
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data\nMissing EU countries did not report enough data", fontsize=11)
+    plt.figtext(0.01, 0.01, "@VaccinationEu\nMissing EU countries did not report enough data", fontsize=11)
     plt.tight_layout(pad=2)
 
     plt.savefig(file, dpi=300)
@@ -267,7 +267,7 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     colors={"full":"#3C4E66", "partial":"#1f77b4"}
     handles = [plt.Rectangle((0,0),3,3, color=colors[color]) for color in colors]
     plt.legend(handles, labels, loc="lower right", fontsize=16)
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nSource: Our World in Data", fontsize=12)
+    plt.figtext(0.01, 0.01, "@VaccinationEu", fontsize=14)
     plt.tight_layout(pad=2)
 
     plt.savefig(file, dpi=300)
@@ -406,12 +406,15 @@ for image in images:
 tweet_id = api.update_status(status=tweet, media_ids=media_ids)
 
 reminder = (emoji.emojize(":pushpin:")
-         + "Remember that this is just information, not a competition. We all are in this together "
+         + "Shares over the total population (not just adults)"
+         + "\n\n"
+         + emoji.emojize(":pushpin:")
+         + "Remember that this is just information, not a competition. We all are in this together"
          + emoji.emojize(":blue_heart:")
          + flag.flagize(":EU:")
          + "\n\n"
          + emoji.emojize(":pushpin:")
-         + "Shares over the total population (not just adults)"
+         + "Sources:\nPopulation: Eurostat\nVaccination: Our World in Data"
         )
 
 api.update_status(status = reminder, 
