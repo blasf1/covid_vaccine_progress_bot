@@ -23,7 +23,6 @@ def main(paths):
 
     df = df.rename(
         columns={
-            "vaccin": "vaccine",
             "jour": "date",
             "n_cum_dose1": "people_vaccinated",
             "n_cum_complet": "people_fully_vaccinated",
