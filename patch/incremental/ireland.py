@@ -134,4 +134,3 @@ def main(paths):
 
 if __name__ == "__main__":
     main()
-{"mode":"full","isActive":false}
