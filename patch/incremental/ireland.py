@@ -75,7 +75,7 @@ class Ireland:
         return ds
 
     def pipe_corrections_2_dose(self, ds: pd.Series) -> pd.Series:
-        ds.loc["people_fully_vaccinated"] = ds.people_vaccinated + ds.johnson
+        ds.loc["people_fully_vaccinated"] = ds.people_fully_vaccinated + ds.johnson
         return ds
 
     def pipe_location(self, ds: pd.Series) -> pd.Series:
