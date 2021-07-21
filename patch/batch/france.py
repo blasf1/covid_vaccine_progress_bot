@@ -14,7 +14,7 @@ def main(paths):
     one_dose_vaccines = ["Johnson&Johnson"]
 
     source = (
-        "https://www.data.gouv.fr/fr/datasets/r/fa4ad329-14ec-4394-85a4-c5df33769dff"
+        "https://www.data.gouv.fr/fr/datasets/r/ed648a35-a292-4664-9706-7c640265bcfa"
     )
 
     df = pd.read_csv(
