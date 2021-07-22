@@ -71,7 +71,7 @@ NO_7_DAYS = {
 # =============================================================================
 
 def generateProgressbar(percentage):
-	num_chars = 20
+	num_chars = 21
 	num_filled = round((percentage / 100) * num_chars)
 	num_empty = num_chars-num_filled
 	msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
@@ -163,7 +163,7 @@ def get_seven_days_string(data, country):
         return ""
     else:
         return (emoji.emojize(":syringe:")
-            + "7 days average:"
+            + "7 days average: "
             + "\u3000"
             + f"{average_week:04.2f}"
             + " ["
@@ -180,9 +180,9 @@ def get_total_administered(data):
         return ""
     else:
         return (#"\nAdministered:\n"
-              #emoji.emojize(":syringe:")
-            "Total:\n"
-            #+ "\u3000" * 2
+              emoji.emojize(":syringe:")
+            + "Total:\n"
+            + "\u3000" * 2
             + f"{total:,.0f}"
             + " ["
             + f"{increment:+,.0f}"
