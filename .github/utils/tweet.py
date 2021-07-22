@@ -143,7 +143,9 @@ def get_total_admin_string(data):
     if math.isnan(current_data_increment):
         return ""
     else:
-        return ("Total:\n"
+        return (emoji.emojize(":syringe:")
+            + "Total:"
+            + "\u3000" * 5
             + f"{current_data:05.2f}"
             + " ["
             + f"{current_data_increment:+04.2f}"
@@ -178,8 +180,8 @@ def get_total_administered(data):
         return ""
     else:
         return (#"\nAdministered:\n"
-              emoji.emojize(":syringe:")
-            + "Total:"
+              #emoji.emojize(":syringe:")
+            "Total:\n"
             + "\u3000" * 2
             + f"{total:,.0f}"
             + " ["
