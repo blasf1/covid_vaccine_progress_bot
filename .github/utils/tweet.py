@@ -71,7 +71,7 @@ NO_7_DAYS = {
 # =============================================================================
 
 def generateProgressbar(percentage):
-	num_chars = 21
+	num_chars = 20
 	num_filled = round((percentage / 100) * num_chars)
 	num_empty = num_chars-num_filled
 	msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
