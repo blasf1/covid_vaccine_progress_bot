@@ -74,7 +74,7 @@ def generateProgressbar(percentage):
 	num_chars = 15
 	num_filled = round((percentage / 100) * num_chars)
 	num_empty = num_chars-num_filled
-	msg = '{}{}'.format('▓'*num_filled, '░'*num_empty)
+	msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
 	return msg
 
 def get_progress_bar(percentage, increment):
@@ -163,7 +163,7 @@ def get_total_admin_string(data):
     else:
         return (emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 3
+            + "\u3000" * 4
             + f"{current_data:05.2f}"
             + " ["
             + f"{current_data_increment:+04.2f}"
@@ -181,8 +181,8 @@ def get_seven_days_string(data, country):
         return ""
     else:
         return (emoji.emojize(":syringe:")
-            + "7 days avg.:"
-            + "\u3000"
+            + "7 days average:"
+            + "\u3000" * 2
             + f"{average_week:04.2f}"
             + " ["
             + f"{average_week_increment:+04.2f}"
@@ -200,7 +200,7 @@ def get_total_administered(data):
         return (#"\nAdministered:\n"
               emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000"
+            + "\u3000" * 2
             + f"{total:,.0f}"
             + " ["
             + f"{increment:+,.0f}"
