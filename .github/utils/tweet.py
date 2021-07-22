@@ -125,7 +125,7 @@ def get_progress_section(data):
     fully_vaccinated = get_current_data(data, parameter)
     fully_vaccinated_increment = get_current_data_increment(data, parameter)
 
-    return ("\nAt least 1 dose:" + "\u3000" * 2 + "{people_vaccinated:04.1f}%" + f"[{people_vaccinated_increment:+03.1f}]" + "\n"
+    return ("\nAt least 1 dose:" + "\u3000" * 2 + f"{people_vaccinated:04.1f}%" + f"[{people_vaccinated_increment:+03.1f}]" + "\n"
             + get_progress_bar(people_vaccinated, people_vaccinated_increment)
             + "\n\n"
             + "Fully: " + "\u3000" * 5 + "{fully_vaccinated:04.1f}%" + f"[{fully_vaccinated_increment:+03.1f}]" + "\n"
