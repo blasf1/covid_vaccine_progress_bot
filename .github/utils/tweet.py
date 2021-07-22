@@ -71,7 +71,7 @@ NO_7_DAYS = {
 # =============================================================================
 
 def generateProgressbar(percentage):
-	num_chars = 15
+	num_chars = 20
 	num_filled = round((percentage / 100) * num_chars)
 	num_empty = num_chars-num_filled
 	msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
@@ -81,25 +81,7 @@ def get_progress_bar(percentage, increment):
     """Get a progress bar string given a percentage."""
     initial = percentage
     total = 100
-    bar_format = "|{bar:14}|" + "\n" + "{percentage:04.1f}%" + f" [{increment:+03.1f}]"
-
-    with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
-        # Convert the bar to string for concatenating
-        bar_string = str(bar)
-
-    pattern = "|"
-    bar_separator_ix = bar_string.rfind(pattern)
-
-    prefix = bar_string[:bar_separator_ix].replace(" ", "\u3000")
-    suffix = bar_string[bar_separator_ix:]
-
-    return prefix + suffix
-
-def get_progress_bar_new(percentage, increment):
-    """Get a progress bar string given a percentage."""
-    initial = percentage
-    total = 100
-    bar_format = generateProgressbar(percentage) + "{percentage:04.1f}%" + f"[{increment:+03.1f}]"
+    bar_format = generateProgressbar(percentage) + "\n" + "{percentage:04.1f}%" + f"[{increment:+03.1f}]"
 
     with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
         # Convert the bar to string for concatenating
@@ -144,10 +126,10 @@ def get_progress_section(data):
     fully_vaccinated_increment = get_current_data_increment(data, parameter)
 
     return ("\nAt least 1 dose:\n"
-            + get_progress_bar_new(people_vaccinated, people_vaccinated_increment)
+            + get_progress_bar(people_vaccinated, people_vaccinated_increment)
             + "\n\n"
             + "Fully:\n"
-            + get_progress_bar_new(fully_vaccinated, fully_vaccinated_increment)
+            + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
             + "\n"
             + "\n")
 
@@ -161,9 +143,7 @@ def get_total_admin_string(data):
     if math.isnan(current_data_increment):
         return ""
     else:
-        return (emoji.emojize(":syringe:")
-            + "Total:"
-            + "\u3000" * 5
+        return ("Total:\n"
             + f"{current_data:05.2f}"
             + " ["
             + f"{current_data_increment:+04.2f}"
