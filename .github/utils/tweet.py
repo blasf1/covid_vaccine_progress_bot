@@ -163,7 +163,7 @@ def get_total_admin_string(data):
     else:
         return (emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 4
+            + "\u3000" * 5
             + f"{current_data:05.2f}"
             + " ["
             + f"{current_data_increment:+04.2f}"
@@ -182,7 +182,7 @@ def get_seven_days_string(data, country):
     else:
         return (emoji.emojize(":syringe:")
             + "7 days average:"
-            + "\u3000" * 2
+            + "\u3000"
             + f"{average_week:04.2f}"
             + " ["
             + f"{average_week_increment:+04.2f}"
