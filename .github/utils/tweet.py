@@ -181,7 +181,7 @@ def get_total_administered(data):
     else:
         return (#"\nAdministered:\n"
               #emoji.emojize(":syringe:")
-            "Total:\n"
+            "Total:"
             + "\u3000" * 1
             + f"{total:,.0f}"
             + " ["
