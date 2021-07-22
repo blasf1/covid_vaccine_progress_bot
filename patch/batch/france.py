@@ -29,6 +29,8 @@ def main(paths):
         }
     )
 
+    # Add total doses
+    df["total_vaccinations"] = df.people_vaccinated + df.people_fully_vaccinated
 
     df = df.assign(
         location="France",
