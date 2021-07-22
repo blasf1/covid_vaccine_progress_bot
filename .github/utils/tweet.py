@@ -71,17 +71,18 @@ NO_7_DAYS = {
 # =============================================================================
 
 def generateProgressbar(percentage):
-	num_chars = 20
+	num_chars = 15
 	num_filled = round((percentage / 100) * num_chars)
 	num_empty = num_chars-num_filled
-	msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
+	msg = '{}{}'.format('▓'*num_filled, '░'*num_empty)
 	return msg
+
 
 def get_progress_bar(percentage, increment):
     """Get a progress bar string given a percentage."""
     initial = percentage
     total = 100
-    bar_format = generateProgressbar(percentage) #+ "\n" + "{percentage:04.1f}%" + f"[{increment:+03.1f}]"
+    bar_format = generateProgressbar(percentage) + "{percentage:04.1f}%" + f"[{increment:+03.1f}]"
 
     with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
         # Convert the bar to string for concatenating
@@ -125,10 +126,10 @@ def get_progress_section(data):
     fully_vaccinated = get_current_data(data, parameter)
     fully_vaccinated_increment = get_current_data_increment(data, parameter)
 
-    return ("\nAt least 1 dose:" + "\u3000" * 2 + f"{people_vaccinated:04.1f}%" + f"[{people_vaccinated_increment:+03.1f}]" + "\n"
+    return ("\nAt least 1 dose:\n"
             + get_progress_bar(people_vaccinated, people_vaccinated_increment)
             + "\n\n"
-            + "Fully: " + "\u3000" * 5 + f"{fully_vaccinated:04.1f}%" + f"[{fully_vaccinated_increment:+03.1f}]" + "\n"
+            + "Fully:\n"
             + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
             + "\n"
             + "\n")
@@ -145,7 +146,7 @@ def get_total_admin_string(data):
     else:
         return (emoji.emojize(":syringe:")
             + "Total:"
-            + "\u3000" * 2
+            + "\u3000" * 3
             + f"{current_data:05.2f}"
             + " ["
             + f"{current_data_increment:+04.2f}"
@@ -163,8 +164,8 @@ def get_seven_days_string(data, country):
         return ""
     else:
         return (emoji.emojize(":syringe:")
-            + "7 days avg: "
-            #+ "\u3000"
+            + "7 days avg.:"
+            + "\u3000"
             + f"{average_week:04.2f}"
             + " ["
             + f"{average_week_increment:+04.2f}"
@@ -181,8 +182,8 @@ def get_total_administered(data):
     else:
         return (#"\nAdministered:\n"
               #emoji.emojize(":syringe:")
-            "Total:"
-            + "\u3000" * 1
+             "Total:"
+            + "\u3000"
             + f"{total:,.0f}"
             + " ["
             + f"{increment:+,.0f}"
