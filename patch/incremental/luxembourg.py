@@ -7,6 +7,15 @@ from vax.utils.utils import get_soup
 from vax.utils.dates import localdate
 import datetime
 
+import re
+
+import pandas as pd
+
+from vax.utils.incremental import enrich_data, increment, clean_count
+from vax.utils.utils import get_soup
+from vax.utils.dates import localdate
+
+
 def read(source: str) -> pd.Series:
     soup = get_soup(source)
 
@@ -14,12 +23,8 @@ def read(source: str) -> pd.Series:
         if label.text == "Total vaccins administrés":
             container = label.parent.parent
 
-    date = soup.find(text=" Prochaine mise à jour: ").find_next_sibling("strong")
-    date = datetime.datetime.strptime(date.text, '%d.%m.%Y')
-    
     return pd.Series(
         data={
-            "date":date.strftime("%Y-%m-%d"),
             "total_vaccinations": parse_total_vaccinations(container),
             "people_vaccinated": parse_people_vaccinated(container),
             "people_fully_vaccinated": parse_people_fully_vaccinated(container),
@@ -64,12 +69,18 @@ def enrich_vaccine(ds: pd.Series) -> pd.Series:
 
 
 def pipeline(ds: pd.Series) -> pd.Series:
-    return ds.pipe(enrich_location).pipe(enrich_vaccine)
+    return ds.pipe(enrich_date).pipe(enrich_location).pipe(enrich_vaccine)
 
 
 def main(paths):
     source = "https://covid19.public.lu/fr.html"
     data = read(source).pipe(pipeline)
+    output_file = paths.tmp_vax_out("Luxembourg")
+    previous_data = pd.read_csv(output_file)
+    if previous_data["total_vaccinations"].iloc[-1] >= data["total_vaccinations"]:
+        print("Luxembourg is up to date")
+        return
+
     increment(
         paths=paths,
         location=data["location"],
