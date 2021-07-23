@@ -58,8 +58,8 @@ def _parse_ds_data(df: pd.DataFrame, source: str) -> pd.Series:
                 "Totales", "Nº Personas vacunadas(pauta completada)"
             ].item(),
             "date": df["Fecha de la última vacuna registrada (2)"]
-            #.apply(lambda x: datetime.strptime(x, "%d/%m/%Y"))
-            .max(),
+            .iloc[0]
+            .strftime("%Y-%m-%d"),
             "source_url": source,
             "vaccine": ", ".join(_get_vaccine_names(df, translate=True)),
         }
