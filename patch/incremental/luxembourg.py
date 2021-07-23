@@ -64,7 +64,7 @@ def enrich_vaccine(ds: pd.Series) -> pd.Series:
 
 
 def pipeline(ds: pd.Series) -> pd.Series:
-    return ds.pipe(enrich_date).pipe(enrich_location).pipe(enrich_vaccine)
+    return ds.pipe(enrich_location).pipe(enrich_vaccine)
 
 
 def main(paths):
