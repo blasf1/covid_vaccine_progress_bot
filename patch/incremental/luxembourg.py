@@ -5,7 +5,7 @@ import pandas as pd
 from vax.utils.incremental import enrich_data, increment, clean_count
 from vax.utils.utils import get_soup
 from vax.utils.dates import localdate
-
+import datetime
 
 def read(source: str) -> pd.Series:
     soup = get_soup(source)
@@ -15,10 +15,11 @@ def read(source: str) -> pd.Series:
             container = label.parent.parent
 
     date = soup.find(text=" Prochaine mise à jour: ").find_next_sibling("strong")
-    print("The date for luxembourg is " + date.text)
-
+    date = datetime.datetime.strptime(date, '%d.%m.%Y')
+    
     return pd.Series(
         data={
+            "date":date,
             "total_vaccinations": parse_total_vaccinations(container),
             "people_vaccinated": parse_people_vaccinated(container),
             "people_fully_vaccinated": parse_people_fully_vaccinated(container),
