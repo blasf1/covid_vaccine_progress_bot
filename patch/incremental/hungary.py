@@ -67,7 +67,8 @@ class Hungary:
                 soup.find("p").text,
                 regex="(202\d. .* \d+.) - .*",
                 date_format="%Y. %B %d.",
-                loc="hu_HU",
+                lang="hu",
+                #loc="hu_HU",
                 minus_days=1,
             ),
         }
