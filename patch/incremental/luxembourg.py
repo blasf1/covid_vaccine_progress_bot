@@ -15,7 +15,7 @@ def read(source: str) -> pd.Series:
             container = label.parent.parent
 
     date = soup.find(text=" Prochaine mise à jour: ").find_next_sibling("strong")
-    print("The date for luxembourg is " + date)
+    print("The date for luxembourg is " + date.text)
 
     return pd.Series(
         data={
