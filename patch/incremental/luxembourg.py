@@ -15,7 +15,7 @@ def read(source: str) -> pd.Series:
             container = label.parent.parent
 
     date = soup.find(text=" Prochaine mise à jour: ").find_next_sibling("strong")
-    date = datetime.datetime.strptime(date, '%d.%m.%Y')
+    date = datetime.datetime.strptime(date.text, '%d.%m.%Y')
     
     return pd.Series(
         data={
