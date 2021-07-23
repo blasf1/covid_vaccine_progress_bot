@@ -19,7 +19,7 @@ def read(source: str) -> pd.Series:
     
     return pd.Series(
         data={
-            "date":date,
+            "date":date.strftime("%Y-%m-%d"),
             "total_vaccinations": parse_total_vaccinations(container),
             "people_vaccinated": parse_people_vaccinated(container),
             "people_fully_vaccinated": parse_people_fully_vaccinated(container),
