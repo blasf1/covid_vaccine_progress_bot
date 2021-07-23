@@ -16,7 +16,7 @@ def read(source: str) -> pd.Series:
 
     date = soup.find(text=" Prochaine mise à jour: ").find_next_sibling("strong")
     date = datetime.datetime.strptime(date, '%d.%m.%Y')
-    
+
     return pd.Series(
         data={
             "date":date,
@@ -51,9 +51,6 @@ def parse_people_fully_vaccinated(container) -> int:
     return people_fully_vaccinated
 
 
-def enrich_date(ds: pd.Series) -> pd.Series:
-    return enrich_data(ds, "date", localdate("Europe/Luxembourg"))
-
 
 def enrich_location(ds: pd.Series) -> pd.Series:
     return enrich_data(ds, "location", "Luxembourg")
@@ -64,7 +61,7 @@ def enrich_vaccine(ds: pd.Series) -> pd.Series:
 
 
 def pipeline(ds: pd.Series) -> pd.Series:
-    return ds.pipe(enrich_date).pipe(enrich_location).pipe(enrich_vaccine)
+    return ds.pipe(enrich_location).pipe(enrich_vaccine)
 
 
 def main(paths):
