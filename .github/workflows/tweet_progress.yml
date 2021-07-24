@@ -60,7 +60,7 @@ jobs:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/vaccination.json
-        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/graphs.py 
+        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/update_json.py 
 
       - name: Commit latest update dates
         uses: EndBug/add-and-commit@v7
