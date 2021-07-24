@@ -36,15 +36,6 @@ jobs:
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Ireland.csv ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/output/Ireland.csv
 
-      # - name: Install Chrome
-      #   uses: browser-actions/setup-chrome@latest
-
-      # - name: Run Chrome
-      #   run: chrome --headless --disable-gpu --disable-software-rasterizer
-
-      #- name: Run webdriver
-      #  uses: nanasess/setup-chromedriver@master
-
       - name: Update data
         env: 
           SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
@@ -64,7 +55,9 @@ jobs:
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
-      
+      - name: Update JSON
+        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/graphs.py --data ${{ github.workspace }}/covid_vaccine_progress_bot/output/ --output ${{ github.workspace }}/covid_vaccine_progress_bot/output/vaccination.json --population ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
+
       - name: Commit latest update dates
         uses: EndBug/add-and-commit@v7
         with:
