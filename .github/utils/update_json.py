@@ -83,7 +83,7 @@ def read_data(path, path_population):
     columns = ["date", "location", "people_vaccinated", "people_fully_vaccinated", "total_vaccinations"]
     data = data[columns]
     
-    return data.set_index("location")
+    return data.set_index("location").round(2)
 
 def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
     countries = [country for country in dict]
