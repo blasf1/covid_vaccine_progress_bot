@@ -56,7 +56,11 @@ jobs:
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
       - name: Update JSON
-        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/graphs.py --data ${{ github.workspace }}/covid_vaccine_progress_bot/output/ --output ${{ github.workspace }}/covid_vaccine_progress_bot/output/vaccination.json --population ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
+        env:
+          DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
+          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/vaccination.json
+        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/graphs.py 
 
       - name: Commit latest update dates
         uses: EndBug/add-and-commit@v7

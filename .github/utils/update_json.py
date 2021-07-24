@@ -138,5 +138,6 @@ population = args.population
 # =============================================================================
 
 data = read_data(data, population)
+print(data)
 data = get_dict_vaccination_per_country(data)
 export_dict_people_vaccinated(data, output)
