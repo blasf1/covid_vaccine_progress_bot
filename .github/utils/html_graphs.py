@@ -48,14 +48,6 @@ FLAGS = {
 
 def read_data(path):
     return pd.read_csv(path).sort_values(by="people_vaccinated")
-
-def get_flag(code, flags):
-    """Gets flag icon"""
-    path = os.path.join(flags + code + ".png")
-    img = plt.imread(path)
-    img = OffsetImage(img, zoom=0.2)
-
-    return img
     
 
 def get_graph(data):
@@ -75,12 +67,12 @@ def get_graph(data):
                text=round((data["people_vaccinated"] - data["people_fully_vaccinated"]), 2), 
                marker_color="#1f77b4", 
                orientation="h",
-               textposition='inside',
+               textposition='auto',
                textfont=dict(color='#FFFFFF')
         ),
     ])
 
-    fig.update_layout(barmode='stack', plot_bgcolor="#FFFFFF", xaxis = dict(fixedrange=True, showgrid = True, gridcolor = "#293133", zeroline = True))
+    fig.update_layout(barmode='stack', plot_bgcolor="#FFFFFF", xaxis = dict(range=[0,100] ,fixedrange=True, showgrid = True, showline=True, gridcolor = "#293133", zeroline = True))
     return fig
     
 

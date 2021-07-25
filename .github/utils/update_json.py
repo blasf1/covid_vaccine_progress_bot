@@ -107,7 +107,6 @@ def export_dict_people_vaccinated(data, path):
     file.write(json.dumps(data))
 
 def export_csv(data, path):
-    path = os.path.join(path, "latest.csv")
     data.to_csv(path)
 # =============================================================================
 # Arguments
