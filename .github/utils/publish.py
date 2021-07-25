@@ -77,9 +77,9 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
     
     
     date = data.index[-1]
-    vaccinations = data["total_vaccinations"].iloc[-1]
+    vaccinations = data["people_vaccinated"].iloc[-1]
 
-    if (date == last_date) or (vaccinations <= previous_vaccinations):
+    if (date == last_date) or (vaccinations <= (previous_vaccinations + 100)):
         print(f"{country} data is up to date.")
         # Exit with a success code
         return

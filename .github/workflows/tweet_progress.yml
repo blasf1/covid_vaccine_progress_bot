@@ -55,11 +55,13 @@ jobs:
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
+
       - name: Update JSON
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/vaccination.json
+          CSV: ${{ github.workspace }}/covid_vaccine_progress_bot/latest.csv
         run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/update_json.py 
 
       - name: Commit latest update dates

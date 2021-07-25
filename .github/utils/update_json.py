@@ -106,7 +106,9 @@ def export_dict_people_vaccinated(data, path):
     file = open(path, "w")
     file.write(json.dumps(data))
 
-
+def export_csv(data, path):
+    path = os.path.join(path, "latest.csv")
+    data.to_csv(path)
 # =============================================================================
 # Arguments
 # =============================================================================
@@ -121,6 +123,10 @@ arg = "--output"
 default = os.environ.get("OUTPUT")
 parser.add_argument(arg, default=default)
 
+arg = "--csv"
+default = os.environ.get("CSV")
+parser.add_argument(arg, default=default)
+
 arg = "--population"
 default = os.environ.get("POPULATION")
 parser.add_argument(arg, default=default)
@@ -131,6 +137,7 @@ args = parser.parse_args(args)
 # Rename the command line arguments for easier reference
 data = args.data
 output = args.output
+csv = args.csv
 population = args.population
 
 # =============================================================================
@@ -139,5 +146,6 @@ population = args.population
 
 data = read_data(data, population)
 print(data)
+export_csv(data, csv)
 data = get_dict_vaccination_per_country(data)
 export_dict_people_vaccinated(data, output)

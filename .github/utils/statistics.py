@@ -60,7 +60,7 @@ def get_previous_vaccinations(path, country):
     path = os.path.join(path, country.replace(" ", "") + ".csv")
     data = pd.read_csv(path)
 
-    return data.total_vaccinations.iloc[-1]
+    return data.people_vaccinated.iloc[-1]
 
 
 def store_last_data(path, country, data):
