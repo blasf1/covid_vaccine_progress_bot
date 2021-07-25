@@ -72,7 +72,33 @@ def get_graph(data):
         ),
     ])
 
-    fig.update_layout(barmode='stack', plot_bgcolor="#FFFFFF", xaxis = dict(range=[0,100] ,fixedrange=True, showgrid = True, showline=True, gridcolor = "#293133", zeroline = True))
+    fig.update_layout(title="Share of people vaccinated against COVID-19",
+                      font=dict(
+                        family="Arial, bold",
+                        size=24,
+                      ),
+                      barmode='stack', 
+                      plot_bgcolor="#FFFFFF", 
+                      xaxis = dict(
+                          range=[0,100],
+                          fixedrange=True, 
+                          showgrid = True, 
+                          showline=True,
+                          gridcolor = "#293133", 
+                          zeroline = True
+                      ),
+                      yaxis=dict(
+                          linecolor='black',
+                          mirror=True
+                      ),
+                      legend=dict(
+                          yanchor="bottom",
+                          xanchor="right",
+                          y=0,
+                      ),
+                      
+                      )
+    #fig.update_yaxes(categoryorder='total ascending')
     return fig
     
 
@@ -95,18 +121,18 @@ def add_flags(fig, data):
     
 def add_labels(fig, data):
     #Country flags
-    for country, i in zip(data["location"], range(len(data["location"]))):
-        flag = base64.b64encode(open('../../flags/' + FLAGS[country] + '.png', 'rb').read())
-        fig.add_layout_image(
-            source='data:image/png;base64,{}'.format(flag.decode()),
-            xref="paper",
-            yref="paper",
-            x=-0.025,
-            y=(i/len(data["location"])),
-            xanchor="center",
-            yanchor="bottom",
-            sizex=0.04,
-            sizey=0.04,
+    for i, text in zip(range(len(data["location"])), data["people_vaccinated"]):
+        #text = base64.b64encode(open('../../flags/' + FLAGS[country] + '.png', 'rb').read())
+        fig.add_annotation(
+            xref="x",
+            yref="y domain",
+            # The arrow head will be 25% along the x axis, starting from the left
+            y=(i/len(data["location"]) + 0.018),
+            ay=(i/len(data["location"])),
+            # The arrow head will be 40% along the y axis, starting from the bottom
+            x=(text + 4),
+            text=text,
+            font=dict(size=17)
         )
     return fig
 
@@ -119,8 +145,12 @@ def format_graph(fig, data):
     add_flags(fig, data)
 
     # % labels
+    add_labels(fig,data)
 
-    fig.show()
+    return fig
+
+def save_graph(fig,output):
+    fig.write_html(output)
 
 # =============================================================================
 # Arguments
@@ -132,9 +162,9 @@ arg = "--data"
 default = os.environ.get("DATA")
 parser.add_argument(arg, default=default)
 
-# arg = "--output"
-# default = os.environ.get("OUTPUT")
-# parser.add_argument(arg, default=default)
+arg = "--output"
+default = os.environ.get("OUTPUT")
+parser.add_argument(arg, default=default)
 
 # arg = "--csv"
 # default = os.environ.get("CSV")
@@ -149,7 +179,7 @@ args = parser.parse_args(args)
 
 # Rename the command line arguments for easier reference
 data = args.data
-# output = args.output
+output = args.output
 # csv = args.csv
 # population = args.population
 
@@ -161,3 +191,4 @@ data = read_data(data)
 print(data)
 fig = get_graph(data)
 fig = format_graph(fig, data)
+save_graph(fig, output)
