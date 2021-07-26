@@ -74,7 +74,7 @@ def get_graph(data):
 
     fig.update_layout(title="Share of people vaccinated against COVID-19",
                       font=dict(
-                        family="Arial, bold",
+                        family="Helvetica Neue, bold",
                         size=22,
                       ),
                       barmode='stack', 

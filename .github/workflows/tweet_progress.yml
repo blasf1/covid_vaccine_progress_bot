@@ -68,7 +68,7 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           cwd: covid_vaccine_progress_bot
-          add: output
+          add: '*.csv'
           author_name: blasf1
           author_email: blasgomossa@gmail.com
           branch: main
