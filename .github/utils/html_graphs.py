@@ -75,7 +75,7 @@ def get_graph(data):
     fig.update_layout(title="Share of people vaccinated against COVID-19",
                       font=dict(
                         family="Arial, bold",
-                        size=24,
+                        size=22,
                       ),
                       barmode='stack', 
                       plot_bgcolor="#FFFFFF", 
@@ -96,7 +96,8 @@ def get_graph(data):
                           xanchor="right",
                           y=0,
                       ),
-                      
+                      width=1000,
+                      height=1000,
                       )
     #fig.update_yaxes(categoryorder='total ascending')
     return fig
