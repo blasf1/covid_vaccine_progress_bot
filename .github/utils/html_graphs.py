@@ -96,8 +96,9 @@ def get_graph(data):
                           xanchor="right",
                           y=0,
                       ),
-                      width=900,
-                      height=850,
+                      width=800,
+                      height=750,
+                      margin=dict(l=40, r=0, t=50, b=0),
                       )
     #fig.update_yaxes(categoryorder='total ascending')
     return fig
@@ -131,7 +132,7 @@ def add_labels(fig, data):
             y=(i/len(data["location"]) + 0.018),
             ay=(i/len(data["location"])),
             # The arrow head will be 40% along the y axis, starting from the bottom
-            x=(text + 5),
+            x=(text + 4.5),
             text=text,
             font=dict(size=17)
         )
