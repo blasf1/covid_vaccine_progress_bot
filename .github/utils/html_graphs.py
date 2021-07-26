@@ -96,8 +96,8 @@ def get_graph(data):
                           xanchor="right",
                           y=0,
                       ),
-                      width=1000,
-                      height=1000,
+                      width=900,
+                      height=850,
                       )
     #fig.update_yaxes(categoryorder='total ascending')
     return fig
@@ -111,7 +111,7 @@ def add_flags(fig, data):
             source='data:image/png;base64,{}'.format(flag.decode()),
             xref="paper",
             yref="paper",
-            x=-0.025,
+            x=-0.02,
             y=(i/len(data["location"])),
             xanchor="center",
             yanchor="bottom",
@@ -131,7 +131,7 @@ def add_labels(fig, data):
             y=(i/len(data["location"]) + 0.018),
             ay=(i/len(data["location"])),
             # The arrow head will be 40% along the y axis, starting from the bottom
-            x=(text + 4),
+            x=(text + 5),
             text=text,
             font=dict(size=17)
         )
@@ -151,7 +151,7 @@ def format_graph(fig, data):
     return fig
 
 def save_graph(fig,output):
-    fig.write_html(output)
+    fig.write_html(output, config=dict(displayModeBar=False))
 
 # =============================================================================
 # Arguments
