@@ -104,10 +104,10 @@ def get_graph(data):
     return fig
     
 
-def add_flags(fig, data):
+def add_flags(fig, data, flags):
     #Country flags
     for country, i in zip(data["location"], range(len(data["location"]))):
-        flag = base64.b64encode(open('../../flags/' + FLAGS[country] + '.png', 'rb').read())
+        flag = base64.b64encode(open(flags + FLAGS[country] + '.png', 'rb').read())
         fig.add_layout_image(
             source='data:image/png;base64,{}'.format(flag.decode()),
             xref="paper",
@@ -124,7 +124,6 @@ def add_flags(fig, data):
 def add_labels(fig, data):
     #Country flags
     for i, text in zip(range(len(data["location"])), data["people_vaccinated"]):
-        #text = base64.b64encode(open('../../flags/' + FLAGS[country] + '.png', 'rb').read())
         fig.add_annotation(
             xref="x",
             yref="y domain",
@@ -138,13 +137,13 @@ def add_labels(fig, data):
         )
     return fig
 
-def format_graph(fig, data):
+def format_graph(fig, data, flags):
     #Remove old labels
     l = [""] * 100
     fig.update_yaxes(tickvals=l)
 
     #Country flags
-    add_flags(fig, data)
+    add_flags(fig, data, flags)
 
     # % labels
     add_labels(fig,data)
@@ -168,9 +167,9 @@ arg = "--output"
 default = os.environ.get("OUTPUT")
 parser.add_argument(arg, default=default)
 
-# arg = "--csv"
-# default = os.environ.get("CSV")
-# parser.add_argument(arg, default=default)
+arg = "--flags"
+default = os.environ.get("FLAGS")
+parser.add_argument(arg, default=default)
 
 # arg = "--population"
 # default = os.environ.get("POPULATION")
@@ -182,7 +181,7 @@ args = parser.parse_args(args)
 # Rename the command line arguments for easier reference
 data = args.data
 output = args.output
-# csv = args.csv
+flags = args.flags
 # population = args.population
 
 # =============================================================================
@@ -192,5 +191,5 @@ output = args.output
 data = read_data(data)
 print(data)
 fig = get_graph(data)
-fig = format_graph(fig, data)
+fig = format_graph(fig, data, flags)
 save_graph(fig, output)
