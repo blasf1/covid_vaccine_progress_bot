@@ -74,12 +74,7 @@ def get_graph(data):
         ),
     ])
 
-    fig.update_layout(title="Share of people vaccinated against COVID-19",
-                      font=dict(
-                        family="Helvetica Neue, bold",
-                        size=22,
-                      ),
-                      barmode='stack', 
+    fig.update_layout(barmode='stack', 
                       plot_bgcolor="#FFFFFF", 
                       xaxis = dict(
                           range=[0,100],
@@ -101,7 +96,7 @@ def get_graph(data):
                       ),
                       width=800,
                       height=750,
-                      margin=dict(l=40, r=0, t=50, b=0),
+                      margin=dict(l=40, r=0, t=0, b=0),
                       )
 
     return fig
