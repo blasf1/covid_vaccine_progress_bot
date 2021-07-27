@@ -85,11 +85,13 @@ def read_data(path, path_population):
     
     return data.set_index("location").round(2)
 
+
 def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
     countries = [country for country in dict]
     values = [dict[country][sort_by] for country in dict]
     index_sorted = np.argsort(-np.array(values))
     return list(np.array(countries)[index_sorted])
+
 
 def get_dict_vaccination_per_country(df):
     dict_people_vaccinated = {"data": {}}
@@ -102,9 +104,11 @@ def get_dict_vaccination_per_country(df):
     dict_people_vaccinated["max_date"] = df.date.max()
     return dict_people_vaccinated
 
+
 def export_dict_people_vaccinated(data, path):
     file = open(path, "w")
     file.write(json.dumps(data))
+
 
 def export_csv(data, path):
     data.to_csv(path)
@@ -116,6 +120,10 @@ parser = argparse.ArgumentParser(description=description)
 
 arg = "--data"
 default = os.environ.get("DATA")
+parser.add_argument(arg, default=default)
+
+arg = "--noeudata"
+default = os.environ.get("NOEUDATA")
 parser.add_argument(arg, default=default)
 
 arg = "--output"
@@ -135,6 +143,7 @@ args = parser.parse_args(args)
 
 # Rename the command line arguments for easier reference
 data = args.data
+noeudata = args.noeudata
 output = args.output
 csv = args.csv
 population = args.population
@@ -144,6 +153,10 @@ population = args.population
 # =============================================================================
 
 data = read_data(data, population)
+data_ext = read_data(noeudata, population)
+print(data_ext)
+dataframes = [data, data_ext]
+data = pd.concat(dataframes)
 print(data)
 export_csv(data, csv)
 data = get_dict_vaccination_per_country(data)

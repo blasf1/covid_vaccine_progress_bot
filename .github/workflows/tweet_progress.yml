@@ -59,6 +59,7 @@ jobs:
       - name: Update JSON
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          NOEUDATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/external/
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/vaccination.json
           CSV: ${{ github.workspace }}/covid_vaccine_progress_bot/latest.csv
