@@ -68,6 +68,7 @@ jobs:
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/latest.csv
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/progress.html
+          FLAGS: ${{ github.workspace }}/covid_vaccine_progress_bot/flags/
         run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/html_graphs.py
 
       - name: Commit latest update dates

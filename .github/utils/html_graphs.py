@@ -107,7 +107,8 @@ def get_graph(data):
 def add_flags(fig, data, flags):
     #Country flags
     for country, i in zip(data["location"], range(len(data["location"]))):
-        flag = base64.b64encode(open(flags + FLAGS[country] + '.png', 'rb').read())
+        path = os.path.join(flags, FLAGS[country] + '.png')
+        flag = base64.b64encode(open(path, 'rb').read())
         fig.add_layout_image(
             source='data:image/png;base64,{}'.format(flag.decode()),
             xref="paper",
