@@ -40,7 +40,9 @@ FLAGS = {
     "Slovakia": "SK",
     "Slovenia": "SI",
     "Spain": "ES",
-    "Sweden": "SE"}
+    "Sweden": "SE",
+    "United Kingdom": "UK",
+    "United States": "US"}
 
 # =============================================================================
 # Functions
