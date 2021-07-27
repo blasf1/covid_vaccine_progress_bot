@@ -94,9 +94,9 @@ def get_graph(data):
                           xanchor="right",
                           y=0,
                       ),
-                      width=800,
-                      height=750,
-                      margin=dict(l=40, r=0, t=0, b=0),
+                      width=700,
+                      height=700,
+                      margin=dict(l=28, r=0, t=0, b=0),
                       )
 
     return fig
@@ -127,12 +127,12 @@ def add_labels(fig, data):
             xref="x",
             yref="y domain",
             # The arrow head will be 25% along the x axis, starting from the left
-            y=(i/len(data["location"]) + 0.018),
+            y=(i/len(data["location"]) + 0.015),
             ay=(i/len(data["location"])),
             # The arrow head will be 40% along the y axis, starting from the bottom
-            x=(text + 4.5),
+            x=(text + 4),
             text=text,
-            font=dict(size=17)
+            font=dict(family="Arial", size=12, color="#000000")
         )
     return fig
 
