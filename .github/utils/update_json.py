@@ -44,7 +44,8 @@ COUNTRIES = [
     "Slovenia",
     "Spain",
     "Sweden",
-    #"United Kingdom",
+    "United Kingdom",
+    "United States",
 ]
 
 # =============================================================================
