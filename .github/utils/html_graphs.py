@@ -91,7 +91,8 @@ def get_graph(data):
                       ),
                       yaxis=dict(
                           linecolor='black',
-                          mirror=True
+                          mirror=True,
+                          fixedrange=True
                       ),
                       legend=dict(
                           yanchor="bottom",
@@ -102,7 +103,7 @@ def get_graph(data):
                       height=750,
                       margin=dict(l=40, r=0, t=50, b=0),
                       )
-    #fig.update_yaxes(categoryorder='total ascending')
+
     return fig
     
 
