@@ -97,7 +97,9 @@ def get_days_to_70(data, parameter):
     difference = data_for_average.diff(periods)
 
     seven_days_average = difference.sum() / days
-
+    if seven_days_average < 0: 
+        seven_days_average = 0
+        
     return seven_days_average
 
 
@@ -110,12 +112,9 @@ def read_data(path, path_population):
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
         data = data.iloc[[-1]]
         data = get_data_hundred_people(data, path_population)
-        print(data["location"])
-        print(70 - data["people_fully_vaccinated"])
-        print(data["days_to_70"])
         data["days_to_70"] = round(
             (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
-        print(data["days_to_70"])
+
         return data
 
     data = pd.concat(map(read_csv, files))
