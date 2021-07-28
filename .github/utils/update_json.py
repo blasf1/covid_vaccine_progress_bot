@@ -7,6 +7,7 @@ import os
 import sys
 import glob
 
+import math
 import pandas as pd
 import json
 import numpy as np
@@ -137,7 +138,7 @@ def get_dict_vaccination_per_country(df):
         people_vaccinated = df["people_vaccinated"][country]
         people_fully_vaccinated = df["people_fully_vaccinated"][country]
         days_to_70 = df["days_to_70"][country]
-        if type(days_to_70) != int or type(days_to_70) != float:
+        if math.isinf(days_to_70):
             days_to_70 == 0
         date = df["date"][country]
         dict_people_vaccinated["data"][country] = {"people_vaccinated": people_vaccinated,
