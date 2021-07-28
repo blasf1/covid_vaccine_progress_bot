@@ -52,6 +52,7 @@ COUNTRIES = [
 # Functions
 # =============================================================================
 
+
 def get_population(path, country):
     """Get the population for a country."""
     # Use the country to identify the population data
@@ -71,22 +72,27 @@ def get_data_hundred_people(data, path):
 
     return data
 
+
 def get_days_to_70(data, parameter):
     """Get the rolling average of the vaccination data."""
     # Use one period for the rolling average
     periods = 1
     days = 7
-    data_for_average = data.tail(days + 1) #keep days + 1 so that diff can cçompare with the last day out of the average
+    # keep days + 1 so that diff can cçompare with the last day out of the average
+    data_for_average = data.tail(days + 1)
     data_for_average.reset_index(inplace=True)
-    data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
+    data_for_average["date"] = pd.to_datetime(
+        data_for_average["date"], format='%Y-%m-%d')
 
-    date_limit = data_for_average.iloc[-1]["date"] - datetime.timedelta(days = days + 1) #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+    # data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+    date_limit = data_for_average.iloc[-1]["date"] - \
+        datetime.timedelta(days=days + 1)
 
-    data_for_average = data_for_average[data_for_average["date"] > date_limit]  
+    data_for_average = data_for_average[data_for_average["date"] > date_limit]
 
     data_for_average = data_for_average[parameter]
 
-    data_for_average = data_for_average.dropna() #remove empty rows for diff()
+    data_for_average = data_for_average.dropna()  # remove empty rows for diff()
     difference = data_for_average.diff(periods)
 
     seven_days_average = difference.sum() / days
@@ -97,20 +103,23 @@ def get_days_to_70(data, parameter):
 def read_data(path, path_population):
     """Read the last vaccination data for all countries."""
     files = glob.glob(path + "*.csv")
-    def read_csv(file): 
+
+    def read_csv(file):
         data = pd.read_csv(file)
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
         data = data.iloc[[-1]]
         data = get_data_hundred_people(data, path_population)
-        print(data["location"]) 
+        print(data["location"])
         print(70 - data["people_fully_vaccinated"])
         print(data["days_to_70"])
-        data["days_to_70"] = round((70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
+        data["days_to_70"] = round(
+            (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
         print(data["days_to_70"])
         return data
 
     data = pd.concat(map(read_csv, files))
-    columns = ["date", "location", "people_vaccinated", "people_fully_vaccinated", "total_vaccinations", "days_to_70"]
+    columns = ["date", "location", "people_vaccinated",
+               "people_fully_vaccinated", "total_vaccinations", "days_to_70"]
     data = data[columns]
     return data.set_index("location").round(2)
 
@@ -128,10 +137,13 @@ def get_dict_vaccination_per_country(df):
         people_vaccinated = df["people_vaccinated"][country]
         people_fully_vaccinated = df["people_fully_vaccinated"][country]
         days_to_70 = df["days_to_70"][country]
+        date = df["date"][country]
         dict_people_vaccinated["data"][country] = {"people_vaccinated": people_vaccinated,
                                                    "people_fully_vaccinated": people_fully_vaccinated,
-                                                   "days_to_70":days_to_70}
-    dict_people_vaccinated["countries_sorted"] = sort_values_dict(dict_people_vaccinated["data"])
+                                                   "days_to_70": days_to_70,
+                                                   "date":date}
+    dict_people_vaccinated["countries_sorted"] = sort_values_dict(
+        dict_people_vaccinated["data"])
     dict_people_vaccinated["max_date"] = df.date.max()
     return dict_people_vaccinated
 
@@ -143,6 +155,8 @@ def export_dict_people_vaccinated(data, path):
 
 def export_csv(data, path):
     data.to_csv(path)
+
+
 # =============================================================================
 # Arguments
 # =============================================================================
