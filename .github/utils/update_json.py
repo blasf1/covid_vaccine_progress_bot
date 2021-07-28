@@ -115,9 +115,9 @@ def read_data(path, path_population):
         print(data["days_to_70"])
         data["days_to_70"] = round(
             (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
-        if math.isinf(data["days_to_70"]):
+        if data["days_to_70"].isinf():
             data["days_to_70"] = 0.0
-            
+
         return data
 
     data = pd.concat(map(read_csv, files))
