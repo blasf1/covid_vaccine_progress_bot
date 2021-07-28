@@ -115,8 +115,6 @@ def read_data(path, path_population):
         print(data["days_to_70"])
         data["days_to_70"] = round(
             (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
-        if data["days_to_70"].isinf():
-            data["days_to_70"] = 0.0
 
         return data
 
@@ -140,8 +138,6 @@ def get_dict_vaccination_per_country(df):
         people_vaccinated = df["people_vaccinated"][country]
         people_fully_vaccinated = df["people_fully_vaccinated"][country]
         days_to_70 = df["days_to_70"][country]
-        if math.isinf(days_to_70):
-            days_to_70 == 0
         date = df["date"][country]
         dict_people_vaccinated["data"][country] = {"people_vaccinated": people_vaccinated,
                                                    "people_fully_vaccinated": people_fully_vaccinated,
@@ -208,6 +204,7 @@ print(data_ext)
 dataframes = [data, data_ext]
 data = pd.concat(dataframes)
 print(data)
+data.replace([np.inf, -np.inf], 0, inplace=True)
 export_csv(data, csv)
 data = get_dict_vaccination_per_country(data)
 export_dict_people_vaccinated(data, output)
