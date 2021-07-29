@@ -41,6 +41,7 @@ FLAGS = {
     "Slovenia": "SI",
     "Spain": "ES",
     "Sweden": "SE",
+    "Norway": "NO",
     "United Kingdom": "UK",
     "United States": "US"}
 
