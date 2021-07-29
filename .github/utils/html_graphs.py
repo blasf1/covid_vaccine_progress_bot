@@ -45,6 +45,11 @@ FLAGS = {
     "United Kingdom": "UK",
     "United States": "US"}
 
+NON_EU = {
+    "Norway": "NO",
+    "United Kingdom": "UK",
+    "United States": "US"
+}
 # =============================================================================
 # Functions
 # =============================================================================
@@ -52,14 +57,27 @@ FLAGS = {
 def read_data(path):
     return pd.read_csv(path).sort_values(by="people_vaccinated")
     
+def get_color(country, parameter):
+    if country in NON_EU:
+        if parameter is "people_fully_vaccinated":
+            return "#9B9B9B"
+        else:
+            return "#BCBCBD"
+    else:
+        if parameter is "people_fully_vaccinated":
+            return "#3C4E66"
+        else:
+            return "#1f77b4"
 
 def get_graph(data):
+    data["color1"] = [get_color(x,"people_fully_vaccinated") for x in data["location"]]
+    data["color2"] = [get_color(x,"people_vaccinated") for x in data["location"]]
     fig = go.Figure(data = [
         go.Bar(name="Fully vaccinated", 
                y=data["location"], 
                x=data["people_fully_vaccinated"], 
                text=data["people_fully_vaccinated"], 
-               marker_color="#3C4E66", 
+               marker_color=data["color1"], 
                orientation="h",
                textposition='inside',
                textfont=dict(color='#FFFFFF')
@@ -68,7 +86,7 @@ def get_graph(data):
                y=data["location"], 
                x=(data["people_vaccinated"] - data["people_fully_vaccinated"]), 
                text=round((data["people_vaccinated"] - data["people_fully_vaccinated"]), 2), 
-               marker_color="#1f77b4", 
+               marker_color=data["color2"], 
                orientation="h",
                textposition='auto',
                textfont=dict(color='#FFFFFF')
