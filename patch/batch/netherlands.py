@@ -11,7 +11,9 @@ def main(paths):
 
     date = datetime.datetime.today() - timedelta(days=1)    
 
-    source = "https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/${date}_vaccine-data.csv"
+    source = ("https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/" 
+            + date.strftime("%Y-%m-%d") 
+            + "_vaccine-data.csv")
 
     df = pd.read_csv(
         source, usecols=["people_vaccinated", "people_fully_vaccinated", "total_estimated", "date"]
