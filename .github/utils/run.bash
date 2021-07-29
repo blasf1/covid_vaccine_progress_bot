@@ -45,3 +45,4 @@ cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United K
 cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/United States.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/external/UnitedStates.csv
 cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/Norway.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/external/Norway.csv
 cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/Iceland.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/external/Iceland.csv
+cp "$GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/output/Switzerland.csv" $GITHUB_WORKSPACE/covid_vaccine_progress_bot/output/external/Switzerland.csv

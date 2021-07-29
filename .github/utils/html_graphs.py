@@ -43,6 +43,7 @@ FLAGS = {
     "Sweden": "SE",
     "Norway": "NO",
     "Iceland": "IS",
+    "Switzerland": "CH",
     "United Kingdom": "UK",
     "United States": "US"}
 
