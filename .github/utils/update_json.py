@@ -118,11 +118,10 @@ def get_week_on_week(data, parameter):
         datetime.timedelta(days=days + 1)
 
     data_for_average = data_for_average[data_for_average["date"] > date_limit]
-
     data_for_average = data_for_average[parameter]
 
     data_for_average = data_for_average.dropna()  # remove empty rows for diff()
-    difference = data_for_average[parameter].iloc[-1] - data_for_average[parameter].iloc[0]
+    difference = data_for_average.iloc[-1] - data_for_average.iloc[0]
 
     return difference
 
@@ -139,12 +138,11 @@ def read_data(path, path_population):
         data = get_data_hundred_people(data, path_population)
         data["days_to_70"] = round(
             (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
-
         return data
 
     data = pd.concat(map(read_csv, files))
     columns = ["date", "location", "people_vaccinated",
-               "people_fully_vaccinated", "total_vaccinations", "days_to_70"]
+               "people_fully_vaccinated", "total_vaccinations", "days_to_70", "week_on_week"]
     data = data[columns]
     return data.set_index("location").round(2)
 
@@ -163,10 +161,12 @@ def get_dict_vaccination_per_country(df):
         people_fully_vaccinated = df["people_fully_vaccinated"][country]
         days_to_70 = df["days_to_70"][country]
         date = df["date"][country]
+        week_on_week = df["week_on_week"][country]
         dict_people_vaccinated["data"][country] = {"people_vaccinated": people_vaccinated,
                                                    "people_fully_vaccinated": people_fully_vaccinated,
                                                    "days_to_70": days_to_70,
-                                                   "date":date}
+                                                   "date":date,
+                                                   "week_on_week":week_on_week}
     dict_people_vaccinated["countries_sorted"] = sort_values_dict(
         dict_people_vaccinated["data"])
     dict_people_vaccinated["max_date"] = df.date.max()
