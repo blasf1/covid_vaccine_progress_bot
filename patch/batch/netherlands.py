@@ -4,9 +4,6 @@ import datetime
 import pandas as pd
 
 
-VACCINES_ONE_DOSE = ["JANSS"]
-
-
 def main(paths):
 
     date = datetime.datetime.today() - timedelta(days=1)    
@@ -18,8 +15,6 @@ def main(paths):
     df = pd.read_csv(
         source, usecols=["people_vaccinated", "people_fully_vaccinated", "total_estimated", "date"]
     )
-
-    df = df[df.Region == "NL"]
 
     df = df.rename(
         columns={
