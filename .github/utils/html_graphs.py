@@ -42,11 +42,13 @@ FLAGS = {
     "Spain": "ES",
     "Sweden": "SE",
     "Norway": "NO",
+    "Iceland": "IS",
     "United Kingdom": "UK",
     "United States": "US"}
 
 NON_EU = {
     "Norway": "NO",
+    "Iceland": "IS",
     "United Kingdom": "UK",
     "United States": "US"
 }

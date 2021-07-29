@@ -46,6 +46,7 @@ COUNTRIES = [
     "Spain",
     "Sweden",
     "Norway",
+    "Iceland",
     "United Kingdom",
     "United States",
 ]
