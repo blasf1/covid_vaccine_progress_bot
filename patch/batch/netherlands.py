@@ -26,7 +26,7 @@ def main(paths):
         location="Netherlands",
         source_url="https://github.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/tree/master/vaccination/daily-dashboard-update",
     )
-    df = df.pipe(enrich_vaccine_name)
+    
     df.to_csv(paths.tmp_vax_out("Netherlands"), index=False)
 
 
