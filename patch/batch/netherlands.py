@@ -30,19 +30,19 @@ def main(paths):
     df.to_csv(paths.tmp_vax_out("Netherlands"), index=False)
 
 
-def enrich_vaccine_name(df: pd.DataFrame) -> pd.DataFrame:
-    def _enrich_vaccine_name(dt: str) -> str:
-        # See timeline in:
-        if dt < date(2021, 1, 18):
-            return "Pfizer/BioNTech"
-        elif date(2021, 1, 18) <= dt < date(2021, 2, 10):
-            return "Moderna, Pfizer/BioNTech"
-        elif date(2021, 2, 10) <= dt < date(2021, 4, 21):
-            return "Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-        elif date(2021, 4, 21) <= dt:
-            return "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+# def enrich_vaccine_name(df: pd.DataFrame) -> pd.DataFrame:
+#     def _enrich_vaccine_name(dt: str) -> str:
+#         # See timeline in:
+#         if dt < date(2021, 1, 18):
+#             return "Pfizer/BioNTech"
+#         elif date(2021, 1, 18) <= dt < date(2021, 2, 10):
+#             return "Moderna, Pfizer/BioNTech"
+#         elif date(2021, 2, 10) <= dt < date(2021, 4, 21):
+#             return "Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+#         elif date(2021, 4, 21) <= dt:
+#             return "Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
 
-    return df.assign(vaccine=df.date.apply(_enrich_vaccine_name))
+#    return df.assign(vaccine=df.date.apply(_enrich_vaccine_name))
 
 
 if __name__ == "__main__":
