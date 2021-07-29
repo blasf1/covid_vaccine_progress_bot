@@ -102,6 +102,31 @@ def get_days_to_70(data, parameter):
     return seven_days_average
 
 
+def get_week_on_week(data, parameter):
+    """Get the rolling average of the vaccination data."""
+    # Use one period for the rolling average
+    periods = 1
+    days = 7
+    # keep days + 1 so that diff can cçompare with the last day out of the average
+    data_for_average = data.tail(days + 1)
+    data_for_average.reset_index(inplace=True)
+    data_for_average["date"] = pd.to_datetime(
+        data_for_average["date"], format='%Y-%m-%d')
+
+    # data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+    date_limit = data_for_average.iloc[-1]["date"] - \
+        datetime.timedelta(days=days + 1)
+
+    data_for_average = data_for_average[data_for_average["date"] > date_limit]
+
+    data_for_average = data_for_average[parameter]
+
+    data_for_average = data_for_average.dropna()  # remove empty rows for diff()
+    difference = data_for_average[parameter].iloc[-1] - data_for_average[parameter].iloc[0]
+
+    return difference
+
+
 def read_data(path, path_population):
     """Read the last vaccination data for all countries."""
     files = glob.glob(path + "*.csv")
@@ -109,11 +134,9 @@ def read_data(path, path_population):
     def read_csv(file):
         data = pd.read_csv(file)
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
+        data["week_on_week"] = get_week_on_week(data, "people_fully_vaccinated")
         data = data.iloc[[-1]]
         data = get_data_hundred_people(data, path_population)
-        print(data["location"])
-        print(70 - data["people_fully_vaccinated"])
-        print(data["days_to_70"])
         data["days_to_70"] = round(
             (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
 
