@@ -57,7 +57,7 @@ def _parse_ds_data(df: pd.DataFrame, source: str) -> pd.Series:
             "people_fully_vaccinated": df.loc[
                 "Totales", "Nº Personas vacunadas(pauta completada)"
             ].item(),
-            "date": datetime.datetime.today() - datetime.datetime.timedelta(days = 1),
+            "date": datetime.today() - timedelta(days = 1),
             "source_url": source,
             "vaccine": ", ".join(_get_vaccine_names(df, translate=True)),
         }
