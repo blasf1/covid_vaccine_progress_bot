@@ -7,8 +7,13 @@ import pandas as pd
 def main(paths):
 
     date = datetime.datetime.today() - timedelta(days=1)    
-
-    source = ("https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/" 
+    try:
+        source = ("https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/" 
+            + date.strftime("%Y-%m-%d") 
+            + "_vaccine-data.csv")
+    except:
+        date = datetime.datetime.today() - timedelta(days=2)
+        source = ("https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/" 
             + date.strftime("%Y-%m-%d") 
             + "_vaccine-data.csv")
 
