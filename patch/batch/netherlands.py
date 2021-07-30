@@ -11,15 +11,20 @@ def main(paths):
         source = ("https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/" 
             + date.strftime("%Y-%m-%d") 
             + "_vaccine-data.csv")
+
+        df = pd.read_csv(
+            source, usecols=["people_vaccinated", "people_fully_vaccinated", "total_estimated", "date"]
+    )
     except:
         date = datetime.datetime.today() - timedelta(days=2)
         source = ("https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/" 
             + date.strftime("%Y-%m-%d") 
             + "_vaccine-data.csv")
-
-    df = pd.read_csv(
-        source, usecols=["people_vaccinated", "people_fully_vaccinated", "total_estimated", "date"]
+        
+        df = pd.read_csv(
+            source, usecols=["people_vaccinated", "people_fully_vaccinated", "total_estimated", "date"]
     )
+
 
     df = df.rename(
         columns={
