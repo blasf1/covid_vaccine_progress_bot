@@ -21,7 +21,7 @@ def main(paths):
         except:
             date = datetime.datetime.today() - timedelta(days=i) 
             i += 1
-            pass
+            continue
 
 
     df = df.rename(
