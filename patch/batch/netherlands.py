@@ -7,9 +7,9 @@ import pandas as pd
 def main(paths):
 
     date = datetime.datetime.today() - timedelta(days=1)  
-    source = None
     i = 2
-    while source is None: 
+    df = None
+    while df is None: 
         try:
             source = ("https://raw.githubusercontent.com/YorickBleijenberg/COVID_data_RIVM_Netherlands/master/vaccination/daily-dashboard-update/" 
                 + date.strftime("%Y-%m-%d") 
