@@ -162,7 +162,7 @@ def read_data(path, path_population, path_adults):
     columns = ["date", "location", "people_vaccinated",
                "people_fully_vaccinated", "total_vaccinations", "adults_fully_vaccinated", "adults_vaccinated", "days_to_70", "week_on_week"]
     data = data[columns]
-    return data.set_index("location").round(2)
+    return data.set_index("location").round(1)
 
 
 def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
