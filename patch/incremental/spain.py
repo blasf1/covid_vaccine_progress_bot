@@ -58,7 +58,7 @@ def _parse_ds_data(df: pd.DataFrame, source: str) -> pd.Series:
             "date":df.loc[
                 ~df.index.isin(["Sanidad Exterior"]),
                 "Fecha de la última vacuna registrada (2)"
-                ].dropna().max(),#.strftime("%Y-%m-%d"),
+                ].dropna().strftime("%Y-%m-%d").max(),#,
             "source_url": source,
             "vaccine": ", ".join(_get_vaccine_names(df, translate=True)),
         }
