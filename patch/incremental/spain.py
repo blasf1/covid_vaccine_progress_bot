@@ -54,10 +54,11 @@ def _parse_ds_data(df: pd.DataFrame, source: str) -> pd.Series:
             "total_vaccinations": df.loc["Totales", "Dosis administradas (2)"].item(),
             "people_vaccinated": df.loc["Totales", "Nº Personas con al menos 1 dosis"].item(),
             "people_fully_vaccinated": df.loc["Totales", "Nº Personas vacunadas(pauta completada)"].item(),
-            "date": df.loc[
-                ~df.index.isin(["Sanidad Exterior"]),
-                "Fecha de la última vacuna registrada (2)"
-                ].dropna().max().strftime("%Y-%m-%d"),
+            "date": (datetime.today() - timedelta(days=1)).strftime("%Y-%m-%d"),
+            # df.loc[
+            #     ~df.index.isin(["Sanidad Exterior"]),
+            #     "Fecha de la última vacuna registrada (2)"
+            #     ].dropna().max().strftime("%Y-%m-%d"),
             "source_url": source,
             "vaccine": ", ".join(_get_vaccine_names(df, translate=True)),
         }
