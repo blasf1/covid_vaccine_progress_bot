@@ -76,6 +76,15 @@ def get_data_hundred_people(data, path):
 
     return data
 
+def get_data_hundred_adults(data, path):
+    """Get the vaccination data per hundred people."""
+    # Filter the numerical data to avoid errors
+    population = get_population(path, data["location"])
+    numeric_columns = data.select_dtypes("number").columns.tolist()
+
+    data[numeric_columns] = data[numeric_columns] * 100 / population
+
+    return data
 
 def get_days_to_70(data, parameter):
     """Get the rolling average of the vaccination data."""
@@ -128,23 +137,30 @@ def get_week_on_week(data, parameter):
     return difference
 
 
-def read_data(path, path_population):
+def read_data(path, path_population, path_adults):
     """Read the last vaccination data for all countries."""
     files = glob.glob(path + "*.csv")
 
     def read_csv(file):
         data = pd.read_csv(file)
+        data_adults = data.copy()
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
         data["week_on_week"] = get_week_on_week(data, "people_fully_vaccinated")
         data = data.iloc[[-1]]
+        data_adults = data_adults.iloc[[-1]]
         data = get_data_hundred_people(data, path_population)
+        data_adults = get_data_hundred_adults(data_adults, path_adults)
+        
         data["days_to_70"] = round(
             (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
+        
+        data["adults_fully_vaccinated"] = data_adults["people_fully_vaccinated"]
+        data["adults_vaccinated"] = data_adults["people_vaccinated"]
         return data
 
     data = pd.concat(map(read_csv, files))
     columns = ["date", "location", "people_vaccinated",
-               "people_fully_vaccinated", "total_vaccinations", "days_to_70", "week_on_week"]
+               "people_fully_vaccinated", "total_vaccinations", "adults_fully_vaccinated", "adults_vaccinated", "days_to_70", "week_on_week"]
     data = data[columns]
     return data.set_index("location").round(2)
 
@@ -164,11 +180,15 @@ def get_dict_vaccination_per_country(df):
         days_to_70 = df["days_to_70"][country]
         date = df["date"][country]
         week_on_week = df["week_on_week"][country]
+        adults_vaccinated = df["adults_vaccinated"][country]
+        adults_fully_vaccinated = df["adults_fully_vaccinated"][country]
         dict_people_vaccinated["data"][country] = {"people_vaccinated": people_vaccinated,
                                                    "people_fully_vaccinated": people_fully_vaccinated,
                                                    "days_to_70": days_to_70,
                                                    "date":date,
-                                                   "week_on_week":week_on_week}
+                                                   "week_on_week":week_on_week,
+                                                   "adults_vaccinated":adults_vaccinated,
+                                                   "adults_fully_vaccinated":adults_fully_vaccinated}
     dict_people_vaccinated["countries_sorted"] = sort_values_dict(
         dict_people_vaccinated["data"])
     dict_people_vaccinated["max_date"] = df.date.max()
@@ -210,6 +230,10 @@ arg = "--population"
 default = os.environ.get("POPULATION")
 parser.add_argument(arg, default=default)
 
+arg = "--adults"
+default = os.environ.get("ADULTS")
+parser.add_argument(arg, default=default)
+
 args = sys.argv[1:]
 args = parser.parse_args(args)
 
@@ -219,13 +243,15 @@ noeudata = args.noeudata
 output = args.output
 csv = args.csv
 population = args.population
+adults = args.adults
+
 
 # =============================================================================
 # Main
 # =============================================================================
 
-data = read_data(data, population)
-data_ext = read_data(noeudata, population)
+data = read_data(data, population, adults)
+data_ext = read_data(noeudata, population, adults)
 print(data_ext)
 dataframes = [data, data_ext]
 data = pd.concat(dataframes)
