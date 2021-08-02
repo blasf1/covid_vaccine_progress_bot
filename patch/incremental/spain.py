@@ -38,9 +38,8 @@ def parse_data(last_update: str, max_iter: int = 10):
                 ds = _parse_ds_data(df_, source)
                 print(ds["date"])
                 records.append(ds)
-        else:
-            # print("End!")
-            break
+                break
+
         # print(max_iter)
     if len(records) > 0:
         return pd.DataFrame(records)
@@ -55,10 +54,10 @@ def _parse_ds_data(df: pd.DataFrame, source: str) -> pd.Series:
             "total_vaccinations": df.loc["Totales", "Dosis administradas (2)"].item(),
             "people_vaccinated": df.loc["Totales", "Nº Personas con al menos 1 dosis"].item(),
             "people_fully_vaccinated": df.loc["Totales", "Nº Personas vacunadas(pauta completada)"].item(),
-            "date":max([x.strftime("%Y-%m-%d") for x in df.loc[
+            "date": df.loc[
                 ~df.index.isin(["Sanidad Exterior"]),
                 "Fecha de la última vacuna registrada (2)"
-                ].dropna()]),
+                ].dropna().max().strftime("%Y-%m-%d"),
             "source_url": source,
             "vaccine": ", ".join(_get_vaccine_names(df, translate=True)),
         }
