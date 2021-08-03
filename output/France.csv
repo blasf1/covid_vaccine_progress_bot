@@ -1,219 +1,220 @@
-date,total_vaccinations,people_vaccinated,people_fully_vaccinated,vaccine,location,source_url
-2020-12-27,146,146,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2020-12-28,333,333,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2020-12-29,474,474,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2020-12-30,642,642,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2020-12-31,786,786,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-01,920,920,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-02,1048,1048,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-03,1202,1202,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-04,2775,2775,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-05,8296,8296,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-06,19717,19717,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-07,48561,48561,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-08,85052,85052,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-09,96053,96053,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-10,101746,101746,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-11,141126,141126,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-12,202438,202438,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-13,266699,266699,0,Pfizer/BioNTech,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-14,347481,347481,0,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-15,415572,415572,0,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-16,435512,435435,77,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-17,446133,446014,119,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-18,531219,530938,281,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-19,660695,660289,406,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-20,796961,796398,563,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-21,953551,952854,697,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-22,1073300,1072443,857,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-23,1111375,1110468,907,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-24,1120853,1119919,934,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-25,1199377,1197228,2149,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-26,1301911,1296653,5258,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-27,1413705,1402853,10852,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-28,1551174,1525965,25209,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-29,1659785,1617294,42491,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-30,1692814,1646099,46715,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-01-31,1699457,1651063,48394,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-01,1772476,1702961,69515,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-02,1878225,1774151,104074,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-03,1986571,1845539,141032,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-04,2117660,1926583,191077,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-05,2230454,1994042,236412,"Moderna, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-06,2262449,2015640,246809,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-07,2272378,2020528,251850,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-08,2364492,2066666,297826,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-09,2502091,2131859,370232,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-10,2648548,2201593,446955,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-11,2833825,2287728,546097,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-12,2986233,2365921,620312,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-13,3027546,2387749,639797,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-14,3039400,2392412,646988,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-15,3153226,2429731,723495,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-16,3303464,2479236,824228,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-17,3456068,2528849,927219,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-18,3643233,2597486,1045747,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-19,3798230,2661735,1136495,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-20,3844794,2679876,1164918,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-21,3854118,2682828,1171290,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-22,3964019,2719590,1244429,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-23,4101017,2772537,1328480,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-24,4240786,2831191,1409595,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-25,4431571,2930598,1500973,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-26,4614942,3042956,1571986,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-27,4688416,3094451,1593965,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-02-28,4698621,3100243,1598378,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-01,4815594,3164427,1651167,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-02,4981837,3264418,1717419,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-03,5162021,3379056,1782965,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-04,5392706,3540863,1851843,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-05,5655217,3740012,1915205,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-06,5879575,3946555,1933020,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-07,6005464,4066975,1938489,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-08,6161941,4172656,1989285,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-09,6389543,4343480,2046063,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-10,6623662,4520389,2103273,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-11,6927635,4761254,2166381,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-12,7274008,5054108,2219900,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-13,7519146,5283939,2235207,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-14,7585180,5346538,2238642,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-15,7774736,5503450,2271286,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-16,7954347,5643534,2310813,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-17,8142158,5792552,2349606,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-18,8352860,5958626,2394234,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-19,8618547,6186839,2431708,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-20,8795807,6352315,2443492,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-21,8847546,6401428,2446118,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-22,9050116,6569711,2480405,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-23,9340909,6818099,2522810,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-24,9639683,7073023,2566660,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-25,10024197,7412780,2611417,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-26,10423050,7769721,2653329,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-27,10633802,7963823,2669979,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-28,10696238,8022527,2673711,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-29,10952097,8224094,2728003,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-30,11305315,8507619,2797696,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-03-31,11639343,8768711,2870632,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-01,12039383,9080926,2958457,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-02,12410972,9360370,3050602,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-03,12612699,9500236,3112463,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-04,12676533,9545405,3131128,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-05,12746844,9604711,3142133,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-06,13069612,9819597,3250015,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-07,13442855,10077370,3365485,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-08,13899201,10412280,3486921,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-09,14423174,10819750,3603424,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-10,14717151,11030973,3686178,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-11,14807017,11086242,3720775,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-12,15157364,11321355,3836009,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-13,15609475,11628487,3980988,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-14,16040436,11920023,4120413,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-15,16522081,12253792,4268289,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-16,17005067,12590990,4414077,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-17,17282768,12778429,4504339,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-18,17368999,12829232,4539767,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-19,17711156,13032995,4678161,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-20,18133907,13285008,4848899,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-21,18553600,13535883,5017717,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-22,19027011,13821017,5205994,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-23,19504009,14114721,5391045,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-24,19804623,14303755,5504181,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-25,19912218,14372479,5543171,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-26,20287437,14591576,5702136,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-27,20757282,14873900,5899085,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-28,21237837,15171231,6092138,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-29,21788549,15525792,6304211,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-04-30,22343175,15895563,6508201,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-01,22560579,16060429,6562663,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-02,22688996,16151011,6600953,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-03,23144207,16436562,6775580,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-04,23680926,16748951,7008192,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-05,24228130,17071605,7238785,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-06,24842932,17447185,7489279,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-07,25469890,17816784,7765591,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-08,25756996,18036967,7834792,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-09,25932454,18165664,7882183,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-10,26470068,18474235,8118347,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-11,27128658,18874623,8390709,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-12,27791697,19304397,8633979,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-13,28183870,19639667,8692350,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-14,28801592,20089838,8867530,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-15,29266804,20461016,8965178,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-16,29488835,20662214,8986382,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-17,30010923,21035114,9139934,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-18,30619636,21490616,9301775,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-19,31228709,21954294,9452732,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-20,31892155,22457322,9622437,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-21,32552621,22943184,9809601,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-22,32977503,23288152,9894456,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-23,33152497,23448699,9909343,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-24,33446836,23709775,9943566,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-25,34032838,24106405,10140365,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-26,34630983,24516320,10336178,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-27,35296017,24962596,10569064,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-28,35982095,25388963,10855039,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-29,36428756,25686163,11015694,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-30,36567377,25792152,11049194,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-05-31,37126219,26147411,11265236,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-01,37799043,26568513,11536879,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-02,38440963,26979468,11782107,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-03,39157043,27436790,12060065,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-04,39912542,27887344,12387179,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-05,40403506,28189192,12585843,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-06,40583732,28320276,12635917,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-07,41180047,28654061,12907411,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-08,41860474,29043111,13213154,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-09,42515610,29422214,13501162,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-10,43202007,29819120,13805772,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-11,43942316,30201768,14180122,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-12,44434651,30482558,14398937,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-13,44612339,30586143,14473883,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-14,45204730,30822446,14836414,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-15,45892007,31123512,15233298,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-16,46559044,31432659,15599886,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-17,47244396,31745676,15982873,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-18,48003679,32062022,16437977,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-19,48500288,32284567,16717466,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-20,48674998,32356615,16820734,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-21,49268442,32547788,17227873,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-22,49955229,32767035,17703079,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-23,50624988,32996691,18150041,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-24,51272392,33234585,18567966,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-25,52017679,33457329,19100355,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-26,52539868,33608526,19475947,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-27,52751162,33663366,19632996,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-28,53355752,33814503,20090987,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-29,54040495,33993415,20603545,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-06-30,54720270,34191774,21091314,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-01,55392511,34406048,21557075,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-02,56124743,34617572,22086873,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-03,56632208,34756002,22460552,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-04,56828839,34811225,22602521,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-05,57407117,34969775,23026774,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-06,58070725,35158097,23509476,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-07,58713338,35360941,23955920,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-08,59362014,35585197,24389221,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-09,60090195,35803277,24909285,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-10,60574200,35947371,25253622,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-11,60742932,36005927,25364290,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-12,61382535,36167017,25848350,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-13,62189610,36445978,26390387,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-14,62523190,36621553,26550434,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-15,63363232,36958692,27071202,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-16,64229716,37328539,27590199,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-17,64804302,37582849,27919938,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-18,65027239,37690677,28036299,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-19,65730597,37968279,28474684,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-20,66552356,38336573,28945147,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-21,67348678,38724127,29369141,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-22,68169551,39156185,29775782,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-23,69022360,39585808,30218871,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-24,69573295,39866537,30497991,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-25,69772526,39985500,30579431,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-26,70435917,40324851,30913987,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-27,71209504,40777408,31249009,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-28,71947381,41224724,31551750,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-29,72702678,41702963,31842296,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-30,73452515,42149769,32160098,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-07-31,73914911,42427012,32351518,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
-2021-08-01,74071126,42533100,32402316,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+date,people_vaccinated,people_fully_vaccinated,total_vaccinations,location,source_url
+2020-12-27,154,4,158,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2020-12-28,346,5,351,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2020-12-29,491,5,496,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2020-12-30,663,5,668,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2020-12-31,809,5,814,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-01,951,7,958,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-02,1081,12,1093,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-03,1240,12,1252,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-04,2821,21,2842,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-05,8350,43,8393,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-06,19775,95,19870,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-07,48622,185,48807,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-08,85118,308,85426,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-09,96123,332,96455,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-10,101817,345,102162,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-11,141197,478,141675,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-12,202513,688,203201,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-13,266779,959,267738,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-14,347606,1769,349375,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-15,415707,2169,417876,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-16,435571,2316,437887,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-17,446155,2393,448548,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-18,531085,2840,533925,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-19,660438,3402,663840,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-20,796568,3938,800506,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-21,953056,4504,957560,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-22,1072662,5022,1077684,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-23,1110693,5141,1115834,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-24,1120148,5188,1125336,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-25,1197467,6620,1204087,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-26,1296904,9994,1306898,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-27,1403117,15933,1419050,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-28,1526243,30704,1556947,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-29,1617576,48322,1665898,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-30,1646386,52613,1698999,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-01-31,1651359,54303,1705662,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-01,1703261,75502,1778763,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-02,1774478,110234,1884712,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-03,1845881,147350,1993231,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-04,1926935,197660,2124595,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-05,1994396,243169,2237565,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-06,2016008,253616,2269624,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-07,2020900,258732,2279632,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-08,2067036,304944,2371980,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-09,2132235,377899,2510134,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-10,2201978,455152,2657130,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-11,2288115,555235,2843350,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-12,2366316,630464,2996780,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-13,2388149,650148,3038297,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-14,2392817,657391,3050208,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-15,2430140,734303,3164443,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-16,2479640,835623,3315263,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-17,2529257,939061,3468318,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-18,2597897,1058491,3656388,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-19,2662152,1150103,3812255,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-20,2680293,1178659,3858952,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-21,2683257,1185063,3868320,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-22,2720024,1258497,3978521,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-23,2772975,1343206,4116181,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-24,2831648,1425008,4256656,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-25,2931071,1518208,4449279,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-26,3043429,1591343,4634772,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-27,3094923,1614203,4709126,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-02-28,3100720,1618735,4719455,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-01,3164920,1672587,4837507,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-02,3264915,1740710,5005625,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-03,3379572,1808514,5188086,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-04,3541406,1881222,5422628,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-05,3740566,1949543,5690109,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-06,3947124,1971347,5918471,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-07,4067551,1979248,6046799,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-08,4173247,2032368,6205615,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-09,4344088,2092955,6437043,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-10,4521021,2153934,6674955,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-11,4761904,2222915,6984819,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-12,5054764,2283502,7338266,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-13,5284603,2303298,7587901,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-14,5347214,2308241,7655455,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-15,5504154,2344309,7848463,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-16,5644254,2386705,8030959,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-17,5793289,2428817,8222106,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-18,5959378,2477516,8436894,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-19,6187615,2520616,8708231,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-20,6353099,2536090,8889189,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-21,6402225,2540135,8942360,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-22,6570530,2578713,9149243,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-23,6818946,2627246,9446192,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-24,7073896,2677304,9751200,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-25,7413675,2730818,10144493,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-26,7770628,2782343,10552971,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-27,7964756,2804357,10769113,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-28,8023461,2809778,10833239,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-29,8225045,2869494,11094539,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-30,8508573,2947533,11456106,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-03-31,8769680,3028968,11798648,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-01,9081927,3127777,12209704,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-02,9361394,3229528,12590922,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-03,9501268,3295614,12796882,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-04,9546446,3315978,12862424,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-05,9605776,3329214,12934990,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-06,9820694,3444090,13264784,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-07,10078482,3568717,13647199,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-08,10413414,3702993,14116407,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-09,10820903,3834068,14654971,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-10,11032128,3923813,14955941,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-11,11087405,3960541,15047946,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-12,11322544,4083633,15406177,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-13,11629681,4239413,15869094,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-14,11921224,4390131,16311355,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-15,12255003,4551159,16806162,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-16,12592201,4709541,17301742,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-17,12779647,4806448,17586095,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-18,12830457,4843992,17674449,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-19,13034226,4990366,18024592,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-20,13286250,5171291,18457541,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-21,13537130,5350701,18887831,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-22,13822258,5551985,19374243,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-23,14115997,5750549,19866546,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-24,14305033,5871563,20176596,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-25,14373763,5913818,20287581,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-26,14592875,6082048,20674923,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-27,14875199,6291458,21166657,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-28,15172545,6498645,21671190,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-29,15527143,6728300,22255443,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-04-30,15896969,6951057,22848026,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-01,16061828,7014111,23075939,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-02,16152425,7057231,23209656,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-03,16437988,7246132,23684120,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-04,16750386,7495382,24245768,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-05,17073021,7743815,24816836,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-06,17448589,8016005,25464594,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-07,17818175,8313080,26131255,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-08,18038320,8394435,26432755,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-09,18167015,8449472,26616487,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-10,18475571,8703208,27178779,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-11,18875926,8998695,27874621,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-12,19305668,9267092,28572760,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-13,19640904,9344888,28985792,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-14,20091004,9547156,29638160,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-15,20462148,9666899,30129047,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-16,20663337,9700834,30364171,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-17,21036209,9879378,30915587,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-18,21491649,10071154,31562803,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-19,21955298,10253443,32208741,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-20,22458289,10457336,32915625,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-21,22944104,10677899,33622003,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-22,23289036,10785704,34074740,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-23,23449570,10812396,34261966,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-24,23710602,10865205,34575807,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-25,24107191,11090835,35198026,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-26,24517077,11316591,35833668,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-27,24963298,11581991,36545289,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-28,25389634,11899059,37288693,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-29,25686804,12080768,37767572,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-30,25792782,12122733,37915515,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-05-31,26147990,12364003,38511993,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-01,26569108,12666245,39235353,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-02,26980201,12943581,39923782,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-03,27437500,13255942,40693442,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-04,27888023,13617059,41505082,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-05,28189844,13838574,42028418,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-06,28320914,13899456,42220370,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-07,28654693,14198181,42852874,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-08,29043727,14535140,43578867,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-09,29422914,14854501,44277415,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-10,29819821,15192251,45012072,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-11,30202493,15599024,45801517,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-12,30483254,15841794,46325048,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-13,30586827,15926528,46513355,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-14,30823312,16310953,47134265,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-15,31124526,16734718,47859244,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-16,31433555,17129333,48562888,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-17,31746529,17541668,49288197,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-18,32062890,18026607,50089497,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-19,32285305,18326977,50612282,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-20,32357322,18438361,50795683,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-21,32548660,18865567,51414227,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-22,32767913,19364691,52132604,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-23,32997588,19837990,52835578,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-24,33235468,20284007,53519475,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-25,33458275,20844487,54302762,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-26,33609414,21239474,54848888,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-27,33664240,21404437,55068677,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-28,33815588,21882593,55698181,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-29,33994542,22419579,56414121,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-06-30,34193023,22935065,57128088,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-01,34407531,23432539,57840070,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-02,34619704,23995404,58615108,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-03,34758167,24390671,59148838,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-04,34813402,24541534,59354936,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-05,34972339,24991274,59963613,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-06,35160681,25503394,60664075,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-07,35363564,25981417,61344981,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-08,35587896,26449779,62037675,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-09,35805998,27006197,62812195,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-10,35950127,27374710,63324837,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-11,36008699,27495605,63504304,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-12,36170147,28008937,64179084,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-13,36448966,28595438,65044404,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-14,36624424,28781623,65406047,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-15,36961384,29353382,66314766,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-16,37331020,29927732,67258752,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-17,37585164,30295614,67880778,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-18,37692938,30428483,68121421,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-19,37970399,30908103,68878502,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-20,38338534,31432130,69770664,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-21,38725918,31913435,70639353,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-22,39157835,32384033,71541868,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-23,39587425,32892571,72479996,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-24,39868005,33213335,73081340,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-25,39986928,33312887,73299815,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-26,40326180,33697194,74023374,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-27,40778968,34095841,74874809,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-28,41226708,34460404,75687112,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-29,41705931,34814465,76520396,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-30,42153510,35191877,77345387,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-07-31,42432509,35420436,77852945,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-08-01,42539185,35484765,78023950,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
+2021-08-02,42851772,35765071,78616843,France,https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-personnes-vaccinees-contre-la-covid-19-1/
