@@ -135,7 +135,7 @@ def add_flags(fig, data, flags):
             xref="x domain",
             yref="y domain",
             x= - 0.002,
-            y=(i/len(data["location"]) - 0.002),
+            y=(i/len(data["location"]) - 0.0015),
             xanchor="right",
             yanchor="bottom",
             sizex=0.035,
