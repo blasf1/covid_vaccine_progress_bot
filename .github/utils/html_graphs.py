@@ -154,7 +154,7 @@ def add_labels(fig, data):
             y=(i/len(data["location"]) + 0.015),
             ay=(i/len(data["location"])),
             # The arrow head will be 40% along the y axis, starting from the bottom
-            x=(text+1),
+            x=(text+1.5),
             xanchor="left",
             yanchor="middle",
             text=text,
