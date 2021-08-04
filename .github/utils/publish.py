@@ -25,6 +25,9 @@ from statistics import (read_data,
                         get_data_hundred_people,
                         get_previous_vaccinations)
 
+# =============================================================================
+# Constants
+# =============================================================================
 
 COUNTRIES = [
     "European Union",

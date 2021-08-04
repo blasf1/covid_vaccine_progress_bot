@@ -108,7 +108,7 @@ def get_graph(data):
                           zeroline = True
                       ),
                       yaxis=dict(
-                          linecolor='black',
+                          linecolor='#293133',
                           mirror=True,
                           fixedrange=True
                       ),
@@ -117,9 +117,9 @@ def get_graph(data):
                           xanchor="right",
                           y=0,
                       ),
-                      width=700,
+                      #width=700,
                       height=700,
-                      margin=dict(l=28, r=0, t=0, b=0),
+                      margin=dict(l=50, r=0, t=0, b=0),
                       )
 
     return fig
@@ -132,14 +132,15 @@ def add_flags(fig, data, flags):
         flag = base64.b64encode(open(path, 'rb').read())
         fig.add_layout_image(
             source='data:image/png;base64,{}'.format(flag.decode()),
-            xref="paper",
-            yref="paper",
-            x=-0.02,
+            xref="x domain",
+            yref="y domain",
+            x=0,
             y=(i/len(data["location"])),
-            xanchor="center",
+            xanchor="right",
             yanchor="bottom",
             sizex=0.035,
             sizey=0.035,
+            layer="above"
         )
     return fig
     
@@ -153,7 +154,9 @@ def add_labels(fig, data):
             y=(i/len(data["location"]) + 0.015),
             ay=(i/len(data["location"])),
             # The arrow head will be 40% along the y axis, starting from the bottom
-            x=(text + 4),
+            x=(text+1),
+            xanchor="left",
+            yanchor="middle",
             text=text,
             font=dict(family="Arial", size=12, color="#000000")
         )
