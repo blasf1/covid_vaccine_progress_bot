@@ -196,7 +196,7 @@ def plot_data(data, unit, parameter, title, output, flags):
         offset_image(i, c, ax, flags)
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nMissing EU countries did not report enough data | Sources: Eurostat (population), Our World in Data (vaccination)", fontsize=11)
+    plt.figtext(0.01, 0.01, "@VaccinationEu\nMissing EU countries did not report enough data | Check data sources and extra info at https://blasf1.github.io/VaccinatEU/", fontsize=11)
     plt.tight_layout(pad=2)
 
     plt.savefig(file, dpi=300)
@@ -267,7 +267,7 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     colors={"full":"#3C4E66", "partial":"#1f77b4"}
     handles = [plt.Rectangle((0,0),3,3, color=colors[color]) for color in colors]
     plt.legend(handles, labels, loc="lower right", fontsize=16)
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nSources: Eurostat (population), Our World in Data (vaccination)", fontsize=11)
+    plt.figtext(0.01, 0.01, "@VaccinationEu\nCheck data sources and extra info at https://blasf1.github.io/VaccinatEU/", fontsize=11)
     plt.tight_layout(pad=2)
 
     plt.savefig(file, dpi=300)
@@ -365,7 +365,7 @@ plot_data(data, "", "total_vaccinations", title2, output, flags)
 # plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
 #Remove countries whose average cannot be calculated
-countries_without_average = ["Netherlands", "Hungary"]
+countries_without_average = ["Hungary"]
 
 for country in countries_without_average:
     data = data[data["location"] != country]
@@ -414,7 +414,7 @@ reminder = (emoji.emojize(":pushpin:")
          + flag.flagize(":EU:")
          + "\n\n"
          + emoji.emojize(":pushpin:")
-         + "Sources:\nPopulation: Eurostat\nVaccination: Our World in Data"
+         + "Check the data sources and extra info here: https://blasf1.github.io/VaccinatEU/"
         )
 
 api.update_status(status = reminder, 

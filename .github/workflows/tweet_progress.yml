@@ -62,6 +62,7 @@ jobs:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           NOEUDATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/external/
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
+          ADULTS: ${{ github.workspace }}/covid_vaccine_progress_bot/adult_population_2020.csv
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/vaccination.json
           CSV: ${{ github.workspace }}/covid_vaccine_progress_bot/latest.csv
         run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/update_json.py 
