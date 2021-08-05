@@ -202,7 +202,7 @@ def get_increments(data, data_prev):
     data["adults_vaccinated_increment"] = data["adults_vaccinated"] - data_prev["adults_vaccinated"]
     data["adults_fully_vaccinated_increment"] = data["adults_fully_vaccinated"] - data_prev["adults_fully_vaccinated"]
 
-    return data
+    return data.round(1)
 
 
 def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
