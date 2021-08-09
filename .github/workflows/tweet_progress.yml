@@ -45,7 +45,7 @@ jobs:
 
       - name: Publish tweet
         env:
-          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/
+          DATA: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/
           DATA_UNSUPPORTED: ${{ github.workspace }}/covid-19-data/public/data/vaccinations/vaccinations.csv
           INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output

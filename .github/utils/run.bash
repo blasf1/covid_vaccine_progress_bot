@@ -31,7 +31,7 @@ declare -a COUNTRIES=("Austria" \
 "Sweden")
 
 
-python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --data $SCRIPTS/output \
+python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/publish.py --data $DATA \
                                                                              --data-unsupported $DATA_UNSUPPORTED \
                                                                              --input $INPUT \
                                                                              --output $OUTPUT \
