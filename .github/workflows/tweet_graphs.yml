@@ -27,7 +27,7 @@ jobs:
 
       - name: Tweet EU data
         env:
-          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/
+          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/
           INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
