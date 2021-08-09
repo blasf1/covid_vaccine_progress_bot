@@ -47,7 +47,7 @@ jobs:
         env:
           DATA: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/
           DATA_UNSUPPORTED: ${{ github.workspace }}/covid-19-data/public/data/vaccinations/vaccinations.csv
-          INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
+          INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           BOT_API: ${{ secrets.BOT_API }}
