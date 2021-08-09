@@ -9,8 +9,6 @@ cd $SCRIPTS
 
 pip install .
 
-cd
-
 
 cp $GITHUB_WORKSPACE/covid-19-data/scripts/scripts/vaccinations/src/vax/_static/queries/* /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/vax/_static/queries/ ;
 

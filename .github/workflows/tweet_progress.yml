@@ -39,7 +39,7 @@ jobs:
           
       - name: Update data
         env: 
-          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/vaccinations
+          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/
           OWID_COVID_PROJECT_DIR: ${{ github.workspace }}/covid-19-data
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/update.bash
 
