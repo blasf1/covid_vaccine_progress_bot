@@ -13,7 +13,7 @@ from cowidev.vax.cmd.get_data import country_to_module
 # =============================================================================
 # Constants
 # =============================================================================
-SKIPPED_COUNTRIES = ['croatia', 'hungary',
+SKIPPED_COUNTRIES = ['croatia', 'hungary', 'latvia',
                      'albania',
                      'africacdc',
                      'andorra',
