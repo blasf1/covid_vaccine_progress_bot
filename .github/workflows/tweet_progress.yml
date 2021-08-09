@@ -57,6 +57,12 @@ jobs:
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
 
+      - name: Update European Union
+        env: 
+          DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/EuropeanUnion.py
+    
       - name: Update JSON
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/

@@ -29,53 +29,17 @@ from statistics import (read_data,
 # Constants
 # =============================================================================
 
-COUNTRIES = [
-    "Austria",
-    "Belgium",
-    "Bulgaria",
-    "Croatia",
-    "Cyprus",
-    "Czechia",
-    "Denmark",
-    "Estonia",
-    "Finland",
-    "France",
-    "Germany",
-    "Greece",
-    "Hungary",
-    "Ireland",
-    "Italy",
-    "Latvia",
-    "Lithuania",
-    "Luxembourg",
-    "Malta",
-    "Netherlands",
-    "Poland",
-    "Portugal",
-    "Romania",
-    "Slovakia",
-    "Slovenia",
-    "Spain",
-    "Sweden"]
-
-UNSUPPORTED_COUNTRIES = []
-DELAYED_COUNTRIES = ["Italy", "Slovenia", "Slovakia", "Estonia"] #Countries whose stats must be posted with 24 hours delay
 
 # =============================================================================
 # Functions
 # =============================================================================
-def publish_tweet (country, api, data, data_unsupported, input, population):
+def publish_tweet (country, api, data, input, population):
     # Get last date when the country data was published
     print("Updating " + country + "...")
     last_date = get_last_date(output, country)
     previous_vaccinations = get_previous_vaccinations(output, country)
-    if country not in UNSUPPORTED_COUNTRIES:
-        # Get the vaccination data for the country
-        data = read_data(data, country, input)
-    else:
-        # Get the vaccination data for the country when not supported by owid
-        data = read_data_unsupported(data_unsupported, country, output)
-        store_last_data(output, country, data) 
+
+    data = read_data(data, country, input)
     
     
     date = data.index[-1]
@@ -86,9 +50,7 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
         # Exit with a success code
         return
 
-    #For delayed countries ignore the last row
-    if country in DELAYED_COUNTRIES:
-        data.drop(index=data.index[-1], axis=0, inplace=True)
+    data.drop(index=data.index[-1], axis=0, inplace=True)
 
     # Get population and relative country data
     population = get_population(population, country)
@@ -121,9 +83,6 @@ description = "Publish vaccination data for a country."
 parser = argparse.ArgumentParser(description=description)
 
 arg = "--data"
-parser.add_argument(arg)
-
-arg = "--data-unsupported"
 parser.add_argument(arg)
 
 arg = "--input"
@@ -160,7 +119,6 @@ args = parser.parse_args(args)
 
 # Rename the command line arguments for easier reference
 data = args.data
-data_unsupported = args.data_unsupported
 input = args.input
 output = args.output
 population = args.population
@@ -185,5 +143,4 @@ api = tweepy.API(auth)
 include_email = False
 user = api.verify_credentials(include_email=include_email)
 
-for country in COUNTRIES:
-    publish_tweet(country, api, data, data_unsupported, input, population)
+publish_tweet("European Union", api, data, input, population)
