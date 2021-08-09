@@ -5,7 +5,7 @@ from urllib.error import HTTPError
 
 import pandas as pd
 
-from vax.utils.incremental import enrich_data, increment
+from cowidev.vax.utils.incremental import enrich_data, increment
 
 
 vaccine_mapping = {
