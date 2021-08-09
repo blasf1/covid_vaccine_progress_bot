@@ -32,22 +32,22 @@ jobs:
 
       - name: Patches to OWID
         run: |
-          cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/incremental/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/incremental/
-          cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/src/vax/batch/
-          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Luxembourg.csv ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/output/Luxembourg.csv
-          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Finland.csv ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/output/Finland.csv
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/incremental/* ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/incremental/
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/batch/
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Luxembourg.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/Luxembourg.csv
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Finland.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/Finland.csv
           
       - name: Update data
         env: 
-          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
+          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/vaccinations
           OWID_COVID_PROJECT_DIR: ${{ github.workspace }}/covid-19-data
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/update.bash
 
       - name: Publish tweet
         env:
-          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations
+          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/
           DATA_UNSUPPORTED: ${{ github.workspace }}/covid-19-data/public/data/vaccinations/vaccinations.csv
-          INPUT: ${{ github.workspace }}/covid-19-data/scripts/scripts/vaccinations/output
+          INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           BOT_API: ${{ secrets.BOT_API }}
