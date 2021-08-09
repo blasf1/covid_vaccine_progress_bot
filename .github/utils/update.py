@@ -5,10 +5,10 @@ import argparse
 import os
 import sys
 
-from vax.cmd._config import get_config
-from vax.cmd import main_get_data
-from vax.utils.paths import Paths
-from vax.cmd.get_data import country_to_module
+from cowidev.vax.cmd._config import get_config
+from cowidev.vax.cmd import main_get_data
+from cowidev.vax.utils.paths import Paths
+from cowidev.vax.cmd.get_data import country_to_module
 
 # =============================================================================
 # Constants
