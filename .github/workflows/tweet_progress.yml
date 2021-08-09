@@ -34,8 +34,8 @@ jobs:
         run: |
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/incremental/* ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/incremental/
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/batch/
-          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Luxembourg.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/Luxembourg.csv
-          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Finland.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/Finland.csv
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Luxembourg.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Luxembourg.csv
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Finland.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Finland.csv
           
       - name: Update data
         env: 
