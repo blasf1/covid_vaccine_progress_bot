@@ -44,10 +44,12 @@ description = "Publish vaccination data for a country."
 parser = argparse.ArgumentParser(description=description)
 
 arg = "--data"
-parser.add_argument(arg)
+default = os.environ.get("DATA")
+parser.add_argument(arg, default=default)
 
 arg = "--output"
-parser.add_argument(arg)
+default = os.environ.get("OUTPUT")
+parser.add_argument(arg, default=default)
 
 args = sys.argv[1:]
 args = parser.parse_args(args)
@@ -67,9 +69,9 @@ output = args.output
 
 columns=["date", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]
 eu_data = pd.DataFrame(columns = columns)
-
+print(path)
 for country in COUNTRIES:
-    path_file = os.path.join(path, country.replace(" ", "") + ".csv")
+    path_file = os.path.join(path, country + ".csv")
     data = pd.read_csv(path_file, usecols = columns, index_col="date")
     if eu_data.empty:
         eu_data = data

@@ -36,6 +36,7 @@ jobs:
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/batch/
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Luxembourg.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Luxembourg.csv
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Finland.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Finland.csv
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Netherlands.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Netherlands.csv
           
       - name: Update data
         env: 
@@ -57,11 +58,11 @@ jobs:
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
         run: bash ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/run.bash
 
-      # - name: Update European Union
-      #   env: 
-      #     DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
-      #     OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
-      #   run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/EuropeanUnion.py
+      - name: Update European Union
+        env: 
+          DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/EuropeanUnion.py
     
       - name: Update JSON
         env:

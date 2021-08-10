@@ -25,18 +25,18 @@ jobs:
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
-      # - name: Tweet EU data
-      #   env:
-      #     SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/
-      #     INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
-      #     OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output
-      #     POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
-      #     BOT_API: ${{ secrets.BOT_API }}
-      #     BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
-      #     BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
-      #     BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
-      #     TELEGRAM: ${{ secrets.TELEGRAM_API }}
-      #   run: python publish_eu.py
+      - name: Tweet EU data
+        env:
+          SCRIPTS: ${{ github.workspace }}/covid-19-data/scripts/
+          INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
+          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output
+          POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
+          BOT_API: ${{ secrets.BOT_API }}
+          BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
+          BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
+          BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
+          TELEGRAM: ${{ secrets.TELEGRAM_API }}
+        run: python publish_eu.py
 
       - name: Publish tweet
         env:
