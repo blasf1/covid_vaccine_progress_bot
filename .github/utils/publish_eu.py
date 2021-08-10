@@ -83,16 +83,20 @@ description = "Publish vaccination data for a country."
 parser = argparse.ArgumentParser(description=description)
 
 arg = "--data"
-parser.add_argument(arg)
+default = os.environ.get("DATA")
+parser.add_argument(arg, default=default)
 
 arg = "--input"
-parser.add_argument(arg)
+default = os.environ.get("INPUT")
+parser.add_argument(arg, default=default)
 
 arg = "--output"
-parser.add_argument(arg)
+default = os.environ.get("OUTPUT")
+parser.add_argument(arg, default=default)
 
 arg = "--population"
-parser.add_argument(arg)
+default = os.environ.get("POPULATION")
+parser.add_argument(arg, default=default)
 
 arg = "--api"
 default = os.environ.get("BOT_API")
