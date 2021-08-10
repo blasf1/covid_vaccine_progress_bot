@@ -36,7 +36,7 @@ jobs:
           BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
           BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
-        run: python publish_eu.py
+        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/publish_eu.py
 
       - name: Publish tweet
         env:
