@@ -217,7 +217,6 @@ def get_dict_vaccination_per_country(df):
     for country in COUNTRIES:
         dict_people_vaccinated["data"][country] = {"people_vaccinated": df["people_vaccinated"][country],
                                                    "people_fully_vaccinated": df["people_fully_vaccinated"][country],
-                                                   "total_vaccinations": df["total_vaccinations"][country],
                                                    "days_to_70": df["days_to_70"][country],
                                                    "date": df["date"][country],
                                                    "week_on_week": df["week_on_week"][country],
