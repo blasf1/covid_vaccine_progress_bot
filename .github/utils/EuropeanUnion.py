@@ -83,3 +83,6 @@ for country in COUNTRIES:
         print("EU_DATA")
         print(eu_data)
         eu_data = eu_data.add(data, fill_value=0)
+
+index = True
+eu_data.to_csv(output,index=index)
