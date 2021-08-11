@@ -40,7 +40,7 @@ def publish_tweet (country, api, data, input, population):
     data = read_data(data, country, input)
     
 
-    data.drop(data.tail(1), axis=0, inplace=True)
+    data.drop(data.tail(1).index, axis=0, inplace=True)
 
     # Get population and relative country data
     population = get_population(population, country)
