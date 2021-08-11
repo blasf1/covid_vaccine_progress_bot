@@ -27,9 +27,9 @@ jobs:
 
       - name: Tweet EU data
         env:
-          DATA: ${{ github.workspace }}/covid-19-data/scripts/
+          DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
-          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output
+          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           BOT_API: ${{ secrets.BOT_API }}
           BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
@@ -38,7 +38,7 @@ jobs:
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
         run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/publish_eu.py
 
-      - name: Publish tweet
+      - name: Publish graphs
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
