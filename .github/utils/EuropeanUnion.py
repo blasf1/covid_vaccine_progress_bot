@@ -85,4 +85,5 @@ for country in COUNTRIES:
         eu_data = eu_data.add(data, fill_value=0)
 
 index = True
+output = os.path.join(output, "EuropeanUnion.csv")
 eu_data.to_csv(output,index=index)
