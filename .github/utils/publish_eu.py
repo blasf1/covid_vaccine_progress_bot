@@ -36,21 +36,11 @@ from statistics import (read_data,
 def publish_tweet (country, api, data, input, population):
     # Get last date when the country data was published
     print("Updating " + country + "...")
-    last_date = get_last_date(output, country)
-    previous_vaccinations = get_previous_vaccinations(output, country)
 
     data = read_data(data, country, input)
     
-    
-    date = data.index[-1]
-    vaccinations = data["people_vaccinated"].iloc[-1]
 
-    if (date == last_date) or (vaccinations <= (previous_vaccinations + 100)):
-        print(f"{country} data is up to date.")
-        # Exit with a success code
-        return
-
-    data.drop(index=data.index[-1], axis=0, inplace=True)
+    data.drop(data.tail(1), axis=0, inplace=True)
 
     # Get population and relative country data
     population = get_population(population, country)
