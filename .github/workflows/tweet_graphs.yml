@@ -28,7 +28,7 @@ jobs:
       - name: Tweet EU data
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
-          INPUT: ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/
+          INPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
           POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
           BOT_API: ${{ secrets.BOT_API }}
