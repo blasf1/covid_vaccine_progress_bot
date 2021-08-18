@@ -38,7 +38,6 @@ def publish_tweet (country, api, data, input, population):
     print("Updating " + country + "...")
 
     data = read_data(data, country, input)
-    
 
     data.drop(data.tail(1).index, axis=0, inplace=True)
 
