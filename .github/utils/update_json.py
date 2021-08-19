@@ -143,6 +143,7 @@ def read_data(path, path_population, path_adults):
 
     def read_csv(file):
         data = pd.read_csv(file)
+        data = data.ffill()
         data_adults = data.copy()
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
         data["week_on_week"] = get_week_on_week(data, "people_fully_vaccinated")
@@ -305,7 +306,6 @@ data = get_increments(data, data_past)
 print(data)
 
 data.replace([np.inf, -np.inf], 0, inplace=True)
-data.ffill()
 export_csv(data, csv)
 data = get_dict_vaccination_per_country(data)
 export_dict_people_vaccinated(data, output)
