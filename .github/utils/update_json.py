@@ -305,6 +305,7 @@ data = get_increments(data, data_past)
 print(data)
 
 data.replace([np.inf, -np.inf], 0, inplace=True)
+data.ffill()
 export_csv(data, csv)
 data = get_dict_vaccination_per_country(data)
 export_dict_people_vaccinated(data, output)
