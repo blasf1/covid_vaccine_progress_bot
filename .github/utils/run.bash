@@ -2,9 +2,9 @@
 
 set -e
 
+#"Bulgaria" \
 declare -a COUNTRIES=("Austria" \
 "Belgium" \
-"Bulgaria" \
 "Croatia" \
 "Cyprus" \
 "Czechia" \
