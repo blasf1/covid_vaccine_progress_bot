@@ -71,9 +71,14 @@ FLAGS = {
     "Slovakia": "SK",
     "Slovenia": "SI",
     "Spain": "ES",
-    "Sweden": "SE",
+    "Sweden": "SE"}
+
+EXTERNAL = {
+    "Norway": "NO",
+    "Iceland": "IS",
     "United Kingdom": "UK",
     "United States": "US"}
+
 
 # =============================================================================
 # Functions
@@ -98,13 +103,19 @@ def get_data_hundred_people(data, population_path, country):
 
     return data
 
-def get_arranged_data(path, parameter, population_path):
+def get_arranged_data(path, non_eu_path, parameter, population_path):
     """Read the last vaccination data for all countries."""
     #files = glob.glob(path + "*.csv")
     data = pd.DataFrame(columns = FLAGS.keys())
     #data.set_index(inplace = true)
     for country in FLAGS.keys():
         path_country = os.path.join(path + country.replace(" ", "") + ".csv")
+        data_country = get_data_hundred_people(pd.read_csv(path_country, index_col="date"), population_path, country)
+        data[country] = data_country[parameter]
+        data.reindex_like(data_country)
+
+    for country in EXTERNAL.keys():
+        path_country = os.path.join(non_eu_path + country.replace(" ", "") + ".csv")
         data_country = get_data_hundred_people(pd.read_csv(path_country, index_col="date"), population_path, country)
         data[country] = data_country[parameter]
         data.reindex_like(data_country)
@@ -117,6 +128,11 @@ def add_flags_column(data):
     for country in FLAGS.keys():
         data["flag"][country] = ("https://github.com/blasf1/covid_vaccine_progress_bot/raw/main/flags/"
                     + FLAGS[country]
+                    + ".png")
+
+    for country in EXTERNAL.keys():
+        data["flag"][country] = ("https://github.com/blasf1/covid_vaccine_progress_bot/raw/main/flags/"
+                    + EXTERNAL[country]
                     + ".png")
     return data
 
@@ -131,6 +147,9 @@ parser = argparse.ArgumentParser(description=description)
 arg = "--input"
 parser.add_argument(arg)
 
+arg = "--noneu"
+parser.add_argument(arg)
+
 arg = "--population"
 parser.add_argument(arg)
 
@@ -140,6 +159,7 @@ args = parser.parse_args(args)
 
 # Rename the command line arguments for easier reference
 input = args.input
+non_eu_path = args.noneu
 population = args.population
 
 
@@ -147,7 +167,7 @@ population = args.population
 # Main
 # =============================================================================
 
-data = get_arranged_data(input, "people_fully_vaccinated", population)
+data = get_arranged_data(input, non_eu_path, "people_vaccinated", population)
 data = add_flags_column(data)
 print(data)
 data.to_csv("bar_race.csv")
