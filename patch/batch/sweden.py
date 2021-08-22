@@ -120,14 +120,16 @@ class Sweden(object):
         print("DF2")
         print(df2)
         df["people_vaccinated"] = (
-            df["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int) + df2["people_vaccinated"]
+            df["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
         )
         df["people_fully_vaccinated"] = (
-            df["people_fully_vaccinated"].str.replace(r"\s", "", regex=True).astype(int) + df2["people_fully_vaccinated"]
+            df["people_fully_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
         )
         df["total_vaccinations"] = (
-            df["people_vaccinated"] + df["people_fully_vaccinated"]  + df2["people_vaccinated"]+ df2["people_fully_vaccinated"]
+            df["people_vaccinated"] + df["people_fully_vaccinated"]
         )
+        df = df.drop(df.loc[1:])
+        df = df + df2
         print("DF")
         print(df)
         return df
