@@ -74,7 +74,7 @@ class Sweden(object):
     def _read_daily_data(self) -> pd.DataFrame:
         df = pd.read_html(self.source_url_daily)[1]
         df2 = pd.read_html(self.source_url_daily, encoding='utf-8')[2]
-        print(df2)
+        
         df = df[
             [
                 "Datum",
@@ -101,7 +101,7 @@ class Sweden(object):
                 "Status": "status",
             }
         )
-
+        print(df2)
         aggregation_functions = {"date": "first", "people_vaccinated": "first"}
         df2 = df2.groupby(df2["status"]).aggregate(aggregation_functions)
         df2["people_fully_vaccinated"] = df2.loc["people_vaccinated", "2 doser"]
