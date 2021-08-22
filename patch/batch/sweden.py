@@ -132,6 +132,7 @@ class Sweden(object):
             df["people_vaccinated"] + df["people_fully_vaccinated"]
         )
         df = df.drop(df.loc[1:])
+        print(df)
         df = df + df2
         print("DF")
         print(df)
