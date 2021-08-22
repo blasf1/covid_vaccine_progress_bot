@@ -105,7 +105,7 @@ class Sweden(object):
         aggregation_functions = {"date": "first", "people_vaccinated": "first"}
         df2 = df2.groupby(df2["status"]).aggregate(aggregation_functions)
         print(df2)
-        df2["people_fully_vaccinated"] = df2.loc[df2["status"] == "2 doser"]["people_vaccinated"]
+        df2["people_fully_vaccinated"] = df2.loc[df2.index == "2 doser"]["people_vaccinated"]
         print(df2)
         df["people_vaccinated"] = (
             df["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int) + df2["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
