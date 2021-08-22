@@ -101,9 +101,10 @@ class Sweden(object):
                 "Status": "status",
             }
         )
-        print(df2)
+        
         aggregation_functions = {"date": "first", "people_vaccinated": "first"}
         df2 = df2.groupby(df2["status"]).aggregate(aggregation_functions)
+        print(df2)
         df2["people_fully_vaccinated"] = df2.loc["people_vaccinated", "2 doser"]
 
         df["people_vaccinated"] = (
