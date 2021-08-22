@@ -131,7 +131,7 @@ class Sweden(object):
         df["total_vaccinations"] = (
             df["people_vaccinated"] + df["people_fully_vaccinated"]
         )
-        df = df.drop(df.loc[1:])
+        df = df.drop(df.loc[1:].index)
         print(df)
         df = df + df2
         print("DF")
