@@ -116,7 +116,8 @@ class Sweden(object):
             df2["people_fully_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
         )
 
-        df2 = df2.drop(df2.index[0])
+        aggregation_functions = {"people_vaccinated": "max", "people_fully_vaccinated": "max"}
+        df2 = df2.groupby(df2.index).aggregate(aggregation_functions)
         print(df2)
         df["people_vaccinated"] = (
             df["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int) + df2["people_vaccinated"]
@@ -125,7 +126,7 @@ class Sweden(object):
             df["people_fully_vaccinated"].str.replace(r"\s", "", regex=True).astype(int) + df2["people_fully_vaccinated"]
         )
         df["total_vaccinations"] = (
-            df["people_vaccinated"] + df["people_fully_vaccinated"]  + df2["people_vaccinated"] + df2["people_fully_vaccinated"]
+            df["people_vaccinated"] + df["people_fully_vaccinated"]  + df2["people_vaccinated"]+ df2["people_fully_vaccinated"]
         )
 
         return df
