@@ -37,6 +37,7 @@ jobs:
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Luxembourg.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Luxembourg.csv
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Finland.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Finland.csv
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Netherlands.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Netherlands.csv
+          cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Sweden.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Sweden.csv
 
       - name: Update data
         env: 
