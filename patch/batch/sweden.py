@@ -20,6 +20,7 @@ class Sweden(object):
 
     def read(self) -> pd.DataFrame:
         daily = self._read_daily_data()
+        print(daily)
         weekly = self._read_weekly_data()
         weekly = weekly[weekly["date"] < daily["date"].min()]
         return pd.concat([daily, weekly]).sort_values("date").reset_index(drop=True)
