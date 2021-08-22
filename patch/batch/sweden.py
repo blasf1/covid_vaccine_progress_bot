@@ -114,9 +114,12 @@ class Sweden(object):
         df2["people_fully_vaccinated"] = (
             df2["people_fully_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
         )
-
+        
         aggregation_functions = {"people_vaccinated": "max", "people_fully_vaccinated": "max"}
         df2 = df2.groupby(df2.index).aggregate(aggregation_functions)
+        df2["total_vaccinations"] = (
+            df2["people_vaccinated"] + df2["people_fully_vaccinated"]
+        )
         print("DF2")
         print(df2)
         df["people_vaccinated"] = (
