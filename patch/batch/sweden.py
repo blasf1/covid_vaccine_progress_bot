@@ -73,7 +73,7 @@ class Sweden(object):
 
     def _read_daily_data(self) -> pd.DataFrame:
         df = pd.read_html(self.source_url_daily)[1]
-        df2 = pd.read_html(self.source_url_daily)[2]
+        df2 = pd.read_html(self.source_url_daily, encoding='utf-8')[2]
         print(df2)
         df = df[
             [
