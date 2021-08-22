@@ -23,7 +23,7 @@ class Sweden(object):
         print(daily)
         weekly = self._read_weekly_data()
         weekly = weekly[weekly["date"] < daily["date"].min()]
-        return pd.concat([daily, weekly]).sort_values("date").reset_index(drop=True)
+        return daily #pd.concat([daily, weekly]).sort_values("date").reset_index(drop=True)
 
     def enrich_columns(self, df: pd.DataFrame) -> pd.DataFrame:
         return df.assign(location=self.location, source_url=self.source_url_daily)
