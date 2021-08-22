@@ -2,7 +2,8 @@ import datetime
 
 import pandas as pd
 
-from cowidev.vax.utils.utils import make_monotonic, increment
+from cowidev.vax.utils.utils import make_monotonic
+from cowidev.vax.utils.incremental import increment
 
 
 class Sweden(object):
