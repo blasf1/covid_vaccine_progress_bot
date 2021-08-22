@@ -110,13 +110,13 @@ class Sweden(object):
 
         increment(
             paths=paths,
-            location=df["location"],
-            total_vaccinations=df["total_vaccinations"],
-            people_vaccinated=df["people_vaccinated"],
-            people_fully_vaccinated=df["people_fully_vaccinated"],
+            location=df["location"].iloc[-1],
+            total_vaccinations=df["total_vaccinations"].iloc[-1],
+            people_vaccinated=df["people_vaccinated"].iloc[-1],
+            people_fully_vaccinated=df["people_fully_vaccinated"].iloc[-1],
             date=df.index,
-            source_url=df["source_url"],
-            vaccine=df["vaccine"],
+            source_url=df["source_url"].iloc[-1],
+            vaccine=df["vaccine"].iloc[-1],
         )
 
         #df.to_csv(paths.tmp_vax_out(self.location), index=False)
