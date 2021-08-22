@@ -116,7 +116,7 @@ class Sweden(object):
             df2["people_fully_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
         )
 
-        df2 = df2.drop(df2.iloc[0])
+        df2 = df2.drop(df2.index[0])
         print(df2)
         df["people_vaccinated"] = (
             df["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int) + df2["people_vaccinated"]
