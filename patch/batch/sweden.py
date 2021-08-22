@@ -107,6 +107,7 @@ class Sweden(object):
         print(df2)
         df2["people_fully_vaccinated"] = df2.loc[df2.index == "2 doser"]["people_vaccinated"]
         df2 = df2.set_index("date")
+        df2.ffill()
         df2["people_vaccinated"] = (
             df2["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
         )
@@ -117,7 +118,7 @@ class Sweden(object):
             df2["people_vaccinated"] + df2["people_fully_vaccinated"]
         )
         aggregation_functions = {"people_vaccinated": "max", "people_fully_vaccinated": "max"}
-        df2.ffill().groupby(df2["date"]).aggregate(aggregation_functions)
+        df2.groupby(df2["date"]).aggregate(aggregation_functions)
         print(df2)
         df["people_vaccinated"] = (
             df["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int) + df2["people_vaccinated"].str.replace(r"\s", "", regex=True).astype(int)
