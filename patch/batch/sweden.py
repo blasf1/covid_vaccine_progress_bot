@@ -104,7 +104,7 @@ class Sweden(object):
         print(df)
         output_file = paths.tmp_vax_out("Sweden")
         previous_data = pd.read_csv(output_file)
-        if previous_data["total_vaccinations"].iloc[-1] >= df["total_vaccinations"]:
+        if previous_data["total_vaccinations"].iloc[-1] >= df["total_vaccinations"].iloc[-1]:
             print("Sweden is up to date")
             return
 
