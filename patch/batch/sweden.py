@@ -114,7 +114,7 @@ class Sweden(object):
             total_vaccinations=df["total_vaccinations"].iloc[-1],
             people_vaccinated=df["people_vaccinated"].iloc[-1],
             people_fully_vaccinated=df["people_fully_vaccinated"].iloc[-1],
-            date=df.index,
+            date=df.index.values[0],
             source_url=df["source_url"].iloc[-1],
             vaccine=df["vaccine"].iloc[-1],
         )
