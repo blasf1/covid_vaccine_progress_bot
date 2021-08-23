@@ -143,7 +143,8 @@ def read_data(path, path_population, path_adults):
 
     def read_csv(file):
         data = pd.read_csv(file)
-        
+        if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
+            data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
         data = data.ffill()
         data_adults = data.copy()
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
@@ -194,7 +195,7 @@ def read_data_past(path, path_population, path_adults):
                "people_fully_vaccinated", "total_vaccinations", "adults_fully_vaccinated", "adults_vaccinated", "days_to_70", "week_on_week"]
     data_prev = data_prev[columns]
     
-    return data_prev.set_index("location").round(1)
+    return data_prev.set_index("location")
 
 
 def get_increments(data, data_prev):
@@ -204,7 +205,7 @@ def get_increments(data, data_prev):
     data["week_on_week_increment"] = data["week_on_week"] - data_prev["week_on_week"]
     data["adults_vaccinated_increment"] = data["adults_vaccinated"] - data_prev["adults_vaccinated"]
     data["adults_fully_vaccinated_increment"] = data["adults_fully_vaccinated"] - data_prev["adults_fully_vaccinated"]
-
+    data.fillna(0)
     return data.round(1)
 
 
