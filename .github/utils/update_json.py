@@ -143,6 +143,8 @@ def read_data(path, path_population, path_adults):
 
     def read_csv(file):
         data = pd.read_csv(file)
+        if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
+            data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
         data = data.ffill()
         data_adults = data.copy()
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
@@ -157,6 +159,7 @@ def read_data(path, path_population, path_adults):
         
         data["adults_fully_vaccinated"] = data_adults["people_fully_vaccinated"]
         data["adults_vaccinated"] = data_adults["people_vaccinated"]
+
         return data
 
     data = pd.concat(map(read_csv, files))
