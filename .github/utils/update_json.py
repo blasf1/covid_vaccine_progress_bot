@@ -20,7 +20,7 @@ COUNTRIES = [
     "European Union",
     "Austria",
     "Belgium",
-    "Bulgaria",
+    #"Bulgaria",
     "Croatia",
     "Cyprus",
     "Czechia",
