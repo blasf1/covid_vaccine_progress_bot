@@ -20,7 +20,7 @@ COUNTRIES = [
     "European Union",
     "Austria",
     "Belgium",
-    #"Bulgaria",
+    "Bulgaria",
     "Croatia",
     "Cyprus",
     "Czechia",
@@ -175,6 +175,8 @@ def read_data_past(path, path_population, path_adults):
     def read_csv(file):
         data_prev = pd.read_csv(file)
         data_prev = data_prev.drop(index=data_prev.index[-1], axis=0)
+        if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
+            data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
         data_adults = data_prev.copy()
         data_prev["days_to_70"] = get_days_to_70(data_prev, "people_fully_vaccinated")
         data_prev["week_on_week"] = get_week_on_week(data_prev, "people_fully_vaccinated")
@@ -205,7 +207,7 @@ def get_increments(data, data_prev):
     data["week_on_week_increment"] = data["week_on_week"] - data_prev["week_on_week"]
     data["adults_vaccinated_increment"] = data["adults_vaccinated"] - data_prev["adults_vaccinated"]
     data["adults_fully_vaccinated_increment"] = data["adults_fully_vaccinated"] - data_prev["adults_fully_vaccinated"]
-    data.fillna(0)
+    data = data.fillna(0)
     return data.round(1)
 
 
@@ -218,7 +220,7 @@ def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
 
 def get_dict_vaccination_per_country(df):
     dict_people_vaccinated = {"data": {}}
-    df.fillna(0)
+    df = df.fillna(0)
     for country in COUNTRIES:
         dict_people_vaccinated["data"][country] = {"people_vaccinated": df["people_vaccinated"][country],
                                                    "people_fully_vaccinated": df["people_fully_vaccinated"][country],
