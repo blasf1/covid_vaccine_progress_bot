@@ -298,7 +298,7 @@ data = read_data(path_data, population, adults)
 data_ext = read_data(path_noeudata, population, adults)
 dataframes = [data, data_ext]
 data = pd.concat(dataframes)
-data["people_vaccinated"].apply(lambda x : x if x >= data["people_fully_vaccinated"] else data["people_fully_vaccinated"])
+#data["people_vaccinated"].apply(lambda x : x if x >= data["people_fully_vaccinated"] else data["people_fully_vaccinated"])
 print(data)
 #read data of t-1
 data_past = read_data_past(path_data, population, adults)
