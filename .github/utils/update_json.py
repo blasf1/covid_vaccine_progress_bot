@@ -218,6 +218,7 @@ def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
 
 def get_dict_vaccination_per_country(df):
     dict_people_vaccinated = {"data": {}}
+    df.fillna(0)
     for country in COUNTRIES:
         dict_people_vaccinated["data"][country] = {"people_vaccinated": df["people_vaccinated"][country],
                                                    "people_fully_vaccinated": df["people_fully_vaccinated"][country],
