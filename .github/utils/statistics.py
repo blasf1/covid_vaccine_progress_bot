@@ -62,6 +62,14 @@ def get_previous_vaccinations(path, country):
 
     return data.people_vaccinated.iloc[-1]
 
+def clean_first_doses(data):
+    """If people_vaccinated not available, """
+
+    if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
+        data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
+
+    return data
+
 
 def store_last_data(path, country, data):
     """Store the last date when the data was published."""

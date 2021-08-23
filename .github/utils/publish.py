@@ -23,7 +23,8 @@ from statistics import (read_data,
                         get_population,
                         store_last_data,
                         get_data_hundred_people,
-                        get_previous_vaccinations)
+                        get_previous_vaccinations,
+                        clean_first_doses)
 
 # =============================================================================
 # Constants
@@ -85,6 +86,8 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
         print(f"{country} data is up to date.")
         # Exit with a success code
         return
+
+    data = clean_first_doses(data)
 
     #For delayed countries ignore the last row
     if country in DELAYED_COUNTRIES:
