@@ -61,6 +61,7 @@ COUNTRIES = [
 
 UNSUPPORTED_COUNTRIES = []
 DELAYED_COUNTRIES = ["Italy", "Slovenia", "Slovakia", "Estonia"] #Countries whose stats must be posted with 24 hours delay
+ONLY_FULL_COUNTRIES = ["Bulgaria"] # Countries reporting only full vaccination
 
 # =============================================================================
 # Functions
@@ -82,12 +83,13 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
     date = data.index[-1]
     vaccinations = data["people_vaccinated"].iloc[-1]
 
+    if country in ONLY_FULL_COUNTRIES:
+        data["people_vaccinated"].fillna(data["people_fully_vaccinated"], inplace=True)
+
     if (date == last_date) or (vaccinations <= (previous_vaccinations + 100)):
         print(f"{country} data is up to date.")
         # Exit with a success code
         return
-
-    data = clean_first_doses(data)
 
     #For delayed countries ignore the last row
     if country in DELAYED_COUNTRIES:
