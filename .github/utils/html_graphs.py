@@ -215,6 +215,7 @@ flags = args.flags
 
 data = read_data(data)
 print(data)
+data["people_vaccinated"].fillna(data["people_fully_vaccinated"], inplace=True)
 fig = get_graph(data)
 fig = format_graph(fig, data, flags)
 save_graph(fig, output)

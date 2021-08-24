@@ -143,8 +143,7 @@ def read_data(path, path_population, path_adults):
 
     def read_csv(file):
         data = pd.read_csv(file)
-        if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
-            data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
+        data["people_vaccinated"].fillna(data["people_fully_vaccinated"], inplace=True)
         data = data.ffill()
         data_adults = data.copy()
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
@@ -220,7 +219,7 @@ def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
 
 def get_dict_vaccination_per_country(df):
     dict_people_vaccinated = {"data": {}}
-    df = df.fillna(0)
+    #df = df.fillna(0)
     for country in COUNTRIES:
         dict_people_vaccinated["data"][country] = {"people_vaccinated": df["people_vaccinated"][country],
                                                    "people_fully_vaccinated": df["people_fully_vaccinated"][country],
