@@ -347,7 +347,7 @@ user = api.verify_credentials(include_email=include_email)
 
 # Read data
 data = read_data(data, population)
-data = data.fillna(0)
+data = data.fillna(data["people_fully_vaccinated"])
 # Plot
 #Remove countries whose average cannot be calculated
 countries_to_skip = []
