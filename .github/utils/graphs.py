@@ -112,7 +112,10 @@ def read_data(path, path_population):
     files = glob.glob(path + "*.csv")
     print(path)
     def read_csv(file): 
-        data = pd.read_csv(file).iloc[[-1]]
+        data = pd.read_csv(file)
+        if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
+            data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
+        data = data.iloc[[-1]]
         data["7_days_average"] = get_rolling_average(
                     pd.read_csv(file),"total_vaccinations",7)
         data = get_data_hundred_people(data, path_population)
