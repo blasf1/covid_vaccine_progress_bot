@@ -113,8 +113,7 @@ def read_data(path, path_population):
     print(path)
     def read_csv(file): 
         data = pd.read_csv(file)
-        if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
-            data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
+        data["people_vaccinated"].fillna(data["people_fully_vaccinated"], inplace=True)
         data = data.iloc[[-1]]
         data["7_days_average"] = get_rolling_average(
                     pd.read_csv(file),"total_vaccinations",7)
@@ -347,7 +346,7 @@ user = api.verify_credentials(include_email=include_email)
 
 # Read data
 data = read_data(data, population)
-data = data.fillna(data["people_fully_vaccinated"])
+
 # Plot
 #Remove countries whose average cannot be calculated
 countries_to_skip = []
