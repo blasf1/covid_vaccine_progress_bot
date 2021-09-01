@@ -117,6 +117,10 @@ def get_days_to_70(data, parameter):
 
 def get_week_on_week(data, parameter):
     """Get the rolling average of the vaccination data."""
+
+    if(data["location"] == "Hungary"):
+        return 0
+
     # Use one period for the rolling average
     periods = 1
     days = 7
@@ -134,6 +138,7 @@ def get_week_on_week(data, parameter):
     data_for_average = data_for_average[parameter]
 
     data_for_average = data_for_average.dropna()  # remove empty rows for diff()
+
     difference = data_for_average.iloc[-1] - data_for_average.iloc[0]
 
     return difference
@@ -150,13 +155,8 @@ def read_data(path, path_population, path_adults):
         data = data.ffill()
         data_adults = data.copy()
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
-        try:
-            print(file)
-            data["week_on_week"] = get_week_on_week(
-                data, "people_fully_vaccinated")
-        except IndexError:
-            data["week_on_week"] = np.nan
-            print("breaking here")
+        data["week_on_week"] = get_week_on_week(
+            data, "people_fully_vaccinated")
 
         data = data.iloc[[-1]]
         data_adults = data_adults.iloc[[-1]]
@@ -173,7 +173,9 @@ def read_data(path, path_population, path_adults):
 
     data = pd.concat(map(read_csv, files))
     columns = ["date", "location", "people_vaccinated",
-               "people_fully_vaccinated", "total_vaccinations", "adults_fully_vaccinated", "adults_vaccinated", "days_to_70", "week_on_week"]
+               "people_fully_vaccinated", "total_vaccinations",
+               "adults_fully_vaccinated", "adults_vaccinated",
+               "days_to_70", "week_on_week"]
     data = data[columns]
     return data.set_index("location").round(1)
 
@@ -189,13 +191,9 @@ def read_data_past(path, path_population, path_adults):
         data_adults = data_prev.copy()
         data_prev["days_to_70"] = get_days_to_70(
             data_prev, "people_fully_vaccinated")
-        try:
-            print(file)
-            data_prev["week_on_week"] = get_week_on_week(
-                data_prev, "people_fully_vaccinated")
-        except IndexError:
-            data["week_on_week"] = np.nan
-            print("breaking here")
+
+        data_prev["week_on_week"] = get_week_on_week(
+            data_prev, "people_fully_vaccinated")
 
         data_prev = data_prev.iloc[[-1]]
         data_adults = data_adults.iloc[[-1]]
