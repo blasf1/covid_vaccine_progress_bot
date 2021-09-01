@@ -118,7 +118,7 @@ def get_days_to_70(data, parameter):
 def get_week_on_week(data, parameter):
     """Get the rolling average of the vaccination data."""
 
-    if(data["location"] == "Hungary"):
+    if(data["location"].iloc[-1] == "Hungary"):
         return 0
 
     # Use one period for the rolling average
