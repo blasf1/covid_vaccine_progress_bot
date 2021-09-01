@@ -23,17 +23,20 @@ SKIPPED_COUNTRIES = ['croatia', 'hungary',
                      'bangladesh',
                      'canada',
                      'chile',
+                     'china',
                      'ecuador',
                      'gambia',
                      'gabon',
                      'georgia',
                      'hong_kong',
                      'israel',
+                     'jamaica',
                      'jersey',
                      'jordan',
                      'new_zealand',
                      'peru',
                      'paho',
+                     'panama',
                      'saudi_arabia',
                      'spc',
                      'switzerland',
@@ -100,7 +103,6 @@ SKIPPED_COUNTRIES = ['croatia', 'hungary',
                      'zambia']
 
 
-
 # =============================================================================
 # Arguments
 # =============================================================================
@@ -121,4 +123,5 @@ project_dir = args.directory
 # =============================================================================
 paths = Paths(project_dir)
 
-main_get_data(paths, n_jobs=4, skip_countries=SKIPPED_COUNTRIES) #greece_api_token=greece_api_token,
+# greece_api_token=greece_api_token,
+main_get_data(paths, n_jobs=4, skip_countries=SKIPPED_COUNTRIES)

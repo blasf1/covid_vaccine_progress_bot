@@ -155,7 +155,8 @@ def read_data(path, path_population, path_adults):
             data["week_on_week"] = get_week_on_week(
                 data, "people_fully_vaccinated")
         except IndexError:
-            return
+            data["week_on_week"] = np.nan
+            print("breaking here")
 
         data = data.iloc[[-1]]
         data_adults = data_adults.iloc[[-1]]
