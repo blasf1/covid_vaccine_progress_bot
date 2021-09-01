@@ -76,6 +76,7 @@ def get_data_hundred_people(data, path):
 
     return data
 
+
 def get_data_hundred_adults(data, path):
     """Get the vaccination data per hundred people."""
     # Filter the numerical data to avoid errors
@@ -85,6 +86,7 @@ def get_data_hundred_adults(data, path):
     data[numeric_columns] = data[numeric_columns] * 100 / population
 
     return data
+
 
 def get_days_to_70(data, parameter):
     """Get the rolling average of the vaccination data."""
@@ -143,19 +145,26 @@ def read_data(path, path_population, path_adults):
 
     def read_csv(file):
         data = pd.read_csv(file)
-        data["people_vaccinated"].fillna(data["people_fully_vaccinated"], inplace=True)
+        data["people_vaccinated"].fillna(
+            data["people_fully_vaccinated"], inplace=True)
         data = data.ffill()
         data_adults = data.copy()
         data["days_to_70"] = get_days_to_70(data, "people_fully_vaccinated")
-        data["week_on_week"] = get_week_on_week(data, "people_fully_vaccinated")
+        try:
+            print(file)
+            data["week_on_week"] = get_week_on_week(
+                data, "people_fully_vaccinated")
+        except IndexError:
+            return
+
         data = data.iloc[[-1]]
         data_adults = data_adults.iloc[[-1]]
         data = get_data_hundred_people(data, path_population)
         data_adults = get_data_hundred_adults(data_adults, path_adults)
-        
+
         data["days_to_70"] = round(
             (70 - data["people_fully_vaccinated"]) / data["days_to_70"], 0)
-        
+
         data["adults_fully_vaccinated"] = data_adults["people_fully_vaccinated"]
         data["adults_vaccinated"] = data_adults["people_vaccinated"]
 
@@ -177,16 +186,18 @@ def read_data_past(path, path_population, path_adults):
         if data["people_vaccinated"].iloc[-1] < data["people_fully_vaccinated"].iloc[-1]:
             data["people_vaccinated"].iloc[-1] = data["people_fully_vaccinated"].iloc[-1]
         data_adults = data_prev.copy()
-        data_prev["days_to_70"] = get_days_to_70(data_prev, "people_fully_vaccinated")
-        data_prev["week_on_week"] = get_week_on_week(data_prev, "people_fully_vaccinated")
+        data_prev["days_to_70"] = get_days_to_70(
+            data_prev, "people_fully_vaccinated")
+        data_prev["week_on_week"] = get_week_on_week(
+            data_prev, "people_fully_vaccinated")
         data_prev = data_prev.iloc[[-1]]
         data_adults = data_adults.iloc[[-1]]
         data_prev = get_data_hundred_people(data_prev, path_population)
         data_adults = get_data_hundred_adults(data_adults, path_adults)
-        
+
         data_prev["days_to_70"] = round(
             (70 - data_prev["people_fully_vaccinated"]) / data_prev["days_to_70"], 0)
-        
+
         data_prev["adults_fully_vaccinated"] = data_adults["people_fully_vaccinated"]
         data_prev["adults_vaccinated"] = data_adults["people_vaccinated"]
         return data_prev
@@ -195,17 +206,22 @@ def read_data_past(path, path_population, path_adults):
     columns = ["date", "location", "people_vaccinated",
                "people_fully_vaccinated", "total_vaccinations", "adults_fully_vaccinated", "adults_vaccinated", "days_to_70", "week_on_week"]
     data_prev = data_prev[columns]
-    
+
     return data_prev.set_index("location")
 
 
 def get_increments(data, data_prev):
-    data["people_vaccinated_increment"] = data["people_vaccinated"] - data_prev["people_vaccinated"]
-    data["people_fully_vaccinated_increment"] = data["people_fully_vaccinated"] - data_prev["people_fully_vaccinated"]
+    data["people_vaccinated_increment"] = data["people_vaccinated"] - \
+        data_prev["people_vaccinated"]
+    data["people_fully_vaccinated_increment"] = data["people_fully_vaccinated"] - \
+        data_prev["people_fully_vaccinated"]
     data["days_to_70_increment"] = data["days_to_70"] - data_prev["days_to_70"]
-    data["week_on_week_increment"] = data["week_on_week"] - data_prev["week_on_week"]
-    data["adults_vaccinated_increment"] = data["adults_vaccinated"] - data_prev["adults_vaccinated"]
-    data["adults_fully_vaccinated_increment"] = data["adults_fully_vaccinated"] - data_prev["adults_fully_vaccinated"]
+    data["week_on_week_increment"] = data["week_on_week"] - \
+        data_prev["week_on_week"]
+    data["adults_vaccinated_increment"] = data["adults_vaccinated"] - \
+        data_prev["adults_vaccinated"]
+    data["adults_fully_vaccinated_increment"] = data["adults_fully_vaccinated"] - \
+        data_prev["adults_fully_vaccinated"]
     data = data.fillna(0)
     return data.round(1)
 
@@ -233,10 +249,12 @@ def get_dict_vaccination_per_country(df):
                                                    "days_to_70_increment": df["days_to_70_increment"][country],
                                                    "week_on_week_increment": df["week_on_week_increment"][country],
                                                    "adults_vaccinated_increment": df["adults_vaccinated_increment"][country],
-                                                   "adults_fully_vaccinated_increment": df["adults_fully_vaccinated_increment"][country],}
+                                                   "adults_fully_vaccinated_increment": df["adults_fully_vaccinated_increment"][country], }
 
-    dict_people_vaccinated["countries_sorted"] = sort_values_dict(dict_people_vaccinated["data"])
-    dict_people_vaccinated["lat_update"] = datetime.datetime.now().strftime("%Y-%m-%d")
+    dict_people_vaccinated["countries_sorted"] = sort_values_dict(
+        dict_people_vaccinated["data"])
+    dict_people_vaccinated["lat_update"] = datetime.datetime.now().strftime(
+        "%Y-%m-%d")
     return dict_people_vaccinated
 
 
@@ -295,14 +313,14 @@ adults = args.adults
 # Main
 # =============================================================================
 
-#read data
+# read data
 data = read_data(path_data, population, adults)
 data_ext = read_data(path_noeudata, population, adults)
 dataframes = [data, data_ext]
 data = pd.concat(dataframes)
 #data["people_vaccinated"].apply(lambda x : x if x >= data["people_fully_vaccinated"] else data["people_fully_vaccinated"])
 print(data)
-#read data of t-1
+# read data of t-1
 data_past = read_data_past(path_data, population, adults)
 data_ext_past = read_data_past(path_noeudata, population, adults)
 dataframes = [data_past, data_ext_past]
