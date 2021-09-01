@@ -189,8 +189,14 @@ def read_data_past(path, path_population, path_adults):
         data_adults = data_prev.copy()
         data_prev["days_to_70"] = get_days_to_70(
             data_prev, "people_fully_vaccinated")
-        data_prev["week_on_week"] = get_week_on_week(
-            data_prev, "people_fully_vaccinated")
+        try:
+            print(file)
+            data_prev["week_on_week"] = get_week_on_week(
+                data_prev, "people_fully_vaccinated")
+        except IndexError:
+            data["week_on_week"] = np.nan
+            print("breaking here")
+
         data_prev = data_prev.iloc[[-1]]
         data_adults = data_adults.iloc[[-1]]
         data_prev = get_data_hundred_people(data_prev, path_population)
