@@ -12,7 +12,8 @@ def read(source: str) -> pd.Series:
 def parse_data(df: pd.DataFrame) -> pd.Series:
 
     people_vaccinated = df.loc[
-        (df.Measure == "Administered doses") & (df["Vaccination dose"] == "First dose"),
+        (df.Measure == "Administered doses") & (
+            df["Vaccination dose"] == "First dose"),
         "val",
     ].item()
 
