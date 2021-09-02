@@ -89,7 +89,10 @@ def publish_tweet(country, api, data, data_unsupported, input, population):
         data["people_vaccinated"].fillna(
             data["people_fully_vaccinated"], inplace=True)
 
-    if (date == last_date):  # or (vaccinations <= (previous_vaccinations + 100)):
+    print(date)
+    print(last_date)
+
+    if (date == last_date or vaccinations <= (previous_vaccinations + 100)):
         print(f"{country} data is up to date.")
         # Exit with a success code
         return
