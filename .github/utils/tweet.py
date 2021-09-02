@@ -82,7 +82,8 @@ def get_progress_bar(percentage, increment):
     """Get a progress bar string given a percentage."""
     initial = percentage
     total = 100
-    bar_format = generateProgressbar(percentage) + "\n" + {percentage: 04.1f} % " + f"[{increment: +03.1f}]"
+    bar_format = generateProgressbar(
+        percentage) + "\n" + "{percentage: 04.1f} % " + f"[{increment: +03.1f}]"
 
     with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
         # Convert the bar to string for concatenating
