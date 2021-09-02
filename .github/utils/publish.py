@@ -60,13 +60,16 @@ COUNTRIES = [
     "Sweden"]
 
 UNSUPPORTED_COUNTRIES = []
-DELAYED_COUNTRIES = ["Italy", "Slovenia", "Slovakia", "Estonia"] #Countries whose stats must be posted with 24 hours delay
-ONLY_FULL_COUNTRIES = ["Bulgaria"] # Countries reporting only full vaccination
+# Countries whose stats must be posted with 24 hours delay
+DELAYED_COUNTRIES = ["Italy", "Slovenia", "Slovakia", "Estonia"]
+ONLY_FULL_COUNTRIES = ["Bulgaria"]  # Countries reporting only full vaccination
 
 # =============================================================================
 # Functions
 # =============================================================================
-def publish_tweet (country, api, data, data_unsupported, input, population):
+
+
+def publish_tweet(country, api, data, data_unsupported, input, population):
     # Get last date when the country data was published
     print("Updating " + country + "...")
     last_date = get_last_date(output, country)
@@ -77,21 +80,21 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
     else:
         # Get the vaccination data for the country when not supported by owid
         data = read_data_unsupported(data_unsupported, country, output)
-        store_last_data(output, country, data) 
-    
-    
+        store_last_data(output, country, data)
+
     date = data.index[-1]
     vaccinations = data["people_vaccinated"].iloc[-1]
 
     if country in ONLY_FULL_COUNTRIES:
-        data["people_vaccinated"].fillna(data["people_fully_vaccinated"], inplace=True)
+        data["people_vaccinated"].fillna(
+            data["people_fully_vaccinated"], inplace=True)
 
-    if (date == last_date) or (vaccinations <= (previous_vaccinations + 100)):
+    if (date == last_date):  # or (vaccinations <= (previous_vaccinations + 100)):
         print(f"{country} data is up to date.")
         # Exit with a success code
         return
 
-    #For delayed countries ignore the last row
+    # For delayed countries ignore the last row
     if country in DELAYED_COUNTRIES:
         data.drop(index=data.index[-1], axis=0, inplace=True)
 
@@ -114,13 +117,15 @@ def publish_tweet (country, api, data, data_unsupported, input, population):
         tweet = api.update_status(tweet_string)
         #publish in telegram
         bot = telegram.Bot(token=telegram_api)
-        status = bot.send_message(chat_id="@euCovidVaccination", text=tweet_string)
+        status = bot.send_message(
+            chat_id="@euCovidVaccination", text=tweet_string)
     except tweepy.TweepError:
         print(f"Tweet already published.")
 
 # =============================================================================
 # Arguments
 # =============================================================================
+
 
 description = "Publish vaccination data for a country."
 parser = argparse.ArgumentParser(description=description)

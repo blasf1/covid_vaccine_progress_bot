@@ -71,7 +71,7 @@ NO_7_DAYS = {
 
 
 def generateProgressbar(percentage):
-    num_chars = 15
+    num_chars = 12
     num_filled = round((percentage / 100) * num_chars)
     num_empty = num_chars-num_filled
     msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
@@ -83,7 +83,7 @@ def get_progress_bar(percentage, increment):
     initial = percentage
     total = 100
     bar_format = generateProgressbar(
-        percentage) + "\n" + "{percentage: 04.1f} % " + f"[{increment: +03.1f}]"
+        percentage) + "{percentage: 04.1f} % " + f"[{increment: +03.1f}]"
 
     with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
         # Convert the bar to string for concatenating
