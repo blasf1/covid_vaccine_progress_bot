@@ -69,19 +69,20 @@ NO_7_DAYS = {
 # Functions
 # =============================================================================
 
+
 def generateProgressbar(percentage):
-	num_chars = 15
-	num_filled = round((percentage / 100) * num_chars)
-	num_empty = num_chars-num_filled
-	msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
-	return msg
+    num_chars = 15
+    num_filled = round((percentage / 100) * num_chars)
+    num_empty = num_chars-num_filled
+    msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
+    return msg
 
 
 def get_progress_bar(percentage, increment):
     """Get a progress bar string given a percentage."""
     initial = percentage
     total = 100
-    bar_format = generateProgressbar(percentage) + "{percentage:04.1f}%" + f"[{increment:+03.1f}]"
+    bar_format = generateProgressbar(percentage) + "\n" + {percentage: 04.1f} % " + f"[{increment: +03.1f}]"
 
     with tqdm(initial=initial, total=total, bar_format=bar_format) as bar:
         # Convert the bar to string for concatenating
@@ -95,23 +96,24 @@ def get_progress_bar(percentage, increment):
 
     return prefix + suffix
 
+
 def get_tweet_header(country, data):
     """Get the header of the tweet."""
     country_flag = FLAGS[country]
     string = (flag.flagize(":EU:")
-            + flag.flagize(country_flag)
-            + str.upper(country)
-            + flag.flagize(country_flag)
-            + flag.flagize(":EU:")
-            + "\n")
+              + flag.flagize(country_flag)
+              + str.upper(country)
+              + flag.flagize(country_flag)
+              + flag.flagize(":EU:")
+              + "\n")
 
     if is_record(data, "total_vaccinations"):
-        string = (string 
-                + emoji.emojize(":trophy:") 
-                + "Daily Record" 
-                + emoji.emojize(":trophy:") 
-                +"\n")
-    
+        string = (string
+                  + emoji.emojize(":trophy:")
+                  + "Daily Record"
+                  + emoji.emojize(":trophy:")
+                  + "\n")
+
     return string
 
 
@@ -144,32 +146,33 @@ def get_total_admin_string(data):
         return ""
     else:
         return (emoji.emojize(":syringe:")
-            + "Total:"
-            + "\u3000" * 3
-            + f"{current_data:05.2f}"
-            + " ["
-            + f"{current_data_increment:+04.2f}"
-            + "]"
-            + "\n")
+                + "Total:"
+                + "\u3000" * 3
+                + f"{current_data:05.2f}"
+                + " ["
+                + f"{current_data_increment:+04.2f}"
+                + "]"
+                + "\n")
 
 
 def get_seven_days_string(data, country):
     """Get the string of the normalized 7-day average administered doses."""
     parameter = "total_vaccinations"
     average_week = get_rolling_average_week(data, parameter)
-    average_week_increment = get_rolling_average_week_increment(data, parameter)
-    
+    average_week_increment = get_rolling_average_week_increment(
+        data, parameter)
+
     if math.isnan(average_week_increment) or country in NO_7_DAYS:
         return ""
     else:
         return (emoji.emojize(":syringe:")
-            + "7 days avg.: "
-            + "\u3000"
-            + f"{average_week:04.2f}"
-            + " ["
-            + f"{average_week_increment:+04.2f}"
-            + "]"
-            + "\n")
+                + "7 days avg.: "
+                + "\u3000"
+                + f"{average_week:04.2f}"
+                + " ["
+                + f"{average_week_increment:+04.2f}"
+                + "]"
+                + "\n")
 
 
 def get_total_administered(data):
@@ -179,9 +182,9 @@ def get_total_administered(data):
     if math.isnan(increment):
         return ""
     else:
-        return (#"\nAdministered:\n"
-              #emoji.emojize(":syringe:")
-             "Total:"
+        return (  # "\nAdministered:\n"
+            # emoji.emojize(":syringe:")
+            "Total:"
             + "\u3000"
             + f"{total:,.0f}"
             + " ["
@@ -192,15 +195,15 @@ def get_total_administered(data):
 
 def get_administered_section(data, country):
     """Get the administered section of the tweet."""
-    
+
     if get_total_admin_string(data) == "":
         return ""
     else:
         return ("\n"
-            + "Per 100 people:\n"
-            + get_total_admin_string(data)
-            + get_seven_days_string(data, country))
-            
+                + "Per 100 people:\n"
+                + get_total_admin_string(data)
+                + get_seven_days_string(data, country))
+
 
 def get_days_reported_string(country, data):
     days = get_days_reported(data)
@@ -209,9 +212,10 @@ def get_days_reported_string(country, data):
         return ""
     else:
         return ("\n*"
-                + "Aggregated data of " 
+                + "Aggregated data of "
                 + str(days.days)
                 + " days")
+
 
 def get_tweet(country, data, data_normalized):
     """Get the tweet to publish in Twitter for a particular country."""
