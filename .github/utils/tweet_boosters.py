@@ -124,9 +124,10 @@ def get_progress_section(data):
     people_vaccinated = get_current_data(data, parameter)
     people_vaccinated_increment = get_current_data_increment(data, parameter)
 
-    parameter = "people_fully_vaccinated"
-    fully_vaccinated = get_current_data(data, parameter)
-    fully_vaccinated_increment = get_current_data_increment(data, parameter)
+    parameter = "total_vaccinations"
+    fully_vaccinated = get_current_data(data, parameter) - people_vaccinated
+    fully_vaccinated_increment = get_current_data_increment(
+        data, parameter) - people_vaccinated_increment
 
     parameter = "total_boosters"
     total_boosters = get_current_data(data, parameter)
