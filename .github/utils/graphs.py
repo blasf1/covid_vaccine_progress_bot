@@ -80,19 +80,23 @@ def get_rolling_average(data, parameter, days):
     """Get the rolling average of the vaccination data."""
     # Use one period for the rolling average
     periods = 1
-    data_for_average = data.tail(days + 1) #keep days + 1 so that diff can cçompare with the last day out of the average
+    # keep days + 1 so that diff can cçompare with the last day out of the average
+    data_for_average = data.tail(days + 1)
     data_for_average.reset_index(inplace=True)
-    data_for_average["date"] = pd.to_datetime(data_for_average["date"], format='%Y-%m-%d')
+    data_for_average["date"] = pd.to_datetime(
+        data_for_average["date"], format='%Y-%m-%d')
 
-    date_limit = data_for_average.iloc[-1]["date"] - datetime.timedelta(days = days + 1) #data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+    # data_for_average.iloc[-1]["date"] - data_for_average.iloc[0]["date"]
+    date_limit = data_for_average.iloc[-1]["date"] - \
+        datetime.timedelta(days=days + 1)
 
-    data_for_average = data_for_average[data_for_average["date"] > date_limit]  
+    data_for_average = data_for_average[data_for_average["date"] > date_limit]
 
     data_for_average = data_for_average[parameter]
 
-    data_for_average = data_for_average.dropna() #remove empty rows for diff()
+    data_for_average = data_for_average.dropna()  # remove empty rows for diff()
     difference = data_for_average.diff(periods)
-    
+
     return (difference.sum() / days)
 
 
@@ -111,12 +115,14 @@ def read_data(path, path_population):
     """Read the last vaccination data for all countries."""
     files = glob.glob(path + "*.csv")
     print(path)
-    def read_csv(file): 
+
+    def read_csv(file):
         data = pd.read_csv(file)
-        data["people_vaccinated"].fillna(data["people_fully_vaccinated"], inplace=True)
+        data["people_vaccinated"].fillna(
+            data["people_fully_vaccinated"], inplace=True)
         data = data.iloc[[-1]]
         data["7_days_average"] = get_rolling_average(
-                    pd.read_csv(file),"total_vaccinations",7)
+            pd.read_csv(file), "total_vaccinations", 7)
         data = get_data_hundred_people(data, path_population)
 
         return data
@@ -184,11 +190,11 @@ def plot_data(data, unit, parameter, title, output, flags):
     if data_to_plot[parameter].iloc[-1] > 5:
         # Show number at the end of the bar
         [ax.text(v + 0.4, i - (width / 4), "{:.2f}".format(v) +
-             unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
+                 unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
     else:
         # Show number at the end of the bar
         [ax.text(v + 0.02, i - (width / 4), "{:.2f}".format(v) +
-             unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
+                 unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter])]
 
     # configure y axis labels (add flags)
     ax.tick_params(axis="y", which="both", left=False,
@@ -203,6 +209,7 @@ def plot_data(data, unit, parameter, title, output, flags):
 
     plt.savefig(file, dpi=300)
 
+
 def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     """Plot data in parameter for all countries in dataframe"""
     x = "location"
@@ -213,17 +220,21 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     # Font
     #plt.rcParams['font.sans-serif'] = "Arial"
     #plt.rcParams['font.family'] = "sans-serif"
-    plt.rcParams["axes.prop_cycle"] = cycler('color', ['#3C4E66', '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
+    plt.rcParams["axes.prop_cycle"] = cycler('color', [
+                                             '#3C4E66', '#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf'])
 
     data_to_plot = data[["location"] + [parameter1] + [parameter2]].sort_values(
         by=parameter2, ascending=True).dropna()
 
-    data_to_plot["substraction"] = data_to_plot[parameter2] - data_to_plot[parameter1]
-    data_to_stack = data_to_plot[["location"] + [parameter1] + ["substraction"]]
-    data_to_stack.rename(columns={"substraction": "Partially vaccinated", parameter1: "Fully vaccinated"})
+    data_to_plot["substraction"] = data_to_plot[parameter2] - \
+        data_to_plot[parameter1]
+    data_to_stack = data_to_plot[["location"] +
+                                 [parameter1] + ["substraction"]]
+    data_to_stack.rename(
+        columns={"substraction": "Partially vaccinated", parameter1: "Fully vaccinated"})
     ax = data_to_stack.plot.barh(x=x, figsize=figsize,
-                                legend=legend, width=width, xlabel="",
-                                fontsize=16, stacked=True)#, color=["#3C4E66", "#2C4E66"]) , labels=["Fully vaccinated", "Partially vaccinated"]
+                                 legend=legend, width=width, xlabel="",
+                                 fontsize=16, stacked=True)  # , color=["#3C4E66", "#2C4E66"]) , labels=["Fully vaccinated", "Partially vaccinated"]
 
     # Despine
     ax.spines['right'].set_visible(False)
@@ -249,13 +260,12 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
              unit, fontsize=16, color="#FFFFFF") for i, v in enumerate(data_to_plot[parameter1])]
 
     for i, v in enumerate(data_to_plot[parameter2] - data_to_plot[parameter1]):
-        if v > 6: 
+        if v > 6:
             ax.text(v/2 + data_to_plot.iloc[i][parameter1] - 2.5, i - (width / 4), "{:.1f}".format(v) +
-             unit, fontsize=16, color="#FFFFFF") 
+                    unit, fontsize=16, color="#FFFFFF")
 
     [ax.text(v + 0.5, i - (width / 4), "{:.1f}".format(v) +
              unit, fontsize=16) for i, v in enumerate(data_to_plot[parameter2])]
-              
 
     # configure y axis labels (add flags)
     ax.tick_params(axis="y", which="both", left=False,
@@ -266,10 +276,12 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
 
     file = os.path.join(output + title.replace(" ", "_") + ".png")
     labels = ["Fully vaccinated", "Partly vaccinated"]
-    colors={"full":"#3C4E66", "partial":"#1f77b4"}
-    handles = [plt.Rectangle((0,0),3,3, color=colors[color]) for color in colors]
+    colors = {"full": "#3C4E66", "partial": "#1f77b4"}
+    handles = [plt.Rectangle((0, 0), 3, 3, color=colors[color])
+               for color in colors]
     plt.legend(handles, labels, loc="lower right", fontsize=16)
-    plt.figtext(0.01, 0.01, "@VaccinationEu\nCheck data sources and extra info at https://blasf1.github.io/VaccinatEU/", fontsize=11)
+    plt.figtext(
+        0.01, 0.01, "@VaccinationEu\nCheck data sources and extra info at https://blasf1.github.io/VaccinatEU/", fontsize=11)
     plt.tight_layout(pad=2)
 
     plt.savefig(file, dpi=300)
@@ -348,14 +360,15 @@ user = api.verify_credentials(include_email=include_email)
 data = read_data(data, population)
 
 # Plot
-#Remove countries whose average cannot be calculated
+# Remove countries whose average cannot be calculated
 countries_to_skip = []
 
 for country in countries_to_skip:
     data = data[data["location"] != country]
 
 title1 = "Share of people vaccinated against COVID-19"
-plot_stacked(data, "%", "people_fully_vaccinated", "people_vaccinated", title1, output, flags)
+plot_stacked(data, "%", "people_fully_vaccinated",
+             "people_vaccinated", title1, output, flags)
 
 title2 = "Doses administered per 100 people"
 plot_data(data, "", "total_vaccinations", title2, output, flags)
@@ -366,7 +379,7 @@ plot_data(data, "", "total_vaccinations", title2, output, flags)
 # title3 = "% population vaccinated with at least one dose"
 # plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
-#Remove countries whose average cannot be calculated
+# Remove countries whose average cannot be calculated
 countries_without_average = ["Hungary"]
 
 for country in countries_without_average:
@@ -387,13 +400,13 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
          + emoji.emojize(":syringe:")
          + "Yesterday, "
          + f"{doses_in_eu:,.0f}"
-         + " doses" 
+         + " doses"
          + emoji.emojize(":syringe:")
          + " were administered in the EU"
          + flag.flagize(":EU:")
          )
 print(tweet)
-images = [os.path.join(output + title1.replace(" ", "_") + ".png"), 
+images = [os.path.join(output + title1.replace(" ", "_") + ".png"),
           os.path.join(output + title2.replace(" ", "_") + ".png"),
           #os.path.join(output + title3.replace(" ", "_") + ".png"),
           os.path.join(output + title4.replace(" ", "_") + ".png")
@@ -407,18 +420,20 @@ for image in images:
 tweet_id = api.update_status(status=tweet, media_ids=media_ids)
 
 reminder = (emoji.emojize(":pushpin:")
-         + "Shares over the total population (not just adults)"
-         + "\n\n"
-         + emoji.emojize(":pushpin:")
-         + "Remember that this is just information, not a competition. We all are in this together"
-         + emoji.emojize(":blue_heart:")
-         + flag.flagize(":EU:")
-         + "\n\n"
-         + emoji.emojize(":pushpin:")
-         + "Check the data sources and extra info here: https://blasf1.github.io/VaccinatEU/"
-        )
+            + "Shares over the total population (not just adults)"
+            + "\n\n"
+            + emoji.emojize(":pushpin:")
+            + "Hungary is not providing data"
+            + "\n\n"
+            + emoji.emojize(":pushpin:")
+            + "Remember that this is just information, not a competition. We all are in this together"
+            + emoji.emojize(":blue_heart:")
+            + flag.flagize(":EU:")
+            + "\n\n"
+            + emoji.emojize(":pushpin:")
+            + "Check the data sources and extra info here: https://blasf1.github.io/VaccinatEU/"
+            )
 
-api.update_status(status = reminder, 
-                  in_reply_to_status_id = tweet_id.id, 
+api.update_status(status=reminder,
+                  in_reply_to_status_id=tweet_id.id,
                   auto_populate_reply_metadata=True)
-
