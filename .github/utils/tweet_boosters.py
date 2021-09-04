@@ -139,6 +139,7 @@ def get_progress_section(data):
             + "2 dose:\n"
             + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
             + "\n\n"
+            + "Boosters:\n"
             + get_progress_bar(total_boosters, total_boosters_increment)
             + "\n")
 
@@ -152,7 +153,8 @@ def get_total_admin_string(data):
     if math.isnan(current_data_increment):
         return ""
     else:
-        return (emoji.emojize(":syringe:")
+        return ("\n"
+                + emoji.emojize(":syringe:")
                 + "Total:"
                 + "\u3000" * 3
                 + f"{current_data:05.2f}"
