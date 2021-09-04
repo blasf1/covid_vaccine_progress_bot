@@ -52,6 +52,10 @@ COUNTRIES = [
     "United States",
 ]
 
+COUNTRIES_WITHOUT_FULL_DATA = [
+    "Hungary"
+]
+
 # =============================================================================
 # Functions
 # =============================================================================
@@ -240,7 +244,7 @@ def sort_values_dict(dict, sort_by="people_fully_vaccinated"):
 
 def get_dict_vaccination_per_country(df):
     dict_people_vaccinated = {"data": {}}
-    #df = df.fillna(0)
+
     for country in COUNTRIES:
         dict_people_vaccinated["data"][country] = {"people_vaccinated": df["people_vaccinated"][country],
                                                    "people_fully_vaccinated": df["people_fully_vaccinated"][country],
@@ -255,6 +259,8 @@ def get_dict_vaccination_per_country(df):
                                                    "week_on_week_increment": df["week_on_week_increment"][country],
                                                    "adults_vaccinated_increment": df["adults_vaccinated_increment"][country],
                                                    "adults_fully_vaccinated_increment": df["adults_fully_vaccinated_increment"][country], }
+        if country in COUNTRIES_WITHOUT_FULL_DATA:
+            dict_people_vaccinated["data"][country]["people_fully_vaccinated"] = 0
 
     dict_people_vaccinated["countries_sorted"] = sort_values_dict(
         dict_people_vaccinated["data"])

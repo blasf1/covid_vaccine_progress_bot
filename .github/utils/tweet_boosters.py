@@ -71,7 +71,7 @@ NO_7_DAYS = {
 
 
 def generateProgressbar(percentage):
-    num_chars = 15
+    num_chars = 16
     num_filled = round((percentage / 100) * num_chars)
     num_empty = num_chars-num_filled
     msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
@@ -136,32 +136,12 @@ def get_progress_section(data):
     return ("\n1 dose:\n"
             + get_progress_bar(people_vaccinated, people_vaccinated_increment)
             + "\n\n"
-            + "2 dose:\n"
+            + "2 doses:\n"
             + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
             + "\n\n"
             + "Boosters:\n"
             + get_progress_bar(total_boosters, total_boosters_increment)
             + "\n")
-
-
-def get_total_admin_string(data):
-    """Get the string of the normalized administered doses."""
-    parameter = "total_vaccinations"
-    current_data = get_current_data(data, parameter)
-    current_data_increment = get_current_data_increment(data, parameter)
-
-    if math.isnan(current_data_increment):
-        return ""
-    else:
-        return ("\n"
-                + emoji.emojize(":syringe:")
-                + "Total:"
-                + "\u3000" * 3
-                + f"{current_data:05.2f}"
-                + " ["
-                + f"{current_data_increment:+04.2f}"
-                + "]"
-                + "\n")
 
 
 def get_total_administered(data):
@@ -172,7 +152,7 @@ def get_total_administered(data):
         return ""
     else:
         return (
-            "Total:"
+            "\nTotal:"
             + "\u3000"
             + f"{total:,.0f}"
             + " ["
