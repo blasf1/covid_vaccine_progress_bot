@@ -261,6 +261,7 @@ def get_dict_vaccination_per_country(df):
                                                    "adults_fully_vaccinated_increment": df["adults_fully_vaccinated_increment"][country], }
         if country in COUNTRIES_WITHOUT_FULL_DATA:
             dict_people_vaccinated["data"][country]["people_fully_vaccinated"] = 0
+            dict_people_vaccinated["data"][country]["adults_fully_vaccinated"] = 0
 
     dict_people_vaccinated["countries_sorted"] = sort_values_dict(
         dict_people_vaccinated["data"])
