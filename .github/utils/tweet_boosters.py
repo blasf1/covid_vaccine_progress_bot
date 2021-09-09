@@ -124,7 +124,7 @@ def get_progress_section(data):
     people_vaccinated = get_current_data(data, parameter)
     people_vaccinated_increment = get_current_data_increment(data, parameter)
 
-    parameter = "total_vaccinations"
+    parameter = "people_fully_vaccinated"
     fully_vaccinated = get_current_data(data, parameter) - people_vaccinated
     fully_vaccinated_increment = get_current_data_increment(
         data, parameter) - people_vaccinated_increment
@@ -133,26 +133,20 @@ def get_progress_section(data):
     total_boosters = get_current_data(data, parameter)
     total_boosters_increment = get_current_data_increment(data, parameter)
 
-    return ("\n1 dose:\n"
-            + get_progress_bar(people_vaccinated, people_vaccinated_increment)
-            + "\n\n"
-            + "2 doses:\n"
-            + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
-            + "\n\n"
-            + "Boosters:\n"
+    return ("Boosters:\n"
             + get_progress_bar(total_boosters, total_boosters_increment)
             + "\n")
 
 
 def get_total_administered(data):
     """Get total administered section of the tweet."""
-    total = get_current_data(data, "total_vaccinations")
-    increment = get_current_data_increment(data, "total_vaccinations")
+    total = get_current_data(data, "total_boosters")
+    increment = get_current_data_increment(data, "total_boosters")
     if math.isnan(increment):
         return ""
     else:
         return (
-            "\nTotal:"
+            "\nNumber of boosters administered:"
             + "\u3000"
             + f"{total:,.0f}"
             + " ["

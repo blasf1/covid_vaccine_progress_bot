@@ -60,7 +60,8 @@ COUNTRIES = [
     "Sweden"]
 
 COUNTRIES_BOOSTERS = [
-    "Hungary"
+    "Malta",
+    "Germany"
 ]
 
 UNSUPPORTED_COUNTRIES = []
@@ -129,67 +130,14 @@ def publish_tweet(country, api, data, data_unsupported, input, population):
     except tweepy.TweepError:
         print(f"Tweet already published.")
 
-
-def publish_tweet_boosters(country, api, data, data_unsupported, input, population):
-    # Get last date when the country data was published
-    print("Updating " + country + "...")
-    last_date = get_last_date(output, country)
-    previous_vaccinations = get_previous_vaccinations(output, country)
-    if country not in UNSUPPORTED_COUNTRIES:
-        # Get the vaccination data for the country
-        data = read_data(data, country, input)
-    else:
-        # Get the vaccination data for the country when not supported by owid
-        data = read_data_unsupported(data_unsupported, country, output)
-        store_last_data(output, country, data)
-
-    date = data.index[-1]
-    vaccinations = data["people_vaccinated"].iloc[-1]
-
-    if country in ONLY_FULL_COUNTRIES:
-        data["people_vaccinated"].fillna(
-            data["people_fully_vaccinated"], inplace=True)
-
-    print(date)
-    print(last_date)
-
-    if (date == last_date or vaccinations <= (previous_vaccinations + 100)):
-        print(f"{country} data is up to date.")
-        # Exit with a success code
-        return
-
-    # For delayed countries ignore the last row
-    if country in DELAYED_COUNTRIES:
-        data.drop(index=data.index[-1], axis=0, inplace=True)
-
-    # Get population and relative country data
-    population = get_population(population, country)
-    data_normalized = get_data_hundred_people(data, population)
-
-    # Get the tweet string to publish in Twitter
-    try:
+    if country in COUNTRIES_BOOSTERS:
         tweet_string = get_tweet_boosters(country, data, data_normalized)
-    except ValueError:
-        print(f"{country} data was not complete.")
+        tweet = api.update_status(tweet_string, in_reply_to_status_id=tweet.id)
 
-        # Exit with a success code
-        return
-
-    print(tweet_string)
-
-    try:
-        tweet = api.update_status(tweet_string)
-        #publish in telegram
-        bot = telegram.Bot(token=telegram_api)
-        status = bot.send_message(
-            chat_id="@euCovidVaccination", text=tweet_string)
-    except tweepy.TweepError:
-        print(f"Tweet already published.")
 
 # =============================================================================
 # Arguments
 # =============================================================================
-
 
 description = "Publish vaccination data for a country."
 parser = argparse.ArgumentParser(description=description)
@@ -261,7 +209,3 @@ user = api.verify_credentials(include_email=include_email)
 
 for country in COUNTRIES:
     publish_tweet(country, api, data, data_unsupported, input, population)
-
-for country in COUNTRIES_BOOSTERS:
-    publish_tweet_boosters(
-        country, api, data, data_unsupported, input, population)
