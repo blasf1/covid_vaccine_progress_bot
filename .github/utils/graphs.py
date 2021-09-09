@@ -380,7 +380,7 @@ plot_data(data, "", "total_vaccinations", title2, output, flags)
 # plot_data(data, "%", "people_vaccinated", title3, output, flags)
 
 # Remove countries whose average cannot be calculated
-countries_without_average = ["Hungary"]
+countries_without_average = ["Hungary", "Malta"]
 
 for country in countries_without_average:
     data = data[data["location"] != country]
