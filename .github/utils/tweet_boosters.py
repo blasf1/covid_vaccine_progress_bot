@@ -147,7 +147,7 @@ def get_total_administered(data):
     else:
         return (
             "\nNumber of boosters administered:"
-            + "\u3000"
+            + "\n"
             + f"{total:,.0f}"
             + " ["
             + f"{increment:+,.0f}"
