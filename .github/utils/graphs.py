@@ -422,9 +422,9 @@ tweet_id = api.update_status(status=tweet, media_ids=media_ids)
 reminder = (emoji.emojize(":pushpin:")
             + "Shares over the total population (not just adults)"
             + "\n\n"
-            + emoji.emojize(":pushpin:")
-            + "Hungary is not providing enough data"
-            + "\n\n"
+            #+ emoji.emojize(":pushpin:")
+            #+ "Hungary is not providing enough data"
+            #+ "\n\n"
             + emoji.emojize(":pushpin:")
             + "Remember that this is just information, not a competition. We all are in this together"
             + emoji.emojize(":blue_heart:")
