@@ -143,7 +143,11 @@ def get_week_on_week(data, parameter):
 
     data_for_average = data_for_average.dropna()  # remove empty rows for diff()
 
-    difference = data_for_average.iloc[-1] - data_for_average.iloc[0]
+    try:
+        difference = data_for_average.iloc[-1] - data_for_average.iloc[0]
+    except IndexError:
+        print("not available")
+        difference = 0
 
     return difference
 
