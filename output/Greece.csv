@@ -1,23 +1,23 @@
 date,location,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated
-2020-12-28,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,447,447,
-2020-12-29,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,1077,1077,
-2020-12-30,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,1722,1722,
-2020-12-31,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,2339,2339,
-2021-01-01,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,2603,2603,
-2021-01-02,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,3149,3149,
-2021-01-03,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,3869,3869,
-2021-01-04,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,10327,10327,
-2021-01-05,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,16631,16631,
-2021-01-06,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,20616,20616,
-2021-01-07,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,26445,26445,
-2021-01-08,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,35272,35272,
-2021-01-09,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,40427,40427,
-2021-01-10,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,44645,44645,
-2021-01-11,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,50045,50045,
-2021-01-12,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,56475,56475,
-2021-01-13,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,64932,64932,
-2021-01-14,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,70960,70960,
-2021-01-15,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,75412,75412,
+2020-12-28,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,447,447,0
+2020-12-29,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,1077,1077,0
+2020-12-30,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,1722,1722,0
+2020-12-31,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,2339,2339,0
+2021-01-01,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,2603,2603,0
+2021-01-02,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,3149,3149,0
+2021-01-03,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,3869,3869,0
+2021-01-04,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,10327,10327,0
+2021-01-05,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,16631,16631,0
+2021-01-06,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,20616,20616,0
+2021-01-07,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,26445,26445,0
+2021-01-08,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,35272,35272,0
+2021-01-09,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,40427,40427,0
+2021-01-10,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,44645,44645,0
+2021-01-11,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,50045,50045,0
+2021-01-12,Greece,Pfizer/BioNTech,https://www.data.gov.gr/datasets/mdg_emvolio/,56475,56475,0
+2021-01-13,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,64932,64932,0
+2021-01-14,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,70960,70960,0
+2021-01-15,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,75412,75412,0
 2021-01-16,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,80391,80389,2
 2021-01-18,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,85898,85475,423
 2021-01-19,Greece,"Moderna, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,94454,93382,1072
@@ -60,183 +60,184 @@ date,location,vaccine,source_url,total_vaccinations,people_vaccinated,people_ful
 2021-03-02,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,957139,617737,339402
 2021-03-03,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,991409,643218,348191
 2021-03-04,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1024711,669152,355559
-2021-03-05,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1059304,697876,361427
-2021-03-06,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1091749,725388,366360
-2021-03-08,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1126060,753636,372423
-2021-03-09,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1158386,780536,377848
-2021-03-10,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1190723,807280,383441
-2021-03-11,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1222393,831761,390629
-2021-03-12,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1254087,855151,398933
-2021-03-13,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1283472,877402,406067
-2021-03-15,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1285437,877644,407790
-2021-03-16,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1316554,895920,420630
-2021-03-17,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1345735,915641,430089
-2021-03-18,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1375828,935269,440554
-2021-03-19,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1407064,956745,450314
-2021-03-20,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1436491,977045,459441
-2021-03-22,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1469020,997959,471056
-2021-03-23,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1503487,1018670,484812
-2021-03-24,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1536957,1035543,501409
-2021-03-25,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1537104,1035659,501440
-2021-03-26,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1572726,1046291,526429
-2021-03-27,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1604238,1055744,548488
-2021-03-29,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1635676,1066873,568796
-2021-03-30,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1668956,1080658,588291
-2021-03-31,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1699807,1092633,607167
-2021-04-01,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1739051,1114363,624681
-2021-04-02,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1777502,1135585,641909
-2021-04-03,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1830362,1171420,658934
-2021-04-05,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1886370,1222682,663680
-2021-04-06,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1946339,1269938,676393
-2021-04-07,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2003644,1312896,690740
-2021-04-08,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2058750,1353956,704785
-2021-04-09,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2114222,1394013,720200
-2021-04-10,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2169353,1435503,733840
-2021-04-12,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2225878,1480479,745389
-2021-04-13,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2280934,1524902,756022
-2021-04-14,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2334557,1569559,764988
-2021-04-15,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2387148,1620067,767071
-2021-04-16,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2440210,1671324,768876
-2021-04-17,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2491857,1721650,770197
-2021-04-19,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2546154,1774120,772024
-2021-04-20,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2600998,1826618,774370
-2021-04-21,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2652448,1876009,776429
-2021-04-22,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2708780,1924630,784140
-2021-04-23,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2765367,1971361,793996
-2021-04-24,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2821625,2004512,817103
-2021-04-26,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2883199,2032090,851099
-2021-04-27,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2945058,2063824,881224
-2021-04-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3009488,2099343,910135
-2021-04-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3075698,2131890,943798
-2021-04-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3097693,2153560,944123
-2021-05-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3115339,2170847,944481
-2021-05-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3136791,2191449,945331
-2021-05-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3201212,2214648,986552
-2021-05-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3309765,2272642,1041838
-2021-05-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3424441,2333913,1100081
-2021-05-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3535148,2391470,1158110
-2021-05-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3647616,2450303,1216683
-2021-05-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3760640,2507229,1277825
-2021-05-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3868356,2561858,1335798
-2021-05-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3973336,2615123,1392281
-2021-05-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4079168,2666895,1450838
-2021-05-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4185347,2718390,1510095
-2021-05-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4292541,2772414,1568229
-2021-05-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4405618,2836972,1624604
-2021-05-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4513979,2905212,1672775
-2021-05-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4615746,2974175,1709388
-2021-05-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4716739,3044700,1743394
-2021-05-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4814981,3121394,1768771
-2021-05-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4913334,3200861,1791271
-2021-05-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5012666,3281550,1813815
-2021-05-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5107830,3357664,1836773
-2021-05-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5206825,3416341,1880694
-2021-05-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5305355,3474645,1924490
-2021-05-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5402105,3532531,1967849
-2021-05-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5498042,3589514,2010989
-2021-05-31,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5597624,3647975,2058287
-2021-06-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5691818,3698975,2105971
-2021-06-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5791280,3752217,2155442
-2021-06-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5888281,3803175,2204220
-2021-06-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5986480,3854947,2253347
-2021-06-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6084963,3904249,2305626
-2021-06-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6156375,3972036,2309366
-2021-06-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6258951,4021033,2369187
-2021-06-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6361417,4062809,2435852
-2021-06-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6463465,4100020,2506621
-2021-06-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6564056,4130759,2582154
-2021-06-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6665626,4160286,2660260
-2021-06-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6770033,4187201,2743851
-2021-06-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6835783,4247276,2749592
-2021-06-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6938959,4274435,2831081
-2021-06-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7041432,4302109,2911340
-2021-06-16,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7142822,4338990,2980883
-2021-06-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7244517,4381177,3045889
-2021-06-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7345346,4424124,3108991
-2021-06-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7446861,4468526,3171374
-2021-06-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7508584,4526238,3175443
-2021-06-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7510968,4528564,3175501
-2021-06-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7616421,4565918,3248653
-2021-06-23,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7722093,4604203,3321644
-2021-06-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7822697,4641844,3390060
-2021-06-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7925253,4678423,3461165
-2021-06-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8028343,4714281,3534001
-2021-06-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8098959,4728534,3590937
-2021-06-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8202338,4762181,3666080
-2021-06-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8299173,4800314,3730060
-2021-06-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8391535,4839188,3788906
-2021-07-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8475823,4883996,3831147
-2021-07-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8559280,4923627,3878045
-2021-07-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8641748,4970687,3917016
-2021-07-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8710475,4988117,3968350
-2021-07-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8802118,5034743,4017820
-2021-07-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8884422,5081723,4058143
-2021-07-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8966023,5120593,4105653
-2021-07-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9050766,5162882,4151907
-2021-07-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9138465,5204251,4201847
-2021-07-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9228699,5244136,4255688
-2021-07-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9233521,5246057,4258610
-2021-07-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9325449,5269184,4331934
-2021-07-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9409245,5302266,4388072
-2021-07-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9485402,5332527,4438726
-2021-07-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9560592,5364904,4486033
-2021-07-16,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9637701,5398299,4534255
-2021-07-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9717834,5430103,4586714
-2021-07-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9723233,5431616,4590758
-2021-07-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9807851,5466055,4644901
-2021-07-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9880514,5497274,4690118
-2021-07-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9950017,5525812,4734403
-2021-07-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10025958,5551472,4787767
-2021-07-23,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10093195,5578596,4830974
-2021-07-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10160738,5598628,4881022
-2021-07-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10162629,5599347,4882228
-2021-07-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10237691,5616497,4943131
-2021-07-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10304614,5635856,4993770
-2021-07-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10362660,5655731,5034742
-2021-07-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10417610,5672206,5075546
-2021-07-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10475917,5690258,5118376
-2021-07-31,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10536457,5705615,5165666
-2021-08-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10538744,5706360,5167260
-2021-08-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10588397,5726744,5198378
-2021-08-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10634825,5741514,5231845
-2021-08-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10676924,5755315,5262223
-2021-08-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10718787,5767655,5293507
-2021-08-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10761438,5780364,5325349
-2021-08-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10806193,5791340,5360158
-2021-08-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10807733,5791836,5361270
-2021-08-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10843911,5799457,5391529
-2021-08-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10875211,5807010,5416918
-2021-08-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10906296,5815086,5441745
-2021-08-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10936531,5823139,5465647
-2021-08-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10965338,5831355,5487885
-2021-08-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10988409,5838499,5504723
-2021-08-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10988838,5838688,5505041
-2021-08-16,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11018447,5850692,5524389
-2021-08-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11047575,5861691,5544272
-2021-08-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11076656,5872951,5563987
-2021-08-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11101460,5883293,5579852
-2021-08-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11128403,5894666,5597167
-2021-08-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11153817,5904497,5614071
-2021-08-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11154395,5904741,5614458
-2021-08-23,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11186043,5917081,5635437
-2021-08-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11215341,5932210,5651654
-2021-08-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11247943,5951175,5668041
-2021-08-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11278583,5970332,5681994
-2021-08-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11311667,5991165,5697216
-2021-08-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11342438,6009543,5712066
-2021-08-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11343445,6010270,5712497
-2021-08-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11376741,6033085,5726036
-2021-08-31,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11408609,6056183,5738106
-2021-09-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11439413,6079739,5748030
-2021-09-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11466985,6100506,5757051
-2021-09-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11495740,6122036,5766616
-2021-09-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11522842,6141453,5776111
-2021-09-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11523504,6141966,5776336
-2021-09-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11552558,6161023,5788447
-2021-09-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11579860,6179889,5799038
-2021-09-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11608678,6199953,5809940
-2021-09-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11635474,6218580,5820279
-2021-09-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11665847,6239026,5832628
-2021-09-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11696468,6259410,5845008
-2021-09-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11697197,6259984,5845265
-2021-09-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11728334,6281530,5857688
+2021-03-05,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1059304,697877,361427
+2021-03-06,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1091749,725389,366360
+2021-03-08,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1126060,753637,372423
+2021-03-09,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1158386,780538,377848
+2021-03-10,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1190723,807282,383441
+2021-03-11,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1222393,831764,390629
+2021-03-12,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1254087,855154,398933
+2021-03-13,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1283472,877405,406067
+2021-03-15,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1285437,877647,407790
+2021-03-16,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1316554,895924,420630
+2021-03-17,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1345735,915646,430089
+2021-03-18,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1375828,935274,440554
+2021-03-19,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1407064,956750,450314
+2021-03-20,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1436491,977050,459441
+2021-03-22,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1469020,997964,471056
+2021-03-23,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1503487,1018675,484812
+2021-03-24,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1536957,1035548,501409
+2021-03-25,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1537104,1035664,501440
+2021-03-26,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1572726,1046297,526429
+2021-03-27,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1604238,1055750,548488
+2021-03-29,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1635676,1066880,568796
+2021-03-30,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1668956,1080665,588291
+2021-03-31,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1699807,1092640,607167
+2021-04-01,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1739051,1114370,624681
+2021-04-02,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1777502,1135593,641909
+2021-04-03,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1830362,1171428,658934
+2021-04-05,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1886370,1222690,663680
+2021-04-06,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,1946339,1269946,676393
+2021-04-07,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2003644,1312904,690740
+2021-04-08,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2058750,1353965,704785
+2021-04-09,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2114222,1394022,720200
+2021-04-10,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2169353,1435513,733840
+2021-04-12,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2225878,1480489,745389
+2021-04-13,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2280934,1524912,756022
+2021-04-14,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2334557,1569569,764988
+2021-04-15,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2387148,1620077,767071
+2021-04-16,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2440210,1671334,768876
+2021-04-17,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2491857,1721660,770197
+2021-04-19,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2546154,1774130,772024
+2021-04-20,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2600998,1826628,774370
+2021-04-21,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2652448,1876019,776429
+2021-04-22,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2708780,1924640,784140
+2021-04-23,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2765367,1971371,793996
+2021-04-24,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2821625,2004522,817103
+2021-04-26,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2883199,2032100,851099
+2021-04-27,Greece,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,2945058,2063834,881224
+2021-04-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3009488,2099353,910135
+2021-04-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3075698,2131900,943798
+2021-04-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3097693,2153570,944123
+2021-05-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3115339,2170858,944481
+2021-05-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3136791,2191460,945331
+2021-05-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3201212,2214660,986552
+2021-05-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3309765,2272655,1041838
+2021-05-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3424441,2333926,1100081
+2021-05-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3535148,2391483,1158110
+2021-05-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3647616,2450316,1216683
+2021-05-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3760640,2507242,1277825
+2021-05-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3868356,2561871,1335798
+2021-05-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,3973336,2615136,1392281
+2021-05-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4079168,2666908,1450838
+2021-05-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4185347,2718404,1510095
+2021-05-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4292541,2772428,1568229
+2021-05-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4405618,2836987,1624604
+2021-05-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4513979,2905229,1672775
+2021-05-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4615746,2974198,1709388
+2021-05-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4716739,3044725,1743394
+2021-05-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4814981,3121419,1768771
+2021-05-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,4913334,3200890,1791271
+2021-05-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5012666,3281580,1813815
+2021-05-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5107830,3357696,1836773
+2021-05-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5206825,3416374,1880694
+2021-05-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5305355,3474679,1924490
+2021-05-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5402105,3532565,1967849
+2021-05-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5498042,3589548,2010989
+2021-05-31,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5597624,3648009,2058287
+2021-06-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5691818,3699010,2105971
+2021-06-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5791280,3752252,2155442
+2021-06-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5888281,3803210,2204220
+2021-06-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,5986480,3854982,2253347
+2021-06-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6084963,3904284,2305626
+2021-06-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6156375,3972071,2309366
+2021-06-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6258951,4021068,2369187
+2021-06-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6361417,4062844,2435852
+2021-06-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6463465,4100056,2506621
+2021-06-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6564056,4130796,2582154
+2021-06-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6665626,4160324,2660260
+2021-06-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6770033,4187240,2743851
+2021-06-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6835783,4247316,2749592
+2021-06-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,6938959,4274475,2831081
+2021-06-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7041432,4302150,2911340
+2021-06-16,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7142822,4339032,2980883
+2021-06-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7244517,4381219,3045889
+2021-06-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7345346,4424168,3108991
+2021-06-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7446861,4468570,3171374
+2021-06-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7508584,4526282,3175443
+2021-06-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7510968,4528608,3175501
+2021-06-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7616421,4565962,3248653
+2021-06-23,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7722093,4604248,3321644
+2021-06-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7822697,4641889,3390060
+2021-06-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,7925253,4678468,3461165
+2021-06-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8028343,4714326,3534001
+2021-06-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8098959,4728579,3590937
+2021-06-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8202338,4762226,3666080
+2021-06-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8299173,4800359,3730060
+2021-06-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8391535,4839234,3788906
+2021-07-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8475823,4884042,3831147
+2021-07-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8559280,4923673,3878045
+2021-07-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8641748,4970733,3917016
+2021-07-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8710475,4988163,3968350
+2021-07-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8802118,5034790,4017820
+2021-07-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8884422,5081770,4058143
+2021-07-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,8966023,5120640,4105653
+2021-07-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9050766,5162930,4151907
+2021-07-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9138465,5204304,4201847
+2021-07-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9228699,5244189,4255688
+2021-07-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9233521,5246110,4258610
+2021-07-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9325449,5269237,4331934
+2021-07-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9409245,5302319,4388072
+2021-07-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9485402,5332580,4438726
+2021-07-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9560592,5364957,4486033
+2021-07-16,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9637701,5398353,4534255
+2021-07-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9717834,5430157,4586714
+2021-07-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9723233,5431670,4590758
+2021-07-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9807851,5466109,4644901
+2021-07-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9880514,5497328,4690118
+2021-07-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,9950017,5525866,4734403
+2021-07-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10025958,5551526,4787767
+2021-07-23,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10093195,5578650,4830974
+2021-07-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10160738,5598682,4881022
+2021-07-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10162629,5599401,4882228
+2021-07-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10237691,5616551,4943131
+2021-07-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10304614,5635911,4993770
+2021-07-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10362660,5655786,5034742
+2021-07-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10417610,5672262,5075546
+2021-07-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10475917,5690314,5118376
+2021-07-31,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10536457,5705671,5165666
+2021-08-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10538744,5706416,5167260
+2021-08-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10588397,5726800,5198378
+2021-08-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10634825,5741571,5231845
+2021-08-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10676924,5755372,5262223
+2021-08-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10718787,5767713,5293507
+2021-08-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10761438,5780422,5325349
+2021-08-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10806193,5791398,5360158
+2021-08-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10807733,5791894,5361270
+2021-08-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10843911,5799515,5391529
+2021-08-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10875211,5807068,5416918
+2021-08-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10906296,5815144,5441745
+2021-08-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10936531,5823197,5465647
+2021-08-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10965338,5831413,5487885
+2021-08-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10988409,5838557,5504723
+2021-08-15,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,10988838,5838746,5505041
+2021-08-16,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11018447,5850750,5524389
+2021-08-17,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11047575,5861749,5544272
+2021-08-18,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11076656,5873009,5563987
+2021-08-19,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11101460,5883351,5579852
+2021-08-20,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11128403,5894724,5597167
+2021-08-21,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11153817,5904555,5614071
+2021-08-22,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11154395,5904799,5614458
+2021-08-23,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11186043,5917139,5635437
+2021-08-24,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11215341,5932269,5651654
+2021-08-25,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11247943,5951234,5668041
+2021-08-26,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11278583,5970391,5681994
+2021-08-27,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11311667,5991224,5697216
+2021-08-28,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11342438,6009602,5712066
+2021-08-29,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11343445,6010329,5712497
+2021-08-30,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11376741,6033144,5726036
+2021-08-31,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11408609,6056242,5738106
+2021-09-01,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11439413,6079798,5748030
+2021-09-02,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11466985,6100565,5757051
+2021-09-03,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11495740,6122095,5766616
+2021-09-04,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11522842,6141512,5776111
+2021-09-05,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11523504,6142025,5776336
+2021-09-06,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11552558,6161083,5788447
+2021-09-07,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11579860,6179949,5799038
+2021-09-08,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11608678,6200013,5809940
+2021-09-09,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11635474,6218640,5820279
+2021-09-10,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11665847,6239086,5832628
+2021-09-11,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11696468,6259470,5845008
+2021-09-12,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11697197,6260044,5845265
+2021-09-13,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11728334,6281590,5857688
+2021-09-14,Greece,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.data.gov.gr/datasets/mdg_emvolio/,11757399,6300466,5870484
