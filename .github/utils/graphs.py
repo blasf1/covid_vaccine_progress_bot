@@ -51,7 +51,7 @@ FLAGS = {
     "Italy": "IT",
     "Latvia": "LV",
     "Lithuania": "LT",
-    "Luxembourg": "LU",
+    # "Luxembourg": "LU",
     "Malta": "MT",
     "Netherlands": "NL",
     "Poland": "PL",
