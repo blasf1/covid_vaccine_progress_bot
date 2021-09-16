@@ -118,9 +118,9 @@ def read_data(path, path_population):
 
     def read_csv(file):
         data = pd.read_csv(file)
-        data = data.ffill()
         data["people_vaccinated"].fillna(
             data["people_fully_vaccinated"], inplace=True)
+        data = data.ffill()
         data = data.iloc[[-1]]
         data["7_days_average"] = get_rolling_average(
             pd.read_csv(file), "total_vaccinations", 7)
