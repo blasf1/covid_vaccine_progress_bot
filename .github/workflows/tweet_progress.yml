@@ -26,6 +26,8 @@ jobs:
 
       - name: Install Python
         uses: actions/setup-python@v2
+        with:
+          python-version: '3.9.6'
 
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
