@@ -53,7 +53,7 @@ COUNTRIES = [
 ]
 
 COUNTRIES_WITHOUT_FULL_DATA = [
-    # "Hungary"
+    "Luxembourg"
 ]
 
 # =============================================================================
