@@ -152,8 +152,8 @@ def get_total_administered(data):
             + " ["
             + f"{increment:+,.0f}"
             + "]"
-            + "\n"
-            + "*Boosters are only administered to people with immune problems")
+            + "\n\n"
+            + "*Boosters are administered to people with immune deficiencies only.")
 
 
 def get_days_reported_string(country, data):

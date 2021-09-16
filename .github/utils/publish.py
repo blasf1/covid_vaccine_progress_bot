@@ -61,7 +61,8 @@ COUNTRIES = [
 
 COUNTRIES_BOOSTERS = [
     "Malta",
-    "Germany"
+    "Germany",
+    "Luxembourg"
 ]
 
 UNSUPPORTED_COUNTRIES = []
