@@ -67,17 +67,19 @@ output = args.output
 # Main
 # =============================================================================
 
-columns=["date", "total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]
-eu_data = pd.DataFrame(columns = columns)
+columns = ["date", "total_vaccinations",
+           "people_vaccinated", "people_fully_vaccinated"]
+eu_data = pd.DataFrame(columns=columns)
 print(path)
 for country in COUNTRIES:
     path_file = os.path.join(path, country + ".csv")
-    data = pd.read_csv(path_file, usecols = columns, index_col="date")
+    data = pd.read_csv(path_file, usecols=columns, index_col="date")
     if eu_data.empty:
         eu_data = data
     else:
         #eu_data = data.reindex_like(eu_data).fillna(0) + eu_data.fillna(0)
-        data = data.reindex_like(eu_data).fillna(method="ffill")        
+        print(data)
+        data = data.reindex_like(eu_data).fillna(method="ffill")
         eu_data = eu_data.add(data, fill_value=0)
 
 eu_data["location"] = "European Union"
@@ -85,4 +87,4 @@ print("EU_DATA")
 print(eu_data)
 index = True
 output = os.path.join(output, "EuropeanUnion.csv")
-eu_data.to_csv(output,index=index)
+eu_data.to_csv(output, index=index)
