@@ -158,6 +158,8 @@ def read_data(path, path_population, path_adults):
 
     def read_csv(file):
         data = pd.read_csv(file)
+        print(file)
+        print(data)
         data["people_vaccinated"].fillna(
             data["people_fully_vaccinated"], inplace=True)
         data = data.ffill()
