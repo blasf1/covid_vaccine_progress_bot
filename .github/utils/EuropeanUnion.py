@@ -78,6 +78,7 @@ for country in COUNTRIES:
         eu_data = data
     else:
         #eu_data = data.reindex_like(eu_data).fillna(0) + eu_data.fillna(0)
+        print(country)
         print(data)
         data = data.reindex_like(eu_data).fillna(method="ffill")
         eu_data = eu_data.add(data, fill_value=0)
