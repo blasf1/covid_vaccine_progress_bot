@@ -1,105 +1,105 @@
-location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated
-Cyprus,2021-01-06,Pfizer/BioNTech,http://www.pio.gov.cy/coronavirus/uploads/06012021--Ενημέρωση%20για%20την%20πορεία%20υλοποίησης%20του%20Εθνικού%20Εμβολιαστικού%20Πλάνου%20για%20την%20COVID-19.pdf,3901,3901,0
-Cyprus,2021-01-10,Pfizer/BioNTech,"http://www.pio.gov.cy/coronavirus/uploads/10012021--Άλλα%203,960%20ραντεβού%20για%20εμβολιασμό%20στη%20διάθεση%20των%20πολιτών%20ηλικίας%20άνω%20των%2080%20ετών.pdf",6035,6035,0
-Cyprus,2021-01-16,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/16012021--Συνεχίζεται%20η%20εμβολιαστική%20κάλυψη%20των%20πολιτών%20κατά%20της%20COVID.pdf,10226,10226,0
-Cyprus,2021-01-23,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/23012021--Ραντεβού%20για%20εμβολιασμό%20για%20τα%20άτομα%20άνω%20των%2090%20ετών.pdf,17739,15322,2057
-Cyprus,2021-01-30,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/30012021--Νέα%20ραντεβού%20για%20εμβολιασμό%20-%20Ανοίγει%20η%20Πύλη%20Εμβολισμού%20για%20τους%20άνω%20των%2084.pdf,25519,19618,5551
-Cyprus,2021-02-06,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/06022021--Πέραν%20των%2010%20χιλιάδων%20πολιτών%20ολοκλήρωσαν%20τον%20εμβολιασμό%20τους.pdf,32837,22813,10024
-Cyprus,2021-02-13,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/14022021--Εντατικοποιείται%20ο%20εμβολιασμός%20κατά%20της%20COVID-19.pdf,44429,29592,14837
-Cyprus,2021-02-20,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/20022021--Σε%20εξέλιξη%20το%20Εθνικό%20Εμβολιαστικό%20Πλάνο.pdf,56791,37570,19221
-Cyprus,2021-02-23,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/24022021--%CE%95%CF%80%CE%B9%CF%84%CF%85%CE%B3%CF%87%CE%AC%CE%BD%CE%BF%CE%BD%CF%84%CE%B1%CE%B9%20%CE%BF%CE%B9%20%CF%83%CF%84%CF%8C%CF%87%CE%BF%CE%B9%20%CF%84%CE%BF%CF%85%20%CE%95%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%BF%CF%8D%20%CE%A0%CE%BB%CE%AC%CE%BD%CE%BF%CF%85.pdf,64562,44239,20323
-Cyprus,2021-02-26,"Moderna, Pfizer/BioNTech","https://www.pio.gov.cy/coronavirus/uploads/27022021--%CE%9E%CE%B5%CF%80%CE%AD%CF%81%CE%B1%CF%83%CE%B1%CE%BD%20%CF%84%CE%B9%CF%82%2076,000%20%CE%BF%CE%B9%20%CE%B5%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CE%BC%CE%BF%CE%AF%20%CE%BA%CE%B1%CF%84%CE%AC%20%CF%84%CE%B7%CF%82%20COVID-19.pdf",76176,53617,22559
-Cyprus,2021-03-07,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/08032021--%CE%A1%CE%B1%CE%BD%CF%84%CE%B5%CE%B2%CE%BF%CF%8D%20%CE%B3%CE%B9%CE%B1%20%CE%B5%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CE%BC%CF%8C%20%CE%BA%CE%B1%CF%84%CE%AC%20%CF%84%CE%B7%CF%82%20COVID-19.pdf,99275,70534,28741
-Cyprus,2021-03-20,"Moderna, Pfizer/BioNTech",https://www.financialmirror.com/2021/03/20/covid19-cyprus-vaccinations-reach-people-aged-66/,129438,93475,35963
-Cyprus,2021-04-03,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/04042021--%CE%95%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CE%BC%CF%8C%CF%82%20%CE%B1%CF%84%CF%8C%CE%BC%CF%89%CE%BD%20%CF%80%CE%BF%CF%85%20%CE%BA%CE%AC%CE%BD%CE%BF%CF%85%CE%BD%20%CE%B5%CE%BD%CE%B5%CF%81%CE%B3%CF%8C%20%CF%87%CF%81%CE%AE%CF%83%CE%B7%20%CE%B2%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8E%CE%BD%20%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8C%CE%BD%CF%84%CF%89%CE%BD%20%CE%AE%20%CE%AC%CE%BB%CE%BB%CF%89%CE%BD%20%CE%B1%CE%BD%CE%BF%CF%83%CE%BF%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%B1%CE%BB%CF%84%CE%B9%CE%BA%CF%8E%CE%BD%20%CF%86%CE%B1%CF%81%CE%BC%CE%AC%CE%BA%CF%89%CE%BD.pdf,161526,114660,46866
-Cyprus,2021-04-07,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19527#flat,174626,124165,50461
-Cyprus,2021-04-09,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%B8%CE%AD%CE%BD%CF%84%CE%B1-%CE%AC%CF%81%CE%B8%CF%81%CE%BF.html?id=19563#flat,183225,130937,52288
-Cyprus,2021-04-16,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19710#flat,202441,145357,57084
-Cyprus,2021-04-19,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19775#flat,214675,156682,57993
-Cyprus,2021-04-20,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19790#flat,219654,161389,58265
-Cyprus,2021-04-21,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19837#flat,224352,165558,58794
-Cyprus,2021-04-23,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19881#flat,236265,176082,60183
-Cyprus,2021-05-01,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%B8%CE%AD%CE%BD%CF%84%CE%B1-%CE%AC%CF%81%CE%B8%CF%81%CE%BF.html?id=20003#flat,287816,218323,69463
-Cyprus,2021-05-06,"Moderna, Pfizer/BioNTech",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,332423,252792,79631
-Cyprus,2021-05-10,"Moderna, Pfizer/BioNTech",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,371430,284264,87166
-Cyprus,2021-05-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,384639,293180,91459
-Cyprus,2021-05-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,400004,305274,94730
-Cyprus,2021-05-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,424489,320309,104180
-Cyprus,2021-05-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,434550,325648,108902
-Cyprus,2021-05-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,448734,334258,114476
-Cyprus,2021-05-18,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,461901,340015,121886
-Cyprus,2021-05-19,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,476020,347840,128180
-Cyprus,2021-05-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,504008,356376,147632
-Cyprus,2021-05-23,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,522144,361142,161002
-Cyprus,2021-05-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,533282,369970,163312
-Cyprus,2021-05-26,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,560664,376676,183988
-Cyprus,2021-05-27,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,572426,381409,191017
-Cyprus,2021-05-30,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,595906,386710,209196
-Cyprus,2021-06-01,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,615264,387966,227298
-Cyprus,2021-06-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,622305,388475,233830
-Cyprus,2021-06-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,632437,394877,237560
-Cyprus,2021-06-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,649005,403013,245992
-Cyprus,2021-06-07,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,654896,404314,250582
-Cyprus,2021-06-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,662063,408513,253550
-Cyprus,2021-06-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,673101,413032,260069
-Cyprus,2021-06-10,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,681219,415577,265642
-Cyprus,2021-06-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,689776,421974,267802
-Cyprus,2021-06-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,701370,425661,275709
-Cyprus,2021-06-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,718775,436280,282495
-Cyprus,2021-06-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,728458,439561,288897
-Cyprus,2021-06-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,739365,443121,296244
-Cyprus,2021-06-19,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,753106,447383,305723
-Cyprus,2021-06-23,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,768273,452062,316211
-Cyprus,2021-06-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,777935,453823,324112
-Cyprus,2021-06-30,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,809234,462527,346707
-Cyprus,2021-07-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,829778,465528,364250
-Cyprus,2021-07-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,835997,467846,368151
-Cyprus,2021-07-05,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,849209,469213,379996
-Cyprus,2021-07-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,856951,470045,386906
-Cyprus,2021-07-07,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,867092,471757,395335
-Cyprus,2021-07-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,876257,474819,401438
-Cyprus,2021-07-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,883863,478966,404897
-Cyprus,2021-07-10,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,887110,479265,407845
-Cyprus,2021-07-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,897325,484650,412675
-Cyprus,2021-07-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,903842,488013,415829
-Cyprus,2021-07-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,910376,491156,419220
-Cyprus,2021-07-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,916819,495815,421004
-Cyprus,2021-07-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,925470,500856,424614
-Cyprus,2021-07-19,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,934112,505175,428937
-Cyprus,2021-07-20,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,941398,508507,432891
-Cyprus,2021-07-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,946070,511744,434326
-Cyprus,2021-07-22,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,950981,514732,436249
-Cyprus,2021-07-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,958796,518739,440057
-Cyprus,2021-07-25,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,959464,518739,440725
-Cyprus,2021-07-27,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,970077,526537,443540
-Cyprus,2021-07-28,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,974906,528889,446017
-Cyprus,2021-07-29,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,980404,530879,449525
-Cyprus,2021-08-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,994390,534809,459581
-Cyprus,2021-08-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1001047,537939,463108
-Cyprus,2021-08-04,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1007555,541654,465901
-Cyprus,2021-08-05,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1014151,544375,469776
-Cyprus,2021-08-07,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1021406,547497,473909
-Cyprus,2021-08-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1027680,550138,477542
-Cyprus,2021-08-10,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1032223,551313,480910
-Cyprus,2021-08-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1036664,552214,484450
-Cyprus,2021-08-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1040915,553943,486972
-Cyprus,2021-08-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1047310,556568,490742
-Cyprus,2021-08-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1051470,557676,493794
-Cyprus,2021-08-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1056083,558543,497540
-Cyprus,2021-08-18,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1060680,561189,499491
-Cyprus,2021-08-20,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1068962,564903,504059
-Cyprus,2021-08-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1069123,564904,504219
-Cyprus,2021-08-26,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1085014,570003,515011
-Cyprus,2021-08-30,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1094400,573924,520476
-Cyprus,2021-09-01,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1098334,575773,522561
-Cyprus,2021-09-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1101034,576637,524397
-Cyprus,2021-09-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1105484,578477,527007
-Cyprus,2021-09-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1110044,581422,528622
-Cyprus,2021-09-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1115513,583768,531745
-Cyprus,2021-09-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1117393,584336,533057
-Cyprus,2021-09-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1121722,586138,535584
-Cyprus,2021-09-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1124786,587429,537357
-Cyprus,2021-09-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1126551,588112,538439
-Cyprus,2021-09-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1127991,588545,539446
-Cyprus,2021-09-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1129665,589098,540567
-Cyprus,2021-09-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1138132,592186,545946
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Cyprus,2021-01-06,Pfizer/BioNTech,http://www.pio.gov.cy/coronavirus/uploads/06012021--Ενημέρωση%20για%20την%20πορεία%20υλοποίησης%20του%20Εθνικού%20Εμβολιαστικού%20Πλάνου%20για%20την%20COVID-19.pdf,3901,3901,0,
+Cyprus,2021-01-10,Pfizer/BioNTech,"http://www.pio.gov.cy/coronavirus/uploads/10012021--Άλλα%203,960%20ραντεβού%20για%20εμβολιασμό%20στη%20διάθεση%20των%20πολιτών%20ηλικίας%20άνω%20των%2080%20ετών.pdf",6035,6035,0,
+Cyprus,2021-01-16,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/16012021--Συνεχίζεται%20η%20εμβολιαστική%20κάλυψη%20των%20πολιτών%20κατά%20της%20COVID.pdf,10226,10226,0,
+Cyprus,2021-01-23,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/23012021--Ραντεβού%20για%20εμβολιασμό%20για%20τα%20άτομα%20άνω%20των%2090%20ετών.pdf,17739,15322,2057,
+Cyprus,2021-01-30,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/30012021--Νέα%20ραντεβού%20για%20εμβολιασμό%20-%20Ανοίγει%20η%20Πύλη%20Εμβολισμού%20για%20τους%20άνω%20των%2084.pdf,25519,19618,5551,
+Cyprus,2021-02-06,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/06022021--Πέραν%20των%2010%20χιλιάδων%20πολιτών%20ολοκλήρωσαν%20τον%20εμβολιασμό%20τους.pdf,32837,22813,10024,
+Cyprus,2021-02-13,"Moderna, Pfizer/BioNTech",http://www.pio.gov.cy/coronavirus/uploads/14022021--Εντατικοποιείται%20ο%20εμβολιασμός%20κατά%20της%20COVID-19.pdf,44429,29592,14837,
+Cyprus,2021-02-20,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/20022021--Σε%20εξέλιξη%20το%20Εθνικό%20Εμβολιαστικό%20Πλάνο.pdf,56791,37570,19221,
+Cyprus,2021-02-23,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/24022021--%CE%95%CF%80%CE%B9%CF%84%CF%85%CE%B3%CF%87%CE%AC%CE%BD%CE%BF%CE%BD%CF%84%CE%B1%CE%B9%20%CE%BF%CE%B9%20%CF%83%CF%84%CF%8C%CF%87%CE%BF%CE%B9%20%CF%84%CE%BF%CF%85%20%CE%95%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%BF%CF%8D%20%CE%A0%CE%BB%CE%AC%CE%BD%CE%BF%CF%85.pdf,64562,44239,20323,
+Cyprus,2021-02-26,"Moderna, Pfizer/BioNTech","https://www.pio.gov.cy/coronavirus/uploads/27022021--%CE%9E%CE%B5%CF%80%CE%AD%CF%81%CE%B1%CF%83%CE%B1%CE%BD%20%CF%84%CE%B9%CF%82%2076,000%20%CE%BF%CE%B9%20%CE%B5%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CE%BC%CE%BF%CE%AF%20%CE%BA%CE%B1%CF%84%CE%AC%20%CF%84%CE%B7%CF%82%20COVID-19.pdf",76176,53617,22559,
+Cyprus,2021-03-07,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/08032021--%CE%A1%CE%B1%CE%BD%CF%84%CE%B5%CE%B2%CE%BF%CF%8D%20%CE%B3%CE%B9%CE%B1%20%CE%B5%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CE%BC%CF%8C%20%CE%BA%CE%B1%CF%84%CE%AC%20%CF%84%CE%B7%CF%82%20COVID-19.pdf,99275,70534,28741,
+Cyprus,2021-03-20,"Moderna, Pfizer/BioNTech",https://www.financialmirror.com/2021/03/20/covid19-cyprus-vaccinations-reach-people-aged-66/,129438,93475,35963,
+Cyprus,2021-04-03,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/coronavirus/uploads/04042021--%CE%95%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%B1%CF%83%CE%BC%CF%8C%CF%82%20%CE%B1%CF%84%CF%8C%CE%BC%CF%89%CE%BD%20%CF%80%CE%BF%CF%85%20%CE%BA%CE%AC%CE%BD%CE%BF%CF%85%CE%BD%20%CE%B5%CE%BD%CE%B5%CF%81%CE%B3%CF%8C%20%CF%87%CF%81%CE%AE%CF%83%CE%B7%20%CE%B2%CE%B9%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CF%8E%CE%BD%20%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8C%CE%BD%CF%84%CF%89%CE%BD%20%CE%AE%20%CE%AC%CE%BB%CE%BB%CF%89%CE%BD%20%CE%B1%CE%BD%CE%BF%CF%83%CE%BF%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CF%84%CE%B1%CE%BB%CF%84%CE%B9%CE%BA%CF%8E%CE%BD%20%CF%86%CE%B1%CF%81%CE%BC%CE%AC%CE%BA%CF%89%CE%BD.pdf,161526,114660,46866,
+Cyprus,2021-04-07,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19527#flat,174626,124165,50461,
+Cyprus,2021-04-09,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%B8%CE%AD%CE%BD%CF%84%CE%B1-%CE%AC%CF%81%CE%B8%CF%81%CE%BF.html?id=19563#flat,183225,130937,52288,
+Cyprus,2021-04-16,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19710#flat,202441,145357,57084,
+Cyprus,2021-04-19,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19775#flat,214675,156682,57993,
+Cyprus,2021-04-20,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19790#flat,219654,161389,58265,
+Cyprus,2021-04-21,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19837#flat,224352,165558,58794,
+Cyprus,2021-04-23,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/en/press-releases-article.html?id=19881#flat,236265,176082,60183,
+Cyprus,2021-05-01,"Moderna, Pfizer/BioNTech",https://www.pio.gov.cy/%CE%B1%CE%BD%CE%B1%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%B8%CE%AD%CE%BD%CF%84%CE%B1-%CE%AC%CF%81%CE%B8%CF%81%CE%BF.html?id=20003#flat,287816,218323,69463,
+Cyprus,2021-05-06,"Moderna, Pfizer/BioNTech",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,332423,252792,79631,
+Cyprus,2021-05-10,"Moderna, Pfizer/BioNTech",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,371430,284264,87166,
+Cyprus,2021-05-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,384639,293180,91459,
+Cyprus,2021-05-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,400004,305274,94730,
+Cyprus,2021-05-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,424489,320309,104180,
+Cyprus,2021-05-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,434550,325648,108902,
+Cyprus,2021-05-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,448734,334258,114476,
+Cyprus,2021-05-18,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,461901,340015,121886,
+Cyprus,2021-05-19,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,476020,347840,128180,
+Cyprus,2021-05-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,504008,356376,147632,
+Cyprus,2021-05-23,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,522144,361142,161002,
+Cyprus,2021-05-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,533282,369970,163312,
+Cyprus,2021-05-26,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,560664,376676,183988,
+Cyprus,2021-05-27,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,572426,381409,191017,
+Cyprus,2021-05-30,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,595906,386710,209196,
+Cyprus,2021-06-01,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,615264,387966,227298,
+Cyprus,2021-06-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,622305,388475,233830,
+Cyprus,2021-06-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,632437,394877,237560,
+Cyprus,2021-06-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,649005,403013,245992,
+Cyprus,2021-06-07,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,654896,404314,250582,
+Cyprus,2021-06-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,662063,408513,253550,
+Cyprus,2021-06-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,673101,413032,260069,
+Cyprus,2021-06-10,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,681219,415577,265642,
+Cyprus,2021-06-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,689776,421974,267802,
+Cyprus,2021-06-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,701370,425661,275709,
+Cyprus,2021-06-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,718775,436280,282495,
+Cyprus,2021-06-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,728458,439561,288897,
+Cyprus,2021-06-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,739365,443121,296244,
+Cyprus,2021-06-19,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,753106,447383,305723,
+Cyprus,2021-06-23,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,768273,452062,316211,
+Cyprus,2021-06-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,777935,453823,324112,
+Cyprus,2021-06-30,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,809234,462527,346707,
+Cyprus,2021-07-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,829778,465528,364250,
+Cyprus,2021-07-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,835997,467846,368151,
+Cyprus,2021-07-05,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,849209,469213,379996,
+Cyprus,2021-07-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,856951,470045,386906,
+Cyprus,2021-07-07,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,867092,471757,395335,
+Cyprus,2021-07-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,876257,474819,401438,
+Cyprus,2021-07-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,883863,478966,404897,
+Cyprus,2021-07-10,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,887110,479265,407845,
+Cyprus,2021-07-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,897325,484650,412675,
+Cyprus,2021-07-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,903842,488013,415829,
+Cyprus,2021-07-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,910376,491156,419220,
+Cyprus,2021-07-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,916819,495815,421004,
+Cyprus,2021-07-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,925470,500856,424614,
+Cyprus,2021-07-19,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,934112,505175,428937,
+Cyprus,2021-07-20,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,941398,508507,432891,
+Cyprus,2021-07-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,946070,511744,434326,
+Cyprus,2021-07-22,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,950981,514732,436249,
+Cyprus,2021-07-24,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,958796,518739,440057,
+Cyprus,2021-07-25,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,959464,518739,440725,
+Cyprus,2021-07-27,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,970077,526537,443540,
+Cyprus,2021-07-28,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,974906,528889,446017,
+Cyprus,2021-07-29,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,980404,530879,449525,
+Cyprus,2021-08-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,994390,534809,459581,
+Cyprus,2021-08-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1001047,537939,463108,
+Cyprus,2021-08-04,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1007555,541654,465901,
+Cyprus,2021-08-05,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1014151,544375,469776,
+Cyprus,2021-08-07,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1021406,547497,473909,
+Cyprus,2021-08-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1027680,550138,477542,
+Cyprus,2021-08-10,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1032223,551313,480910,
+Cyprus,2021-08-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1036664,552214,484450,
+Cyprus,2021-08-12,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1040915,553943,486972,
+Cyprus,2021-08-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1047310,556568,490742,
+Cyprus,2021-08-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1051470,557676,493794,
+Cyprus,2021-08-17,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1056083,558543,497540,
+Cyprus,2021-08-18,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1060680,561189,499491,
+Cyprus,2021-08-20,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1068962,564903,504059,
+Cyprus,2021-08-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1069123,564904,504219,
+Cyprus,2021-08-26,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1085014,570003,515011,
+Cyprus,2021-08-30,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1094400,573924,520476,
+Cyprus,2021-09-01,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1098334,575773,522561,
+Cyprus,2021-09-02,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1101034,576637,524397,
+Cyprus,2021-09-03,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1105484,578477,527007,
+Cyprus,2021-09-06,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1110044,581422,528622,
+Cyprus,2021-09-08,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1115513,583768,531745,
+Cyprus,2021-09-09,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1117393,584336,533057,
+Cyprus,2021-09-11,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1121722,586138,535584,
+Cyprus,2021-09-13,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1124786,587429,537357,
+Cyprus,2021-09-14,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1126551,588112,538439,
+Cyprus,2021-09-15,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1127991,588545,539446,
+Cyprus,2021-09-16,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1129665,589098,540567,
+Cyprus,2021-09-21,"Pfizer/BioNTech, Oxford/AstraZeneca, Moderna, Johnson&Johnson",https://www.moh.gov.cy/moh/moh.nsf/All/0EFA027144C9E54AC22586BE0032B2F5,1141805,592186,545946,
