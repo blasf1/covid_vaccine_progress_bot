@@ -25,6 +25,18 @@ jobs:
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
+      - name: Publish graphs
+        env:
+          DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
+          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
+          FLAGS: ${{ github.workspace }}/covid_vaccine_progress_bot/flags/
+          BOT_API: ${{ secrets.BOT_API }}
+          BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
+          BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
+          BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
+        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/graphs.py
+
       - name: Tweet EU data
         env:
           DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
@@ -38,15 +50,4 @@ jobs:
           TELEGRAM: ${{ secrets.TELEGRAM_API }}
         run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/publish_eu.py
 
-      - name: Publish graphs
-        env:
-          DATA: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
-          POPULATION: ${{ github.workspace }}/covid_vaccine_progress_bot/population_2020.csv
-          OUTPUT: ${{ github.workspace }}/covid_vaccine_progress_bot/output/
-          FLAGS: ${{ github.workspace }}/covid_vaccine_progress_bot/flags/
-          BOT_API: ${{ secrets.BOT_API }}
-          BOT_API_SECRET: ${{ secrets.BOT_API_SECRET }}
-          BOT_ACCESS: ${{ secrets.BOT_ACCESS }}
-          BOT_ACCESS_SECRET: ${{ secrets.BOT_ACCESS_SECRET }}
-        run: python ${{ github.workspace }}/covid_vaccine_progress_bot/.github/utils/graphs.py
 
