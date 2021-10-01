@@ -244,7 +244,7 @@ def plot_stacked(data, unit, parameter1, parameter2, title, output, flags):
     ax.spines['bottom'].set_visible(False)
 
     ax.xaxis.set_label("")
-
+    ax.xlim([0, 100])
     # Title
     plt.suptitle(title + ", " + datetime.datetime.now().strftime("%d-%m-%Y"),
                  fontsize=22, fontweight="bold", x=0.532, y=0.96)
