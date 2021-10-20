@@ -137,4 +137,4 @@ path = os.path.join(os.environ.get("OWID_COVID_PROJECT_DIR") +
 index_col = "date"
 data = pd.read_csv(path, index_col=index_col)
 data = data.sort_values(by="date")
-pd.to_csv(path)
+data.to_csv(path)
