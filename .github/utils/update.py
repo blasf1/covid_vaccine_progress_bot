@@ -4,6 +4,7 @@
 import argparse
 import os
 import sys
+import pandas as pd
 
 from cowidev.vax.cmd._config import get_config
 from cowidev.vax.cmd import main_get_data
@@ -13,7 +14,7 @@ from cowidev.vax.cmd.get_data import country_to_module
 # =============================================================================
 # Constants
 # =============================================================================
-SKIPPED_COUNTRIES = ['croatia', 'hungary', 'latvia',
+SKIPPED_COUNTRIES = ['croatia', 'hungary', 'latvia', 'ecdc',
                      'mexico',
                      'albania',
                      'africacdc',
@@ -103,7 +104,8 @@ SKIPPED_COUNTRIES = ['croatia', 'hungary', 'latvia',
                      'united_states',
                      'who',
                      'zambia',
-                     'kenia']
+                     'kenya',
+                     'zimbabwe']
 
 
 # =============================================================================
