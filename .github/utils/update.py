@@ -13,7 +13,7 @@ from cowidev.vax.cmd.get_data import country_to_module
 # =============================================================================
 # Constants
 # =============================================================================
-SKIPPED_COUNTRIES = ['croatia', 'hungary', 'latvia', 'ireland',
+SKIPPED_COUNTRIES = ['croatia', 'hungary', 'latvia',
                      'mexico',
                      'albania',
                      'africacdc',
@@ -102,7 +102,8 @@ SKIPPED_COUNTRIES = ['croatia', 'hungary', 'latvia', 'ireland',
                      'united_arab_emirates',
                      'united_states',
                      'who',
-                     'zambia']
+                     'zambia',
+                     'kenia']
 
 
 # =============================================================================
@@ -127,3 +128,10 @@ paths = Paths(project_dir)
 
 # greece_api_token=greece_api_token,
 main_get_data(paths, n_jobs=4, skip_countries=SKIPPED_COUNTRIES)
+
+path = os.path.join(path, "Ireland" + ".csv")
+
+index_col = "date"
+data = pd.read_csv(path, index_col = index_col)  
+data = data.sort_values(by="date")
+pd.to_csv(path)
