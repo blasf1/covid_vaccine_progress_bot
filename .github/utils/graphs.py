@@ -129,7 +129,7 @@ def read_data(path, path_population):
         return data
 
     data = pd.concat(map(read_csv, files))
-
+    data = data.sort_values(by="date")
     return data
 
 
