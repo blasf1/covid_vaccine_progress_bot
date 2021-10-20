@@ -93,7 +93,7 @@ def publish_tweet(country, api, data, data_unsupported, input, population):
         # Get the vaccination data for the country when not supported by owid
         data = read_data_unsupported(data_unsupported, country, output)
         store_last_data(output, country, data)
-
+    data = data.sort_values(by='date')
     date = data.index[-1]
     vaccinations = data["people_vaccinated"].iloc[-1]
 
