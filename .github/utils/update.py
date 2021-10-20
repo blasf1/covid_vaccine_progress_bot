@@ -129,9 +129,10 @@ paths = Paths(project_dir)
 # greece_api_token=greece_api_token,
 main_get_data(paths, n_jobs=4, skip_countries=SKIPPED_COUNTRIES)
 
-path = os.path.join(path, "Ireland" + ".csv")
+path = os.path.join(os.environ.get("OWID_COVID_PROJECT_DIR") +
+                    "/scripts/output/vaccinations/main_data/", "Ireland" + ".csv")
 
 index_col = "date"
-data = pd.read_csv(path, index_col = index_col)  
+data = pd.read_csv(path, index_col=index_col)
 data = data.sort_values(by="date")
 pd.to_csv(path)
