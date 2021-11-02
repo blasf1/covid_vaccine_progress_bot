@@ -1,297 +1,325 @@
-location,total_vaccinations,date,vaccine,source_url,people_vaccinated,people_fully_vaccinated,total_boosters
-United States,556208,2020-12-20,Pfizer/BioNTech,https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html,556208,,
-United States,614117,2020-12-21,Pfizer/BioNTech,https://covid.cdc.gov/covid-data-tracker/#vaccinations,614117,,
-United States,1008025,2020-12-23,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,1008025,,
-United States,1944585,2020-12-26,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,1944585,,
-United States,2127143,2020-12-28,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,2127143,,
-United States,2794588,2020-12-30,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,2794588,,
-United States,4225756,2021-01-02,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,4225756,,
-United States,4563260,2021-01-04,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,4563260,,
-United States,4836469,2021-01-05,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,4836469,,
-United States,5306797,2021-01-06,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,5306797,,
-United States,5919418,2021-01-07,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,5919418,,
-United States,6688231,2021-01-08,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,6688231,,
-United States,8987322,2021-01-11,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,8987322,,
-United States,9327138,2021-01-12,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,9327138,,
-United States,10278462,2021-01-13,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,,,
-United States,11148991,2021-01-14,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,9690757,1342086,
-United States,12279180,2021-01-15,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,10595866,1610524,
-United States,15707588,2021-01-19,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,13595803,2023124,
-United States,16525281,2021-01-20,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,14270441,2161419,
-United States,17546374,2021-01-21,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,15053257,2394961,
-United States,19107959,2021-01-22,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,16243093,2756953,
-United States,20537990,2021-01-23,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,17390345,3027865,
-United States,21848655,2021-01-24,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,18502131,3216836,
-United States,22734243,2021-01-25,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,19252279,3346390,
-United States,23540994,2021-01-26,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,19902237,3481921,
-United States,24652634,2021-01-27,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,20687970,3801053,
-United States,26193682,2021-01-28,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,21698606,4263056,
-United States,27884661,2021-01-29,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,22858318,4780888,
-United States,29577902,2021-01-30,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,24064165,5259693,
-United States,31123299,2021-01-31,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,25201143,5657142,
-United States,32222402,2021-02-01,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,26023153,5927847,
-United States,32780860,2021-02-02,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,26440836,6064792,
-United States,33878254,2021-02-03,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,27154956,6436931,
-United States,35203710,2021-02-04,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,27905197,6926050,
-United States,36819212,2021-02-05,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,28909497,7503864,
-United States,39037964,2021-02-06,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,30250964,8317180,
-United States,41210937,2021-02-07,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,31579100,9147185,
-United States,42417617,2021-02-08,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,32340146,9518015,
-United States,43206190,2021-02-09,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,32867213,9840429,
-United States,44769970,2021-02-10,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,33783384,10469514,
-United States,46390270,2021-02-11,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,34723964,11188782,
-United States,48410558,2021-02-12,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,35834855,12085830,
-United States,50641884,2021-02-13,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,37056122,13082172,
-United States,52884356,2021-02-14,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,38292270,14077440,
-United States,55220364,2021-02-16,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,39670551,15015434,
-United States,56281827,2021-02-17,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,40268009,15471536,
-United States,57737767,2021-02-18,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,41021049,16162358,
-United States,59585043,2021-02-19,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,41977401,17039118,
-United States,61289500,2021-02-20,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,42809595,17895667,
-United States,63090634,2021-02-21,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,43628092,18865319,
-United States,64177474,2021-02-22,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,44138118,19438495,
-United States,65032083,2021-02-23,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,44544969,19882544,
-United States,66464947,2021-02-24,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,45237143,20607261,
-United States,68274117,2021-02-25,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,46074392,21555117,
-United States,70454064,2021-02-26,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,47184199,22613359,
-United States,72806180,2021-02-27,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,48435536,23698627,
-United States,75236003,2021-02-28,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,49772180,24779920,
-United States,76899987,2021-03-01,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,50732997,25466405,
-United States,78631601,2021-03-02,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,51755447,26162122,
-United States,80540474,2021-03-03,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,52855579,26957804,
-United States,82572848,2021-03-04,"Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,54035670,27795980,
-United States,85008094,2021-03-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,55547697,28701201,
-United States,87912323,2021-03-06,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,57358849,29776160,
-United States,90351750,2021-03-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,58873710,30686881,
-United States,92089852,2021-03-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,60005231,31493040,
-United States,93692598,2021-03-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,61088527,32102061,
-United States,95721290,2021-03-10,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,62451150,32904161,
-United States,98203893,2021-03-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,64071674,33863127,
-United States,101128005,2021-03-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,65965305,35000159,
-United States,105703501,2021-03-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,68884011,36929777,
-United States,107060274,2021-03-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,69784210,37459269,
-United States,109081860,2021-03-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,71054445,38335432,
-United States,110737856,2021-03-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,72135616,39042345,
-United States,113037627,2021-03-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,73669956,39989196,
-United States,115730008,2021-03-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,75495716,40981464,
-United States,118313818,2021-03-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,77230061,41934629,
-United States,121441497,2021-03-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,79367225,43036818,
-United States,124481412,2021-03-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,81415769,44141228,
-United States,126509736,2021-03-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,82772416,44910946,
-United States,128217029,2021-03-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,83930495,45533962,
-United States,130473853,2021-03-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,85472166,46365515,
-United States,133305295,2021-03-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,87343622,47419832,
-United States,136684688,2021-03-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,89559225,48695172,
-United States,140180735,2021-03-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,91707729,50141769,
-United States,143462691,2021-03-28,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,93631163,51593564,
-United States,145812835,2021-03-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,95015762,52614231,
-United States,147602345,2021-03-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,96044046,53423486,
-United States,150273292,2021-03-31,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,97593290,54607041,
-United States,153631404,2021-04-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,99565311,56089614,
-United States,157606463,2021-04-02,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,101804762,57984785,
-United States,161688422,2021-04-03,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,104213478,59858146,
-United States,165053746,2021-04-04,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,106214924,61416536,
-United States,167187795,2021-04-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,107515428,62392065,
-United States,168592075,2021-04-06,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,108301234,63016976,
-United States,171476655,2021-04-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,109995734,64422618,
-United States,174879716,2021-04-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,112046611,66203123,
-United States,178837781,2021-04-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,114436039,68202458,
-United States,183467709,2021-04-10,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,117142879,70692645,
-United States,187047131,2021-04-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,119242902,72630892,
-United States,189692045,2021-04-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,120848490,74066085,
-United States,192282781,2021-04-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,122295530,75322283,
-United States,194791836,2021-04-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,123917385,76681252,
-United States,198317040,2021-04-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,125822868,78498290,
-United States,202282923,2021-04-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,127743096,80609818,
-United States,205871913,2021-04-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,129494179,82471151,
-United States,209406814,2021-04-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,131247546,84263408,
-United States,211581309,2021-04-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,132321628,85365180,
-United States,213388238,2021-04-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,133266995,86223506,
-United States,215951909,2021-04-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,134445595,87592646,
-United States,218947643,2021-04-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,135791031,89245776,
-United States,222322230,2021-04-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,137234889,91175995,
-United States,225640460,2021-04-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,138644724,93078040,
-United States,228661408,2021-04-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,139978480,94772329,
-United States,230768454,2021-04-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,140969663,95888088,
-United States,232407669,2021-04-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,141751857,96747454,
-United States,234639414,2021-04-28,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,142692987,98044421,
-United States,237360493,2021-04-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,143793565,99668945,
-United States,240159677,2021-04-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,144894586,101407318,
-United States,243463471,2021-05-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,146239208,103422555,
-United States,245591469,2021-05-02,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,147047012,104774652,
-United States,246780203,2021-05-03,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,147517734,105523520,
-United States,247769049,2021-05-04,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,147894671,106168588,
-United States,249566820,2021-05-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,148562891,107346533,
-United States,251973752,2021-05-06,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,149462265,108926627,
-United States,254779333,2021-05-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,150416559,110874920,
-United States,257347205,2021-05-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,151315505,112626771,
-United States,259716989,2021-05-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,152116936,114258244,
-United States,261599381,2021-05-10,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,152819904,115530780,
-United States,263132561,2021-05-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,153448316,116576359,
-United States,264680844,2021-05-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,153986312,117647439,
-United States,266596486,2021-05-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,154624231,118987308,
-United States,268438666,2021-05-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,155251852,120258637,
-United States,270832342,2021-05-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,156217367,121768268,
-United States,272925411,2021-05-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,157132234,122999721,
-United States,274411901,2021-05-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,157827208,123828224,
-United States,275535207,2021-05-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,158365411,124455693,
-United States,277290173,2021-05-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,159174963,125453423,
-United States,279397250,2021-05-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,160177820,126605166,
-United States,281595351,2021-05-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,161278336,127778250,
-United States,283941223,2021-05-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,162470794,129006463,
-United States,285720586,2021-05-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,163309414,130014175,
-United States,286890900,2021-05-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,163907827,130615797,
-United States,287788872,2021-05-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,164378258,131078608,
-United States,289212304,2021-05-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,165074907,131850089,
-United States,290724607,2021-05-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,165718717,132769894,
-United States,292099778,2021-05-28,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,166388129,133532544,
-United States,293705050,2021-05-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,167157043,134418748,
-United States,294928850,2021-05-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,167733972,135087319,
-United States,296404240,2021-06-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,168489729,135867425,
-United States,296912892,2021-06-02,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,168734435,136155250,
-United States,297720928,2021-06-03,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,169090262,136644618,
-United States,299120522,2021-06-04,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,169735441,137455367,
-United States,300268730,2021-06-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,170272150,138112702,
-United States,301638578,2021-06-06,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,170833221,138969323,
-United States,302851917,2021-06-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,171310738,139748661,
-United States,303923667,2021-06-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,171731584,140441957,
-United States,304753476,2021-06-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,172054276,140980110,
-United States,305687618,2021-06-10,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,172423605,141583252,
-United States,306509795,2021-06-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,172758350,142095530,
-United States,308112728,2021-06-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,173391711,143119077,
-United States,309322545,2021-06-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,173840483,143921222,
-United States,310645827,2021-06-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,174234573,144919339,
-United States,311886674,2021-06-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,174674144,145768367,
-United States,312915170,2021-06-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/#vaccinations,175053401,146456124,
-United States,314969386,2021-06-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,175867860,147758585,
-United States,316048776,2021-06-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,176290249,148459003,
-United States,317117797,2021-06-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,176737141,149125164,
-United States,317966408,2021-06-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,177088290,149667646,
-United States,318576441,2021-06-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,177342954,150046006,
-United States,319223844,2021-06-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,177635067,150424675,
-United States,319872053,2021-06-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,177948892,150787303,
-United States,320687205,2021-06-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,178331677,151252034,
-United States,321199379,2021-06-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,178491147,151615554,
-United States,322123103,2021-06-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,178873816,152184243,
-United States,323327328,2021-06-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,179261269,153028665,
-United States,324414371,2021-06-28,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,179615165,153776118,
-United States,325152847,2021-06-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,179940202,154199664,
-United States,326521526,2021-06-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,180674739,154884686,
-United States,328152304,2021-07-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,181339416,155884601,
-United States,328809470,2021-07-02,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,181650678,156255896,
-United States,329970551,2021-07-03,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,182109860,156982549,
-United States,330604253,2021-07-04,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,182412776,157323738,
-United States,331214347,2021-07-06,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,182714064,157636088,
-United States,331651464,2021-07-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,182896080,157908171,
-United States,332345797,2021-07-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,183237046,158287566,
-United States,332966409,2021-07-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,183542871,158629431,
-United States,333565404,2021-07-10,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,183836917,158954417,
-United States,334151648,2021-07-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,184132768,159266536,
-United States,334600770,2021-07-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,184365333,159499224,
-United States,334942236,2021-07-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,184543821,159675163,
-United States,335487779,2021-07-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,184835149,160126516,
-United States,336054953,2021-07-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,185135757,160408538,
-United States,336604158,2021-07-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,185424899,160686378,
-United States,337239448,2021-07-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,185765452,160994035,
-United States,337740358,2021-07-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,186038501,161232483,
-United States,338247434,2021-07-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,186317651,161473715,
-United States,338491374,2021-07-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,186474836,161631676,
-United States,339102867,2021-07-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,186819440,161895045,
-United States,339763765,2021-07-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,187216168,162174165,
-United States,340363922,2021-07-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,187579557,162435276,
-United States,341039972,2021-07-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,187982826,162725812,
-United States,341818968,2021-07-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,188472188,163025726,
-United States,342212051,2021-07-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,188729282,163173366,
-United States,342607540,2021-07-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,188996475,163312474,
-United States,343361524,2021-07-28,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,189494180,163588042,
-United States,344071595,2021-07-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,189945907,163868916,
-United States,344928514,2021-07-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,190509183,164184080,
-United States,345640466,2021-07-31,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,190982149,164446964,
-United States,346456669,2021-08-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,191498983,164757423,
-United States,346924345,2021-08-02,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,191818585,164919666,
-United States,347377149,2021-08-03,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,192120576,165081416,
-United States,348102478,2021-08-04,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,192614017,165334987,
-United States,348966419,2021-08-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,193199353,165637566,
-United States,349787479,2021-08-06,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,193764457,165918256,
-United States,350627188,2021-08-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,194346486,166203176,
-United States,351400930,2021-08-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,194866738,166477481,
-United States,351933175,2021-08-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,195222906,166654374,
-United States,352550944,2021-08-10,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,195646711,166861912,
-United States,353205544,2021-08-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,196077952,167105507,
-United States,353859894,2021-08-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,196505543,167354729,
-United States,354777950,2021-08-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,197081471,167699170,
-United States,355768825,2021-08-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,197685048,168090925,
-United States,356433665,2021-08-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,198088722,168362058,
-United States,357292057,2021-08-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,198595349,168689357,
-United States,357894995,2021-08-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,198929642,168897604,
-United States,358599835,2021-08-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,199325940,169186268,
-United States,359623380,2021-08-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,199887548,169592873,
-United States,360634287,2021-08-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,200421787,169998983,
-United States,361684564,2021-08-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,200947556,170406785,
-United States,362657771,2021-08-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,201425785,170821621,
-United States,363267789,2021-08-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,201718587,171088954,
-United States,363915792,2021-08-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,202041893,171367657,
-United States,364842701,2021-08-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,202500853,171773370,
-United States,365767674,2021-08-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,202961676,172171009,642861
-United States,366838484,2021-08-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,203475192,172646952,732229
-United States,367911870,2021-08-28,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,203992008,173101292,819598
-United States,368863734,2021-08-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,204435968,173520211,901462
-United States,369556911,2021-08-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,204742648,173832202,954683
-United States,370212027,2021-08-31,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,205026070,174121529,995715
-United States,371280129,2021-09-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,205527578,174600017,1077751
-United States,372116617,2021-09-02,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,205911640,174973937,1148792
-United States,373516809,2021-09-03,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,206461869,175538025,1245003
-United States,374488924,2021-09-04,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,206908710,175968266,1334359
-United States,375995378,2021-09-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,207589611,176659496,1439610
-United States,376955132,2021-09-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,208024209,177104652,1512383
-United States,377622065,2021-09-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,208305270,177433044,1563006
-United States,378569717,2021-09-10,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,208704230,177899458,1641393
-United States,379472220,2021-09-11,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,209099300,178328389,1714632
-United States,380241903,2021-09-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,209437152,178692875,1782116
-United States,380831725,2021-09-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,209701005,178982950,1822298
-United States,381453265,2021-09-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,209982936,179289983,1859878
-United States,382294795,2021-09-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,210361099,179695287,1921243
-United States,383038403,2021-09-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,210700361,180086143,1982351
-United States,383994877,2021-09-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,211097597,180572171,2043976
-United States,384911290,2021-09-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,211489242,181035022,2107167
-United States,385586012,2021-09-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,211776515,181382976,2156736
-United States,386237881,2021-09-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,212035328,181728072,2205438
-United States,386780816,2021-09-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,212255202,182012343,2242237
-United States,387493716,2021-09-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,212545360,182387840,2304098
-United States,387821704,2021-09-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,212564346,182587334,2370839
-United States,388567109,2021-09-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,212861380,182958696,2443106
-United States,389372689,2021-09-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,213177462,183353326,2527656
-United States,390114328,2021-09-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,213456787,183670870,2656623
-United States,390664923,2021-09-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,213657193,183888907,2775528
-United States,391992662,2021-09-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,214043376,184335263,3677268
-United States,392909995,2021-09-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,214332261,184601450,4031464
-United States,393756866,2021-10-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,214597690,184852416,4363791
-United States,394690283,2021-10-02,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,214870696,185143698,4742750
-United States,395934825,2021-10-03,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,215233625,185492579,5287357
-United States,396919564,2021-10-04,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,215502382,185788098,5711774
-United States,397718055,2021-10-05,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,215737487,186060146,6008449
-United States,398675414,2021-10-06,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,216012495,186385751,6372007
-United States,399552444,2021-10-07,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,216268034,186618184,6764574
-United States,400669422,2021-10-08,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,216573911,186917921,7284455
-United States,401819240,2021-10-09,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,216889814,187215471,7786263
-United States,403576826,2021-10-12,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,217403897,187714829,8548326
-United States,404371247,2021-10-13,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,217627490,187937559,8903874
-United States,405444558,2021-10-14,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,217953275,188281747,9319172
-United States,406570875,2021-10-15,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,218318056,188655196,9723131
-United States,407446961,2021-10-16,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,218562924,188902483,10114824
-United States,408265959,2021-10-17,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,218805579,189141481,10461286
-United States,408797942,2021-10-18,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,218973123,189292559,10681175
-United States,409438987,2021-10-19,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,219161368,189487793,10926564
-United States,410189737,2021-10-20,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,219381466,189709710,11246668
-United States,411010650,2021-10-21,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,219624445,189924447,11607334
-United States,411963025,2021-10-22,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,219900525,190179553,12037101
-United States,412856169,2021-10-23,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,220145796,190402262,12472219
-United States,413645478,2021-10-24,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,220351217,190578704,12888226
-United States,414302192,2021-10-25,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,220519217,190699790,13262718
-United States,415012026,2021-10-26,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,220648845,190793100,13753793
-United States,416154424,2021-10-27,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,220936118,190990750,14429771
-United States,417795537,2021-10-28,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,,191242432,15417340
-United States,419020753,2021-10-29,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,,191997869,16682269
-United States,420657683,2021-10-30,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,221221467,192244927,17723033
-United States,422070099,2021-10-31,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,221520153,192453500,18607505
-United States,423005384,2021-11-01,"Johnson&Johnson, Moderna, Pfizer/BioNTech",https://covid.cdc.gov/covid-data-tracker/COVIDData/getAjaxData?id=vaccination_data,221760691,192586927,19178738
+date,location,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters,source_url,vaccine
+2020-12-13,United States,19798.0,16917.0,3436.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-14,United States,24086.0,21075.0,3526.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-15,United States,72629.0,67432.0,3705.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-16,United States,231155.0,220560.0,4063.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-17,United States,501299.0,483729.0,4595.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-18,United States,914046.0,888014.0,5532.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-19,United States,1094733.0,1064975.0,6466.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-20,United States,1198658.0,1167092.0,7092.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-21,United States,1579193.0,1541355.0,8215.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-22,United States,2027000.0,1980682.0,10630.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,Pfizer/BioNTech
+2020-12-23,United States,2598213.0,2540537.0,12612.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-24,United States,2793624.0,2731165.0,13493.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-25,United States,2806233.0,2743642.0,13578.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-26,United States,2947029.0,2881567.0,14145.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-27,United States,3042987.0,2974728.0,14690.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-28,United States,3628505.0,3548514.0,17648.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-29,United States,4342922.0,4246557.0,21755.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-30,United States,5177726.0,5064653.0,28078.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2020-12-31,United States,5596360.0,5474991.0,30784.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-01,United States,5677461.0,5549718.0,35948.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-02,United States,5938071.0,5801800.0,38502.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-03,United States,6074580.0,5931107.0,40900.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-04,United States,6722599.0,6521852.0,85658.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-05,United States,7543693.0,7244469.0,172677.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-06,United States,8555238.0,8069425.0,343284.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-07,United States,9712612.0,8928238.0,621043.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-08,United States,10935890.0,9767596.0,980867.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-09,United States,11440422.0,10135385.0,1108569.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-10,United States,11688585.0,10309909.0,1177254.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-11,United States,12751204.0,11029998.0,1498475.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-12,United States,13997834.0,11939243.0,1811640.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-13,United States,15312901.0,12964255.0,2081481.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-14,United States,16615986.0,14113643.0,2215396.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-15,United States,17872734.0,15234023.0,2334797.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-16,United States,18525357.0,15804787.0,2406054.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-17,United States,18831395.0,16061716.0,2447838.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-18,United States,19710935.0,16698253.0,2674618.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-19,United States,21053166.0,17667927.0,3025292.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-20,United States,22668498.0,18841604.0,3442790.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-21,United States,24300754.0,20180227.0,3713337.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-22,United States,25916339.0,21568794.0,3918762.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-23,United States,26820340.0,22311390.0,4066218.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-24,United States,27216101.0,22613454.0,4153158.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-25,United States,28572186.0,23468002.0,4631391.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-26,United States,30221479.0,24521244.0,5201863.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-27,United States,32138211.0,25770628.0,5838170.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-28,United States,34085089.0,27138985.0,6384142.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-29,United States,35976954.0,28501349.0,6867842.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-30,United States,36996342.0,29265509.0,7106389.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-01-31,United States,37457663.0,29592424.0,7230751.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-01,United States,38811176.0,30353521.0,7788388.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-02,United States,40485630.0,31315263.0,8471757.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-03,United States,42610017.0,32577696.0,9292267.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-04,United States,44935740.0,33967889.0,10188005.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-05,United States,47270725.0,35322664.0,11127438.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-06,United States,48565321.0,36178477.0,11543671.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-07,United States,49012634.0,36458629.0,11698434.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-08,United States,50579539.0,37298196.0,12392268.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-09,United States,52538864.0,38340733.0,13270243.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-10,United States,54827887.0,39568884.0,14292337.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-11,United States,57217566.0,40844962.0,15365944.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-12,United States,59786287.0,42225376.0,16507854.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-13,United States,61253871.0,43090127.0,17078398.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-14,United States,61844600.0,43437242.0,17305959.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-15,United States,63016906.0,44056026.0,17830497.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-16,United States,64633011.0,44857172.0,18609235.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-17,United States,66586959.0,45789896.0,19593141.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-18,United States,68433225.0,46626577.0,20556459.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-19,United States,70391789.0,47462524.0,21635097.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-20,United States,71695383.0,48069732.0,22303023.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-21,United States,72288099.0,48330278.0,22618136.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-22,United States,73742268.0,48960913.0,23402313.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-23,United States,75675890.0,49847847.0,24405698.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-24,United States,78193943.0,51110736.0,25613226.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-25,United States,81117419.0,52664710.0,26921966.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-26,United States,84210072.0,54354249.0,28265255.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-27,United States,86194872.0,55503940.0,29065024.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-02-28,United States,87046688.0,56045599.0,29351806.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-03-01,United States,89052136.0,57231024.0,30119573.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-03-02,United States,91503531.0,58703165.0,31057641.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-03-03,United States,94395252.0,60449367.0,32165327.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-03-04,United States,97585022.0,62414012.0,33385486.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Moderna, Pfizer/BioNTech"
+2021-03-05,United States,100798354.0,64428225.0,34661735.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-06,United States,102845556.0,65778797.0,35512976.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-07,United States,103771073.0,66459815.0,35853568.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-08,United States,105923909.0,67944995.0,36691627.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-09,United States,108624804.0,69758271.0,37761069.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-10,United States,111743197.0,71828273.0,39015075.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-11,United States,115176571.0,74115800.0,40394908.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-12,United States,118592503.0,76242084.0,41897320.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-13,United States,120784315.0,77639389.0,42906395.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-14,United States,121768761.0,78291344.0,43330864.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-15,United States,124045600.0,79793080.0,44189799.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-16,United States,126924364.0,81726606.0,45223097.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-17,United States,130082507.0,83860193.0,46333263.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-18,United States,133485621.0,86166446.0,47522239.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-19,United States,136814637.0,88390191.0,48721251.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-20,United States,138967214.0,89809394.0,49569987.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-21,United States,139987645.0,90498023.0,49936275.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-22,United States,142344165.0,92109494.0,50724415.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-23,United States,145398535.0,94101047.0,51851920.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-24,United States,148943510.0,96318908.0,53246415.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-25,United States,152765148.0,98596845.0,54859823.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-26,United States,156583622.0,100717547.0,56624649.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-27,United States,159046585.0,102097996.0,57767879.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-28,United States,160252740.0,102775634.0,58307929.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-29,United States,163080965.0,104393587.0,59557463.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-30,United States,166659980.0,106416290.0,61186108.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-03-31,United States,170811974.0,108832036.0,63094271.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-01,United States,175316396.0,111353069.0,65288641.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-02,United States,178957357.0,113418521.0,67071161.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-03,United States,181253015.0,114746666.0,68215051.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-04,United States,182011775.0,115183311.0,68581769.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-05,United States,185100500.0,116921148.0,70154632.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-06,United States,189064816.0,119215636.0,72201492.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-07,United States,193407373.0,121784379.0,74475031.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-08,United States,197892608.0,124359751.0,76951258.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-09,United States,202191755.0,126805127.0,79346512.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-10,United States,205063352.0,128530916.0,80977456.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-11,United States,206462280.0,129369223.0,81768776.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-12,United States,209461594.0,131005573.0,83462733.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-13,United States,212921998.0,132756748.0,85148789.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-14,United States,216590110.0,134499829.0,87036365.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-15,United States,220286279.0,136249164.0,88941293.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-16,United States,223870048.0,137895086.0,90838369.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-17,United States,226221888.0,139063298.0,92001356.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-18,United States,227344002.0,139603993.0,92571682.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-19,United States,229903968.0,140695081.0,94008838.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-20,United States,233133647.0,142082432.0,95813333.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-21,United States,236586997.0,143480020.0,97829672.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-22,United States,240057585.0,144892603.0,99848370.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-23,United States,243336861.0,146264596.0,101716025.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-24,United States,245535077.0,147275843.0,102886580.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-25,United States,246525213.0,147771456.0,103374872.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-26,United States,248896461.0,148716860.0,104779159.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-27,United States,251763915.0,149832056.0,106540736.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-28,United States,254828254.0,150991537.0,108477076.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-29,United States,257850263.0,152109861.0,110423619.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-04-30,United States,260734878.0,153224137.0,112240281.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-01,United States,262550060.0,153928707.0,113382009.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-02,United States,263421899.0,154255855.0,113957055.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-03,United States,265378333.0,154900872.0,115341019.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-04,United States,267874997.0,155728031.0,117074720.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-05,United States,270400861.0,156550079.0,118845023.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-06,United States,272897245.0,157339628.0,120615981.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-07,United States,275378022.0,158139455.0,122358232.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-08,United States,276901711.0,158650242.0,123424898.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-09,United States,277513119.0,158858023.0,123854747.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-10,United States,279101725.0,159350326.0,124998498.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-11,United States,281131547.0,160017803.0,126415934.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-12,United States,283133194.0,160672971.0,127822960.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-13,United States,285394101.0,161612619.0,129195509.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-14,United States,287830078.0,162710046.0,130600010.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-15,United States,289663666.0,163621153.0,131572842.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-16,United States,290590859.0,164100522.0,132050381.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-17,United States,292400566.0,164992964.0,133037920.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-18,United States,294459664.0,165988055.0,134176494.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-19,United States,296533347.0,166976910.0,135332905.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-20,United States,298535664.0,167901756.0,136481275.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-21,United States,300578138.0,168838409.0,137654510.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-22,United States,302016018.0,169570681.0,138409510.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-23,United States,302669736.0,169910581.0,138749107.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-24,United States,303977913.0,170545413.0,139482499.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-25,United States,305402380.0,171213117.0,140301145.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-26,United States,306821897.0,171873527.0,141117076.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-27,United States,308154179.0,172489319.0,141890612.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-28,United States,309467535.0,173094358.0,142655294.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-29,United States,310225360.0,173475450.0,143066076.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-30,United States,310605446.0,173676654.0,143265480.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-05-31,United States,310802576.0,173764891.0,143383775.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-01,United States,312045186.0,174288889.0,144144758.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-02,United States,313149806.0,174783738.0,144807100.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-03,United States,314383344.0,175249581.0,145623652.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-04,United States,315769419.0,175754149.0,146553609.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-05,United States,316827684.0,176109225.0,147286119.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-06,United States,317336540.0,176281948.0,147638338.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-07,United States,318393382.0,176655166.0,148358716.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-08,United States,319555286.0,177060692.0,149155981.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-09,United States,320708289.0,177454056.0,149957072.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-10,United States,321864441.0,177860819.0,150748653.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-11,United States,323083372.0,178290255.0,151579636.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-12,United States,323968244.0,178572301.0,152206904.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-13,United States,324356139.0,178685921.0,152496154.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-14,United States,325257123.0,179018191.0,153098897.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-15,United States,326223769.0,179380036.0,153741541.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-16,United States,327157536.0,179739151.0,154356026.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-17,United States,328040003.0,180090782.0,154929437.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-18,United States,328950509.0,180459963.0,155509171.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-19,United States,329519946.0,180691543.0,155870105.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-20,United States,329792764.0,180803392.0,156041659.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-21,United States,330345727.0,181104310.0,156324989.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-22,United States,331092917.0,181429063.0,156780877.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-23,United States,331820393.0,181759847.0,157209631.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-24,United States,332512581.0,182079595.0,157615072.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-25,United States,333270356.0,182430964.0,158051901.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-26,United States,333764108.0,182656589.0,158339264.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-27,United States,334028354.0,182783616.0,158485671.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-28,United States,334574942.0,183059217.0,158781465.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-29,United States,335196019.0,183357295.0,159129009.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-06-30,United States,335819733.0,183665243.0,159470688.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-01,United States,336410525.0,183954946.0,159793194.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-02,United States,337023143.0,184260784.0,160124348.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-03,United States,337374666.0,184440122.0,160308087.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-04,United States,337424022.0,184467547.0,160334454.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-05,United States,337815135.0,184668118.0,160536882.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-06,United States,338391532.0,184942477.0,160862612.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-07,United States,338954083.0,185224195.0,161169590.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-08,United States,339512544.0,185512702.0,161468040.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-09,United States,340137044.0,185834216.0,161800218.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-10,United States,340533121.0,186045115.0,162001001.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-11,United States,340746929.0,186161264.0,162105712.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-12,United States,341259526.0,186435102.0,162367849.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-13,United States,341779868.0,186715616.0,162627696.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-14,United States,342303425.0,186998062.0,162888354.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-15,United States,342837015.0,187294594.0,163144580.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-16,United States,343454219.0,187640686.0,163434168.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-17,United States,343849574.0,187863726.0,163617687.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-18,United States,344081007.0,187998821.0,163719925.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-19,United States,344642723.0,188337700.0,163961430.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-20,United States,345240017.0,188708723.0,164208018.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-21,United States,345862403.0,189093591.0,164464701.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-22,United States,346504060.0,189508053.0,164711796.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-23,United States,347242296.0,189993342.0,164987133.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-24,United States,347700459.0,190293647.0,165155736.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-25,United States,347956940.0,190494395.0,165216489.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-26,United States,348592438.0,190938533.0,165429337.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-27,United States,349285043.0,191415649.0,165670804.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-28,United States,349995253.0,191902406.0,165920008.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-29,United States,350705310.0,192395568.0,166162835.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-30,United States,351527014.0,192964087.0,166443459.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-07-31,United States,352033878.0,193307172.0,166618096.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-01,United States,352347450.0,193527221.0,166712414.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-02,United States,353055416.0,194027133.0,166941910.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-03,United States,353806828.0,194559281.0,167187826.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-04,United States,354572976.0,195105356.0,167435205.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-05,United States,355353670.0,195658754.0,167691823.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-06,United States,356247548.0,196277745.0,167993713.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-07,United States,356797841.0,196656090.0,168177854.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-08,United States,357142129.0,196890767.0,168291938.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-09,United States,357913174.0,197405912.0,168570733.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-10,United States,358700876.0,197930592.0,168857104.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-11,United States,359457566.0,198423696.0,169144681.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-12,United States,360248323.0,198931825.0,169449729.0,0.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-13,United States,361181799.0,199506994.0,169828661.0,12214.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-14,United States,361797604.0,199867457.0,170064733.0,45628.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-15,United States,362190144.0,200078014.0,170222154.0,76069.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-16,United States,363047159.0,200540661.0,170567478.0,151194.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-17,United States,363955116.0,201028806.0,170921456.0,244419.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-18,United States,364890538.0,201513817.0,171289629.0,353971.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-19,United States,365817967.0,201991504.0,171660132.0,461517.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-20,United States,366903826.0,202526679.0,172124206.0,575547.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-21,United States,367556944.0,202846277.0,172412322.0,632886.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-22,United States,367939210.0,203028950.0,172586375.0,662234.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-23,United States,368842207.0,203468189.0,172979804.0,753307.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-24,United States,369773921.0,203927175.0,173381983.0,847229.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-25,United States,370721032.0,204393411.0,173791141.0,944055.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-26,United States,371689826.0,204865289.0,174209301.0,1047894.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-27,United States,372835049.0,205395132.0,174730372.0,1166336.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-28,United States,373532546.0,205711999.0,175060365.0,1226449.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-29,United States,373953991.0,205904179.0,175259645.0,1259555.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-30,United States,374858607.0,206317795.0,175676351.0,1352760.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-08-31,United States,375763013.0,206732503.0,176083654.0,1454286.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-01,United States,376660561.0,207151720.0,176476044.0,1560736.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-02,United States,377532890.0,207550156.0,176862624.0,1667367.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-03,United States,378547643.0,207999349.0,177335737.0,1778429.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-04,United States,379095087.0,208242964.0,177604127.0,1819679.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-05,United States,379452997.0,208409470.0,177771763.0,1844955.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-06,United States,379623313.0,208489943.0,177854521.0,1854882.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-07,United States,380510043.0,208840819.0,178318545.0,1940921.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-08,United States,381333422.0,209204032.0,178706498.0,2030176.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-09,United States,382156935.0,209572223.0,179089236.0,2120855.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-10,United States,383163502.0,210016844.0,179571949.0,2220393.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-11,United States,383745969.0,210272662.0,179861308.0,2265808.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-12,United States,384086772.0,210427513.0,180028678.0,2286586.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-13,United States,384844697.0,210759257.0,180398916.0,2356741.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-14,United States,385574330.0,211071722.0,180764152.0,2425716.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-15,United States,386311642.0,211380043.0,181139460.0,2496146.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-16,United States,387049660.0,211687116.0,181517099.0,2567761.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-17,United States,387926482.0,212034345.0,181980760.0,2651249.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-18,United States,388433309.0,212236891.0,182246778.0,2696178.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-19,United States,388729776.0,212354819.0,182405715.0,2717373.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-20,United States,389396632.0,212617885.0,182743507.0,2796657.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-21,United States,390050769.0,212877214.0,183071900.0,2879224.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-22,United States,390695346.0,213129642.0,183394483.0,2958923.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-23,United States,391349100.0,213383782.0,183709428.0,3054817.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-24,United States,392301064.0,213707044.0,184105836.0,3297753.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-25,United States,392952710.0,213915653.0,184325570.0,3524711.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-26,United States,393347017.0,214038231.0,184464620.0,3657992.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-27,United States,394333949.0,214345128.0,184677151.0,4134005.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-28,United States,395416612.0,214644807.0,184967754.0,4635280.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-29,United States,396501370.0,214939627.0,185265006.0,5137593.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-09-30,United States,397603881.0,215235483.0,185567211.0,5651831.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-01,United States,398815654.0,215554094.0,185922467.0,6198254.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-02,United States,399417330.0,215729864.0,186119366.0,6431228.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-03,United States,399766445.0,215837393.0,186242859.0,6550041.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-04,United States,400697893.0,216091265.0,186484340.0,6993351.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-05,United States,401658845.0,216341168.0,186727399.0,7470158.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-06,United States,402628408.0,216593270.0,186971654.0,7951875.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-07,United States,403571288.0,216845206.0,187210479.0,8413531.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-08,United States,404646622.0,217132658.0,187503842.0,8918000.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-09,United States,405157077.0,217282000.0,187663536.0,9123872.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-10,United States,405455260.0,217376397.0,187762607.0,9229661.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-11,United States,406261809.0,217606274.0,187972293.0,9605558.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-12,United States,407127302.0,217838486.0,188191820.0,10028599.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-13,United States,407968208.0,218066784.0,188406245.0,10437369.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-14,United States,408816833.0,218294490.0,188619769.0,10855342.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-15,United States,409790704.0,218556875.0,188880467.0,11318144.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-16,United States,410251660.0,218695356.0,189016123.0,11509944.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-17,United States,410505493.0,218778201.0,189095675.0,11602704.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-18,United States,411281195.0,219002873.0,189294296.0,11965293.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-19,United States,412041061.0,219206470.0,189474966.0,12351137.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-20,United States,412801270.0,219407832.0,189655863.0,12740110.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-21,United States,413573944.0,219612455.0,189837117.0,13137569.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-22,United States,414819950.0,219909086.0,190061170.0,13873367.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-23,United States,415582971.0,220091872.0,190183971.0,14335519.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-24,United States,416020710.0,220204012.0,190258006.0,14588729.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-25,United States,417390763.0,220516303.0,190442869.0,15470456.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-26,United States,418750457.0,220816501.0,190620659.0,16363933.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-27,United States,420108570.0,221111334.0,190797102.0,17263827.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-28,United States,421359655.0,221382705.0,190963568.0,18091032.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-29,United States,422606647.0,221657885.0,191135333.0,18903738.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-30,United States,422975379.0,221749785.0,191191748.0,19128756.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-10-31,United States,423005384.0,221760691.0,191197741.0,19142081.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
+2021-11-01,United States,423005384.0,221760691.0,191197741.0,19142081.0,https://covid.cdc.gov/covid-data-tracker/#vaccination-trends,"Johnson&Johnson, Moderna, Pfizer/BioNTech"
