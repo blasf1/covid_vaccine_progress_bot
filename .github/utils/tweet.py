@@ -128,13 +128,23 @@ def get_progress_section(data):
     fully_vaccinated = get_current_data(data, parameter)
     fully_vaccinated_increment = get_current_data_increment(data, parameter)
 
-    return ("\nAt least 1 dose:\n"
-            + get_progress_bar(people_vaccinated, people_vaccinated_increment)
-            + "\n\n"
-            + "Fully:\n"
-            + get_progress_bar(fully_vaccinated, fully_vaccinated_increment)
-            + "\n"
-            + "\n")
+    if (people_vaccinated):
+        return ("\nAt least 1 dose:\n"
+                + get_progress_bar(people_vaccinated,
+                                   people_vaccinated_increment)
+                + "\n\n"
+                + "Fully:\n"
+                + get_progress_bar(fully_vaccinated,
+                                   fully_vaccinated_increment)
+                + "\n"
+                + "\n")
+    else:
+        return ("\n"
+                + "Fully:\n"
+                + get_progress_bar(fully_vaccinated,
+                                   fully_vaccinated_increment)
+                + "\n"
+                + "\n")
 
 
 def get_total_admin_string(data):
