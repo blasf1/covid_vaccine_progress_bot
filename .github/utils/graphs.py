@@ -377,8 +377,8 @@ plot_data(data, "", "total_vaccinations", title2, output, flags)
 # title2 = "% population fully vaccinated"
 # plot_data(data, "%", "people_fully_vaccinated", title2, output, flags)
 
-# title3 = "% population vaccinated with at least one dose"
-# plot_data(data, "%", "people_vaccinated", title3, output, flags)
+title3 = "% population that has received a booster"
+plot_data(data, "%", "total_boosters", title3, output, flags)
 
 # Remove countries whose average cannot be calculated
 countries_without_average = ["Hungary", "Malta"]
@@ -409,7 +409,7 @@ tweet = (emoji.emojize(":calendar::bar_chart:")
 print(tweet)
 images = [os.path.join(output + title1.replace(" ", "_") + ".png"),
           os.path.join(output + title2.replace(" ", "_") + ".png"),
-          #os.path.join(output + title3.replace(" ", "_") + ".png"),
+          os.path.join(output + title3.replace(" ", "_") + ".png"),
           os.path.join(output + title4.replace(" ", "_") + ".png")
           ]
 media_ids = []
