@@ -60,21 +60,21 @@ COUNTRIES = [
     "Sweden"]
 
 COUNTRIES_BOOSTERS = [
-    "Malta",
-    "Germany",
-    "Luxembourg",
-    "Hungary",
-    "Belgium",
+    #"Malta",
+    #"Germany",
+    #"Luxembourg",
+    #"Hungary",
+    #"Belgium",
     # "France",
-    "Italy",
-    "Lithuania",
-    "Spain",
+    #"Italy",
+    #"Lithuania",
+    #"Spain",
     #"Austria",
-    "Cyprus",
-    "Greece",
-    "Czechia",
-    "Poland",
-    "Bulgaria"
+    #"Cyprus",
+    #"Greece",
+    #"Czechia",
+    #"Poland",
+    #"Bulgaria"
 ]
 
 UNSUPPORTED_COUNTRIES = []
