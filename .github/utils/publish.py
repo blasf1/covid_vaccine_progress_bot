@@ -143,13 +143,13 @@ def publish_tweet(country, api, data, data_unsupported, input, population):
     except tweepy.TweepError:
         print(f"Tweet already published.")
 
-    try:
-        if country in COUNTRIES_BOOSTERS:
-            tweet_string = get_tweet_boosters(country, data, data_normalized)
-            tweet = api.update_status(
-                tweet_string, in_reply_to_status_id=tweet.id)
-    except UnboundLocalError:
-        print(f"Tweet already published. No boosters to publish")
+    # try:
+    #     if country in COUNTRIES_BOOSTERS:
+    #         tweet_string = get_tweet_boosters(country, data, data_normalized)
+    #         tweet = api.update_status(
+    #             tweet_string, in_reply_to_status_id=tweet.id)
+    # except UnboundLocalError:
+    #     print(f"Tweet already published. No boosters to publish")
 
 
 # =============================================================================

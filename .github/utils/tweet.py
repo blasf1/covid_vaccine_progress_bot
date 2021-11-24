@@ -221,7 +221,7 @@ def get_total_administered(data, country):
             + f"{boosters_increment:+,.0f}"
             + "]"
             + "\n"
-            + get_seven_days_string(data, country))
+        )
     else:
         return ("Total:"
                 + "\u3000"
@@ -230,7 +230,7 @@ def get_total_administered(data, country):
                 + f"{increment:+,.0f}"
                 + "]"
                 + "\n"
-                + get_seven_days_string(data, country))
+                )
 
 
 def get_days_reported_string(country, data):
@@ -252,9 +252,11 @@ def get_tweet(country, data, data_normalized):
                 + get_progress_section(data_normalized)
                 + get_boosters_section(data_normalized)
                 + get_total_administered(data, country)
-                + get_days_reported_string(country, data))
+                + get_days_reported_string(country, data)
+                + get_seven_days_string(data_normalized, country))
     else:
         return (get_tweet_header(country, data)
                 + get_progress_section(data_normalized)
                 + get_total_administered(data)
-                + get_days_reported_string(country, data))
+                + get_days_reported_string(country, data)
+                + get_seven_days_string(data_normalized, country))
