@@ -69,7 +69,7 @@ COUNTRIES_BOOSTERS = [
     "Italy",
     "Lithuania",
     "Spain",
-    "Austria",
+    #"Austria",
     "Cyprus",
     "Greece",
     "Czechia",
