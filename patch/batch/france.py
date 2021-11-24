@@ -18,7 +18,7 @@ def main(paths):
     )
 
     df = pd.read_csv(
-        source, usecols=["jour", "n_cum_dose1", "n_cum_complet"], sep=";"
+        source, usecols=["jour", "n_cum_dose1", "n_cum_complet", "n_rappel"], sep=";"
     )
 
     df = df.rename(
