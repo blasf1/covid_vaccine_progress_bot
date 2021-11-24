@@ -257,6 +257,6 @@ def get_tweet(country, data, data_normalized):
     else:
         return (get_tweet_header(country, data)
                 + get_progress_section(data_normalized)
-                + get_total_administered(data)
+                + get_total_administered(data, country)
                 + get_days_reported_string(country, data)
                 + get_seven_days_string(data_normalized, country))
