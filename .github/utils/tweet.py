@@ -65,13 +65,31 @@ FLAGS = {
 
 NO_7_DAYS = {
 }
+
+COUNTRIES_BOOSTERS = [
+    "Malta",
+    "Germany",
+    "Luxembourg",
+    "Hungary",
+    "Belgium",
+    "France",
+    "Italy",
+    "Lithuania",
+    "Spain",
+    "Austria",
+    "Cyprus",
+    "Greece",
+    "Czechia",
+    "Poland",
+    "Ireland"
+]
 # =============================================================================
 # Functions
 # =============================================================================
 
 
 def generateProgressbar(percentage):
-    num_chars = 16
+    num_chars = 15
     num_filled = round((percentage / 100) * num_chars)
     num_empty = num_chars-num_filled
     msg = '{}{}'.format('█'*num_filled, '░'*num_empty)
@@ -108,12 +126,12 @@ def get_tweet_header(country, data):
               + flag.flagize(":EU:")
               + "\n")
 
-    if is_record(data, "total_vaccinations"):
-        string = (string
-                  + emoji.emojize(":trophy:")
-                  + "Daily Record"
-                  + emoji.emojize(":trophy:")
-                  + "\n")
+    # if is_record(data, "total_vaccinations"):
+    #     string = (string
+    #               + emoji.emojize(":trophy:")
+    #               + "Daily Record"
+    #               + emoji.emojize(":trophy:")
+    #               + "\n")
 
     return string
 
@@ -147,23 +165,17 @@ def get_progress_section(data):
                 + "\n")
 
 
-def get_total_admin_string(data):
-    """Get the string of the normalized administered doses."""
-    parameter = "total_vaccinations"
-    current_data = get_current_data(data, parameter)
-    current_data_increment = get_current_data_increment(data, parameter)
+def get_boosters_section(data):
+    """Get the progress section of the tweet."""
+    parameter = "total_boosters"
+    boosters = get_current_data(data, parameter)
+    boosters_increment = get_current_data_increment(data, parameter)
 
-    if math.isnan(current_data_increment):
-        return ""
-    else:
-        return (emoji.emojize(":syringe:")
-                + "Total:"
-                + "\u3000" * 3
-                + f"{current_data:05.2f}"
-                + " ["
-                + f"{current_data_increment:+04.2f}"
-                + "]"
-                + "\n")
+    return ("Boosters:\n"
+            + get_progress_bar(boosters,
+                               boosters_increment)
+            + "\n"
+            + "\n")
 
 
 def get_seven_days_string(data, country):
@@ -176,8 +188,7 @@ def get_seven_days_string(data, country):
     if math.isnan(average_week_increment) or country in NO_7_DAYS:
         return ""
     else:
-        return (emoji.emojize(":syringe:")
-                + "7 days avg.: "
+        return ("7 days avg.: "
                 + "\u3000"
                 + f"{average_week:04.2f}"
                 + " ["
@@ -186,13 +197,15 @@ def get_seven_days_string(data, country):
                 + "\n")
 
 
-def get_total_administered(data):
+def get_total_administered(data, country):
     """Get total administered section of the tweet."""
     total = get_current_data(data, "total_vaccinations")
     increment = get_current_data_increment(data, "total_vaccinations")
+    boosters = get_current_data(data, "total_boosters")
+    boosters_increment = get_current_data_increment(data, "total_boosters")
     if math.isnan(increment):
         return ""
-    else:
+    elif country in COUNTRIES_BOOSTERS:
         return (  # "\nAdministered:\n"
             # emoji.emojize(":syringe:")
             "Total:"
@@ -201,18 +214,22 @@ def get_total_administered(data):
             + " ["
             + f"{increment:+,.0f}"
             + "]"
-            + "\n")
-
-
-def get_administered_section(data, country):
-    """Get the administered section of the tweet."""
-
-    if get_total_admin_string(data) == "":
-        return ""
+            + "\n"
+            + "Boosters: "
+            + f"{boosters:,.0f}"
+            + " ["
+            + f"{boosters_increment:+,.0f}"
+            + "]"
+            + "\n"
+            + get_seven_days_string(data, country))
     else:
-        return ("\n"
-                + "Per 100 people:\n"
-                + get_total_admin_string(data)
+        return ("Total:"
+                + "\u3000"
+                + f"{total:,.0f}"
+                + " ["
+                + f"{increment:+,.0f}"
+                + "]"
+                + "\n"
                 + get_seven_days_string(data, country))
 
 
@@ -230,8 +247,14 @@ def get_days_reported_string(country, data):
 
 def get_tweet(country, data, data_normalized):
     """Get the tweet to publish in Twitter for a particular country."""
-    return (get_tweet_header(country, data)
-            + get_progress_section(data_normalized)
-            + get_total_administered(data)
-            + get_administered_section(data_normalized, country)
-            + get_days_reported_string(country, data))
+    if country in COUNTRIES_BOOSTERS:
+        return (get_tweet_header(country, data)
+                + get_progress_section(data_normalized)
+                + get_boosters_section(data_normalized)
+                + get_total_administered(data, country)
+                + get_days_reported_string(country, data))
+    else:
+        return (get_tweet_header(country, data)
+                + get_progress_section(data_normalized)
+                + get_total_administered(data)
+                + get_days_reported_string(country, data))
