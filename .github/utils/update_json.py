@@ -185,7 +185,7 @@ def read_data(path, path_population, path_adults):
     columns = ["date", "location", "people_vaccinated",
                "people_fully_vaccinated", "total_vaccinations",
                "adults_fully_vaccinated", "adults_vaccinated",
-               "days_to_70", "week_on_week"]
+               "days_to_70", "week_on_week", "total_boosters"]
     data = data[columns]
     return data.set_index("location").round(1)
 
@@ -219,7 +219,9 @@ def read_data_past(path, path_population, path_adults):
 
     data_prev = pd.concat(map(read_csv, files))
     columns = ["date", "location", "people_vaccinated",
-               "people_fully_vaccinated", "total_vaccinations", "adults_fully_vaccinated", "adults_vaccinated", "days_to_70", "week_on_week"]
+               "people_fully_vaccinated", "total_vaccinations",
+               "adults_fully_vaccinated", "adults_vaccinated",
+               "days_to_70", "week_on_week", "total_boosters"]
     data_prev = data_prev[columns]
 
     return data_prev.set_index("location")
@@ -237,6 +239,8 @@ def get_increments(data, data_prev):
         data_prev["adults_vaccinated"]
     data["adults_fully_vaccinated_increment"] = data["adults_fully_vaccinated"] - \
         data_prev["adults_fully_vaccinated"]
+    data["total_boosters_increment"] = data["total_boosters"] - \
+        data_prev["total_boosters"]
     data = data.fillna(0)
     return data.round(1)
 
@@ -264,7 +268,8 @@ def get_dict_vaccination_per_country(df):
                                                    "days_to_70_increment": df["days_to_70_increment"][country],
                                                    "week_on_week_increment": df["week_on_week_increment"][country],
                                                    "adults_vaccinated_increment": df["adults_vaccinated_increment"][country],
-                                                   "adults_fully_vaccinated_increment": df["adults_fully_vaccinated_increment"][country], }
+                                                   "adults_fully_vaccinated_increment": df["adults_fully_vaccinated_increment"][country],
+                                                   "total_boosters": df["total_boosters"][country]}
         if country in COUNTRIES_WITHOUT_FULL_DATA:
             dict_people_vaccinated["data"][country]["people_fully_vaccinated"] = 0
             dict_people_vaccinated["data"][country]["adults_fully_vaccinated"] = 0
