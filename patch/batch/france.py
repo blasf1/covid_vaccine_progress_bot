@@ -26,6 +26,7 @@ def main(paths):
             "jour": "date",
             "n_cum_dose1": "people_vaccinated",
             "n_cum_complet": "people_fully_vaccinated",
+            "n_rappel": "total_boosters",
         }
     )
 
