@@ -201,11 +201,12 @@ def get_total_administered(data, country):
     """Get total administered section of the tweet."""
     total = get_current_data(data, "total_vaccinations")
     increment = get_current_data_increment(data, "total_vaccinations")
-    boosters = get_current_data(data, "total_boosters")
-    boosters_increment = get_current_data_increment(data, "total_boosters")
+
     if math.isnan(increment):
         return ""
     elif country in COUNTRIES_BOOSTERS:
+        boosters = get_current_data(data, "total_boosters")
+        boosters_increment = get_current_data_increment(data, "total_boosters")
         return (  # "\nAdministered:\n"
             # emoji.emojize(":syringe:")
             "Total:"
