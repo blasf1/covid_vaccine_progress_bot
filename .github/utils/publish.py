@@ -62,6 +62,7 @@ COUNTRIES = [
 COUNTRIES_BOOSTERS = [
     "Malta",
     "Germany",
+    "Denmark",
     "Luxembourg",
     "Hungary",
     "Belgium",
