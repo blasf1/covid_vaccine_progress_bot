@@ -79,6 +79,7 @@ for country in COUNTRIES:
         columns = ["date", "total_vaccinations",
                    "people_vaccinated", "people_fully_vaccinated"]
         data = pd.read_csv(path_file, usecols=columns, index_col="date")
+        data["total_boosters"] = 0
     if eu_data.empty:
         eu_data = data
     else:
