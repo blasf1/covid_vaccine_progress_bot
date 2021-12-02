@@ -73,7 +73,12 @@ eu_data = pd.DataFrame(columns=columns)
 print(path)
 for country in COUNTRIES:
     path_file = os.path.join(path, country + ".csv")
-    data = pd.read_csv(path_file, usecols=columns, index_col="date")
+    try:
+        data = pd.read_csv(path_file, usecols=columns, index_col="date")
+    except ValueError:
+        columns = ["date", "total_vaccinations",
+                   "people_vaccinated", "people_fully_vaccinated"]
+        data = pd.read_csv(path_file, usecols=columns, index_col="date")
     if eu_data.empty:
         eu_data = data
     else:
