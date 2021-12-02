@@ -68,7 +68,7 @@ output = args.output
 # =============================================================================
 
 columns = ["date", "total_vaccinations",
-           "people_vaccinated", "people_fully_vaccinated"]
+           "people_vaccinated", "people_fully_vaccinated", "total_boosters"]
 eu_data = pd.DataFrame(columns=columns)
 print(path)
 for country in COUNTRIES:
