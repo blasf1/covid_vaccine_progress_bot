@@ -81,6 +81,8 @@ for country in COUNTRIES:
         print(country)
         print(data)
         data = data[~data.index.duplicated(keep='last')]
+        if 'total_boosters' not in data.columns:
+            data["total_boosters"] = 0
         data = data.reindex_like(eu_data).fillna(method="ffill")
         eu_data = eu_data.add(data, fill_value=0)
 
