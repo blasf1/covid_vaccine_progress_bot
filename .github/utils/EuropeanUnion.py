@@ -66,7 +66,6 @@ output = args.output
 # =============================================================================
 # Main
 # =============================================================================
-
 columns = ["date", "total_vaccinations",
            "people_vaccinated", "people_fully_vaccinated", "total_boosters"]
 eu_data = pd.DataFrame(columns=columns)
@@ -74,6 +73,8 @@ print(path)
 for country in COUNTRIES:
     path_file = os.path.join(path, country + ".csv")
     try:
+        columns = ["date", "total_vaccinations",
+                   "people_vaccinated", "people_fully_vaccinated", "total_boosters"]
         data = pd.read_csv(path_file, usecols=columns, index_col="date")
     except ValueError:
         columns = ["date", "total_vaccinations",
