@@ -76,7 +76,8 @@ COUNTRIES_BOOSTERS = [
     "Czechia",
     "Poland",
     "Ireland",
-    "Portugal"
+    "Portugal",
+    "Sweden"
 ]
 
 UNSUPPORTED_COUNTRIES = []
