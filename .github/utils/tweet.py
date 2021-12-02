@@ -84,7 +84,8 @@ COUNTRIES_BOOSTERS = [
     "Ireland",
     "Denmark",
     "Portugal",
-    "Sweden"
+    "Sweden",
+    "European Union"
 ]
 # =============================================================================
 # Functions
