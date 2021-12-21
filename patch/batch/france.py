@@ -41,7 +41,7 @@ def main():
         ),
     )
 
-    df.to_csv(paths.tmp_vax_out("France"), index=False)
+    df.to_csv(paths.out_vax("France"), index=False)
 
 
 if __name__ == "__main__":

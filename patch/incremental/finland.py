@@ -67,7 +67,7 @@ def main():
     )
     data = read(source).pipe(pipeline)
 
-    output_file = paths.tmp_vax_out("Finland")
+    output_file = paths.out_vax("Finland")
     previous_data = pd.read_csv(output_file)
     if previous_data["total_vaccinations"].iloc[-1] >= data["total_vaccinations"]:
         print("Finland is up to date")
