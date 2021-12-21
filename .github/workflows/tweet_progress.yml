@@ -35,7 +35,6 @@ jobs:
       - name: Patches to OWID
         run: |
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/incremental/* ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/incremental/
-          cp ${{ github.workspace }}/covid_vaccine_progress_bot/patch/batch/* ${{ github.workspace }}/covid-19-data/scripts/src/cowidev/vax/batch/
           cp ${{ github.workspace }}/covid_vaccine_progress_bot/output/Finland.csv ${{ github.workspace }}/covid-19-data/scripts/output/vaccinations/main_data/Finland.csv
 
       - name: Update data
