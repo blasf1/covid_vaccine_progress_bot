@@ -1,9 +1,10 @@
 import pandas as pd
 
 from cowidev.vax.utils.files import export_metadata
+from cowidev.utils import paths
 
 
-def main(paths):
+def main():
 
     vaccine_mapping = {
         1: "Pfizer/BioNTech",
