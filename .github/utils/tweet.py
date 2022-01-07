@@ -255,18 +255,18 @@ def get_days_reported_string(country, data):
 
 def get_tweet(country, data, data_normalized):
     """Get the tweet to publish in Twitter for a particular country."""
-    if country in COUNTRIES_BOOSTERS:
-        return (get_tweet_header(country, data)
-                + get_progress_section(data_normalized)
-                + get_boosters_section(data_normalized)
-                + get_total_administered(data, country)
-                + get_seven_days_string(data_normalized, country)
-                + get_days_reported_string(country, data))
     if country == "European Union":
         return (get_tweet_header(country, data)
                 + get_progress_section(data_normalized)
                 + get_boosters_section(data_normalized)
                 + get_total_administered(data, country)
+                + get_days_reported_string(country, data))
+    elif country in COUNTRIES_BOOSTERS:
+        return (get_tweet_header(country, data)
+                + get_progress_section(data_normalized)
+                + get_boosters_section(data_normalized)
+                + get_total_administered(data, country)
+                + get_seven_days_string(data_normalized, country)
                 + get_days_reported_string(country, data))
     else:
         return (get_tweet_header(country, data)
