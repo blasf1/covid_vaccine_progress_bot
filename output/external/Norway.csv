@@ -34,383 +34,386 @@ date,people_vaccinated,people_fully_vaccinated,total_boosters,vaccine,total_vacc
 2021-01-03,2490,0,0,Pfizer/BioNTech,2490,https://github.com/folkehelseinstituttet/surveillance_data,Norway
 2021-01-04,2526,0,0,Pfizer/BioNTech,2526,https://github.com/folkehelseinstituttet/surveillance_data,Norway
 2021-01-05,5966,0,0,Pfizer/BioNTech,5966,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-06,15117,11,0,Pfizer/BioNTech,15128,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-07,21732,12,0,Pfizer/BioNTech,21744,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-08,23391,22,0,Pfizer/BioNTech,23413,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-09,23561,24,0,Pfizer/BioNTech,23585,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-10,23698,30,0,Pfizer/BioNTech,23728,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-11,24186,40,0,Pfizer/BioNTech,24226,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-12,28544,49,0,Pfizer/BioNTech,28593,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-13,38494,59,0,Pfizer/BioNTech,38553,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-14,47081,69,0,Pfizer/BioNTech,47150,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-15,51698,72,0,"Moderna, Pfizer/BioNTech",51770,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-16,52541,76,0,"Moderna, Pfizer/BioNTech",52617,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-17,52929,84,0,"Moderna, Pfizer/BioNTech",53013,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-18,54255,394,0,"Moderna, Pfizer/BioNTech",54649,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-19,58909,1229,0,"Moderna, Pfizer/BioNTech",60138,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-20,69066,1938,0,"Moderna, Pfizer/BioNTech",71004,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-21,77657,2117,0,"Moderna, Pfizer/BioNTech",79774,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-22,81096,2136,0,"Moderna, Pfizer/BioNTech",83232,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-23,81510,2145,0,"Moderna, Pfizer/BioNTech",83655,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-24,81604,2155,0,"Moderna, Pfizer/BioNTech",83759,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-25,82208,2174,0,"Moderna, Pfizer/BioNTech",84382,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-26,84573,4583,0,"Moderna, Pfizer/BioNTech",89156,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-27,96256,12434,0,"Moderna, Pfizer/BioNTech",108690,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-28,107288,19133,0,"Moderna, Pfizer/BioNTech",126421,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-29,111209,21277,0,"Moderna, Pfizer/BioNTech",132486,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-30,111413,21502,0,"Moderna, Pfizer/BioNTech",132915,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-01-31,111594,21571,0,"Moderna, Pfizer/BioNTech",133165,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-01,111846,21931,0,"Moderna, Pfizer/BioNTech",133777,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-02,118278,25289,0,"Moderna, Pfizer/BioNTech",143567,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-03,143667,34139,0,"Moderna, Pfizer/BioNTech",177806,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-04,169923,43081,0,"Moderna, Pfizer/BioNTech",213004,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-05,180773,48147,0,"Moderna, Pfizer/BioNTech",228920,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-06,181636,48933,0,"Moderna, Pfizer/BioNTech",230569,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-07,181987,49277,0,"Moderna, Pfizer/BioNTech",231264,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-08,182124,50248,0,"Moderna, Pfizer/BioNTech",232372,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-09,187806,53692,0,"Moderna, Pfizer/BioNTech",241498,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-10,211034,62816,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",273850,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-11,232237,71746,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",303983,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-12,240453,75508,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",315961,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-13,241410,75856,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",317266,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-14,241555,75873,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",317428,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-15,242430,76662,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",319092,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-16,248656,78983,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",327639,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-17,270605,89767,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",360372,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-18,289724,100969,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",390693,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-19,300589,105934,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",406523,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-20,301156,106160,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",407316,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-21,301251,106333,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",407584,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-22,303884,106527,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",410411,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-23,309965,111975,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",421940,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-24,321194,135254,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",456448,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-25,332455,162108,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",494563,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-26,340922,172408,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",513330,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-27,341429,172705,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",514134,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-02-28,341987,172889,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",514876,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-01,348094,172996,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",521090,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-02,358888,177007,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",535895,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-03,376991,195855,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",572846,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-04,393449,214945,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",608394,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-05,405564,221784,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",627348,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-06,406073,222317,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",628390,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-07,406265,222339,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",628604,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-08,411448,222416,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",633864,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-09,424332,226835,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",651167,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-10,445830,244774,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",690604,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-11,457957,262194,0,"Moderna, Pfizer/BioNTech",720151,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-12,460418,270838,0,"Moderna, Pfizer/BioNTech",731256,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-13,460583,271187,0,"Moderna, Pfizer/BioNTech",731770,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-14,460654,271329,0,"Moderna, Pfizer/BioNTech",731983,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-15,460853,271807,0,"Moderna, Pfizer/BioNTech",732660,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-16,466826,272601,0,"Moderna, Pfizer/BioNTech",739427,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-17,490442,274567,0,"Moderna, Pfizer/BioNTech",765009,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-18,511907,276205,0,"Moderna, Pfizer/BioNTech",788112,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-19,518981,277292,0,"Moderna, Pfizer/BioNTech",796273,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-20,519618,277348,0,"Moderna, Pfizer/BioNTech",796966,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-21,519905,277430,0,"Moderna, Pfizer/BioNTech",797335,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-22,521597,277555,0,"Moderna, Pfizer/BioNTech",799152,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-23,535039,278632,0,"Moderna, Pfizer/BioNTech",813671,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-24,574779,282624,0,"Moderna, Pfizer/BioNTech",857403,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-25,614095,285285,0,"Moderna, Pfizer/BioNTech",899380,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-26,631793,286576,0,"Moderna, Pfizer/BioNTech",918369,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-27,632671,286625,0,"Moderna, Pfizer/BioNTech",919296,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-28,633091,286663,0,"Moderna, Pfizer/BioNTech",919754,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-29,638058,286840,0,"Moderna, Pfizer/BioNTech",924898,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-30,670865,291373,5,"Moderna, Pfizer/BioNTech",962243,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-03-31,708348,299392,6,"Moderna, Pfizer/BioNTech",1007746,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-01,718119,300992,6,"Moderna, Pfizer/BioNTech",1019117,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-02,722652,301786,6,"Moderna, Pfizer/BioNTech",1024444,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-03,723039,301850,6,"Moderna, Pfizer/BioNTech",1024895,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-04,723508,301921,6,"Moderna, Pfizer/BioNTech",1025435,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-05,725061,302076,6,"Moderna, Pfizer/BioNTech",1027143,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-06,744183,304846,6,"Moderna, Pfizer/BioNTech",1049035,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-07,803798,308705,8,"Moderna, Pfizer/BioNTech",1112511,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-08,861990,313113,9,"Moderna, Pfizer/BioNTech",1175112,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-09,889862,313890,10,"Moderna, Pfizer/BioNTech",1203762,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-10,891098,314003,10,"Moderna, Pfizer/BioNTech",1205111,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-11,891752,314074,10,"Moderna, Pfizer/BioNTech",1205836,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-12,895643,314251,12,"Moderna, Pfizer/BioNTech",1209906,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-13,921664,314776,12,"Moderna, Pfizer/BioNTech",1236452,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-14,989820,316376,14,"Moderna, Pfizer/BioNTech",1306210,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-15,1055937,317761,18,"Moderna, Pfizer/BioNTech",1373716,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-16,1085366,318758,18,"Moderna, Pfizer/BioNTech",1404142,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-17,1087511,318991,18,"Moderna, Pfizer/BioNTech",1406520,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-18,1088891,319052,18,"Moderna, Pfizer/BioNTech",1407961,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-19,1095524,319334,18,"Moderna, Pfizer/BioNTech",1414876,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-20,1115472,320315,19,"Moderna, Pfizer/BioNTech",1435806,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-21,1175350,323474,20,"Moderna, Pfizer/BioNTech",1498844,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-22,1226993,326142,20,"Moderna, Pfizer/BioNTech",1553155,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-23,1245653,327641,21,"Moderna, Pfizer/BioNTech",1573315,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-24,1246159,327783,21,"Moderna, Pfizer/BioNTech",1573963,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-25,1246526,327843,21,"Moderna, Pfizer/BioNTech",1574390,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-26,1249001,328483,22,"Moderna, Pfizer/BioNTech",1577506,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-27,1268696,334718,24,"Moderna, Pfizer/BioNTech",1603438,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-28,1327824,359961,28,"Moderna, Pfizer/BioNTech",1687813,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-29,1382423,381368,28,"Moderna, Pfizer/BioNTech",1763819,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-04-30,1408237,389795,28,"Moderna, Pfizer/BioNTech",1798060,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-01,1409842,390199,29,"Moderna, Pfizer/BioNTech",1800070,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-02,1410942,390524,29,"Moderna, Pfizer/BioNTech",1801495,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-03,1414154,392079,30,"Moderna, Pfizer/BioNTech",1806263,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-04,1424524,404474,31,"Moderna, Pfizer/BioNTech",1829029,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-05,1465446,443635,36,"Moderna, Pfizer/BioNTech",1909117,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-06,1500736,480039,41,"Moderna, Pfizer/BioNTech",1980816,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-07,1516284,496526,44,"Moderna, Pfizer/BioNTech",2012854,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-08,1516910,497202,44,"Moderna, Pfizer/BioNTech",2014156,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-09,1517226,497620,44,"Moderna, Pfizer/BioNTech",2014890,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-10,1519714,504239,45,"Moderna, Pfizer/BioNTech",2023998,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-11,1537847,536203,50,"Moderna, Pfizer/BioNTech",2074100,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-12,1580237,590138,66,"Moderna, Pfizer/BioNTech",2170441,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-13,1593157,599018,67,"Moderna, Pfizer/BioNTech",2192242,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-14,1604448,607511,68,"Moderna, Pfizer/BioNTech",2212027,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-15,1606520,608359,68,"Moderna, Pfizer/BioNTech",2214947,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-16,1607862,609461,68,"Moderna, Pfizer/BioNTech",2217391,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-17,1608171,609946,68,"Moderna, Pfizer/BioNTech",2218185,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-18,1612826,633938,70,"Moderna, Pfizer/BioNTech",2246834,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-19,1621090,706835,79,"Moderna, Pfizer/BioNTech",2328004,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-20,1629926,776110,86,"Moderna, Pfizer/BioNTech",2406122,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-21,1635053,807562,96,"Moderna, Pfizer/BioNTech",2442711,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-22,1636468,808666,97,"Moderna, Pfizer/BioNTech",2445231,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-23,1637360,809110,98,"Moderna, Pfizer/BioNTech",2446568,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-24,1638293,811733,99,"Moderna, Pfizer/BioNTech",2450125,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-25,1642473,841133,102,"Moderna, Pfizer/BioNTech",2483708,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-26,1652251,925691,110,"Moderna, Pfizer/BioNTech",2578052,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-27,1661844,1000230,125,"Moderna, Pfizer/BioNTech",2662199,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-28,1666986,1032512,131,"Moderna, Pfizer/BioNTech",2699629,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-29,1667725,1034691,132,"Moderna, Pfizer/BioNTech",2702548,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-30,1667929,1036340,133,"Moderna, Pfizer/BioNTech",2704402,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-05-31,1671198,1043039,135,"Moderna, Pfizer/BioNTech",2714372,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-01,1690227,1066389,139,"Moderna, Pfizer/BioNTech",2756755,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-02,1743584,1137149,150,"Moderna, Pfizer/BioNTech",2880883,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-03,1799049,1196138,155,"Moderna, Pfizer/BioNTech",2995342,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-04,1830833,1216040,160,"Moderna, Pfizer/BioNTech",3047033,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-05,1834671,1216820,160,"Moderna, Pfizer/BioNTech",3051651,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-06,1837823,1217202,161,"Moderna, Pfizer/BioNTech",3055186,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-07,1853680,1220172,163,"Moderna, Pfizer/BioNTech",3074015,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-08,1881153,1239742,170,"Moderna, Pfizer/BioNTech",3121065,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-09,1921585,1300723,176,"Moderna, Pfizer/BioNTech",3222484,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-10,1961730,1356483,181,"Moderna, Pfizer/BioNTech",3318394,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-11,1983584,1377611,185,"Moderna, Pfizer/BioNTech",3361380,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-12,1986841,1378517,187,"Moderna, Pfizer/BioNTech",3365545,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-13,1989188,1379222,187,"Moderna, Pfizer/BioNTech",3368597,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-14,2008961,1381865,187,"Moderna, Pfizer/BioNTech",3391013,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-15,2038335,1392566,192,"Moderna, Pfizer/BioNTech",3431093,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-16,2103403,1433955,204,"Moderna, Pfizer/BioNTech",3537562,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-17,2163324,1466832,221,"Moderna, Pfizer/BioNTech",3630377,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-18,2195480,1479301,226,"Moderna, Pfizer/BioNTech",3675007,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-19,2201971,1480042,226,"Moderna, Pfizer/BioNTech",3682239,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-20,2206471,1480185,227,"Moderna, Pfizer/BioNTech",3686883,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-21,2224418,1483032,230,"Moderna, Pfizer/BioNTech",3707680,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-22,2261867,1496389,235,"Moderna, Pfizer/BioNTech",3758491,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-23,2340430,1528777,253,"Moderna, Pfizer/BioNTech",3869460,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-24,2431983,1550775,258,"Moderna, Pfizer/BioNTech",3983016,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-25,2476987,1560321,260,"Moderna, Pfizer/BioNTech",4037568,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-26,2485787,1562027,260,"Moderna, Pfizer/BioNTech",4048074,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-27,2490395,1563310,261,"Moderna, Pfizer/BioNTech",4053966,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-28,2522809,1564612,264,"Moderna, Pfizer/BioNTech",4087685,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-29,2571116,1568027,270,"Moderna, Pfizer/BioNTech",4139413,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-06-30,2676746,1574795,279,"Moderna, Pfizer/BioNTech",4251820,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-01,2779644,1582827,288,"Moderna, Pfizer/BioNTech",4362759,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-02,2831042,1586120,294,"Moderna, Pfizer/BioNTech",4417456,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-03,2840354,1586741,294,"Moderna, Pfizer/BioNTech",4427389,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-04,2846439,1587264,296,"Moderna, Pfizer/BioNTech",4433999,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-05,2873274,1587964,379,"Moderna, Pfizer/BioNTech",4461617,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-06,2915347,1591438,481,"Moderna, Pfizer/BioNTech",4507266,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-07,2992729,1600270,566,"Moderna, Pfizer/BioNTech",4593565,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-08,3062141,1609338,674,"Moderna, Pfizer/BioNTech",4672153,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-09,3089249,1612822,678,"Moderna, Pfizer/BioNTech",4702749,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-10,3093443,1613160,679,"Moderna, Pfizer/BioNTech",4707282,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-11,3096447,1613351,679,"Moderna, Pfizer/BioNTech",4710477,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-12,3109727,1615370,682,"Moderna, Pfizer/BioNTech",4725779,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-13,3133507,1624514,686,"Moderna, Pfizer/BioNTech",4758707,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-14,3182093,1653919,693,"Moderna, Pfizer/BioNTech",4836705,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-15,3225217,1683427,716,"Moderna, Pfizer/BioNTech",4909360,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-16,3241688,1693518,723,"Moderna, Pfizer/BioNTech",4935929,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-17,3242195,1694119,724,"Moderna, Pfizer/BioNTech",4937038,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-18,3242504,1694395,725,"Moderna, Pfizer/BioNTech",4937624,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-19,3251553,1697726,732,"Moderna, Pfizer/BioNTech",4950011,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-20,3273245,1706428,736,"Moderna, Pfizer/BioNTech",4980409,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-21,3338692,1726411,746,"Moderna, Pfizer/BioNTech",5065849,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-22,3406843,1748721,749,"Moderna, Pfizer/BioNTech",5156313,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-23,3428609,1756247,758,"Moderna, Pfizer/BioNTech",5185614,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-24,3428770,1756687,759,"Moderna, Pfizer/BioNTech",5186216,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-25,3428841,1756955,760,"Moderna, Pfizer/BioNTech",5186556,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-26,3437640,1760167,765,"Moderna, Pfizer/BioNTech",5198572,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-27,3459127,1769079,771,"Moderna, Pfizer/BioNTech",5228977,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-28,3527161,1795199,778,"Moderna, Pfizer/BioNTech",5323138,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-29,3594459,1822030,786,"Moderna, Pfizer/BioNTech",5417275,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-30,3616270,1833095,792,"Moderna, Pfizer/BioNTech",5450157,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-07-31,3616701,1833914,792,"Moderna, Pfizer/BioNTech",5451407,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-01,3616767,1834076,793,"Moderna, Pfizer/BioNTech",5451636,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-02,3626019,1843217,796,"Moderna, Pfizer/BioNTech",5470032,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-03,3641490,1860930,805,"Moderna, Pfizer/BioNTech",5503225,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-04,3683455,1904682,815,"Moderna, Pfizer/BioNTech",5588952,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-05,3719421,1953319,834,"Moderna, Pfizer/BioNTech",5673574,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-06,3730012,1974927,837,"Moderna, Pfizer/BioNTech",5705776,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-07,3730276,1976224,838,"Moderna, Pfizer/BioNTech",5707338,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-08,3730361,1977098,839,"Moderna, Pfizer/BioNTech",5708298,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-09,3733403,1998649,844,"Moderna, Pfizer/BioNTech",5732896,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-10,3740534,2032748,851,"Moderna, Pfizer/BioNTech",5774133,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-11,3762001,2114648,873,"Moderna, Pfizer/BioNTech",5877522,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-12,3780675,2199821,889,"Moderna, Pfizer/BioNTech",5981385,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-13,3786413,2239168,891,"Moderna, Pfizer/BioNTech",6026472,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-14,3786676,2241485,894,"Moderna, Pfizer/BioNTech",6029055,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-15,3786747,2242628,897,"Moderna, Pfizer/BioNTech",6030272,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-16,3789058,2273737,905,"Moderna, Pfizer/BioNTech",6063700,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-17,3793513,2318776,944,"Moderna, Pfizer/BioNTech",6113233,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-18,3804666,2425644,1027,"Moderna, Pfizer/BioNTech",6231337,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-19,3814554,2527069,1092,"Moderna, Pfizer/BioNTech",6342715,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-20,3819490,2580544,1105,"Moderna, Pfizer/BioNTech",6401139,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-21,3819848,2587412,1108,"Moderna, Pfizer/BioNTech",6408368,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-22,3819973,2589245,1109,"Moderna, Pfizer/BioNTech",6410327,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-23,3822261,2630714,1178,"Moderna, Pfizer/BioNTech",6454153,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-24,3827572,2697546,1247,"Moderna, Pfizer/BioNTech",6526365,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-25,3839787,2823738,1267,"Moderna, Pfizer/BioNTech",6664792,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-26,3853260,2948843,1350,"Moderna, Pfizer/BioNTech",6803453,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-27,3862092,3010449,1404,"Moderna, Pfizer/BioNTech",6873945,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-28,3864437,3020526,1410,"Moderna, Pfizer/BioNTech",6886373,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-29,3864602,3025281,1412,"Moderna, Pfizer/BioNTech",6891295,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-30,3873404,3062826,1435,"Moderna, Pfizer/BioNTech",6937665,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-08-31,3882094,3109144,1458,"Moderna, Pfizer/BioNTech",6992696,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-01,3898313,3189337,1521,"Moderna, Pfizer/BioNTech",7089171,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-02,3915358,3269148,1603,"Moderna, Pfizer/BioNTech",7186109,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-03,3924449,3305282,1648,"Moderna, Pfizer/BioNTech",7231379,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-04,3925611,3311228,1649,"Moderna, Pfizer/BioNTech",7238488,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-05,3925860,3312254,1654,"Moderna, Pfizer/BioNTech",7239768,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-06,3930811,3332464,1664,"Moderna, Pfizer/BioNTech",7264939,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-07,3938763,3358461,1687,"Moderna, Pfizer/BioNTech",7298911,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-08,3958661,3411240,1773,"Moderna, Pfizer/BioNTech",7371674,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-09,3977116,3456463,1875,"Moderna, Pfizer/BioNTech",7435454,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-10,3986533,3476934,1937,"Moderna, Pfizer/BioNTech",7465404,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-11,3987629,3479699,1940,"Moderna, Pfizer/BioNTech",7469268,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-12,3988038,3479831,1946,"Moderna, Pfizer/BioNTech",7469815,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-13,3993167,3490707,1995,"Moderna, Pfizer/BioNTech",7485869,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-14,4009353,3503122,2127,"Moderna, Pfizer/BioNTech",7514602,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-15,4039131,3533203,2932,"Moderna, Pfizer/BioNTech",7575266,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-16,4065537,3557584,4703,"Moderna, Pfizer/BioNTech",7627824,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-17,4078840,3568358,5459,"Moderna, Pfizer/BioNTech",7652657,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-18,4081137,3568830,5515,"Moderna, Pfizer/BioNTech",7655482,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-19,4081155,3568908,5520,"Moderna, Pfizer/BioNTech",7655583,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-20,4094039,3575536,6495,"Moderna, Pfizer/BioNTech",7676070,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-21,4109401,3585024,7518,"Moderna, Pfizer/BioNTech",7701943,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-22,4126315,3604022,9665,"Moderna, Pfizer/BioNTech",7740002,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-23,4141296,3620910,11778,"Moderna, Pfizer/BioNTech",7773984,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-24,4147895,3628281,12612,"Moderna, Pfizer/BioNTech",7788788,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-25,4149540,3628449,12647,"Moderna, Pfizer/BioNTech",7790636,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-26,4149552,3628526,12653,"Moderna, Pfizer/BioNTech",7790731,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-27,4153914,3633738,13382,"Moderna, Pfizer/BioNTech",7801034,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-28,4158953,3641082,14377,"Moderna, Pfizer/BioNTech",7814412,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-29,4169149,3655783,16973,"Moderna, Pfizer/BioNTech",7841905,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-09-30,4179399,3669739,20040,"Moderna, Pfizer/BioNTech",7869178,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-01,4181973,3676033,21089,"Moderna, Pfizer/BioNTech",7879095,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-02,4182096,3676324,21134,"Moderna, Pfizer/BioNTech",7879554,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-03,4182101,3676344,21139,"Moderna, Pfizer/BioNTech",7879584,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-04,4183233,3679372,21795,"Moderna, Pfizer/BioNTech",7884400,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-05,4185960,3684525,23303,"Moderna, Pfizer/BioNTech",7893788,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-06,4189667,3691646,26675,"Moderna, Pfizer/BioNTech",7907988,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-07,4193188,3699286,31801,"Moderna, Pfizer/BioNTech",7924275,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-08,4194583,3703080,36462,"Moderna, Pfizer/BioNTech",7934125,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-09,4194618,3703174,36602,"Moderna, Pfizer/BioNTech",7934394,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-10,4194633,3703189,36685,"Moderna, Pfizer/BioNTech",7934507,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-11,4195735,3705151,44253,"Moderna, Pfizer/BioNTech",7945139,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-12,4197060,3707769,52323,"Moderna, Pfizer/BioNTech",7957152,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-13,4199161,3713378,57146,"Moderna, Pfizer/BioNTech",7969685,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-14,4200458,3716950,59955,"Moderna, Pfizer/BioNTech",7977363,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-15,4201330,3719144,61584,"Moderna, Pfizer/BioNTech",7982058,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-16,4201350,3719188,61594,"Moderna, Pfizer/BioNTech",7982132,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-17,4201357,3719207,61620,"Moderna, Pfizer/BioNTech",7982184,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-18,4201786,3720592,63295,"Moderna, Pfizer/BioNTech",7985673,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-19,4202710,3722980,65555,"Moderna, Pfizer/BioNTech",7991245,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-20,4205067,3727760,70071,"Moderna, Pfizer/BioNTech",8002898,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-21,4207028,3732919,75321,"Moderna, Pfizer/BioNTech",8015268,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-22,4207891,3735301,77952,"Moderna, Pfizer/BioNTech",8021144,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-23,4207938,3735346,77985,"Moderna, Pfizer/BioNTech",8021269,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-24,4207943,3735350,77996,"Moderna, Pfizer/BioNTech",8021289,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-25,4208496,3736977,80222,"Moderna, Pfizer/BioNTech",8025695,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-26,4209453,3739067,83090,"Moderna, Pfizer/BioNTech",8031610,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-27,4211223,3744654,88548,"Moderna, Pfizer/BioNTech",8044425,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-28,4212702,3750627,94334,"Moderna, Pfizer/BioNTech",8057663,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-29,4213418,3752447,96757,"Moderna, Pfizer/BioNTech",8062622,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-30,4213486,3752504,96825,"Moderna, Pfizer/BioNTech",8062815,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-10-31,4213490,3752515,96836,"Moderna, Pfizer/BioNTech",8062841,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-01,4214037,3753657,99355,"Moderna, Pfizer/BioNTech",8067049,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-02,4214994,3755474,106540,"Moderna, Pfizer/BioNTech",8077008,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-03,4217049,3760199,121773,"Moderna, Pfizer/BioNTech",8099021,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-04,4219282,3764857,139086,"Moderna, Pfizer/BioNTech",8123225,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-05,4220334,3767144,148542,"Moderna, Pfizer/BioNTech",8136020,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-06,4220404,3767260,150159,"Moderna, Pfizer/BioNTech",8137823,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-07,4220412,3767271,151377,"Moderna, Pfizer/BioNTech",8139060,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-08,4221084,3768858,161486,"Moderna, Pfizer/BioNTech",8151428,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-09,4222358,3772062,176641,"Moderna, Pfizer/BioNTech",8171061,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-10,4224393,3776276,206078,"Moderna, Pfizer/BioNTech",8206747,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-11,4226607,3781867,233297,"Moderna, Pfizer/BioNTech",8241771,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-12,4227594,3783550,245518,"Moderna, Pfizer/BioNTech",8256662,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-13,4227676,3783671,246069,"Moderna, Pfizer/BioNTech",8257416,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-14,4227680,3783677,246160,"Moderna, Pfizer/BioNTech",8257517,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-15,4228726,3786141,258586,"Moderna, Pfizer/BioNTech",8273453,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-16,4230027,3789129,277157,"Moderna, Pfizer/BioNTech",8296313,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-17,4232236,3795020,313317,"Moderna, Pfizer/BioNTech",8340573,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-18,4234335,3799595,350097,"Moderna, Pfizer/BioNTech",8384027,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-19,4235350,3802243,367336,"Moderna, Pfizer/BioNTech",8404929,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-20,4235452,3803023,368218,"Moderna, Pfizer/BioNTech",8406693,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-21,4235463,3803030,368347,"Moderna, Pfizer/BioNTech",8406840,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-22,4236386,3805193,387055,"Moderna, Pfizer/BioNTech",8428634,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-23,4237626,3810045,414426,"Moderna, Pfizer/BioNTech",8462097,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-24,4240143,3817605,469148,"Moderna, Pfizer/BioNTech",8526896,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-25,4242683,3826681,522820,"Moderna, Pfizer/BioNTech",8592184,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-26,4243797,3830387,547267,"Moderna, Pfizer/BioNTech",8621451,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-27,4243943,3830663,550562,"Moderna, Pfizer/BioNTech",8625168,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-28,4243951,3830683,551494,"Moderna, Pfizer/BioNTech",8626128,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-29,4244836,3834198,574646,"Moderna, Pfizer/BioNTech",8653680,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-11-30,4246173,3839839,608007,"Moderna, Pfizer/BioNTech",8694019,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-01,4248674,3848563,664106,"Moderna, Pfizer/BioNTech",8761343,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-02,4251112,3858561,723852,"Moderna, Pfizer/BioNTech",8833525,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-03,4252327,3862079,750526,"Moderna, Pfizer/BioNTech",8864932,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-04,4252460,3862280,752592,"Moderna, Pfizer/BioNTech",8867332,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-05,4252478,3862311,753353,"Moderna, Pfizer/BioNTech",8868142,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-06,4253506,3864625,779679,"Moderna, Pfizer/BioNTech",8897810,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-07,4255001,3868424,817691,"Moderna, Pfizer/BioNTech",8941116,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-08,4257647,3874128,885465,"Moderna, Pfizer/BioNTech",9017240,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-09,4260520,3880534,960901,"Moderna, Pfizer/BioNTech",9101955,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-10,4261789,3882866,992029,"Moderna, Pfizer/BioNTech",9136684,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-11,4261866,3883130,995692,"Moderna, Pfizer/BioNTech",9140688,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-12,4261897,3883172,997711,"Moderna, Pfizer/BioNTech",9142780,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-13,4263164,3885233,1025653,"Moderna, Pfizer/BioNTech",9174050,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-14,4265154,3889017,1073846,"Moderna, Pfizer/BioNTech",9228017,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-15,4268715,3895124,1153456,"Moderna, Pfizer/BioNTech",9317295,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-16,4273186,3902354,1240984,"Moderna, Pfizer/BioNTech",9416524,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-17,4275181,3905448,1278442,"Moderna, Pfizer/BioNTech",9459071,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-18,4275442,3905919,1285668,"Moderna, Pfizer/BioNTech",9467029,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-19,4275499,3906126,1288485,"Moderna, Pfizer/BioNTech",9470110,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-20,4277742,3909257,1339421,"Moderna, Pfizer/BioNTech",9526420,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-21,4280446,3913184,1399367,"Moderna, Pfizer/BioNTech",9592997,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-22,4282656,3916383,1448172,"Moderna, Pfizer/BioNTech",9647211,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-23,4282924,3917006,1455067,"Moderna, Pfizer/BioNTech",9654997,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-24,4282928,3917014,1455105,"Moderna, Pfizer/BioNTech",9655047,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-25,4282929,3917015,1455129,"Moderna, Pfizer/BioNTech",9655073,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-26,4282931,3917020,1455148,"Moderna, Pfizer/BioNTech",9655099,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-27,4283535,3918164,1473140,"Moderna, Pfizer/BioNTech",9674839,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-28,4284423,3919770,1504729,"Moderna, Pfizer/BioNTech",9708922,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-29,4285598,3921796,1542500,"Moderna, Pfizer/BioNTech",9749894,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-30,4286007,3922610,1559115,"Moderna, Pfizer/BioNTech",9767732,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2021-12-31,4286022,3922646,1559739,"Moderna, Pfizer/BioNTech",9768407,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-01,4286023,3922647,1559749,"Moderna, Pfizer/BioNTech",9768419,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-02,4286025,3922652,1559801,"Moderna, Pfizer/BioNTech",9768478,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-03,4286616,3924158,1591962,"Moderna, Pfizer/BioNTech",9802736,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-04,4287976,3927282,1655501,"Moderna, Pfizer/BioNTech",9870759,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-05,4289964,3932279,1749071,"Moderna, Pfizer/BioNTech",9971314,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-06,4292334,3937481,1839212,"Moderna, Pfizer/BioNTech",10069027,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-07,4293322,3940024,1881665,"Moderna, Pfizer/BioNTech",10115011,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-08,4293757,3941018,1896993,"Moderna, Pfizer/BioNTech",10131768,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-09,4293798,3941257,1900669,"Moderna, Pfizer/BioNTech",10135724,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-10,4294817,3943754,1942497,"Moderna, Pfizer/BioNTech",10181068,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-11,4296298,3947370,2006719,"Moderna, Pfizer/BioNTech",10250387,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-12,4298206,3952192,2098705,"Moderna, Pfizer/BioNTech",10349103,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-13,4300156,3956873,2191627,"Moderna, Pfizer/BioNTech",10448656,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-14,4301103,3959316,2234151,"Moderna, Pfizer/BioNTech",10494570,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-15,4301526,3960043,2250614,"Moderna, Pfizer/BioNTech",10512183,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-16,4301596,3960261,2257225,"Moderna, Pfizer/BioNTech",10519082,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-17,4302270,3962054,2292202,"Moderna, Pfizer/BioNTech",10556526,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-18,4303474,3965025,2341185,"Moderna, Pfizer/BioNTech",10609684,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-19,4305036,3968960,2411344,"Moderna, Pfizer/BioNTech",10685340,https://github.com/folkehelseinstituttet/surveillance_data,Norway
-2022-01-20,4306443,3972484,2472501,"Moderna, Pfizer/BioNTech",10751428,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-06,15118,11,0,Pfizer/BioNTech,15129,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-07,21733,12,0,Pfizer/BioNTech,21745,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-08,23392,22,0,Pfizer/BioNTech,23414,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-09,23562,24,0,Pfizer/BioNTech,23586,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-10,23699,30,0,Pfizer/BioNTech,23729,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-11,24187,40,0,Pfizer/BioNTech,24227,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-12,28546,49,0,Pfizer/BioNTech,28595,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-13,38498,59,0,Pfizer/BioNTech,38557,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-14,47085,69,0,Pfizer/BioNTech,47154,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-15,51702,72,0,"Moderna, Pfizer/BioNTech",51774,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-16,52545,76,0,"Moderna, Pfizer/BioNTech",52621,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-17,52933,84,0,"Moderna, Pfizer/BioNTech",53017,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-18,54259,394,0,"Moderna, Pfizer/BioNTech",54653,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-19,58913,1229,0,"Moderna, Pfizer/BioNTech",60142,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-20,69070,1938,0,"Moderna, Pfizer/BioNTech",71008,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-21,77667,2117,0,"Moderna, Pfizer/BioNTech",79784,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-22,81107,2136,0,"Moderna, Pfizer/BioNTech",83243,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-23,81521,2145,0,"Moderna, Pfizer/BioNTech",83666,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-24,81615,2155,0,"Moderna, Pfizer/BioNTech",83770,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-25,82221,2174,0,"Moderna, Pfizer/BioNTech",84395,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-26,84586,4583,0,"Moderna, Pfizer/BioNTech",89169,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-27,96270,12434,0,"Moderna, Pfizer/BioNTech",108704,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-28,107302,19133,0,"Moderna, Pfizer/BioNTech",126435,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-29,111223,21277,0,"Moderna, Pfizer/BioNTech",132500,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-30,111427,21502,0,"Moderna, Pfizer/BioNTech",132929,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-01-31,111608,21571,0,"Moderna, Pfizer/BioNTech",133179,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-01,111860,21931,0,"Moderna, Pfizer/BioNTech",133791,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-02,118292,25289,0,"Moderna, Pfizer/BioNTech",143581,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-03,143681,34139,0,"Moderna, Pfizer/BioNTech",177820,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-04,169938,43082,0,"Moderna, Pfizer/BioNTech",213020,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-05,180788,48148,0,"Moderna, Pfizer/BioNTech",228936,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-06,181651,48934,0,"Moderna, Pfizer/BioNTech",230585,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-07,182002,49278,0,"Moderna, Pfizer/BioNTech",231280,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-08,182139,50249,0,"Moderna, Pfizer/BioNTech",232388,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-09,187821,53693,0,"Moderna, Pfizer/BioNTech",241514,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-10,211049,62817,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",273866,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-11,232253,71747,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",304000,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-12,240469,75509,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",315978,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-13,241426,75857,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",317283,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-14,241571,75874,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",317445,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-15,242446,76663,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",319109,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-16,248672,78984,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",327656,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-17,270620,89769,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",360389,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-18,289739,100972,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",390711,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-19,300604,105938,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",406542,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-20,301171,106164,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",407335,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-21,301266,106337,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",407603,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-22,303899,106531,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",410430,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-23,309980,111979,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",421959,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-24,321209,135258,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",456467,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-25,332469,162113,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",494582,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-26,340937,172413,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",513350,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-27,341444,172710,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",514154,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-02-28,342003,172894,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",514897,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-01,348110,173001,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",521111,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-02,358905,177012,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",535917,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-03,377011,195860,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",572871,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-04,393469,214950,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",608419,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-05,405584,221789,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",627373,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-06,406093,222322,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",628415,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-07,406285,222344,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",628629,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-08,411468,222421,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",633889,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-09,424352,226840,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",651192,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-10,445850,244779,0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",690629,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-11,457977,262199,0,"Moderna, Pfizer/BioNTech",720176,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-12,460439,270843,0,"Moderna, Pfizer/BioNTech",731282,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-13,460604,271192,0,"Moderna, Pfizer/BioNTech",731796,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-14,460675,271334,0,"Moderna, Pfizer/BioNTech",732009,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-15,460874,271812,0,"Moderna, Pfizer/BioNTech",732686,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-16,466847,272606,0,"Moderna, Pfizer/BioNTech",739453,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-17,490464,274572,0,"Moderna, Pfizer/BioNTech",765036,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-18,511930,276210,0,"Moderna, Pfizer/BioNTech",788140,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-19,519004,277297,0,"Moderna, Pfizer/BioNTech",796301,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-20,519641,277353,0,"Moderna, Pfizer/BioNTech",796994,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-21,519928,277436,0,"Moderna, Pfizer/BioNTech",797364,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-22,521620,277561,0,"Moderna, Pfizer/BioNTech",799181,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-23,535062,278638,0,"Moderna, Pfizer/BioNTech",813700,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-24,574803,282630,0,"Moderna, Pfizer/BioNTech",857433,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-25,614119,285291,0,"Moderna, Pfizer/BioNTech",899410,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-26,631817,286582,0,"Moderna, Pfizer/BioNTech",918399,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-27,632695,286631,0,"Moderna, Pfizer/BioNTech",919326,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-28,633116,286669,0,"Moderna, Pfizer/BioNTech",919785,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-29,638083,286846,0,"Moderna, Pfizer/BioNTech",924929,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-30,670889,291379,5,"Moderna, Pfizer/BioNTech",962273,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-03-31,708373,299398,6,"Moderna, Pfizer/BioNTech",1007777,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-01,718144,300998,6,"Moderna, Pfizer/BioNTech",1019148,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-02,722677,301792,6,"Moderna, Pfizer/BioNTech",1024475,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-03,723064,301856,6,"Moderna, Pfizer/BioNTech",1024926,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-04,723534,301927,6,"Moderna, Pfizer/BioNTech",1025467,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-05,725087,302082,6,"Moderna, Pfizer/BioNTech",1027175,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-06,744209,304852,6,"Moderna, Pfizer/BioNTech",1049067,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-07,803828,308712,8,"Moderna, Pfizer/BioNTech",1112548,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-08,862018,313120,9,"Moderna, Pfizer/BioNTech",1175147,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-09,889891,313897,10,"Moderna, Pfizer/BioNTech",1203798,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-10,891127,314010,10,"Moderna, Pfizer/BioNTech",1205147,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-11,891780,314081,10,"Moderna, Pfizer/BioNTech",1205871,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-12,895671,314258,12,"Moderna, Pfizer/BioNTech",1209941,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-13,921695,314783,12,"Moderna, Pfizer/BioNTech",1236490,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-14,989853,316385,14,"Moderna, Pfizer/BioNTech",1306252,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-15,1055972,317770,18,"Moderna, Pfizer/BioNTech",1373760,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-16,1085401,318767,18,"Moderna, Pfizer/BioNTech",1404186,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-17,1087546,319000,18,"Moderna, Pfizer/BioNTech",1406564,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-18,1088926,319061,18,"Moderna, Pfizer/BioNTech",1408005,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-19,1095558,319343,18,"Moderna, Pfizer/BioNTech",1414919,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-20,1115510,320324,19,"Moderna, Pfizer/BioNTech",1435853,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-21,1175388,323483,20,"Moderna, Pfizer/BioNTech",1498891,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-22,1227031,326151,20,"Moderna, Pfizer/BioNTech",1553202,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-23,1245692,327650,21,"Moderna, Pfizer/BioNTech",1573363,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-24,1246198,327792,21,"Moderna, Pfizer/BioNTech",1574011,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-25,1246565,327853,21,"Moderna, Pfizer/BioNTech",1574439,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-26,1249040,328493,22,"Moderna, Pfizer/BioNTech",1577555,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-27,1268736,334729,24,"Moderna, Pfizer/BioNTech",1603489,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-28,1327864,359973,28,"Moderna, Pfizer/BioNTech",1687865,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-29,1382462,381381,28,"Moderna, Pfizer/BioNTech",1763871,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-04-30,1408276,389808,28,"Moderna, Pfizer/BioNTech",1798112,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-01,1409881,390212,29,"Moderna, Pfizer/BioNTech",1800122,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-02,1410981,390537,29,"Moderna, Pfizer/BioNTech",1801547,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-03,1414193,392092,30,"Moderna, Pfizer/BioNTech",1806315,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-04,1424563,404490,31,"Moderna, Pfizer/BioNTech",1829084,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-05,1465484,443654,36,"Moderna, Pfizer/BioNTech",1909174,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-06,1500774,480058,41,"Moderna, Pfizer/BioNTech",1980873,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-07,1516323,496545,44,"Moderna, Pfizer/BioNTech",2012912,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-08,1516949,497221,44,"Moderna, Pfizer/BioNTech",2014214,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-09,1517266,497639,44,"Moderna, Pfizer/BioNTech",2014949,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-10,1519754,504258,45,"Moderna, Pfizer/BioNTech",2024057,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-11,1537889,536222,50,"Moderna, Pfizer/BioNTech",2074161,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-12,1580280,590160,66,"Moderna, Pfizer/BioNTech",2170506,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-13,1593200,599040,67,"Moderna, Pfizer/BioNTech",2192307,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-14,1604492,607535,68,"Moderna, Pfizer/BioNTech",2212095,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-15,1606564,608383,68,"Moderna, Pfizer/BioNTech",2215015,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-16,1607908,609485,68,"Moderna, Pfizer/BioNTech",2217461,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-17,1608217,609970,68,"Moderna, Pfizer/BioNTech",2218255,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-18,1612874,633962,70,"Moderna, Pfizer/BioNTech",2246906,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-19,1621139,706862,79,"Moderna, Pfizer/BioNTech",2328080,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-20,1629976,776135,86,"Moderna, Pfizer/BioNTech",2406197,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-21,1635104,807587,96,"Moderna, Pfizer/BioNTech",2442787,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-22,1636519,808691,97,"Moderna, Pfizer/BioNTech",2445307,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-23,1637411,809135,98,"Moderna, Pfizer/BioNTech",2446644,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-24,1638345,811758,99,"Moderna, Pfizer/BioNTech",2450202,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-25,1642527,841159,102,"Moderna, Pfizer/BioNTech",2483788,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-26,1652307,925718,110,"Moderna, Pfizer/BioNTech",2578135,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-27,1661897,1000259,125,"Moderna, Pfizer/BioNTech",2662281,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-28,1667040,1032541,131,"Moderna, Pfizer/BioNTech",2699712,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-29,1667782,1034720,132,"Moderna, Pfizer/BioNTech",2702634,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-30,1667986,1036370,133,"Moderna, Pfizer/BioNTech",2704489,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-05-31,1671257,1043069,135,"Moderna, Pfizer/BioNTech",2714461,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-01,1690284,1066422,139,"Moderna, Pfizer/BioNTech",2756845,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-02,1743641,1137183,150,"Moderna, Pfizer/BioNTech",2880974,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-03,1799107,1196172,155,"Moderna, Pfizer/BioNTech",2995434,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-04,1830895,1216075,160,"Moderna, Pfizer/BioNTech",3047130,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-05,1834733,1216855,160,"Moderna, Pfizer/BioNTech",3051748,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-06,1837886,1217237,161,"Moderna, Pfizer/BioNTech",3055284,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-07,1853745,1220207,163,"Moderna, Pfizer/BioNTech",3074115,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-08,1881220,1239779,170,"Moderna, Pfizer/BioNTech",3121169,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-09,1921652,1300762,176,"Moderna, Pfizer/BioNTech",3222590,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-10,1961797,1356521,181,"Moderna, Pfizer/BioNTech",3318499,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-11,1983652,1377649,185,"Moderna, Pfizer/BioNTech",3361486,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-12,1986913,1378555,187,"Moderna, Pfizer/BioNTech",3365655,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-13,1989260,1379261,187,"Moderna, Pfizer/BioNTech",3368708,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-14,2009033,1381904,187,"Moderna, Pfizer/BioNTech",3391124,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-15,2038405,1392607,192,"Moderna, Pfizer/BioNTech",3431204,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-16,2103479,1433998,204,"Moderna, Pfizer/BioNTech",3537681,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-17,2163401,1466875,221,"Moderna, Pfizer/BioNTech",3630497,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-18,2195557,1479344,226,"Moderna, Pfizer/BioNTech",3675127,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-19,2202049,1480085,226,"Moderna, Pfizer/BioNTech",3682360,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-20,2206549,1480228,227,"Moderna, Pfizer/BioNTech",3687004,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-21,2224497,1483075,230,"Moderna, Pfizer/BioNTech",3707802,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-22,2261947,1496433,235,"Moderna, Pfizer/BioNTech",3758615,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-23,2340519,1528821,253,"Moderna, Pfizer/BioNTech",3869593,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-24,2432069,1550821,258,"Moderna, Pfizer/BioNTech",3983148,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-25,2477073,1560369,260,"Moderna, Pfizer/BioNTech",4037702,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-26,2485874,1562076,260,"Moderna, Pfizer/BioNTech",4048210,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-27,2490484,1563359,261,"Moderna, Pfizer/BioNTech",4054104,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-28,2522899,1564661,264,"Moderna, Pfizer/BioNTech",4087824,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-29,2571206,1568079,270,"Moderna, Pfizer/BioNTech",4139555,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-06-30,2676845,1574849,279,"Moderna, Pfizer/BioNTech",4251973,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-01,2779740,1582883,288,"Moderna, Pfizer/BioNTech",4362911,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-02,2831138,1586176,294,"Moderna, Pfizer/BioNTech",4417608,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-03,2840449,1586798,294,"Moderna, Pfizer/BioNTech",4427541,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-04,2846534,1587321,296,"Moderna, Pfizer/BioNTech",4434151,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-05,2873369,1588024,379,"Moderna, Pfizer/BioNTech",4461772,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-06,2915444,1591500,481,"Moderna, Pfizer/BioNTech",4507425,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-07,2992828,1600334,566,"Moderna, Pfizer/BioNTech",4593728,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-08,3062243,1609405,674,"Moderna, Pfizer/BioNTech",4672322,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-09,3089354,1612889,678,"Moderna, Pfizer/BioNTech",4702921,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-10,3093549,1613228,679,"Moderna, Pfizer/BioNTech",4707456,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-11,3096554,1613419,679,"Moderna, Pfizer/BioNTech",4710652,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-12,3109838,1615439,682,"Moderna, Pfizer/BioNTech",4725959,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-13,3133620,1624584,686,"Moderna, Pfizer/BioNTech",4758890,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-14,3182206,1653991,693,"Moderna, Pfizer/BioNTech",4836890,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-15,3225331,1683500,716,"Moderna, Pfizer/BioNTech",4909547,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-16,3241800,1693593,723,"Moderna, Pfizer/BioNTech",4936116,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-17,3242308,1694195,724,"Moderna, Pfizer/BioNTech",4937227,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-18,3242619,1694471,725,"Moderna, Pfizer/BioNTech",4937815,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-19,3251670,1697804,732,"Moderna, Pfizer/BioNTech",4950206,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-20,3273365,1706506,736,"Moderna, Pfizer/BioNTech",4980607,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-21,3338818,1726494,746,"Moderna, Pfizer/BioNTech",5066058,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-22,3406967,1748804,749,"Moderna, Pfizer/BioNTech",5156520,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-23,3428733,1756330,758,"Moderna, Pfizer/BioNTech",5185821,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-24,3428894,1756772,759,"Moderna, Pfizer/BioNTech",5186425,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-25,3428965,1757040,760,"Moderna, Pfizer/BioNTech",5186765,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-26,3437764,1760253,765,"Moderna, Pfizer/BioNTech",5198782,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-27,3459253,1769170,771,"Moderna, Pfizer/BioNTech",5229194,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-28,3527289,1795291,778,"Moderna, Pfizer/BioNTech",5323358,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-29,3594585,1822124,786,"Moderna, Pfizer/BioNTech",5417495,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-30,3616397,1833189,792,"Moderna, Pfizer/BioNTech",5450378,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-07-31,3616829,1834009,792,"Moderna, Pfizer/BioNTech",5451630,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-01,3616897,1834171,793,"Moderna, Pfizer/BioNTech",5451861,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-02,3626149,1843314,796,"Moderna, Pfizer/BioNTech",5470259,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-03,3641621,1861027,806,"Moderna, Pfizer/BioNTech",5503454,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-04,3683587,1904784,816,"Moderna, Pfizer/BioNTech",5589187,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-05,3719552,1953424,835,"Moderna, Pfizer/BioNTech",5673811,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-06,3730143,1975033,838,"Moderna, Pfizer/BioNTech",5706014,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-07,3730408,1976331,839,"Moderna, Pfizer/BioNTech",5707578,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-08,3730494,1977205,840,"Moderna, Pfizer/BioNTech",5708539,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-09,3733537,1998757,845,"Moderna, Pfizer/BioNTech",5733139,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-10,3740669,2032856,852,"Moderna, Pfizer/BioNTech",5774377,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-11,3762135,2114760,874,"Moderna, Pfizer/BioNTech",5877769,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-12,3780810,2199938,890,"Moderna, Pfizer/BioNTech",5981638,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-13,3786548,2239284,893,"Moderna, Pfizer/BioNTech",6026725,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-14,3786811,2241601,896,"Moderna, Pfizer/BioNTech",6029308,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-15,3786882,2242746,899,"Moderna, Pfizer/BioNTech",6030527,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-16,3789193,2273855,907,"Moderna, Pfizer/BioNTech",6063955,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-17,3793650,2318894,946,"Moderna, Pfizer/BioNTech",6113490,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-18,3804802,2425765,1030,"Moderna, Pfizer/BioNTech",6231597,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-19,3814689,2527192,1095,"Moderna, Pfizer/BioNTech",6342976,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-20,3819625,2580669,1108,"Moderna, Pfizer/BioNTech",6401402,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-21,3819983,2587538,1111,"Moderna, Pfizer/BioNTech",6408632,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-22,3820109,2589373,1112,"Moderna, Pfizer/BioNTech",6410594,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-23,3822395,2630846,1181,"Moderna, Pfizer/BioNTech",6454422,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-24,3827706,2697681,1250,"Moderna, Pfizer/BioNTech",6526637,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-25,3839920,2823887,1270,"Moderna, Pfizer/BioNTech",6665077,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-26,3853394,2948981,1353,"Moderna, Pfizer/BioNTech",6803728,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-27,3862224,3010591,1408,"Moderna, Pfizer/BioNTech",6874223,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-28,3864569,3020668,1414,"Moderna, Pfizer/BioNTech",6886651,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-29,3864734,3025427,1417,"Moderna, Pfizer/BioNTech",6891578,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-30,3873536,3062972,1440,"Moderna, Pfizer/BioNTech",6937948,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-08-31,3882227,3109292,1462,"Moderna, Pfizer/BioNTech",6992981,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-01,3898447,3189485,1525,"Moderna, Pfizer/BioNTech",7089457,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-02,3915492,3269299,1607,"Moderna, Pfizer/BioNTech",7186398,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-03,3924582,3305436,1652,"Moderna, Pfizer/BioNTech",7231670,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-04,3925745,3311382,1653,"Moderna, Pfizer/BioNTech",7238780,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-05,3925995,3312408,1658,"Moderna, Pfizer/BioNTech",7240061,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-06,3930947,3332618,1668,"Moderna, Pfizer/BioNTech",7265233,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-07,3938899,3358615,1691,"Moderna, Pfizer/BioNTech",7299205,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-08,3958797,3411394,1777,"Moderna, Pfizer/BioNTech",7371968,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-09,3977253,3456620,1879,"Moderna, Pfizer/BioNTech",7435752,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-10,3986671,3477092,1941,"Moderna, Pfizer/BioNTech",7465704,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-11,3987767,3479858,1944,"Moderna, Pfizer/BioNTech",7469569,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-12,3988176,3479990,1951,"Moderna, Pfizer/BioNTech",7470117,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-13,3993305,3490866,2000,"Moderna, Pfizer/BioNTech",7486171,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-14,4009491,3503281,2132,"Moderna, Pfizer/BioNTech",7514904,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-15,4039270,3533365,2937,"Moderna, Pfizer/BioNTech",7575572,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-16,4065676,3557746,4709,"Moderna, Pfizer/BioNTech",7628131,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-17,4078979,3568520,5465,"Moderna, Pfizer/BioNTech",7652964,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-18,4081276,3568992,5521,"Moderna, Pfizer/BioNTech",7655789,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-19,4081294,3569070,5526,"Moderna, Pfizer/BioNTech",7655890,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-20,4094178,3575698,6501,"Moderna, Pfizer/BioNTech",7676377,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-21,4109540,3585186,7524,"Moderna, Pfizer/BioNTech",7702250,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-22,4126454,3604184,9671,"Moderna, Pfizer/BioNTech",7740309,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-23,4141436,3621074,11784,"Moderna, Pfizer/BioNTech",7774294,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-24,4148036,3628446,12618,"Moderna, Pfizer/BioNTech",7789100,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-25,4149681,3628614,12653,"Moderna, Pfizer/BioNTech",7790948,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-26,4149693,3628691,12659,"Moderna, Pfizer/BioNTech",7791043,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-27,4154056,3633901,13388,"Moderna, Pfizer/BioNTech",7801345,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-28,4159095,3641245,14383,"Moderna, Pfizer/BioNTech",7814723,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-29,4169290,3655947,16979,"Moderna, Pfizer/BioNTech",7842216,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-09-30,4179545,3669903,20046,"Moderna, Pfizer/BioNTech",7869494,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-01,4182129,3676197,21095,"Moderna, Pfizer/BioNTech",7879421,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-02,4182253,3676488,21140,"Moderna, Pfizer/BioNTech",7879881,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-03,4182258,3676508,21145,"Moderna, Pfizer/BioNTech",7879911,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-04,4183390,3679538,21801,"Moderna, Pfizer/BioNTech",7884729,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-05,4186123,3684694,23309,"Moderna, Pfizer/BioNTech",7894126,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-06,4189831,3691815,26681,"Moderna, Pfizer/BioNTech",7908327,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-07,4193352,3699455,31807,"Moderna, Pfizer/BioNTech",7924614,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-08,4194747,3703249,36468,"Moderna, Pfizer/BioNTech",7934464,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-09,4194782,3703343,36608,"Moderna, Pfizer/BioNTech",7934733,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-10,4194797,3703358,36691,"Moderna, Pfizer/BioNTech",7934846,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-11,4195899,3705321,44259,"Moderna, Pfizer/BioNTech",7945479,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-12,4197224,3707940,52330,"Moderna, Pfizer/BioNTech",7957494,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-13,4199325,3713549,57153,"Moderna, Pfizer/BioNTech",7970027,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-14,4200622,3717121,59962,"Moderna, Pfizer/BioNTech",7977705,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-15,4201494,3719316,61591,"Moderna, Pfizer/BioNTech",7982401,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-16,4201514,3719360,61601,"Moderna, Pfizer/BioNTech",7982475,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-17,4201521,3719379,61627,"Moderna, Pfizer/BioNTech",7982527,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-18,4201950,3720764,63302,"Moderna, Pfizer/BioNTech",7986016,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-19,4202874,3723152,65562,"Moderna, Pfizer/BioNTech",7991588,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-20,4205231,3727932,70079,"Moderna, Pfizer/BioNTech",8003242,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-21,4207194,3733094,75329,"Moderna, Pfizer/BioNTech",8015617,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-22,4208058,3735476,77961,"Moderna, Pfizer/BioNTech",8021495,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-23,4208105,3735521,77995,"Moderna, Pfizer/BioNTech",8021621,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-24,4208110,3735525,78006,"Moderna, Pfizer/BioNTech",8021641,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-25,4208663,3737153,80232,"Moderna, Pfizer/BioNTech",8026048,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-26,4209620,3739244,83099,"Moderna, Pfizer/BioNTech",8031963,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-27,4211390,3744831,88557,"Moderna, Pfizer/BioNTech",8044778,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-28,4212869,3750804,94344,"Moderna, Pfizer/BioNTech",8058017,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-29,4213585,3752624,96767,"Moderna, Pfizer/BioNTech",8062976,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-30,4213653,3752681,96835,"Moderna, Pfizer/BioNTech",8063169,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-10-31,4213657,3752692,96846,"Moderna, Pfizer/BioNTech",8063195,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-01,4214204,3753834,99366,"Moderna, Pfizer/BioNTech",8067404,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-02,4215161,3755651,106551,"Moderna, Pfizer/BioNTech",8077363,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-03,4217217,3760376,121786,"Moderna, Pfizer/BioNTech",8099379,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-04,4219450,3765033,139100,"Moderna, Pfizer/BioNTech",8123583,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-05,4220502,3767320,148556,"Moderna, Pfizer/BioNTech",8136378,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-06,4220572,3767436,150173,"Moderna, Pfizer/BioNTech",8138181,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-07,4220580,3767447,151391,"Moderna, Pfizer/BioNTech",8139418,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-08,4221252,3769034,161500,"Moderna, Pfizer/BioNTech",8151786,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-09,4222526,3772238,176658,"Moderna, Pfizer/BioNTech",8171422,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-10,4224562,3776452,206096,"Moderna, Pfizer/BioNTech",8207110,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-11,4226776,3782043,233316,"Moderna, Pfizer/BioNTech",8242135,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-12,4227761,3783727,245538,"Moderna, Pfizer/BioNTech",8257026,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-13,4227843,3783848,246090,"Moderna, Pfizer/BioNTech",8257781,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-14,4227847,3783854,246181,"Moderna, Pfizer/BioNTech",8257882,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-15,4228894,3786318,258607,"Moderna, Pfizer/BioNTech",8273819,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-16,4230195,3789306,277182,"Moderna, Pfizer/BioNTech",8296683,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-17,4232405,3795197,313345,"Moderna, Pfizer/BioNTech",8340947,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-18,4234504,3799772,350128,"Moderna, Pfizer/BioNTech",8384404,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-19,4235519,3802421,367369,"Moderna, Pfizer/BioNTech",8405309,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-20,4235621,3803201,368251,"Moderna, Pfizer/BioNTech",8407073,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-21,4235632,3803208,368381,"Moderna, Pfizer/BioNTech",8407221,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-22,4236556,3805371,387092,"Moderna, Pfizer/BioNTech",8429019,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-23,4237796,3810223,414464,"Moderna, Pfizer/BioNTech",8462483,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-24,4240314,3817782,469190,"Moderna, Pfizer/BioNTech",8527286,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-25,4242854,3826857,522863,"Moderna, Pfizer/BioNTech",8592574,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-26,4243968,3830563,547314,"Moderna, Pfizer/BioNTech",8621845,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-27,4244114,3830840,550609,"Moderna, Pfizer/BioNTech",8625563,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-28,4244122,3830860,551541,"Moderna, Pfizer/BioNTech",8626523,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-29,4245007,3834375,574696,"Moderna, Pfizer/BioNTech",8654078,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-11-30,4246344,3840016,608059,"Moderna, Pfizer/BioNTech",8694419,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-01,4248847,3848741,664161,"Moderna, Pfizer/BioNTech",8761749,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-02,4251286,3858740,723908,"Moderna, Pfizer/BioNTech",8833934,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-03,4252499,3862259,750592,"Moderna, Pfizer/BioNTech",8865350,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-04,4252632,3862460,752661,"Moderna, Pfizer/BioNTech",8867753,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-05,4252650,3862491,753422,"Moderna, Pfizer/BioNTech",8868563,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-06,4253678,3864805,779749,"Moderna, Pfizer/BioNTech",8898232,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-07,4255175,3868605,817762,"Moderna, Pfizer/BioNTech",8941542,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-08,4257820,3874308,885539,"Moderna, Pfizer/BioNTech",9017667,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-09,4260694,3880715,960979,"Moderna, Pfizer/BioNTech",9102388,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-10,4261964,3883049,992110,"Moderna, Pfizer/BioNTech",9137123,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-11,4262041,3883313,995774,"Moderna, Pfizer/BioNTech",9141128,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-12,4262072,3883355,997794,"Moderna, Pfizer/BioNTech",9143221,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-13,4263337,3885418,1025743,"Moderna, Pfizer/BioNTech",9174498,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-14,4265329,3889202,1073938,"Moderna, Pfizer/BioNTech",9228469,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-15,4268890,3895308,1153553,"Moderna, Pfizer/BioNTech",9317751,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-16,4273361,3902538,1241087,"Moderna, Pfizer/BioNTech",9416986,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-17,4275358,3905632,1278549,"Moderna, Pfizer/BioNTech",9459539,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-18,4275619,3906103,1285777,"Moderna, Pfizer/BioNTech",9467499,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-19,4275676,3906310,1288596,"Moderna, Pfizer/BioNTech",9470582,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-20,4277920,3909441,1339539,"Moderna, Pfizer/BioNTech",9526900,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-21,4280627,3913369,1399512,"Moderna, Pfizer/BioNTech",9593508,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-22,4282837,3916567,1448319,"Moderna, Pfizer/BioNTech",9647723,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-23,4283105,3917191,1455221,"Moderna, Pfizer/BioNTech",9655517,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-24,4283109,3917199,1455259,"Moderna, Pfizer/BioNTech",9655567,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-25,4283110,3917200,1455283,"Moderna, Pfizer/BioNTech",9655593,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-26,4283112,3917205,1455302,"Moderna, Pfizer/BioNTech",9655619,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-27,4283716,3918349,1473301,"Moderna, Pfizer/BioNTech",9675366,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-28,4284603,3919957,1504894,"Moderna, Pfizer/BioNTech",9709454,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-29,4285775,3921988,1542669,"Moderna, Pfizer/BioNTech",9750432,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-30,4286183,3922804,1559283,"Moderna, Pfizer/BioNTech",9768270,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2021-12-31,4286198,3922840,1559910,"Moderna, Pfizer/BioNTech",9768948,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-01,4286199,3922841,1559921,"Moderna, Pfizer/BioNTech",9768961,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-02,4286201,3922846,1559974,"Moderna, Pfizer/BioNTech",9769021,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-03,4286793,3924354,1592138,"Moderna, Pfizer/BioNTech",9803285,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-04,4288153,3927478,1655682,"Moderna, Pfizer/BioNTech",9871313,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-05,4290142,3932474,1749256,"Moderna, Pfizer/BioNTech",9971872,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-06,4292513,3937677,1839423,"Moderna, Pfizer/BioNTech",10069613,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-07,4293499,3940220,1881886,"Moderna, Pfizer/BioNTech",10115605,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-08,4293935,3941215,1897214,"Moderna, Pfizer/BioNTech",10132364,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-09,4293976,3941451,1900894,"Moderna, Pfizer/BioNTech",10136321,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-10,4294996,3943948,1942737,"Moderna, Pfizer/BioNTech",10181681,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-11,4296474,3947565,2006976,"Moderna, Pfizer/BioNTech",10251015,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-12,4298377,3952387,2099034,"Moderna, Pfizer/BioNTech",10349798,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-13,4300325,3957069,2192004,"Moderna, Pfizer/BioNTech",10449398,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-14,4301270,3959516,2234579,"Moderna, Pfizer/BioNTech",10495365,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-15,4301692,3960242,2251045,"Moderna, Pfizer/BioNTech",10512979,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-16,4301762,3960460,2257656,"Moderna, Pfizer/BioNTech",10519878,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-17,4302453,3962255,2292660,"Moderna, Pfizer/BioNTech",10557368,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-18,4303662,3965234,2341682,"Moderna, Pfizer/BioNTech",10610578,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-19,4305231,3969181,2412030,"Moderna, Pfizer/BioNTech",10686442,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-20,4306823,3973124,2479929,"Moderna, Pfizer/BioNTech",10759876,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-21,4307544,3974703,2507329,"Moderna, Pfizer/BioNTech",10789576,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-22,4307653,3974903,2509933,"Moderna, Pfizer/BioNTech",10792489,https://github.com/folkehelseinstituttet/surveillance_data,Norway
+2022-01-23,4307680,3974991,2511446,"Moderna, Pfizer/BioNTech",10794117,https://github.com/folkehelseinstituttet/surveillance_data,Norway
