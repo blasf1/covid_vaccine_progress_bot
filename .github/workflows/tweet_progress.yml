@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: '3.9.6'
 
+      - name: Install GCC
+        uses: egor-tensin/setup-gcc@v1
+
       - name: Install requirements
         run: pip install -r ${{ github.workspace }}/covid_vaccine_progress_bot/requirements.txt
 
