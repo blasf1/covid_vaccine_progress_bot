@@ -4,7 +4,6 @@ from datetime import date
 from pyaml_env import parse_config
 from itertools import chain
 
-from cowidev.vax.utils.gsheets import GSheetApi
 from cowidev.vax.cmd.get_data import (
     modules_name,
     modules_name_batch,
@@ -27,7 +26,8 @@ class ConfigParamsStep(object):
 
     def __str__(self):
         def _is_secret(name):
-            secret_keys = ["id", "token", "credentials", "credential", "secret"]
+            secret_keys = ["id", "token",
+                           "credentials", "credential", "secret"]
             return any(x in name for x in secret_keys)
 
         return f"\n".join(
@@ -58,7 +58,8 @@ class ConfigParams(object):
         self._config = self._load_yaml()
         self.project_dir = self._get_project_dir_from_config()
         # Credentials file
-        self.credentials_file = self._get_credentials_file_from_config(credentials_file)
+        self.credentials_file = self._get_credentials_file_from_config(
+            credentials_file)
         self._credentials = self._load_json_credentials()
 
     @classmethod
@@ -95,16 +96,13 @@ class ConfigParams(object):
                 f"Field 'google_credentials' not found in credentials file. Please check."
             )
 
-    @property
-    def gsheets_api(self):
-        return GSheetApi(self.google_credential_file)
-
     def _get_project_dir_from_config(self):
         try:
             return self._config["global"]["project_dir"]
         except KeyError:
             print(self._config)
-            raise KeyError("Missing global.project_dir variable in config.yaml")
+            raise KeyError(
+                "Missing global.project_dir variable in config.yaml")
 
     def _get_credentials_file_from_config(self, credentials):
         try:
@@ -143,7 +141,8 @@ class ConfigParams(object):
                 "skip_countries": list(
                     map(
                         normalize_country_name,
-                        self._return_value_pipeline("get-data", "skip_countries", []),
+                        self._return_value_pipeline(
+                            "get-data", "skip_countries", []),
                     )
                 ),
             }
@@ -165,7 +164,8 @@ class ConfigParams(object):
                 "skip_countries": list(
                     map(
                         normalize_country_name,
-                        self._return_value_pipeline("get-data", "skip_countries", []),
+                        self._return_value_pipeline(
+                            "get-data", "skip_countries", []),
                     )
                 ),
             }
