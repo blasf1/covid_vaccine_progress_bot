@@ -4,7 +4,6 @@ from datetime import date
 from pyaml_env import parse_config
 from itertools import chain
 
-from cowidev.vax.utils.gsheets import GSheetApi
 from cowidev.vax.cmd.get_data import (
     MODULES_NAME,
     MODULES_NAME_BATCH,
@@ -27,7 +26,8 @@ class ConfigParamsStep(object):
 
     def __str__(self):
         def _is_secret(name):
-            secret_keys = ["id", "token", "credentials", "credential", "secret"]
+            secret_keys = ["id", "token",
+                           "credentials", "credential", "secret"]
             return any(x in name for x in secret_keys)
 
         return f"\n".join([f"* {k}: {v}" for k, v in self._dict.items() if not _is_secret(k)])
@@ -56,7 +56,8 @@ class ConfigParams(object):
         self._config = self._load_yaml()
         self.project_dir = self._get_project_dir_from_config()
         # Credentials file
-        self.credentials_file = self._get_credentials_file_from_config(credentials_file)
+        self.credentials_file = self._get_credentials_file_from_config(
+            credentials_file)
         self._credentials = self._load_json_credentials()
 
     @classmethod
@@ -89,18 +90,16 @@ class ConfigParams(object):
         if field in self._credentials:
             return self._credentials[field]
         else:
-            raise ValueError(f"Field 'google_credentials' not found in credentials file. Please check.")
-
-    @property
-    def gsheets_api(self):
-        return GSheetApi(self.google_credential_file)
+            raise ValueError(
+                f"Field 'google_credentials' not found in credentials file. Please check.")
 
     def _get_project_dir_from_config(self):
         try:
             return self._config["global"]["project_dir"]
         except KeyError:
             print(self._config)
-            raise KeyError("Missing global.project_dir variable in config.yaml")
+            raise KeyError(
+                "Missing global.project_dir variable in config.yaml")
 
     def _get_credentials_file_from_config(self, credentials):
         try:
@@ -130,12 +129,14 @@ class ConfigParams(object):
                 "parallel": self._return_value_pipeline("get-data", "parallel", self._parallel),
                 "njobs": self._return_value_pipeline("get-data", "njobs", self._njobs),
                 "countries": _countries_to_modules(
-                    self._return_value_pipeline("get-data", "countries", self._countries)
+                    self._return_value_pipeline(
+                        "get-data", "countries", self._countries)
                 ),
                 "skip_countries": list(
                     map(
                         normalize_country_name,
-                        self._return_value_pipeline("get-data", "skip_countries", []),
+                        self._return_value_pipeline(
+                            "get-data", "skip_countries", []),
                     )
                 ),
             }
@@ -148,12 +149,14 @@ class ConfigParams(object):
                 "parallel": self._return_value_pipeline("get-data", "parallel", self._parallel),
                 "njobs": self._return_value_pipeline("get-data", "njobs", self._njobs),
                 "countries": _countries_to_modules(
-                    self._return_value_pipeline("get-data", "countries", self._countries)
+                    self._return_value_pipeline(
+                        "get-data", "countries", self._countries)
                 ),
                 "skip_countries": list(
                     map(
                         normalize_country_name,
-                        self._return_value_pipeline("get-data", "skip_countries", []),
+                        self._return_value_pipeline(
+                            "get-data", "skip_countries", []),
                     )
                 ),
             }
@@ -187,7 +190,8 @@ class ConfigParams(object):
             v = self._credentials[feature_name]
             if v:
                 return v
-        raise AttributeError(f"Missing field {feature_name} or value was None in credentials")
+        raise AttributeError(
+            f"Missing field {feature_name} or value was None in credentials")
 
     def _get_skip_check(self, metric):
         def _valid_value(x):
@@ -257,7 +261,8 @@ def _countries_to_modules(countries):
         countries_wrong = [c for c in countries if c not in country_to_module]
         countries_valid = sorted(list(country_to_module.keys()))
         if countries_wrong:
-            print(f"Invalid countries: {countries_wrong}. Valid countries are: {countries_valid}")
+            print(
+                f"Invalid countries: {countries_wrong}. Valid countries are: {countries_valid}")
             raise ValueError("Invalid country")
         # Get module equivalent names
         modules = [country_to_module[country] for country in countries]
