@@ -23,8 +23,8 @@ jobs:
       - name: Checkout covid-19-data new
         uses: actions/checkout@v2
         with:
-          repository: owid/covid-19-data-new
-          path: covid-19-data
+          repository: owid/covid-19-data
+          path: covid-19-data-new
 
       - name: copy new scripts
         run: |
