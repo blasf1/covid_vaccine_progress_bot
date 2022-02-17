@@ -18,6 +18,19 @@ jobs:
         with:
           repository: owid/covid-19-data
           path: covid-19-data
+          ref: e74628d383acecaa8337ab9a2e6f3fe2eec55257
+
+      - name: Checkout covid-19-data new
+        uses: actions/checkout@v2
+        with:
+          repository: owid/covid-19-data-new
+          path: covid-19-data
+
+      - name: copy new scripts
+        run: |
+          cp -r $GITHUB_WORKSPACE/covid-19-data-new/scripts/src/cowidev/vax/incremental/ $GITHUB_WORKSPACE/covid-19-data/scripts/src/cowidev/vax/incremental/
+          cp -r $GITHUB_WORKSPACE/covid-19-data-new/scripts/src/cowidev/vax/batch/ $GITHUB_WORKSPACE/covid-19-data/scripts/src/cowidev/vax/batch/
+          cp -r $GITHUB_WORKSPACE/covid-19-data-new/scripts/output/vaccinations $GITHUB_WORKSPACE/covid-19-data/scripts/output/vaccinations
 
       - name: Checkout covid_vaccine_progress_bot
         uses: actions/checkout@v2
