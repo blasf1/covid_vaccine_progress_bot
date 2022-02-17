@@ -15,5 +15,6 @@ cp -r $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/cowidev_old/* /
 rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/incremental/colombia.py
 rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/batch/batch/ecdc.py
 rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/batch/batch/luxembourg.py
+rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/batch/batch/romania.py
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/update.py
