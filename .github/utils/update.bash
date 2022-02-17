@@ -17,5 +17,7 @@ rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax
 rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/batch/batch/luxembourg.py
 rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/batch/batch/romania.py
 rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/batch/batch/spc.py
+rm /opt/hostedtoolcache/Python/3.9.6/x64/lib/python3.9/site-packages/cowidev/vax/batch/batch/united_states.py
+
 
 python $GITHUB_WORKSPACE/covid_vaccine_progress_bot/.github/utils/update.py
