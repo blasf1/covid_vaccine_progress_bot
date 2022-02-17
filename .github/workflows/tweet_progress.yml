@@ -18,7 +18,7 @@ jobs:
         with:
           repository: owid/covid-19-data
           path: covid-19-data
-          ref: ce4ecfda48b28c0e0be334b091beead103d557c8
+          ref: ca736abd929850ba9dfae9f8520c4a729e2d69f3
 
       - name: Checkout covid-19-data new
         uses: actions/checkout@v2
