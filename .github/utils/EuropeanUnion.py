@@ -9,6 +9,7 @@ import pandas as pd
 # Constants
 # =============================================================================
 COUNTRIES = [
+    "Lithuania",
     "Austria",
     "Belgium",
     "Bulgaria",
@@ -25,7 +26,6 @@ COUNTRIES = [
     "Ireland",
     "Italy",
     "Latvia",
-    "Lithuania",
     "Luxembourg",
     "Malta",
     "Netherlands",
