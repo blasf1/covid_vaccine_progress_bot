@@ -2,65 +2,66 @@ location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_ful
 Netherlands,2021-01-09,Pfizer/BioNTech,https://github.com/mzelst/covid-19,33759,33759,0,0
 Netherlands,2021-01-16,Pfizer/BioNTech,https://github.com/mzelst/covid-19,76963,76963,0,0
 Netherlands,2021-01-23,"Moderna, Pfizer/BioNTech",https://github.com/mzelst/covid-19,166319,166319,0,0
-Netherlands,2021-01-30,"Moderna, Pfizer/BioNTech",https://github.com/mzelst/covid-19,351305,348875,2430,0
-Netherlands,2021-02-06,"Moderna, Pfizer/BioNTech",https://github.com/mzelst/covid-19,571235,544797,26438,0
-Netherlands,2021-02-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,788072,690519,97553,0
-Netherlands,2021-02-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1037886,873670,164216,0
-Netherlands,2021-02-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1382514,1105117,277397,0
-Netherlands,2021-03-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1676613,1314775,361838,0
-Netherlands,2021-03-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1961822,1512251,449571,0
-Netherlands,2021-03-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,2176262,1599134,577128,0
-Netherlands,2021-03-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,2474290,1798549,675741,0
-Netherlands,2021-04-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,2925293,2140003,785290,0
-Netherlands,2021-04-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,3568394,2654104,914290,0
-Netherlands,2021-04-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,4374679,3369114,1005565,0
-Netherlands,2021-04-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,5027815,3904042,1132660,0
-Netherlands,2021-05-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,5714616,4498214,1264913,0
-Netherlands,2021-05-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,6558600,5068159,1585921,0
-Netherlands,2021-05-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,7566963,5760038,1931324,0
-Netherlands,2021-05-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,8599651,6269766,2472012,0
-Netherlands,2021-05-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,9609961,6761073,3089234,0
-Netherlands,2021-06-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,10794038,7341247,3842432,0
-Netherlands,2021-06-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,12452991,8358764,4532800,0
-Netherlands,2021-06-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,13868584,9102672,5224575,0
-Netherlands,2021-06-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,15300294,9919912,5921954,0
-Netherlands,2021-07-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,16773135,10860951,6584723,0
-Netherlands,2021-07-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,18019335,11691199,7069860,0
-Netherlands,2021-07-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,19121963,11919161,7958485,0
-Netherlands,2021-07-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,19972295,12114046,8623074,0
-Netherlands,2021-07-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,20783071,12268999,9286203,0
-Netherlands,2021-08-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,21611294,12360961,10027898,0
-Netherlands,2021-08-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,22335763,12437450,10680417,0
-Netherlands,2021-08-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,22633390,12509620,10909652,0
-Netherlands,2021-08-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,22901251,12573371,11117077,0
-Netherlands,2021-09-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23111473,12626095,11277756,0
-Netherlands,2021-09-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23241106,12673557,11363089,0
-Netherlands,2021-09-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23389859,12742125,11449891,0
-Netherlands,2021-09-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23530870,12812835,11533850,0
-Netherlands,2021-10-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23654765,12877660,11606326,0
-Netherlands,2021-10-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23759003,12920103,11670081,2478
-Netherlands,2021-10-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23865485,12952567,11731182,19353
-Netherlands,2021-10-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23973855,12987769,11784924,42158
-Netherlands,2021-10-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24086428,13031722,11838519,61773
-Netherlands,2021-11-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24211578,13102652,11887511,75492
-Netherlands,2021-11-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24335566,13169645,11935835,89046
-Netherlands,2021-11-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24450966,13218896,11983757,110377
-Netherlands,2021-11-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24727782,13251738,12042116,298194
-Netherlands,2021-12-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,25144473,13276375,12099921,633689
-Netherlands,2021-12-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,25765268,13294751,12155071,1181879
-Netherlands,2021-12-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,26687520,13310008,12200079,2044483
-Netherlands,2021-12-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,27981411,13318520,12226510,3303595
-Netherlands,2022-01-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,29616136,13327053,12250366,4906132
-Netherlands,2022-01-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,31516528,13340220,12275766,6768159
-Netherlands,2022-01-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,32660328,13350195,12295582,7882390
-Netherlands,2022-01-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33134232,13372117,12310906,8319170
-Netherlands,2022-01-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33426395,13416685,12325453,8552409
-Netherlands,2022-02-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33649734,13435098,12337705,8745183
-Netherlands,2022-02-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33787128,13444065,12347164,8864236
-Netherlands,2022-02-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33861326,13447801,12352285,8929597
-Netherlands,2022-02-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33920522,13450321,12356217,8982380
-Netherlands,2022-03-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33974025,13452247,12359187,9031046
-Netherlands,2022-03-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34025156,13453791,12361540,9078330
-Netherlands,2022-03-19,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34070800,13455702,12366727,9116918
-Netherlands,2022-03-26,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34124847,13457655,12383370,9152420
-Netherlands,2022-04-02,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34190553,13459301,12393117,9206786
+Netherlands,2021-01-30,"Moderna, Pfizer/BioNTech",https://github.com/mzelst/covid-19,351306,348876,2430,0
+Netherlands,2021-02-06,"Moderna, Pfizer/BioNTech",https://github.com/mzelst/covid-19,571236,544798,26438,0
+Netherlands,2021-02-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,788073,690520,97553,0
+Netherlands,2021-02-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1037889,873672,164217,0
+Netherlands,2021-02-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1382518,1105120,277398,0
+Netherlands,2021-03-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1676617,1314778,361839,0
+Netherlands,2021-03-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,1961827,1512255,449572,0
+Netherlands,2021-03-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,2176268,1599139,577129,0
+Netherlands,2021-03-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,2474297,1798555,675742,0
+Netherlands,2021-04-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,2925303,2140012,785291,0
+Netherlands,2021-04-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,3568404,2654114,914290,0
+Netherlands,2021-04-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,4374693,3369127,1005566,0
+Netherlands,2021-04-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,5027834,3904059,1132662,0
+Netherlands,2021-05-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,5714637,4498233,1264915,0
+Netherlands,2021-05-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,6558626,5068181,1585926,0
+Netherlands,2021-05-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,7566994,5760063,1931331,0
+Netherlands,2021-05-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,8599683,6269792,2472019,0
+Netherlands,2021-05-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,9609997,6761099,3089244,0
+Netherlands,2021-06-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,10794079,7341275,3842446,0
+Netherlands,2021-06-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,12453035,8358792,4532817,0
+Netherlands,2021-06-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,13868635,9102703,5224596,0
+Netherlands,2021-06-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,15300348,9919945,5921976,0
+Netherlands,2021-07-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,16773190,10860983,6584747,0
+Netherlands,2021-07-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,18019395,11691236,7069885,0
+Netherlands,2021-07-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,19122023,11919198,7958510,0
+Netherlands,2021-07-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,19972355,12114082,8623099,0
+Netherlands,2021-07-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,20783132,12269035,9286229,0
+Netherlands,2021-08-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,21611357,12360998,10027925,0
+Netherlands,2021-08-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,22335828,12437487,10680446,0
+Netherlands,2021-08-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,22633455,12509657,10909681,0
+Netherlands,2021-08-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,22901318,12573408,11117108,0
+Netherlands,2021-09-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23111539,12626132,11277786,0
+Netherlands,2021-09-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23241174,12673595,11363120,0
+Netherlands,2021-09-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23389928,12742164,11449923,0
+Netherlands,2021-09-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23530939,12812874,11533882,0
+Netherlands,2021-10-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23654837,12877701,11606359,0
+Netherlands,2021-10-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23759077,12920144,11670116,2478
+Netherlands,2021-10-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23865560,12952608,11731218,19353
+Netherlands,2021-10-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,23973930,12987810,11784960,42158
+Netherlands,2021-10-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24086505,13031763,11838557,61773
+Netherlands,2021-11-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24211656,13102694,11887549,75492
+Netherlands,2021-11-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24335644,13169685,11935875,89046
+Netherlands,2021-11-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24451027,13218937,11983797,110359
+Netherlands,2021-11-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,24727764,13251779,12042155,298098
+Netherlands,2021-12-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,25144377,13276416,12099961,633514
+Netherlands,2021-12-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,25764871,13294791,12155111,1181404
+Netherlands,2021-12-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,26684579,13310049,12200123,2041459
+Netherlands,2021-12-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,27967622,13318561,12226556,3289721
+Netherlands,2022-01-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,29592295,13327094,12250421,4882197
+Netherlands,2022-01-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,31490525,13340261,12275835,6742048
+Netherlands,2022-01-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,32634311,13350237,12295654,7856261
+Netherlands,2022-01-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33108240,13372159,12310978,8293066
+Netherlands,2022-01-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33400433,13416729,12325526,8526332
+Netherlands,2022-02-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33623775,13435144,12337776,8719109
+Netherlands,2022-02-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33761176,13444113,12347235,8838167
+Netherlands,2022-02-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33835374,13447849,12352356,8903528
+Netherlands,2022-02-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33894572,13450370,12356289,8956311
+Netherlands,2022-03-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33948091,13452296,12359259,9004993
+Netherlands,2022-03-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,33999271,13453840,12361612,9052326
+Netherlands,2022-03-19,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34044976,13455754,12366799,9090972
+Netherlands,2022-03-26,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34099182,13457709,12383443,9126631
+Netherlands,2022-04-02,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34165296,13459355,12393188,9181407
+Netherlands,2022-04-09,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/mzelst/covid-19,34231712,13460905,12398559,9240951
